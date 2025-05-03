@@ -144,3 +144,6 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: InventoryUI
+      pathPrefix: UI
+      guid: 3323548de443cdd4cbf481cbc258c872
