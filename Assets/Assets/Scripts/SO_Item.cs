@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class SO_Item : ScriptableObject
 {
     public string itemName;
-    int itemID;
     public GameObject itemGameObject;
     public Sprite itemSprite;
     public bool isItemUnique;
