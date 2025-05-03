@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class InventoryHandler : MonoBehaviour
 {
-    public GameObject inventory;
+    public GameObject currentInventory;
     public SO_Inventory inventoryData;
+    public string inventoryName;
     public List<Item> itemsInInventory = new List<Item>();
     public int maxInventorySize;
 
@@ -20,7 +21,8 @@ public class InventoryHandler : MonoBehaviour
 
     void Awake() {
         //Assign ScriptableObject data to this GameObject
-        inventory = GetComponent<GameObject>();
+        currentInventory = gameObject;
+        inventoryName = inventoryData.inventoryName;
         itemsInInventory = inventoryData.itemsInInventory;
         maxInventorySize = inventoryData.maxInventorySize;
     }

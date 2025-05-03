@@ -88,3 +88,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97946c4e16450c4ca9a23b4bd407c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 5593e97d9194ac448b0ad44e6f269224, type: 2}
+  currentItem: {fileID: 0}
+  itemName: 
+  itemGameObject: {fileID: 0}
+  itemSprite: {fileID: 0}
+  isItemUnique: 0
+  itemDescription: 
+  itemAmount: 0

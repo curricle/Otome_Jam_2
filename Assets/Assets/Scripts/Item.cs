@@ -11,7 +11,7 @@ public class Item : MonoBehaviour
     public GameObject itemGameObject;
     public Sprite itemSprite;
     public bool isItemUnique;
-    public string itemDescription;
+    [TextArea(5, 5)] public string itemDescription;
     public int itemAmount;  
 
     void Awake()
@@ -22,6 +22,7 @@ public class Item : MonoBehaviour
         itemGameObject = itemData.itemGameObject;
         itemSprite = itemData.itemSprite;
         isItemUnique = itemData.isItemUnique;
+        itemDescription = itemData.itemDescription;
         itemAmount = itemData.amount;
     }
 
