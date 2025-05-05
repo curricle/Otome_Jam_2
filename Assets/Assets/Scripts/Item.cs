@@ -32,4 +32,8 @@ public class Item : MonoBehaviour
         onItemPickup?.Invoke(currentItem);
     }
 
+    public void ListItemProperties() {
+        Debug.Log($"currentItem: {currentItem}\nitemName: {itemName}\nitemGameObject: {itemGameObject}\nitemSprite: {itemSprite}\nisItemUnique: {isItemUnique}\nitemDescription: {itemDescription}\nitemAmount: {itemAmount}");
+    }
+
 }
