@@ -6,6 +6,6 @@ public class SO_Inventory : ScriptableObject
 {
     public int maxInventorySize;
     public string inventoryName;
-    public List<Item> itemsInInventory = new List<Item>();
+    public List<SO_Item> itemsInInventory = new List<SO_Item>();
 
 }

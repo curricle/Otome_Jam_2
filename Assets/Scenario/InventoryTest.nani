@@ -1,0 +1,4 @@
+@showUI InventoryUI
+@AddToInventory item:"timbs"
+
+@stop

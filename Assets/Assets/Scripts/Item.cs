@@ -26,10 +26,10 @@ public class Item : MonoBehaviour
         itemAmount = itemData.amount;
     }
 
-    public static event Action<Item> onItemPickup;
+    public static event Action<SO_Item> onItemPickup;
     public void OnItemPickup() {
         //checks if anything is subscribed to this event (is not null) before firing
-        onItemPickup?.Invoke(currentItem);
+        onItemPickup?.Invoke(currentItem.itemData);
     }
 
     public void ListItemProperties() {

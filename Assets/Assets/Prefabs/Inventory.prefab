@@ -48,5 +48,5 @@ MonoBehaviour:
   inventoryData: {fileID: 11400000, guid: a7ac038a842b5c24ca105d09100dc9c3, type: 2}
   inventoryName: 
   itemsInInventory:
-  - {fileID: 8009365416372360120, guid: 53a9bcb10090b764c88392295e061fa2, type: 3}
-  maxInventorySize: 0
+  - {fileID: 11400000, guid: 5593e97d9194ac448b0ad44e6f269224, type: 2}
+  maxInventorySize: 8

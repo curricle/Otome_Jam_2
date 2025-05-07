@@ -7,7 +7,7 @@ public class InventoryHandler : MonoBehaviour
     public GameObject currentInventory;
     public SO_Inventory inventoryData;
     public string inventoryName;
-    public List<Item> itemsInInventory;
+    public List<SO_Item> itemsInInventory;
     public int maxInventorySize;
 
     // **might have to break up inventory handler and inventory into two separate scripts
@@ -32,12 +32,11 @@ public class InventoryHandler : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(inventoryName);
         onUpdateInventory?.Invoke(currentInventory);
-
+        Debug.Log("InventoryHandler started, onUpdateInventory invoked");
     }
 
-    public void AddItemToInventory(Item item) {
+    public void AddItemToInventory(SO_Item item) {
         if (itemsInInventory.Count < maxInventorySize) {
             itemsInInventory.Add(item);
             Debug.Log(itemsInInventory.Count);
