@@ -34,21 +34,26 @@ There’s a boy.
 
 ; CG: The titular Raven. The boy of the hour. The boy of my dreams. He’s carrying a metal pipe and he’s about to bring it down over Ioanna’s head. There’s blood on his hands and streaked across his cheek. An expression full of hatred. 
 
+# React
+
 Hovering over Ioanna, who is still seated in the cockpit with her knife hand at his throat.
 ????: Put the weapon down.
 
-# React
-
 @choice "COMPLY" goto:.Comply
 @choice "ENGAGE" goto:.Engage
+@stop
 
 # Comply
 
 You breathe in, he breathes out, ragged and cruel. A wild beast has come into your ship. 
 ; CG UPDATE: Ioanna’s knife falls onto her lap.
 At least, that’s the thought that sinks into your brain when he swings the pipe down. 
+>>>
+>>
+>
+MARIA: You really are an idiot, my dear Ioanna.
 
-goto:.React
+@goto .React
 
 # Engage
 
@@ -207,6 +212,7 @@ RAVEN: This killer won’t try again.
 @choice "So... whatcha do?" goto:.OptionA
 @choice "They didn't tell me what you did." goto:.OptionB
 @choice "Do you regret it?" goto:.OptionC
+@stop
 
 # OptionA
 
@@ -321,6 +327,7 @@ He keeps looking for something. You can tell. He dips in and out of corners and 
 @choice "ITEM: FUSELAGE" goto:.Fuselage
 @choice "ITEM: FILM REEL" goto:.FilmReel
 @choice "ITEM: RUSTED KNIFE" goto:.RustedKnife
+@stop
 
 # Fuselage
 
@@ -339,6 +346,7 @@ COLLECT THE “FUSELAGE”?
 
 @choice "YES" goto:.FuselageChosen
 @choice "NO" goto:.FuselageRefused
+@stop
 
 # FuselageChosen
 
@@ -380,6 +388,7 @@ COLLECT THE “FILM REEL”?
 
 @choice "YES" goto:.FilmReelChosen
 @choice "NO" goto:.FilmReelRefused
+@stop
 
 # FilmReelChosen
 
@@ -425,6 +434,7 @@ COLLECT THE “RUSTED KNIFE”?
 
 @choice "YES" goto:.RustedKnifeChosen
 @choice "NO" goto:.RustedKnifeRefused
+@stop
 
 # RustedKnifeChosen
 
