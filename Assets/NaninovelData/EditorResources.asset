@@ -144,3 +144,46 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: Start
+      pathPrefix: Scripts
+      guid: 3a3a3126d55fd38478fc6d74c71659d8
+    - name: DHS_Day_01
+      pathPrefix: Scripts
+      guid: fe2778e08e3f4ec4a91ad6f204dce316
+  - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
+    Resources: []
+  - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
+    Resources: []
+  - Id: Characters/d8b9c781-bfeb-42f1-a563-8aadfb653f32
+    Resources: []
+  - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
+    Resources: []
+  - Id: Characters/50c27364-b925-4cf6-a54b-31f0afc8fa67
+    Resources: []
+  - Id: Backgrounds/d5b6ed81-4fc3-4298-8077-5a137a47fa0f
+    Resources:
+    - name: Incinerator_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: abbd2fc335dcd624a86f7d308ab8f788
+    - name: Atrium_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: b2b310844fe56de488918191a7c07100
+    - name: Papers
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9e66c313ec98034478e489c87980af8e
+    - name: Space_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: e1a03efd3f68c1c41a089257b1226ac6
+  - Id: Audio
+    Resources:
+    - name: Fire
+      pathPrefix: Audio
+      guid: a9e71129a90f8d341af6bb62f61a9cbf
+    - name: Footsteps_01
+      pathPrefix: Audio
+      guid: 4bda1a3ca6742874c84638cdb15bcd53
+    - name: Footsteps_02
+      pathPrefix: Audio
+      guid: a8edae586c4172544a9c2fa0e1a0b647
