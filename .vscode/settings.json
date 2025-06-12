@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Otome_Jam_2.sln"
+    "dotnet.defaultSolution": "Otome_Jam_2.sln",
+    "dotnet.preferCSharpExtension": true
 }
