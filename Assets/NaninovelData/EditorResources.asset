@@ -144,3 +144,15 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+  - Id: Scripts
+    Resources:
+    - name: missionone_zinnia
+      pathPrefix: Scripts
+      guid: 14a507d5087720a438659c400e53fea8
+    - name: dayone_zinnia
+      pathPrefix: Scripts
+      guid: a24cfdbc1c59a4941a56bee00dd94c55
+  - Id: Characters/62a62bf5-5705-4916-bf47-2067dfa0a65c
+    Resources: []
+  - Id: Characters/39a049af-3a70-4cd5-b38b-469116a4433f
+    Resources: []

@@ -1,0 +1,52 @@
+
+THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
+@char YOU
+YOU: *Achoo!*
+Your sneeze echoes through the tunnels. You aren’t sure if it’s more embarrassing that Zinnia didn’t acknowledge it. 
+@char YOU
+YOU: Jeez, this place is like a maze
+@char ZINNIA
+ZINNIA: They never assigned you underworlds before? 
+YOU: It’s been strictly over worlds, I can’t remember the last time I was underground.
+YOU: Probably the mandatory safety sim? 
+ZINNIA: As long as you have your droid, you should be fine. It’s specifically designed to be a compass back to the ship even if it dies.
+ZINNIA: Emergency back up and all that. 
+YOU: Has that happened to you before?
+ZINNIA: You don’t climb the ranks if you aren’t afraid to get dirty.[< skip!] 
+
+@choice "You also climb down the ranks getting dirty too" goto:.choiceAdirty
+@choice "I don’t mind getting dirty either!" goto:.choiceBdirty
+@stop
+
+#choiceAdirty
+ZINNIA: When you are already the lowet of the low?
+YOU: Am I a galactic cockroach to you?
+YOU: I never took you as a funny person, number one
+ZINNIA: Hm. 
+ZINNIA: Just one of the perks of the job.  You get enough time 
+@goto .afterdirty
+
+#choiceBdirty
+ZINNIA: That’s good.
+ZINNIA: It’s time to get to work then
+YOU: Boooo. 
+YOU: All work no play, number one?
+ZINNIA: Per the morale company guidelines, if you love what you do - you’ll never work a day in your life. 
+YOU: Ehhhh….I guess so. 
+@goto .afterdirty
+
+#afterdirty
+YOU: Is that why you came back?  
+ZINNIA: Hm?
+YOU: They said you could be discharged for whatever you did. 
+ZINNIA: Did they? 
+YOU: But you came back. 
+ZINNIA: It’s almost cute that you think management gives us a choice. 
+ZINNIA: Besides-
+ZINNIA: I would have come back regardless
+YOU: Why?
+ZINNIA: There’s simply something I’m searching for. 
+
+You both walk further into the tunnel. 
+
+@stop
