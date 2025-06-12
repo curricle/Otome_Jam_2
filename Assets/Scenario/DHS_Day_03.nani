@@ -1,0 +1,197 @@
+# DHS03
+
+; [[DEAD HEAT SUPERNOVA    DRIFTING]]
+
+YOU: Do you like music, Raven?
+RAVEN: I have no particular feelings on the matter.
+The two of you sit back to back. Seasons come and go on other systems, but Estehelix is a cruel lover. Days go by, they turn into weeks, and the weather worsens for all those involved.
+Why were you still here?
+The thought flickers. Maria smiles thinly, a chastising finger down your neck.
+The suits are half-off, the fans are at full blast, and the latest trek into the entertainment district is a menacing haze.
+YOU: None at all?
+YOU: Were you not allowed to listen while racing?
+RAVEN: I can’t hear my engineer if I’m listening to music.
+YOU: The speeds and winds aside, of course.
+RAVEN: …yeah.
+His back is sticky. It feels weird against your synthskin and chassis. You’re sure there are pieces of his hair in between the gaps of your metallic spine. 
+YOU: I enjoy music.
+RAVEN: …I didn’t ask.
+He leans back. As if he knows you hate the feeling of his sweat. You want to turn around and pinch him but the idea was exhausting enough without the execution. The days melt into each other. How many times have you had this conversation?
+MARIA: Once.
+It’s strange.
+Recollection never takes this long. It’s a stop and go deal. 
+You spend the first week scouring, scouting, surveying. The second week is for clean-up. The third week, for extraction.
+Why were you here for so long?
+YOU: Pressed records.
+YOU: I have a bad habit.
+MARIA: You do.
+MARIA: You speak too much.
+MARIA: Ioanna.
+YOU: I don’t have a record player.
+YOU: But I keep collecting them.
+RAVEN: Yeah. That’s pretty nasty.
+RAVEN: I could build you one.
+RAVEN: A record player.
+YOU: I thought you didn’t like music?
+RAVEN: I don’t care for it.
+RAVEN: But it’d be interesting.
+RAVEN: To do something new.
+YOU: …
+YOU: A charming notion.
+MARIA: From a dead man.
+RAVEN: Are we heading out soon?
+He gets up first. You watch him go. The jumpsuit drips from his hips. He shrugs it back on with little fanfare. He pulls his hair out. You want to lean over and pull. Just a little bit. Just enough. 
+You watch your hand reach forward. The killswitch brushes against your chest.
+Oh.
+On its silver chain. Pressed against the curve of your breast. 
+YOU: Yeah. 
+You zip your suit back on.
+
+# ItemChoice
+
+@choice "ENGINE" goto:.Engine
+@choice "ACTOR'S BOX" goto:.ActorsBox
+@choice "SILVER BULLETS" goto:.SilverBullets
+@stop
+
+# Engine
+
+ITEM DESCRIPTION: A metal contraption.
+Maria supplies: A ship engine.
+You’ve never had to do repairs on the corporate ship you’re flying, so this is unfamiliar territory.
+It’s terrifying.
+A cylindrical turbine with the sole intention of bringing metal into space.
+Or something like that.
+RAVEN: We can use this.
+YOU: We can?
+RAVEN: With some adjustments, I can refit it into the fuselage.
+YOU: …
+RAVEN: What?
+MARIA: I did not think you were capable of engineering feats, let alone identification of such.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “ENGINE”?
+
+@choice "YES" goto:.EngineChosen
+@choice "NO" goto:.EngineRefused
+@stop
+
+# EngineChosen
+
+@set HasEngine=true
+
+RAVEN: ?
+YOU: Nothing.
+YOU: Help me move it, then.
+RAVEN: …
+RAVEN: I’ll call the drone…
+
+@goto Day03_Continue
+
+# EngineRefused
+
+RAVEN: …are you sure?
+YOU: I’m double checking.
+MARIA: You are so bad.
+
+@goto .ItemChoice
+
+# ActorsBox
+
+ITEM DESCRIPTION: An actor’s box. As in, it belonged to an actor? Or as in, it’s filled with an actor’s tool of his trade? What does an actor need to succeed?
+The box is filled with makeup. It’s still intact and perfect. The hole that Raven found it in must have been very well kept.
+The box is lined with scraps from junkyards. You can tell that much after years of Collecting.
+YOU: Where did you find this?
+RAVEN: …
+RAVEN: I don’t remember.
+RAVEN: Over there, somewhere?
+YOU: You literally just had it.
+RAVEN: Mm, did I?
+RAVEN: You know how it is here.
+YOU: Tch.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “ACTOR’S BOX”?
+
+@choice "YES" goto:.ActorsBoxChosen
+@choice "NO" goto:.ActorsBoxRefused
+@stop
+
+# ActorsBoxChosen
+
+@set HasActorsBox=true
+
+YOU: I’m being serious.
+RAVEN: I am too?
+RAVEN: I didn’t know waste management was so particular about this kinda stuff.
+RAVEN: What a pain.
+YOU: It just seems really well-preserved for something so old.
+RAVEN: That’s where you’re wrong.
+RAVEN: This isn’t as old as you think.
+YOU: …
+YOU: Oh?
+MARIA: He knows more than he’s letting on.
+YOU: …
+RAVEN: (sprite sliding away)
+MARIA: You’re going to let him leave?
+YOU: We’ll find out soon enough.
+
+@goto .ItemChosen
+
+# ActorsBoxRefused
+
+YOU: Let’s leave it for now.
+MARIA: That’s surprising.
+YOU: In what way?
+MARIA: You seemed attached. That is all.
+
+@goto .ItemChoice
+
+# SilverBullets
+
+ITEM DESCRIPTION: Six silver bullets.
+They are in a varied state of repair. Some of them still have their casings.
+Some are just a sharp point. Half filled with gunpowder.
+MARIA: Propwork?
+YOU: Unsure. The size looks too correct for movie magic.
+YOU: Even with the desire to be accurate, these look used.
+YOU: He’s been awfully distant.
+YOU: Raven.
+RAVEN: Yeah?
+YOU: You used to live here, right?
+YOU: On this colony?
+RAVEN: …
+RAVEN: You have my dossier.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “SILVER BULLETS”?
+
+@choice "YES" goto:.SilverBulletsChosen
+@choice "NO" goto:.SilverBulletsRefused
+@stop
+
+# SilverBulletsChosen
+
+@set HasSilverBullets=true
+
+YOU: We’ll take them.
+YOU: They might be useful for identification purposes.
+MARIA: …I do not see the point.
+MARIA: Whoever used them is long dead.
+RAVEN: You’d hope so.
+YOU: Oh?
+RAVEN: Staying alive for this long would be a curse.
+
+@goto .ItemChosen
+
+# SilverBulletsRefused
+
+YOU: Let’s keep looking.
+YOU: We’re awfully below quota.
+MARIA: Wise choice.
+
+# ItemChosen
+
+@goto DSH_Day_04
+
+@stop

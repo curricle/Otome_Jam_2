@@ -472,4 +472,6 @@ YOU: Recollection only takes the best.
 He’s unsatisfied with that answer. But he follows you back to base camp.
 Maria has made the ship spotless in your absence.
 
+@goto DHS_Day_02
+
 @stop

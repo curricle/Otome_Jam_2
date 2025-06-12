@@ -152,6 +152,18 @@ MonoBehaviour:
     - name: DHS_Day_01
       pathPrefix: Scripts
       guid: fe2778e08e3f4ec4a91ad6f204dce316
+    - name: DHS_Day_02
+      pathPrefix: Scripts
+      guid: b7625e56646777340b8998311b306e4f
+    - name: DHS_Day_03
+      pathPrefix: Scripts
+      guid: 5d507a07a50b84a41a5adf3b68dda26d
+    - name: DHS_Day_04
+      pathPrefix: Scripts
+      guid: 4ddc55c7df6446b4e9b7a73d2ee435e4
+    - name: DHS_Day_05
+      pathPrefix: Scripts
+      guid: dc615c087ede8294f90644ce94849615
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
@@ -176,6 +188,9 @@ MonoBehaviour:
     - name: Space_01
       pathPrefix: Backgrounds/MainBackground
       guid: e1a03efd3f68c1c41a089257b1226ac6
+    - name: Estehelix_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: 63b945cec38e1b84a83f945b54e26e6b
   - Id: Audio
     Resources:
     - name: Fire
