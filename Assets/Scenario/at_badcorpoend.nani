@@ -1,0 +1,66 @@
+@char YOU
+@char ZINNIA
+ITEM: A PAIR OF CHAINS
+
+ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these. <3
+
+@choice "A PAIR OF CHAINS" goto:.chains
+@choice "A PAIR OF CHAINS" goto:.chains
+@choice "A PAIR OF CHAINS" goto:.chains
+@stop
+
+#chains
+ZINNIA: Come. Let’s go back to the ship. 
+
+ZINNIA: There’s something I have to show you. 
+
+The way her hands curl into the chains. 
+
+YOU: It’s time to go.
+ZINNIA: Go where? 
+YOU: Time to turn it all back in, silly!
+ZINNIA: …
+ZINNIA: Is this not enough?
+YOU: Don’t you love me? You told me you love me. 
+YOU: I love you so much, and I understand if you were blinded by your vision. It’s not something to mourn, lovey. The immolation is pyre rites. It’s how we show our love. 
+ZINNNIA: Show our love…
+YOU: Yeah! She’d reward us for this. I can feel it. I can feel her joy. 
+
+YOU: You poor thing, you’ve been collecting all these years. Finding these beautiful items to communicate with her. But you didn’t realize that burning is what sets them free to her. That how she’s able to breathe, within the ash and smoke. 
+YOU: That’s okay, she likes her sheep a little confused.
+
+YOU GRAB ZINNNIA. PLACE HER HEAD IN YOURS. PRESS YOUR FOREHEADS TOGETHER FOR A SINGULAR MOMENT.
+
+YOU: Look at me, Zinnia. 
+YOU: Does the god behind my eyes look like whatever was stripped from you? 
+YOU: It’s okay that you were led astray. 
+YOU: It’s why I’m here to shepherd you
+ZINNIA: But - 
+YOU: You need to dull your senses, and forget the material. They are just tools to amplify her voice. You can feel her behind my eyes right? 
+YOU: You found your faith in me, right? 
+ZINNIA: Yes…
+YOU: You love me right?
+
+Zinnia doesn’t reply. She doesn’t need to. 
+
+Not right now. 
+
+YOU: Let’s go back, yeah?
+ZINNIA: Yeah. 
+
+;[BACKGROUND CHANGE - THE COMPANY’S CREMATION CENTER]
+YOU: It’s pretty right?
+ZINNIA: Yeah…
+YOU: They said we’ve done the company’s best. A whole new record! All that junk being used to fuel the galaxy. It’s amazing what we can accomplish together. 
+YOU: That beautiful collection, I’m so glad we got to enjoy it, but you know? I think it looks prettier burning. Don’t you? <3
+
+Zinnia’s fingers curl into your own. If she looks unsure and confused. She’s cuter that way. 
+
+YOU: I love you.
+
+You turn to face Zinnia. She doesn’t look at you. Doesn’t gaze into your deeply adoring eyes. 
+
+You squeeze her hand, thumb digging into her palm.
+
+ZINNIA: I love you, too. 
+@stop
