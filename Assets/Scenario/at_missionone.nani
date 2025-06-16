@@ -64,8 +64,8 @@ Her knowledge makes your brain itch.
 You gaze around the room and collect:
 
 @choice "ITEM: AN OLD TRANSMITTER" goto:.transmitter
-@choice "ITEM: AN OLD TRANSMITTER" goto:.knife
-@choice "ITEM: AN OLD TRANSMITTER" goto:.scrap
+@choice "ITEM: A CEREMONIAL KNIFE" goto:.knife
+@choice "ITEM: SCRAP METAL" goto:.scrap
 @stop
 
 #transmitter

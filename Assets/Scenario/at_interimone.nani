@@ -55,4 +55,5 @@ MARIA: It doesn't really matter. You can warp any intensity of feeling into some
 A poor hungry beast like you, who has only known the taste of freeze dried meal cubes for the past fifteen several years. Exposed to something with umami. 
 
 Don't you want another taste? 
+@goto at_missiontwo
 @stop
