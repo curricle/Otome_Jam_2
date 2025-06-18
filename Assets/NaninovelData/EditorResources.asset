@@ -146,13 +146,75 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: missionone_zinnia
-      pathPrefix: Scripts
-      guid: 14a507d5087720a438659c400e53fea8
-    - name: dayone_zinnia
+    - name: at_dayone
       pathPrefix: Scripts
       guid: a24cfdbc1c59a4941a56bee00dd94c55
+    - name: at_missionone
+      pathPrefix: Scripts
+      guid: 14a507d5087720a438659c400e53fea8
+    - name: at_interimone
+      pathPrefix: Scripts
+      guid: c009ff74360f312488b2755ac94897a4
+    - name: at_missiontwo
+      pathPrefix: Scripts
+      guid: 7f9cda8e4069d6f43bde206219349a73
+    - name: at_interimtwo
+      pathPrefix: Scripts
+      guid: 8fbadefcc738afd49a45ced45899aaa1
+    - name: at_missionthree
+      pathPrefix: Scripts
+      guid: ebc5e9321ecaa9a49b7e7413e8b64c91
+    - name: at_interimthree
+      pathPrefix: Scripts
+      guid: 7f8d0256e7bdcb44c8fcffd7f3efbb33
+    - name: at_missionfour
+      pathPrefix: Scripts
+      guid: c4759c9c6457b0f4a9bd19be85f3f889
+    - name: at_interimfour
+      pathPrefix: Scripts
+      guid: d2a68a8069445c246bba95a800ca9b26
+    - name: at_missionfive
+      pathPrefix: Scripts
+      guid: 4c5a542b7786fd24b843480851be5165
+    - name: at_zinniamariaend
+      pathPrefix: Scripts
+      guid: 912095784f07c2b4ba54eaf612dad307
+    - name: at_badcorpoend
+      pathPrefix: Scripts
+      guid: 8596c5e18b1f8314180c07ca8a27a4a0
+    - name: at_opening
+      pathPrefix: Scripts
+      guid: f9d89a37948a6d945ba8ae518dc164b6
+    - name: at_goodend
+      pathPrefix: Scripts
+      guid: 2f432de92a38a024a8b8d8b834526d4b
   - Id: Characters/62a62bf5-5705-4916-bf47-2067dfa0a65c
     Resources: []
   - Id: Characters/39a049af-3a70-4cd5-b38b-469116a4433f
     Resources: []
+  - Id: Backgrounds/8897bedc-befb-43f8-982f-ad0e5a085bc4
+    Resources:
+    - name: Bathroom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 28396784181e7aa40b60b49e0b6ecb13
+    - name: Caves_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4745198a941200249a7801d4d1226b41
+    - name: Caves_02
+      pathPrefix: Backgrounds/MainBackground
+      guid: a88ebca531da4b847a8544fe4a9c3374
+    - name: Field
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4c446e91a3a3f6a448b2d1262a2eda58
+    - name: Mission Control
+      pathPrefix: Backgrounds/MainBackground
+      guid: f0ae556c9bd984848a916e344bd4bb8d
+    - name: Spaceship
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3886d21ddf21ce64e8d052ffa39a518d
+    - name: Warehouse
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8c100600ef0e8714da2b34d21cfb79a0
+    - name: Waters
+      pathPrefix: Backgrounds/MainBackground
+      guid: 38f79f569afc27b489cac0a2950ae5d3

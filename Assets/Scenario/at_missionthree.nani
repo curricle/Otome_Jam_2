@@ -1,4 +1,5 @@
 ;[BACKGROUND SHIFT: SPACE SHIP GENERAL]
+@back Spaceship
 @char YOU
 @char ZINNIA
 
@@ -47,6 +48,7 @@ Tune it Out.
 You can feel it guiding you somewhere.  Do you listen to it or do your best to tune it out? Where's it guiding you? You don't know, but somehow, you can't help but want to chase that high. 
 
 ;[BACKGROUND SHIFT - A BRIGHT FIELD OF GREEN]
+@back Field
 
 You pass by a beautiful field. 
 
@@ -71,6 +73,7 @@ YOU: Zinnia, wait up!
 You cross the hills to telephone poles and towers engulfed by what feels like the ocean. 
 
 ;BACKGROUND SHIFT TO AN EXPANSE OF WATERS HELD UP BY TELEPHONE TOWERS
+@back Waters
 
 YOU: What happened here? 
 ZINNIA: The remains of a half-submerged planet.

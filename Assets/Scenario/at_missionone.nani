@@ -1,5 +1,6 @@
 
 ;THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
+@back Caves_01
 @char YOU
 @char ZINNIA
 YOU: *Achoo!*
@@ -53,6 +54,7 @@ ZINNIA: There's simply something I'm searching for.
 You both walk further into the tunnel. 
 
 ;[BACKGROUND The tunnel gets a brighter and brighter light of blue.]
+@back Caves_02
 
 You both arrive at a clearing, riddled with shelves and giant urns. 
 
@@ -165,6 +167,7 @@ You both finish rifling through the trash.
 ZINNIA: Good work, let's make our way back to the ship. 
 
 ;[BACKGROUND SCENE CHANGE - SPACESHIP??]
+@back Spaceship
 
 ZINNIA: What do you think the first tool developed by humans was?
 
