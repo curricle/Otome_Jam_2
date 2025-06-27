@@ -67,7 +67,6 @@ MonoBehaviour:
   Metadata:
     ids:
     - YOU
-    - ZINNIA
     - CASTOR
     - RAVEN
     - MARIA
@@ -82,7 +81,6 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-
       guid: 05f6f43e-3c67-404d-bee7-c2ddc9652991
       customData:
         rid: -2
