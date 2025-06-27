@@ -25,12 +25,12 @@ MonoBehaviour:
   StableIdentification: 0
   InitializationScript: 
   TitleScript: 
-  StartGameScript: DHS_Day_01
+  StartGameScript: at_dayone
   AutoAddScripts: 1
   AutoResolvePath: 1
   HotReloadScripts: 1
   WatchScripts: 1
-  ShowScriptNavigator: 0
+  ShowScriptNavigator: 1
   EnableVisualEditor: 1
   HideUnusedParameters: 1
   SelectPlayedScript: 1

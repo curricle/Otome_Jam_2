@@ -12,16 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
-  PredefinedVariables:
-  - name: HasFuselage
-    value: false
-  - name: HasFilmReel
-    value: false
-  - name: HasRustedKnife
-    value: false
-  - name: HasBrokenRudder
-    value: false
-  - name: HasSolidProjector
-    value: false
-  - name: HasDeadHeat
-    value: false
+  PredefinedVariables: []
