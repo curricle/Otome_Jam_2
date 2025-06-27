@@ -111,3 +111,17 @@ MonoBehaviour:
       y: 263
       width: 181
       height: 221
+  - scriptGuid: 3a3a3126d55fd38478fc6d74c71659d8
+    position:
+      serializedVersion: 2
+      x: -183.42857
+      y: -0.5714302
+      width: 180
+      height: 126.28571
+  - scriptGuid: fe2778e08e3f4ec4a91ad6f204dce316
+    position:
+      serializedVersion: 2
+      x: 20
+      y: 0
+      width: 158.85715
+      height: 222.2857

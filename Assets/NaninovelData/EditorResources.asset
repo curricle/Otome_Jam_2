@@ -13,42 +13,42 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/4794c7a5-32d0-4276-860f-9b0a9eb3c3df
+  - Id: TextPrinters/04b9c798-d0af-4ff0-9495-93ac92f54db5
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
       guid: 1bc08ccd31adff6439e97161aa6e1d8b
-  - Id: TextPrinters/95f4ae29-1686-468b-ad00-2f4ecf83a2c8
+  - Id: TextPrinters/10ade21f-ab1a-4c50-bea1-19d850600317
     Resources:
     - name: Fullscreen
       pathPrefix: TextPrinters
       guid: c87cebd3f0d4f174789cd351ce9591c4
-  - Id: TextPrinters/3cf7508b-fadf-4456-9613-024795bd46de
+  - Id: TextPrinters/dd789ebf-95af-4758-9b3a-492e8c8b0ea1
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
       guid: 781828b806deb1e4cbf50ef9de41da10
-  - Id: TextPrinters/9dfacc46-1b67-4cc4-b0de-4a767f9a91cd
+  - Id: TextPrinters/d0dd057b-dc39-4f0b-872f-86403c46403b
     Resources:
     - name: Chat
       pathPrefix: TextPrinters
       guid: 6f9836a3c4f777741b1962979d97e485
-  - Id: TextPrinters/e112e0db-8f37-48b8-a639-a2a54de8028e
+  - Id: TextPrinters/32fd7482-a313-4531-8948-295a32eebdff
     Resources:
     - name: Bubble
       pathPrefix: TextPrinters
       guid: b47d9659b2be5ee4e95a776f213c9d4b
-  - Id: ChoiceHandlers/d2c0d4d4-586e-4931-b4e2-138da8ab7dea
+  - Id: ChoiceHandlers/a15b2d50-9655-4d77-882a-5b0d9a4b1cf6
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
       guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: ChoiceHandlers/69a0dd1e-3b57-4d36-88df-87a40639b9a9
+  - Id: ChoiceHandlers/e7884fba-954d-4274-9544-55d4120cef1e
     Resources:
     - name: ButtonArea
       pathPrefix: ChoiceHandlers
       guid: 4fa6d62f894ae6e4698bfa8af59e7942
-  - Id: ChoiceHandlers/2ebabe5d-1bca-4357-ac5a-eaba47fff6ef
+  - Id: ChoiceHandlers/6397df7b-79db-45e4-8d70-1290e0c1cd78
     Resources:
     - name: ChatReply
       pathPrefix: ChoiceHandlers
@@ -146,75 +146,59 @@ MonoBehaviour:
       guid: 735d6aa767879aa469134858c5b2f0a7
   - Id: Scripts
     Resources:
-    - name: at_dayone
+    - name: Start
       pathPrefix: Scripts
-      guid: a24cfdbc1c59a4941a56bee00dd94c55
-    - name: at_missionone
+      guid: 3a3a3126d55fd38478fc6d74c71659d8
+    - name: DHS_Day_01
       pathPrefix: Scripts
-      guid: 14a507d5087720a438659c400e53fea8
-    - name: at_interimone
+      guid: fe2778e08e3f4ec4a91ad6f204dce316
+    - name: DHS_Day_02
       pathPrefix: Scripts
-      guid: c009ff74360f312488b2755ac94897a4
-    - name: at_missiontwo
+      guid: b7625e56646777340b8998311b306e4f
+    - name: DHS_Day_03
       pathPrefix: Scripts
-      guid: 7f9cda8e4069d6f43bde206219349a73
-    - name: at_interimtwo
+      guid: 5d507a07a50b84a41a5adf3b68dda26d
+    - name: DHS_Day_04
       pathPrefix: Scripts
-      guid: 8fbadefcc738afd49a45ced45899aaa1
-    - name: at_missionthree
+      guid: 4ddc55c7df6446b4e9b7a73d2ee435e4
+    - name: DHS_Day_05
       pathPrefix: Scripts
-      guid: ebc5e9321ecaa9a49b7e7413e8b64c91
-    - name: at_interimthree
-      pathPrefix: Scripts
-      guid: 7f8d0256e7bdcb44c8fcffd7f3efbb33
-    - name: at_missionfour
-      pathPrefix: Scripts
-      guid: c4759c9c6457b0f4a9bd19be85f3f889
-    - name: at_interimfour
-      pathPrefix: Scripts
-      guid: d2a68a8069445c246bba95a800ca9b26
-    - name: at_missionfive
-      pathPrefix: Scripts
-      guid: 4c5a542b7786fd24b843480851be5165
-    - name: at_zinniamariaend
-      pathPrefix: Scripts
-      guid: 912095784f07c2b4ba54eaf612dad307
-    - name: at_badcorpoend
-      pathPrefix: Scripts
-      guid: 8596c5e18b1f8314180c07ca8a27a4a0
-    - name: at_opening
-      pathPrefix: Scripts
-      guid: f9d89a37948a6d945ba8ae518dc164b6
-    - name: at_goodend
-      pathPrefix: Scripts
-      guid: 2f432de92a38a024a8b8d8b834526d4b
-  - Id: Characters/62a62bf5-5705-4916-bf47-2067dfa0a65c
+      guid: dc615c087ede8294f90644ce94849615
+  - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
-  - Id: Characters/39a049af-3a70-4cd5-b38b-469116a4433f
+  - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
     Resources: []
-  - Id: Backgrounds/8897bedc-befb-43f8-982f-ad0e5a085bc4
+  - Id: Characters/d8b9c781-bfeb-42f1-a563-8aadfb653f32
+    Resources: []
+  - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
+    Resources: []
+  - Id: Characters/50c27364-b925-4cf6-a54b-31f0afc8fa67
+    Resources: []
+  - Id: Backgrounds/d5b6ed81-4fc3-4298-8077-5a137a47fa0f
     Resources:
-    - name: Bathroom
+    - name: Incinerator_01
       pathPrefix: Backgrounds/MainBackground
-      guid: 28396784181e7aa40b60b49e0b6ecb13
-    - name: Caves_01
+      guid: abbd2fc335dcd624a86f7d308ab8f788
+    - name: Atrium_01
       pathPrefix: Backgrounds/MainBackground
-      guid: 4745198a941200249a7801d4d1226b41
-    - name: Caves_02
+      guid: b2b310844fe56de488918191a7c07100
+    - name: Papers
       pathPrefix: Backgrounds/MainBackground
-      guid: a88ebca531da4b847a8544fe4a9c3374
-    - name: Field
+      guid: 9e66c313ec98034478e489c87980af8e
+    - name: Space_01
       pathPrefix: Backgrounds/MainBackground
-      guid: 4c446e91a3a3f6a448b2d1262a2eda58
-    - name: Mission Control
+      guid: e1a03efd3f68c1c41a089257b1226ac6
+    - name: Estehelix_01
       pathPrefix: Backgrounds/MainBackground
-      guid: f0ae556c9bd984848a916e344bd4bb8d
-    - name: Spaceship
-      pathPrefix: Backgrounds/MainBackground
-      guid: 3886d21ddf21ce64e8d052ffa39a518d
-    - name: Warehouse
-      pathPrefix: Backgrounds/MainBackground
-      guid: 8c100600ef0e8714da2b34d21cfb79a0
-    - name: Waters
-      pathPrefix: Backgrounds/MainBackground
-      guid: 38f79f569afc27b489cac0a2950ae5d3
+      guid: 63b945cec38e1b84a83f945b54e26e6b
+  - Id: Audio
+    Resources:
+    - name: Fire
+      pathPrefix: Audio
+      guid: a9e71129a90f8d341af6bb62f61a9cbf
+    - name: Footsteps_01
+      pathPrefix: Audio
+      guid: 4bda1a3ca6742874c84638cdb15bcd53
+    - name: Footsteps_02
+      pathPrefix: Audio
+      guid: a8edae586c4172544a9c2fa0e1a0b647
