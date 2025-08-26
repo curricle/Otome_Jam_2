@@ -134,6 +134,7 @@ COLLECT THE “SYNTHESIZER?”
 
 # synthGet
 @set HasSynthesizer=true
+@set AT_RouteA++
 ZINNIA: Good choice.   
 YOU: Something about it. 
 YOU: It just felt. 
@@ -167,6 +168,7 @@ COLLECT THE “COLLECTION OF PHONES?”
 @stop
 
 # phonesGet
+@set AT_RouteB++
 @set HasPhones=true
 YOU: Help me secure this net, before we head back to the ship.
 Zinnia reaches over to help bind the catch.
@@ -196,6 +198,7 @@ COLLECT THE “OLD SATELLITE DISKS?”
 @stop
 
 # satelliteGet
+@set AT_RouteC++
 @set HasOldSatelliteDisks=true
 ZINNIA: Bringing over some local flora for ship decor?
 YOU: Um, yeah. Is that what this is? 

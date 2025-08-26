@@ -53,7 +53,7 @@ COLLECT THE “OLD VINYL?”
 @stop
 
 # vinylGet
-
+@set AT_RouteA++
 @set HasOldVinyl=true
 ZINNIA: It's almost like you didn't even try.  
 YOU: You seem pleased about that.
@@ -89,7 +89,7 @@ COLLECT THE “PRAYER BEADS?”
 @stop
 
 # prayerGet
-
+@set AT_RouteB++
 @set HasPrayerBeads=true
 YOU: This one just feels right. 
 Zinna stares at the prayer beads. Her fingers twitch as if ready to reach. 
@@ -125,7 +125,7 @@ COLLECT THE “GIANT GEAR?”
 @stop
 
 # gearGet
-
+@set AT_RouteC++
 @set HasGiantGear=true
 YOU: I think we'll need both our droids for this collection. 
 ZINNIA: Yes.

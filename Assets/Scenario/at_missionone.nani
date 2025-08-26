@@ -80,7 +80,7 @@ You gaze around the room and collect:
 @choice "ITEM: SCRAP METAL" goto:.scrap
 @stop
 
-#transmitter
+# transmitter
 ITEM DESCRIPTION: AN OLD TRANSMITTER USED TO SEND MESSAGES BETWEEN THE TUNNELS. 
 
 YOU: What about this one?
@@ -97,7 +97,7 @@ COLLECT THE “OLD TRANSMITTER?”
 @stop
 
 # transmitterGet
-
+@set AT_RouteA++
 ZINNIA: Decent find for your first run. 
 YOU: Neat, right? 
 ZINNIA: This will definitely be useful.
@@ -131,6 +131,7 @@ COLLECT THE “CEREMONIAL KNIFE?”
 @stop
 
 # knifeGet
+@set AT_RouteB++
 ZINNIA: That-
 YOU: Neat, right? 
 YOU: Shame, something like this is just going to be melted away. 
@@ -160,6 +161,7 @@ COLLECT THE “SCRAP METAL?”
 @stop
 
 # scrapGet
+@set AT_RouteC++
 ZINNIA: Safe choice. 
 YOU: Odd way to put that. 
 YOU: It's all scrap regardless. 
@@ -207,7 +209,7 @@ YOU: But that's not the answer is it?
 
 ;#sayNothing
 
-#bag
+# bag
 ZINNIA: It's like a recipient. 
 YOU: A what? 
 ZINNIA: Some sort of sling or bag. Not too different from our storage droids or waste collectors. 
@@ -219,22 +221,22 @@ YOU: You really find a noble outlook to everything? It's so....
 @choice "Pointless." goto:.pointless
 @stop
 
-#annoying
+# annoying
 YOU: Annoying. What's the point of being so fucking sincere about it? We don't even have bags, plastic or otherwise. That's primitive. We have drones. 
 ZINNIA: Is there sincerity in an observation? 
 @goto .endingM1
 
-#cute
+# cute
 YOU: Cute, but sometimes a job is just a job. We use waste droids for collection anyways. It's not like this trash means anything. 
 ZINNIA: I don't know how to feel about that. 
 @goto .endingM1
 
-#pointless
+# pointless
 YOU: Pointless. What's that's got to do with anything? Haven't you seen the drones? 
 ZINNIA: ….. 
 @goto .endingM1
 
-#endingM1
+# endingM1
 
 ZINNIA: We've been to many planets. How many civilizations have you seen? How many micro biomes? How many ecosystems? How many tools? How many minerals? We're on carcasses of carcasses deep in the biosphere. Do you even realize that? 
 ZINNIA: Get some rest. We have a new area to scope tomorrow.

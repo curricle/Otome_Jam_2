@@ -93,7 +93,7 @@ COLLECT THE “DEVOTIONAL OIL?”
 @stop
 
 # oilGet
-
+@set AT_RouteA++
 @set HasDevotionalOil=true
 ZINNIA: The OA team is gonna appreciate it. .   
 YOU: This stuff gets analyzed? 
@@ -131,6 +131,7 @@ COLLECT THE “OLD EARTHENWARE?”
 @stop
 
 # earthenwareGet
+@set AT_RouteB++
 @set HasOldEarthenware=true
 ZINNIA: You're really bringing this back. 
 YOU: Yeah?
@@ -161,6 +162,7 @@ COLLECT THE “BROKEN CONTROLLER?”
 @stop
 
 # controllerGet
+@set AT_RouteC++
 @set HasBrokenController=true
 YOU: C'mon, we can rig this up and party on the ship.  
 ZINNIA: ...

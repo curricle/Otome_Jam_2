@@ -98,8 +98,8 @@ ZINNIA: It depends on what you find.
 @wait i 
 
 ;GO TO ENDINGS
-@goto at_goodend if:{RouteA > RouteB && RouteA > RouteC }
-@goto at_badcorpoend if:{RouteC > RouteA && RouteC > RouteB}
-@goto at_zinniamariaend if:{RouteB > Route A && RouteB > RouteC}
+@goto at_goodend if:{AT_RouteA > AT_RouteB && AT_RouteA > AT_RouteC }
+@goto at_zinniamariaend if:{AT_RouteB >= AT_RouteA && AT_RouteB > AT_RouteC}
+@goto at_badcorpoend if:{AT_RouteC >= AT_RouteA && AT_RouteC >= AT_RouteB}
 
 @stop
