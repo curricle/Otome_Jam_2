@@ -1,10 +1,22 @@
 # DHS02
 
 ; [[DEAD HEAT SUPERNOVA    CONTROL]]
+@showUI CC_DHS_Control
+@hidePrinter
+@wait i
+
+@back black
+@hideUI CC_DHS_Control
+@wait i 
+
+@printer c_Dialogue
 
 It’s an old-world relic.
 Something cruel and decayed and decrepit, but you’ve really struck gold. 
 A fully intact specimen like this is so, so valuable.
+
+@back Stadium
+
 This is a stadium. A full arena, with brittle spectator chairs, and rows and rows of eternally awed ghosts. 
 What sort of games did they play here? 
 MARIA: Gladiator matches? 
@@ -26,6 +38,7 @@ The two of you part ways. He can’t stray too far, he’s got the collar on, an
 ; CG: ITEM COLLECTION BACKGROUND: STADIUM / ENTERTAINMENT DISTRICT RUINS
 
 # ItemChoice
+@back StadiumRuins
 
 @choice "BROKEN RUDDER" goto:.BrokenRudder
 @choice "SOLID PROJECTOR" goto:.SolidProjector
@@ -52,6 +65,7 @@ COLLECT THE “BROKEN RUDDER”?
 # BrokenRudderChosen
 
 @set HasBrokenRudder=true
+@set RouteA++
 
 YOU: It’d be interesting.
 YOU: I wonder if we can find the rest of it.
@@ -89,6 +103,7 @@ COLLECT THE “SOLID PROJECTOR”?
 # SolidProjectorChosen
 
 @set HasSolidProjector=true
+@set RouteB++
 
 YOU: Yeah.
 YOU: It’s functional enough, and with Corporate’s assistance, we can get it up and runnin’.
@@ -137,6 +152,7 @@ COLLECT ““DEAD HEAT””?
 # DeadHeatChosen
 
 @set HasDeadHeat=true
+@set RouteC++
 
 RAVEN: Fuck off.
 YOU: You look…nice.
@@ -158,6 +174,8 @@ MARIA: Estehelix has all kinds of people.
 @goto .ItemChoice
 
 # ItemChosen
+
+@back Stadium
 
 With your bounty in hand, you focus your efforts on your new partner. 
 While he has a quip for every occasion, Raven generally keeps to himself. He pulls at his collar and lets the wind sway him back and forth. You find him leaning against one of the better seats, dark gaze focused on something far away.
@@ -206,6 +224,7 @@ RAVEN: I started my career here.
 He paints a beautiful scene.
 
 ; [CG: FAMILY AFFAIRS]
+@back FamilyAffairs
 
 VOICE 1: “Are you ready ▮▮▮▮▮?” 
 VOICE 2: “’course. I was born ready.”
@@ -450,6 +469,8 @@ RAVEN: We need to go.
 He doesn’t bother apologizing for being the reason for your delay. 
 You make your way back to the ship with little fanfare. 
 
-@goto DHS_Day_03
+
+@goto DHS_Day_03_ROUTEA.DHS03_A if:HasBrokenRudder=true
+@goto DHS_Day_03_ROUTEB.DHS03_B if:HasBrokenRudder=false
 
 @stop

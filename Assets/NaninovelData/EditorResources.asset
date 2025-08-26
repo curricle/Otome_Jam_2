@@ -95,7 +95,7 @@ MonoBehaviour:
       guid: 702c32b2de0c0784b9a66ec90601874f
     - name: BacklogUI
       pathPrefix: UI
-      guid: 7fba909c66b25324cb77db18679c2c96
+      guid: 0664457c391990e41ba5c2f8217a41b3
     - name: CGGalleryUI
       pathPrefix: UI
       guid: 71da50c8dae82bd42ba67528804e820c
@@ -144,6 +144,48 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: Dossiers
+      pathPrefix: UI
+      guid: 4ef5804a23e7fbc4e8fbb16ed0733058
+    - name: CC_DHS_Apex
+      pathPrefix: UI
+      guid: c1887daaeb2992d468bebf263d7f3672
+    - name: CC_DHS_Backlight
+      pathPrefix: UI
+      guid: 6c4284668226f4d4287a5c25300c9682
+    - name: CC_DHS_Control
+      pathPrefix: UI
+      guid: ad9ee7c30eaaca6488550897f96d5427
+    - name: CC_DHS_CurtainCall
+      pathPrefix: UI
+      guid: 61d4890bf490b29439092300fdce0a90
+    - name: CC_DHS_Drifting
+      pathPrefix: UI
+      guid: 453f9787d2ef8254bb938d86547c4823
+    - name: CC_DHS_Gap
+      pathPrefix: UI
+      guid: 6169145842bae3641ab7f17ccff29f14
+    - name: CC_DHS_Halo
+      pathPrefix: UI
+      guid: a428182c1efcfa147a2f1a7ee57ff624
+    - name: CC_DHS_PositionZero
+      pathPrefix: UI
+      guid: ab846473a9d48064b83e86c24e9f450d
+    - name: ED_DHS_AndThenInDreaming
+      pathPrefix: UI
+      guid: 5078f1f93e5aef64ba871323071a6ef8
+    - name: ED_DHS_DeepDownLament
+      pathPrefix: UI
+      guid: 2bc4bf8498451fd41ad42ccdbf08155a
+    - name: ED_DHS_TheseViolentDelights
+      pathPrefix: UI
+      guid: d74561169c4e33146bf3efe4271c6cc9
+    - name: ED_DHS_TheSkysTheLimit
+      pathPrefix: UI
+      guid: 01b1df04ae14eaf43b3c2620a1f73010
+    - name: ED_DHS_TheSweetestHoneyIs
+      pathPrefix: UI
+      guid: b91cce231894b5c4e94bc48923db7389
   - Id: Scripts
     Resources:
     - name: Start
@@ -155,15 +197,231 @@ MonoBehaviour:
     - name: DHS_Day_02
       pathPrefix: Scripts
       guid: b7625e56646777340b8998311b306e4f
-    - name: DHS_Day_03
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Spine
+      pathPrefix: Scripts
+      guid: cbc442aaf52eadb4c92a53aead968514
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day2/Scene2X
+      pathPrefix: Scripts
+      guid: 64da782f529384b498342426c0919e81
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/4
+      pathPrefix: Scripts
+      guid: 4a929e950bfb2bc4e98d9f8065018c77
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/InputRebind
+      pathPrefix: Scripts
+      guid: cc9d673042b6c1c43a04bc82b58fdd8f
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/TestMediumScript
+      pathPrefix: Scripts
+      guid: 0c30bac1417a20643991acdfb5ac0ed7
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/Gosub
+      pathPrefix: Scripts
+      guid: bd124e8247ee3f34ba067da2d5a40e34
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day2/Scene3
+      pathPrefix: Scripts
+      guid: 5f4e1a5cf77202540a64a65447ef7c13
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/TestLargeScript
+      pathPrefix: Scripts
+      guid: 559e9ce2fff2a44408405c73c29998d7
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day1/Scene1
+      pathPrefix: Scripts
+      guid: 8cc9b10b18606cf458c83fd4ede53d7b
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Shader
+      pathPrefix: Scripts
+      guid: bb8c482b5ebdbc643bed2216584faa1a
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Sandbox
+      pathPrefix: Scripts
+      guid: 5dd2fee7f83d66043a84d1b736489f5a
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day3/Scene1
+      pathPrefix: Scripts
+      guid: 6fdffa06709694847bc4412229e213c5
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Printer
+      pathPrefix: Scripts
+      guid: 23c113a702fde634d98474ac53c4dfdb
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route2X/Scene1
+      pathPrefix: Scripts
+      guid: 5e53651ba678aa54cae5aca032a66a50
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day3/Scene2BadEnd
+      pathPrefix: Scripts
+      guid: 37f88db03b7e4584681cbda544b1bba3
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/MusicIntro
+      pathPrefix: Scripts
+      guid: ba92d49a9d238994885e21e04970267f
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Mountain
+      pathPrefix: Scripts
+      guid: 9391d5e5d7ed1334c9ba658ee162f3c3
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Layered
+      pathPrefix: Scripts
+      guid: 5848e83bd49085741a11c0d0af956c10
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/GosubGlobal
+      pathPrefix: Scripts
+      guid: f0647af211c616846b20acf1e5be08c3
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Diced
+      pathPrefix: Scripts
+      guid: 28790e4180047c04dab3c37d13e9bb9e
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Lake
+      pathPrefix: Scripts
+      guid: 30719d5dffb308d4d9cf9fca586afa74
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Localization/Script001
+      pathPrefix: Scripts
+      guid: 5da049baf6318a34eb94108f80be19ee
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Video
+      pathPrefix: Scripts
+      guid: d2126cdc0d78d3645ac810c04c626e46
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Title
+      pathPrefix: Scripts
+      guid: c363345e90d98ef4ca7de976ecacb8a0
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route2Y/Scene1
+      pathPrefix: Scripts
+      guid: 332defc841698ef448e79d86c7ffaeb0
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/UI
+      pathPrefix: Scripts
+      guid: ac6a1198427a77842891f6740703ed7d
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Conditionals
+      pathPrefix: Scripts
+      guid: a7ad9330bffcbfa4687519c130825dec
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Demo
+      pathPrefix: Scripts
+      guid: 33fe60f5ce03a5a498f2eab673f24f90
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day3/Scene2DeadEnd
+      pathPrefix: Scripts
+      guid: 3bec8efff537ba748ba5a1dbab15ead6
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Voicing
+      pathPrefix: Scripts
+      guid: 61d310220eb7d9a4c9fe2e6c64dc86c9
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/3
+      pathPrefix: Scripts
+      guid: 41583ed56c941b1488f196c1bbcff167
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Town
+      pathPrefix: Scripts
+      guid: ae690f31ee4e05d479837ac3024ed8ff
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Canyon
+      pathPrefix: Scripts
+      guid: d6971be909abc3f44b3a49754c29c306
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Transitions
+      pathPrefix: Scripts
+      guid: b9cd38932fd4fe04998d4bbfc6edce8b
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Perspective
+      pathPrefix: Scripts
+      guid: 626376f394982e14f8d94e7d0e227011
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Script002
+      pathPrefix: Scripts
+      guid: 678564c8707f770468757b1eeee899ce
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Scene
+      pathPrefix: Scripts
+      guid: d0fa3c4e4a967d64896204c4d2c52c8b
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/RTL
+      pathPrefix: Scripts
+      guid: 36a2a43ab481cd94d8e8aeaf8af6416f
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Forest
+      pathPrefix: Scripts
+      guid: 44f6e0affc01c17468665e09ae85382c
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/Lazy
+      pathPrefix: Scripts
+      guid: a38835f5c724064429555ad4b69eb7f6
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Inventory
+      pathPrefix: Scripts
+      guid: b954197b595f2fc44bc282dd01898854
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/World
+      pathPrefix: Scripts
+      guid: 1bc1515f8c853994ea914dafc6b9d04f
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Integration/Dialogues
+      pathPrefix: Scripts
+      guid: d12d9584677bfdd458afb1f95681a552
+    - name: "engine-stable/unity/samples/Assets/Scripts/Scenario/\u0421\u043A\u0440\u0438\u043F\u0442"
+      pathPrefix: Scripts
+      guid: 3a05cbf7e2cbb2f478c6da8fb94769ff
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/1
+      pathPrefix: Scripts
+      guid: dea2145f77d484a4b87089b36b51f336
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Script001
+      pathPrefix: Scripts
+      guid: 54fd698232c49d542a2cede31f3ac7ed
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Live2D
+      pathPrefix: Scripts
+      guid: e8d729144a6c4274f8c88b151fa577ea
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Generic
+      pathPrefix: Scripts
+      guid: 211bee8db40725f4cb2b900ed86577fc
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day2/Scene1
+      pathPrefix: Scripts
+      guid: 0e7273d9edb5bc2418eeb1882b96cc56
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Memory/2
+      pathPrefix: Scripts
+      guid: 37ed1696ce0bd074fbb3058380d40349
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Matching
+      pathPrefix: Scripts
+      guid: 617a2dcd45ce34a41bc9d82dbbc29a56
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Animate
+      pathPrefix: Scripts
+      guid: a7582789b21e55049b17a0fb66d3e7c1
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Integration/Novel
+      pathPrefix: Scripts
+      guid: 75d6a7c907dc1344aaa28caf175f1a70
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Localization/Script002
+      pathPrefix: Scripts
+      guid: efc6b3a87826d23498028f69d474056f
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Map/Intro
+      pathPrefix: Scripts
+      guid: 0146a8e3476f59440ab77c95eb7f868a
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/InputVariable
+      pathPrefix: Scripts
+      guid: 579719ab46bfc824e8ea27a58f70922f
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route3True/Scene1
+      pathPrefix: Scripts
+      guid: ac157b47f887f1e43803dd6abb0d1a63
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Title
+      pathPrefix: Scripts
+      guid: 42923f6b940233e4eaba9054c7a546ed
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/E2E/Route1Common/Day2/Scene2Y
+      pathPrefix: Scripts
+      guid: e93e22148fe318343b7b77f5b022c8f2
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/VisualScripting/Script002
+      pathPrefix: Scripts
+      guid: 95a7622f0f0bdb0409a2ff423b78049f
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Initialize
+      pathPrefix: Scripts
+      guid: a492bdcbee6a1904da20f118b9546f86
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/VisualScripting/Script001
+      pathPrefix: Scripts
+      guid: 70e3083119b67a54eaaaf6ff56b341e5
+    - name: engine-stable/unity/client/Assets/Scripts/Scenario/Gosub
+      pathPrefix: Scripts
+      guid: 60381a31c26b06c4eb288ce739d3c029
+    - name: engine-stable/unity/samples/Assets/Scripts/Scenario/Localization/Subfolder/Script001
+      pathPrefix: Scripts
+      guid: 8b2f2ee6f093e2f4098f3fcf950d5d37
+    - name: DHS_Day_03_ROUTEA
       pathPrefix: Scripts
       guid: 5d507a07a50b84a41a5adf3b68dda26d
-    - name: DHS_Day_04
-      pathPrefix: Scripts
-      guid: 4ddc55c7df6446b4e9b7a73d2ee435e4
-    - name: DHS_Day_05
+    - name: DHS_Day_05_ROUTEA
       pathPrefix: Scripts
       guid: dc615c087ede8294f90644ce94849615
+    - name: DHS_Day_05_ROUTEB
+      pathPrefix: Scripts
+      guid: 53d651a5a8699fb4e99f97734a6cc7e4
+    - name: DHS_Day_03_ROUTEB
+      pathPrefix: Scripts
+      guid: bff0af2d246bbc345857fccc5d1cb540
+    - name: DHS_Day_04_ROUTEA
+      pathPrefix: Scripts
+      guid: e89b18d52f959be45a440afa65444264
+    - name: DHS_Day_04_ROUTEB
+      pathPrefix: Scripts
+      guid: 6d6e3ad34f812f143b0fe3860a23fa31
+    - name: END_Good_ROUTEA
+      pathPrefix: Scripts
+      guid: c0ff455d2c510354c86d4e5649c53c4d
+    - name: END_Bad_ROUTEA
+      pathPrefix: Scripts
+      guid: 8fd71396eef5de442b6baed991ffcb92
+    - name: END_Good_ROUTEB
+      pathPrefix: Scripts
+      guid: a28e02c8bf985814189ce9340816d7cb
+    - name: END_Bad_ROUTEB
+      pathPrefix: Scripts
+      guid: cc8dc4fbf2d1bf14a913a469912566c4
+    - name: END_SUPERBAD
+      pathPrefix: Scripts
+      guid: ebc09900dd7dfba40b008e922ab8bae8
     - name: at_missionfive
       pathPrefix: Scripts
       guid: 4c5a542b7786fd24b843480851be5165
@@ -233,6 +491,24 @@ MonoBehaviour:
     - name: Estehelix_01
       pathPrefix: Backgrounds/MainBackground
       guid: 63b945cec38e1b84a83f945b54e26e6b
+    - name: Dossiers
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4c1793dc7cd47f54b9f6b811df6aca6e
+    - name: FAKERS
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5953478976e7af0438d744d3bd0e4f86
+    - name: YourFriendCastor
+      pathPrefix: Backgrounds/MainBackground
+      guid: d286a365cbd803d4d8e518fe769acf54
+    - name: WelcomeHome
+      pathPrefix: Backgrounds/MainBackground
+      guid: f934f7b0fd607e5469431a5b812fdfff
+    - name: Dossiers_Home
+      pathPrefix: Backgrounds/MainBackground
+      guid: bb6ea57e8049e49438d6c9d90eefc2d9
+    - name: Dossiers_Castor
+      pathPrefix: Backgrounds/MainBackground
+      guid: cc8bb777d5f9117438ea65d903b3bba3
     - name: Mission_Control
       pathPrefix: Backgrounds/MainBackground
       guid: f0ae556c9bd984848a916e344bd4bb8d
@@ -268,5 +544,20 @@ MonoBehaviour:
     - name: Footsteps_02
       pathPrefix: Audio
       guid: a8edae586c4172544a9c2fa0e1a0b647
+  - Id: TextPrinters/817b1502-585e-4a51-a898-4fb62c3f3971
+    Resources:
+    - name: c_Dialogue
+      pathPrefix: TextPrinters
+      guid: 2b8f167248555554e917fc31d1061bfa
+  - Id: Characters/3439742e-bd3b-4df4-b168-0d73d0e8b29c
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Dossiers
+      guid: 916dec611aafe23408bdbff36c74b56f
+  - Id: Backgrounds/98204f15-d0bb-4f00-aa16-36c15eae4852
+    Resources:
+    - name: FakersLayered
+      pathPrefix: Backgrounds
+      guid: 4de6ef2e22bc7254aa60bba8899e80be
   - Id: Characters/ab2202b7-3e4d-4294-b8c3-8e4799f0cdf3
     Resources: []

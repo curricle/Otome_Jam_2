@@ -1,8 +1,19 @@
 # DHS01
 
-@back Space_01
+@hidePrinter
+@showUI CC_DHS_Opening
+@wait i
+
+@back black
+@hideUI CC_DHS_Opening
+@wait i
+
+@printer c_Dialogue
 
 The trip to Estehelix is boring.
+
+@back CORPOSHIT9000
+
 Maria handles the ship. It’s on autopilot, with her perfectly standardized route and crash collision detection system. 
 If a meteor so much as looked at the ship the wrong way, she would bring it down into some unsuspecting planet. 
 The sky is the darkest shade of ink blue. Stars are pinpricks of light. The ship carves out a wave. 
@@ -35,6 +46,7 @@ There’s a boy.
 ; CG: The titular Raven. The boy of the hour. The boy of my dreams. He’s carrying a metal pipe and he’s about to bring it down over Ioanna’s head. There’s blood on his hands and streaked across his cheek. An expression full of hatred. 
 
 # React
+@back CORPOSHIT9000
 
 Hovering over Ioanna, who is still seated in the cockpit with her knife hand at his throat.
 ????: Put the weapon down.
@@ -51,6 +63,9 @@ At least, that’s the thought that sinks into your brain when he swings the pip
 >>>
 >>
 >
+
+@back black
+
 MARIA: You really are an idiot, my dear Ioanna.
 
 @goto .React
@@ -85,8 +100,20 @@ YOU: And you must be Raven.
 # GAP
 
 ;[[DEAD HEAT SUPERNOVA    GAP]]
+@hidePrinter
+@showUI CC_DHS_Gap
+@wait i
+
+@back black
+@hideUI CC_DHS_Gap
+@wait i
+
+@printer c_Dialogue
 
 Maria is unhappy with you.
+
+@back CORPOSHIT9000
+
 There’s always that hint of disappointment in her good mornings, just enough enunciation to make you feel like, oh, okay. I get it.
 MARIA: Have you decided what you are going to do with him?
 YOU: No good morning starshine, I am so happy to see you?
@@ -110,7 +137,7 @@ Right.
 YOU: I’ll get to work then.
 Maria turns the lights on. She calls for recovery drones, she establishes basepoint. Estehelix-1, here we are. 
 
-@back Estehelix_01
+@back FeetOnTheGround
 
 The landing was smooth; the welcoming party was annoying; the situation was as established in the brief.
 It would be important to do some preliminary recon. Some research. You like research. You like it enough. 
@@ -156,6 +183,9 @@ Raven stays in your blind spots. You have to look over your shoulder every so of
 Este-3 is a tram ride away. 
 All aboard. 
 The railway isn’t working, it hasn’t been for so long, but your grappling hook and levi-bike do the trick. The two of you make it back on land safely. You walk for what feels like hours. System years, capsized into the steady thump, thump of work boots against rubble. 
+
+@back CommercialDistrict
+
 MARIA: Este-3 is known for its sprawling commercial district. This is also where most of its residents used to live.
 You do not remember asking her to explain. You’ve been here before.
 MARIA: Ioanna, I am being polite.
@@ -209,9 +239,9 @@ RAVEN: …
 RAVEN: Continue your oh so noble mission, milord.
 RAVEN: This killer won’t try again.
 
-@choice "So... whatcha do?" goto:.OptionA
-@choice "They didn't tell me what you did." goto:.OptionB
-@choice "Do you regret it?" goto:.OptionC
+@choice "So... whatcha do?" set:Raven+=10 goto:.OptionA 
+@choice "They didn't tell me what you did." set:Raven+=5 goto:.OptionB
+@choice "Do you regret it?" set:Raven+=0 goto:.OptionC
 @stop
 
 # OptionA
@@ -314,6 +344,8 @@ MARIA: That is enough, Ioanna.
 
 # GAP_Continued_01
 
+@back ResidentialDistrict
+
 The two of you roam the residential district. You haven’t found anything you’re in love with yet.
 Love.
 That’s funny. 
@@ -323,10 +355,11 @@ He keeps looking for something. You can tell. He dips in and out of corners and 
 ; CG: RESIDENTIAL DISTRICT / COMMERCIAL BACKGROUND CG W/ ITEMS
 
 # ItemChoice
+@back ResidentialDistrict
 
-@choice "ITEM: FUSELAGE" goto:.Fuselage
-@choice "ITEM: FILM REEL" goto:.FilmReel
-@choice "ITEM: RUSTED KNIFE" goto:.RustedKnife
+@choice "FUSELAGE" goto:.Fuselage
+@choice "FILM REEL" goto:.FilmReel
+@choice "RUSTED KNIFE" goto:.RustedKnife
 @stop
 
 # Fuselage
@@ -351,6 +384,7 @@ COLLECT THE “FUSELAGE”?
 # FuselageChosen
 
 @set HasFuselage=true
+@set RouteA=1
 
 YOU: Send the drone.
 MARIA: Affirmative.
@@ -393,6 +427,7 @@ COLLECT THE “FILM REEL”?
 # FilmReelChosen
 
 @set HasFilmReel=true
+@set RouteB=1
 
 YOU: Do you have any ideas?
 RAVEN: …
@@ -439,6 +474,7 @@ COLLECT THE “RUSTED KNIFE”?
 # RustedKnifeChosen
 
 @set HasRustedKnife=true
+@set RouteC=1
 
 RAVEN: …
 YOU: I’ll put it away for now.
@@ -461,6 +497,8 @@ YOU: This isn’t incorrect but it still stings…
 
 # ItemChosen
 
+@back CommercialDistrict 
+
 RAVEN: Do you enjoy your work?
 YOU: A weird question.
 RAVEN: Hmm.
@@ -470,6 +508,9 @@ YOU: Right, right.
 YOU: You have to be, a little bit. 
 YOU: Recollection only takes the best.
 He’s unsatisfied with that answer. But he follows you back to base camp.
+
+@back black
+
 Maria has made the ship spotless in your absence.
 
 @goto DHS_Day_02

@@ -16,14 +16,98 @@ MonoBehaviour:
   - scriptGuid: 3a3a3126d55fd38478fc6d74c71659d8
     position:
       serializedVersion: 2
-      x: -183.42857
-      y: -0.5714302
+      x: -220
+      y: -278.2857
       width: 180
       height: 126.28571
   - scriptGuid: fe2778e08e3f4ec4a91ad6f204dce316
     position:
       serializedVersion: 2
-      x: 20
-      y: 0
-      width: 158.85715
-      height: 222.2857
+      x: 17.142857
+      y: -283.42856
+      width: 224.57143
+      height: 1158.2858
+  - scriptGuid: b7625e56646777340b8998311b306e4f
+    position:
+      serializedVersion: 2
+      x: 298.85715
+      y: -285.14285
+      width: 246.85715
+      height: 942.28577
+  - scriptGuid: 5d507a07a50b84a41a5adf3b68dda26d
+    position:
+      serializedVersion: 2
+      x: 606.2857
+      y: -286.2857
+      width: 225.14288
+      height: 726.2857
+  - scriptGuid: dc615c087ede8294f90644ce94849615
+    position:
+      serializedVersion: 2
+      x: 1098.2858
+      y: -292
+      width: 208
+      height: 177.7143
+  - scriptGuid: 53d651a5a8699fb4e99f97734a6cc7e4
+    position:
+      serializedVersion: 2
+      x: 1113.1428
+      y: 462.85715
+      width: 264
+      height: 153.71426
+  - scriptGuid: bff0af2d246bbc345857fccc5d1cb540
+    position:
+      serializedVersion: 2
+      x: 610.2857
+      y: 460
+      width: 225.14288
+      height: 942.2857
+  - scriptGuid: e89b18d52f959be45a440afa65444264
+    position:
+      serializedVersion: 2
+      x: 877.1429
+      y: -291.42856
+      width: 193.7143
+      height: 126.285706
+  - scriptGuid: 6d6e3ad34f812f143b0fe3860a23fa31
+    position:
+      serializedVersion: 2
+      x: 878.8571
+      y: 462.85715
+      width: 206.2857
+      height: 438.28574
+  - scriptGuid: c0ff455d2c510354c86d4e5649c53c4d
+    position:
+      serializedVersion: 2
+      x: 1526.2858
+      y: -287.42856
+      width: 163.42847
+      height: 78.285706
+  - scriptGuid: 8fd71396eef5de442b6baed991ffcb92
+    position:
+      serializedVersion: 2
+      x: 1530.2858
+      y: -195.42857
+      width: 154.85706
+      height: 78.28571
+  - scriptGuid: a28e02c8bf985814189ce9340816d7cb
+    position:
+      serializedVersion: 2
+      x: 1413.7142
+      y: 465.7143
+      width: 162.85718
+      height: 78.285706
+  - scriptGuid: cc8dc4fbf2d1bf14a913a469912566c4
+    position:
+      serializedVersion: 2
+      x: 1412
+      y: 552
+      width: 275.4286
+      height: 118.85718
+  - scriptGuid: ebc09900dd7dfba40b008e922ab8bae8
+    position:
+      serializedVersion: 2
+      x: 1412
+      y: 685.7143
+      width: 277.71423
+      height: 118.85712
