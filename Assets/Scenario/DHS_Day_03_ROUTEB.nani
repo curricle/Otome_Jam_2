@@ -506,5 +506,9 @@ When it’s lights out, you pretend to sleep. He does, too.
 You watch him as he slips out the emergency hatch.
 You didn’t lock the door.
 
+@hidePrinter
+@back black
+@wait i 
+
 @goto DHS_Day_04_ROUTEB
 @stop

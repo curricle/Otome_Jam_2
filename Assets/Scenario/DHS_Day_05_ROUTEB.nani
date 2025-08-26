@@ -366,6 +366,10 @@ Raven holds it with bare hands. The glass is broken.
 It pierces his palm. It draws blood. 
 It drinks it, so sweetly.
 
+@hidePrinter
+@back black
+@wait i 
+
 @goto END_Good_ROUTEB if:"Raven>=20"
 @goto END_Bad_ROUTEB if:"Raven<20"
 @stop

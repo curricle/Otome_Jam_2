@@ -469,6 +469,9 @@ RAVEN: We need to go.
 He doesn’t bother apologizing for being the reason for your delay. 
 You make your way back to the ship with little fanfare. 
 
+@hidePrinter
+@back black
+@wait i 
 
 @goto DHS_Day_03_ROUTEA.DHS03_A if:HasBrokenRudder=true
 @goto DHS_Day_03_ROUTEB.DHS03_B if:HasBrokenRudder=false

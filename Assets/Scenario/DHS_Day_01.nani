@@ -97,6 +97,10 @@ She almost sounds concerned.
 YOU: I’m fine.
 YOU: And you must be Raven.
 
+@hidePrinter
+@back black
+@wait i 
+
 # GAP
 
 ;[[DEAD HEAT SUPERNOVA    GAP]]
@@ -512,6 +516,9 @@ He’s unsatisfied with that answer. But he follows you back to base camp.
 @back black
 
 Maria has made the ship spotless in your absence.
+
+@hidePrinter
+@wait i 
 
 @goto DHS_Day_02
 

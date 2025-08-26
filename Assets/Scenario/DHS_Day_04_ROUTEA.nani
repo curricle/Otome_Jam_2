@@ -260,6 +260,9 @@ RAVEN: Do you want to carve me open?
 RAVEN: I’ll let you. 
 RAVEN: I’ll give you everything.
 
+@hidePrinter
+@back black
+@wait i 
 @goto DHS_Day_05_ROUTEA
 
 # ChoiceB
@@ -295,11 +298,17 @@ YOU: Is that what you want me to do for you, Raven?
 YOU: I can give you a purpose outside the checkered flag and the bright lights.
 YOU: I can give you something to live for.
 
+@hidePrinter
+@back black
+@wait i 
 @goto DHS_Day_05_ROUTEA if:Raven>=25
 @goto END_Bad_ROUTEA if:Raven<25
 
 # ChoiceC
 
+@hidePrinter
+@back black
+@wait i 
 @goto END_Bad_ROUTEA
 
 @stop

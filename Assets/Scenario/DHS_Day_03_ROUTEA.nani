@@ -82,7 +82,8 @@ RAVEN: And we aren’t going to.
 YOU: And if I forced it out of you?
 RAVEN: You don’t actually mean that.
 
-@choice "Mmm…it’s not that, exactly." set:Raven+=10
+@choice "Mmm…it’s not that, exactly." 
+    @set Raven+=10
     YOU: It’s nice to have someone bite at me, is all.
     RAVEN: You’re really an awful sorta person, Miss Recollection.
     YOU: Like having a cute dog nip at my heels.
@@ -90,7 +91,9 @@ RAVEN: You don’t actually mean that.
     RAVEN: …
     RAVEN: I know you’re joking but having you say that with that dead fish expression really is gross.
     This exchange irritates him more than the journey. 
-@choice "It’d be easy to make you." set:Raven+=5
+    ;@goto .Continue
+@choice "It’d be easy to make you." 
+    @set Raven+=5
     RAVEN: …
     YOU: I wouldn’t have to use the bomb.
     YOU: But you seem like you’re into the idea.
@@ -99,9 +102,14 @@ RAVEN: You don’t actually mean that.
     MARIA: Is he blushing?
     RAVEN: Shut up.
     You take this as your win.
-@choice "Then, we’ll leave it at that." set:Raven+=0
+    ;@goto .Continue
+@choice "Then, we’ll leave it at that." 
+    @set Raven+=0
+    ;@goto .Continue
     ;[NO FURTHER DIALOGUE]
+@stop
 
+# Continue
 >>>
 >>
 >
@@ -122,7 +130,7 @@ YOU: Most people tend to steer clear.
 YOU: But because of that…
 YOU: They tend to treat me with perfect apathy.
 RAVEN: …
-RAVEN: Make sense.
+RAVEN: Makes sense.
 RAVEN: If they stuck around longer, they’d see that you’re insufferable.
 YOU: …
 YOU: It hasn’t stopped you so far.
@@ -198,7 +206,7 @@ YOU: Help me move it, then.
 RAVEN: …
 RAVEN: I’ll call the drone…
 
-@goto Day03_Continue
+@goto .ItemChosen
 
 # EngineRefused
 
@@ -404,6 +412,9 @@ MARIA: …are you finally going for that promotion?
 You catch your reflection in the overhead console. 
 You’re smiling.
 
+@hidePrinter
+@back black
+@wait i 
 
 @goto DHS_Day_04_ROUTEA
 

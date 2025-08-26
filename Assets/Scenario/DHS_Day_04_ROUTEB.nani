@@ -613,6 +613,9 @@ You take that first step.
 
 RAVEN: I want to see your face when you see what’s beyond that.
 
+@hidePrinter
+@back black
+@wait i 
 @goto DHS_Day_05_ROUTEB
 
 @stop
