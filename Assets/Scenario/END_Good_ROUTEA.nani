@@ -143,6 +143,8 @@ YOU: I think I can find happiness with you.
 ;ENDING: THE SKY’S THE LIMIT
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_DHS_TheSkysTheLimit
 @wait i
 

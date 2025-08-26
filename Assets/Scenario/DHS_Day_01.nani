@@ -1,6 +1,5 @@
 # DHS01
 
-@hidePrinter
 @showUI CC_DHS_Opening
 @wait i
 

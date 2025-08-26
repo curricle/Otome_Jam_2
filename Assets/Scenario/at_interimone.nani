@@ -1,3 +1,14 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_01_Interim
+@wait i
+
+@hideUI CC_AT_01_Interim
+@wait i
+
+@printer c_Dialogue
+
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
 @char YOU

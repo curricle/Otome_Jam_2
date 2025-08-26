@@ -1,3 +1,13 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_01
+@wait i
+
+@hideUI CC_AT_01
+@wait i
+
+@printer c_Dialogue
 
 ;THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
 @back Caves_01

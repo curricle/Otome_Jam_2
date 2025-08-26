@@ -66,6 +66,8 @@ ZINNIA: I love you, too.
 
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_AT_Equalized
 @wait i
 

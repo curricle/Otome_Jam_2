@@ -1,3 +1,14 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_02
+@wait i
+
+@hideUI CC_AT_02
+@wait i
+
+@printer c_Dialogue
+
 @char YOU
 @char ZINNIA
 

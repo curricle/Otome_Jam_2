@@ -199,6 +199,8 @@ YOU: It was a job.
 
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_DHS_AndThenInDreaming
 @wait i
 

@@ -90,6 +90,8 @@ Why aren’t you happy?
 ;ENDING: THESE VIOLENT DELIGHTS 
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_DHS_TheseViolentDelights
 @wait i
 

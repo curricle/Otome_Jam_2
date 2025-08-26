@@ -7,11 +7,11 @@
 @choice "THE OMNICHORD" goto:.omniTwo
 @stop
 
-#omniTwo
+# omniTwo
 @choice "SHOW HER THE OMNICHORD" goto:.omniThree
 @stop
 
-#omniThree
+# omniThree
 ITEM DESCRIPTION: Ancient angels have harps, but modern ones have omnichords. Building a place of worship isn’t easy, but somehow. You’ve managed. 
 
 The beast in your belly is pleased, the god in your heart is overjoyed. 
@@ -38,7 +38,7 @@ You stare at her collection, at her museum, and feel…
 @choice "NOTHING." goto:.cont
 @stop
 
-#cont
+# cont
 An entire room, shaped by you. You wonder if she even realizes. 
 
 MARIA: Were you adorning her shrine or was she building yours?
@@ -56,6 +56,8 @@ The god in your head hums. She’d never let Zinnia do that. She loves you too m
 
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_AT_Counterpoint
 @wait i
 

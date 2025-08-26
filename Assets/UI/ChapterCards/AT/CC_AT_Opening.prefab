@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540.1957, y: -0.000014305}
-  m_SizeDelta: {x: 506.035, y: 73.0734}
+  m_AnchoredPosition: {x: -483.62283, y: -0.000014305}
+  m_SizeDelta: {x: 619.1807, y: 73.0734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3205008184072865596
 CanvasRenderer:
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aftertouch
+  m_text: Retrograding
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f74f98f902a00c74d9fc064401bc495a, type: 2}
   m_sharedMaterial: {fileID: -971005550385110647, guid: f74f98f902a00c74d9fc064401bc495a, type: 2}
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 6306036015961478117}
   - component: {fileID: 6306036015961478116}
   m_Layer: 5
-  m_Name: ED_AT_Counterpoint
+  m_Name: CC_AT_Opening
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,8 +399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 495, y: 0}
-  m_SizeDelta: {x: 605.6408, y: 61.537}
+  m_AnchoredPosition: {x: 584, y: 0}
+  m_SizeDelta: {x: 499.3723, y: 61.537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5226850168937471084
 CanvasRenderer:
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Counterpoint
+  m_text: Aftertouch
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f74f98f902a00c74d9fc064401bc495a, type: 2}
   m_sharedMaterial: {fileID: -971005550385110647, guid: f74f98f902a00c74d9fc064401bc495a, type: 2}

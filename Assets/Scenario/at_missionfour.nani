@@ -1,3 +1,14 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_04
+@wait i
+
+@hideUI CC_AT_04
+@wait i
+
+@printer c_Dialogue
+
 ;DAY3  background should take place in Proxima-IIi's overworld. There's an old warehouse, and the sky is a lit with shooting stars. Most dangerous of the worlds to stay in for long. 
 @back Warehouse
 @char YOU

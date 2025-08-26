@@ -189,6 +189,42 @@ MonoBehaviour:
     - name: CC_DHS_Opening
       pathPrefix: UI
       guid: 1ad3602f7bdbbd942a29ce8cc7f985e5
+    - name: ED_AT_Counterpoint
+      pathPrefix: UI
+      guid: 6c1ba37c73ae9f84e9eae3b413c6e582
+    - name: ED_AT_Equalized
+      pathPrefix: UI
+      guid: eb597a0be91c84f46983136d73ff44fa
+    - name: ED_AT_Synthesis
+      pathPrefix: UI
+      guid: 1fde18223107ac94c9b9984831a6364d
+    - name: CC_AT_01
+      pathPrefix: UI
+      guid: ff9ffc81955daf7468bc907bd7e90e21
+    - name: CC_AT_01_Interim
+      pathPrefix: UI
+      guid: b2f1226bc73a4a64b8a8879491cd049b
+    - name: CC_AT_02
+      pathPrefix: UI
+      guid: f3dd88e0ac95fc84f996758d354029ea
+    - name: CC_AT_02_Interim
+      pathPrefix: UI
+      guid: 13a97ec96668c06419e0531a53cdc8df
+    - name: CC_AT_03
+      pathPrefix: UI
+      guid: 9dd78c2ad85723b4db2c98f703fdb88d
+    - name: CC_AT_03_Interim
+      pathPrefix: UI
+      guid: 73abeccd5fbb11d49a40289c9aa3f51f
+    - name: CC_AT_04
+      pathPrefix: UI
+      guid: 397ffc55df56ade47892d6bdce3462a4
+    - name: CC_AT_04_Interim
+      pathPrefix: UI
+      guid: 1779a3fc75fdc784fa608b0f80bcd6bc
+    - name: CC_AT_05
+      pathPrefix: UI
+      guid: f741ae86997b1bf44ab2ded3c797f416
   - Id: Scripts
     Resources:
     - name: Start

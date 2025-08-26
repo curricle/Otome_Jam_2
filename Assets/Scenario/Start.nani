@@ -203,7 +203,21 @@ YOU: I guess I’ll go with…
 @hidePrinter
 @back WelcomeHome
 
-@choice handler:ButtonArea button:Raven_Dossier goto:DHS_Day_01 pos:-300,0
-@choice handler:ButtonArea button:Zinnia_Dossier goto:at_interimone pos:400,0
+@choice handler:ButtonArea button:Raven_Dossier goto:.RouteChoice_DHS pos:-300,0
+@choice handler:ButtonArea button:Zinnia_Dossier goto:.RouteChoice_AT pos:400,0
+@stop
+
+# RouteChoice_DHS
+
+@back black
+@wait i
+
+@goto DHS_Day_01
+
+# RouteChoice_AT
+@back black
+@wait i
+
+@goto at_dayone
 
 @stop

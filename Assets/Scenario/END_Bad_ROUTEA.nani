@@ -194,6 +194,8 @@ MARIA: Sickening.
 ;ED: DEEP DOWN LAMENT
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_DHS_DeepDownLament
 @wait i
 

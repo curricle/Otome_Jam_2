@@ -112,6 +112,8 @@ Let’s sink into the abyss, ▮▮▮▮▮.
 ;ED: THE SWEETEST HONEY IS…
 @hidePrinter
 @back black
+@wait i
+
 @showUI ED_DHS_TheSweetestHoneyIs
 @wait i
 
