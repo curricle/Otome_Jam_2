@@ -137,9 +137,9 @@ RAVEN: …
 He stares into the distance, fiddling with the acrylic.
 RAVEN: Why haven’t you killed me?
 
-@choice "Do you want to give me a reason?" set:Raven+=10 goto:.ChoiceA
-@choice "I’m fascinated by you." set:Raven+=5 goto:.ChoiceB
-@choice "The mission brief said to bring you back." set:Raven+=0 goto:.ChoiceC
+@choice "Do you want to give me a reason?" set:RavenAffection+=10 goto:.ChoiceA
+@choice "I’m fascinated by you." set:RavenAffection+=5 goto:.ChoiceB
+@choice "The mission brief said to bring you back." set:RavenAffection+=0 goto:.ChoiceC
 @stop
 
 # ChoiceA

@@ -53,4 +53,13 @@ You kiss her in the space shuttle. Her breath is warm, but her lips are cold to 
 She’d pluck that god right out of you if she could. 
 
 The god in your head hums. She’d never let Zinnia do that. She loves you too much. 
+
+@hidePrinter
+@back black
+@showUI ED_AT_Counterpoint
+@wait i
+
+@hideUI ED_DHS_Counterpoint
+@wait i
+
 @stop

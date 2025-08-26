@@ -64,6 +64,11 @@ ZINNIA: Off to change the world.
 
 @hidePrinter
 @back black
-@wait i 
+@showUI ED_AT_Synthesis
+@wait i
+
+@hideUI ED_DHS_Synthesis
+@wait i
+
 
 @stop

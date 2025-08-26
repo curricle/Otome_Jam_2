@@ -83,7 +83,7 @@ YOU: And if I forced it out of you?
 RAVEN: You don’t actually mean that.
 
 @choice "Mmm…it’s not that, exactly." 
-    @set Raven+=10
+    @set RavenAffection+=10
     YOU: It’s nice to have someone bite at me, is all.
     RAVEN: You’re really an awful sorta person, Miss Recollection.
     YOU: Like having a cute dog nip at my heels.
@@ -93,7 +93,7 @@ RAVEN: You don’t actually mean that.
     This exchange irritates him more than the journey. 
     ;@goto .Continue
 @choice "It’d be easy to make you." 
-    @set Raven+=5
+    @set RavenAffection+=5
     RAVEN: …
     YOU: I wouldn’t have to use the bomb.
     YOU: But you seem like you’re into the idea.
@@ -104,7 +104,7 @@ RAVEN: You don’t actually mean that.
     You take this as your win.
     ;@goto .Continue
 @choice "Then, we’ll leave it at that." 
-    @set Raven+=0
+    @set RavenAffection+=0
     ;@goto .Continue
     ;[NO FURTHER DIALOGUE]
 @stop

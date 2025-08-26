@@ -398,9 +398,9 @@ Pliable. Obedient. It makes you think about what he’s asking for.
 What do you want to give him?
 What are you willing to gamble on this moment of infinitesimal satisfaction? 
 
-@choice "Consider your options." set:Raven+=10 goto:.Sexy
-@choice "Light his cigarette normally." set:Raven+=5 goto:.Normal
-@choice "Hand him the lighter." set:Raven+=0 goto:.Dont
+@choice "Consider your options." set:RavenAffection+=10 goto:.Sexy
+@choice "Light his cigarette normally." set:RavenAffection+=5 goto:.Normal
+@choice "Hand him the lighter." set:RavenAffection+=0 goto:.Dont
 @stop
 
 # Sexy
