@@ -54,8 +54,12 @@ ZINNIA: You’ll need it.
 Zinnia stares out into the landscape out in front of her, painted by a haze of fire and smoke. Sulfuric and bitter. 
 ; [BACKGROUND: FLASHBACK SCENE OF THE INCINERATOR AND OF ZINNIA STARING AT HER REFLECTION]
 
+@back Incinerator
+
 ZINNIA: I used to work for the incinerators crew back then. We’d take the world and we’d burn it. All the discarded trash and memories and scraps that we mined every single bit of use from. I used to think it was noble.
-ZINNIA: The way people talk about skinning a carcass, all the bone, meat and fur used. We even save the teeth, and ring out the flesh and tan it to leather. Space grade industrial. Something beautiful and useful. An ecosystem that grows with us. It wasn’t until one shift, I saw my own face reflecting back in the flames. What do you think I saw in me? 
+ZINNIA: The way people talk about skinning a carcass, all the bone, meat and fur used. We even save the teeth, and ring out the flesh and tan it to leather. Space grade industrial. 
+ZINNIA: Something beautiful and useful. An ecosystem that grows with us. It wasn’t until one shift, I saw my own face reflecting back in the flames. 
+ZINNIA: What do you think I saw in me? 
 
 @choice "A pretty face." goto:.prettyFace
 @choice "Number one." goto:.numberOne
@@ -64,13 +68,13 @@ ZINNIA: The way people talk about skinning a carcass, all the bone, meat and fur
 
 # prettyFace
 YOU: A pretty face. 
-ZINNIA: *doesn’t respond*
+ZINNIA: ...
 @goto .flashCont
 
 # numberOne
 YOU: Is there anything more to see than our illustrious number one? 
 YOU: Our champion harvester.
-ZINNIA: *doesn’t respond*
+ZINNIA: ...
 @goto .flashCont
 
 # doesntMatter

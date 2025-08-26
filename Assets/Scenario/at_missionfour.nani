@@ -73,7 +73,9 @@ You collect:
 
 # oil
 
-ITEM DESCRIPTION: Some sort of oil; it's greasy to the touch. Easily flammable. An interesting thing to fish from the bottom of water. You can't quite make out its label, the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
+ITEM DESCRIPTION: Some sort of oil; it's greasy to the touch. Easily flammable. 
+
+An interesting thing to fish from the bottom of water. You can't quite make out its label, the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
 
 YOU: It looks like a bottle.
 YOU: Drone diagnostic scans are saying a bottle of oil…
@@ -95,7 +97,7 @@ COLLECT THE “DEVOTIONAL OIL?”
 # oilGet
 @set AT_RouteA++
 @set HasDevotionalOil=true
-ZINNIA: The OA team is gonna appreciate it. .   
+ZINNIA: The OA team is gonna appreciate it.   
 YOU: This stuff gets analyzed? 
 ZINNIA: Sometimes.
 ZINNIA: Oil like this, was used to revere. 

@@ -72,7 +72,7 @@ ZINNIA: Did you know that not all flowers come back? Some just stay rotted.
 YOU: Do they?
 
 @choice "They make way for more life." goto:.flowers
-@choice "What's wrong with being rotted?." goto:.flowers
+@choice "What's wrong with being rotted?" goto:.flowers
 @stop
 
 # flowers

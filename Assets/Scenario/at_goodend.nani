@@ -1,3 +1,6 @@
+; needs a background
+@back Junkheap
+
 @char YOU
 @char ZINNIA
 @char MARIA
@@ -30,7 +33,15 @@ ZINNIA: Come. Let’s go back to the ship.
 
 ZINNIA: There’s something I have to show you. 
 
-The galaxy looks infinite. MARIA hums. YOU hum. The vinyl you found plays in the background. It was a pain in the ass rigging such vintage tech in the ship, but worth it for Zinnia’s joy. For the way she melts into the music, as if she’s truly found her purpose. It’s a quiet sort of joy, the joy of someone who never gets to appreciate the simple pleasures. Listening to music, barefoot on the ships floor. 
+@hidePrinter
+@back black
+@wait i
+@back TheUniverse
+
+@printer c_Dialogue
+The galaxy looks infinite. MARIA hums. YOU hum. The vinyl you found plays in the background. 
+It was a pain in the ass rigging such vintage tech in the ship, but worth it for Zinnia’s joy. For the way she melts into the music, as if she’s truly found her purpose. 
+It’s a quiet sort of joy, the joy of someone who never gets to appreciate the simple pleasures. Listening to music, barefoot on the ships floor. 
 
 It makes you yearn for something else. A dream almost domestic. 
 
@@ -69,7 +80,7 @@ ZINNIA: Off to change the world.
 @showUI ED_AT_Synthesis
 @wait i
 
-@hideUI ED_DHS_Synthesis
+@hideUI ED_AT_Synthesis
 @wait i
 
 
