@@ -233,5 +233,9 @@ You don't comment about how the waste droid floats perfectly above her head. Ami
 
 It makes her feel closer and farther away than ever.
 
+@hidePrinter
+@back black
+@wait i 
+
 @goto at_interimone
 @stop

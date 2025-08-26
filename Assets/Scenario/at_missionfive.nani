@@ -81,4 +81,12 @@ ZINNIA: When I look at you. At the objects you bring me. It all feels so familia
 YOU: Like I slot into place?
 YOU: Do I complete you, Captain? 
 ZINNIA: It depends on what you find. 
+
+@hidePrinter
+@back black
+@wait i 
+
+;GO TO ENDINGS
+@goto at_goodend if:HasOldTransmitter&&HasOldVinyls&&HasSynthesizer&&HasDevotionalOil&&HasPhonograph
+
 @stop

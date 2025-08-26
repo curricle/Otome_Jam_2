@@ -159,3 +159,10 @@ YOU: I'll be back!!
 
 #itemGet
 ZINNIA: Solid collection. Let's head back to the ship. 
+
+@hidePrinter
+@back black
+@wait i 
+
+@goto at_interimfour
+@stop

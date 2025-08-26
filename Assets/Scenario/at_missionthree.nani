@@ -195,4 +195,9 @@ YOU: I might come back to this.
 @goto .itemPick
 
 #itemGet
+@hidePrinter
+@back black
+@wait i 
+
 @goto at_interimthree
+@stop

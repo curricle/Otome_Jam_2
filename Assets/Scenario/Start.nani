@@ -204,6 +204,6 @@ YOU: I guess I’ll go with…
 @back WelcomeHome
 
 @choice handler:ButtonArea button:Raven_Dossier goto:DHS_Day_01 pos:-300,0
-@choice handler:ButtonArea button:Zinnia_Dossier goto:at_missionone pos:400,0
+@choice handler:ButtonArea button:Zinnia_Dossier goto:at_interimone pos:400,0
 
 @stop

@@ -19,5 +19,10 @@ Your body trembles with something unfamiliar. You've never had the luxury to tak
 Your stomach grumbles again. Louder. 
 
 MARIA: Eat well next time. 
+
+@hidePrinter
+@back black
+@wait i
+
 @goto at_missionthree
 @stop

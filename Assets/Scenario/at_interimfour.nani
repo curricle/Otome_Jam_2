@@ -23,4 +23,10 @@ Of course it's okay.
 A god's love is-
 
 MARIA: Unconditional. 
+
+@hidePrinter
+@back black
+@wait i
+
 @goto at_missionfive
+@stop

@@ -63,4 +63,9 @@ You turn to face Zinnia. She doesn’t look at you. Doesn’t gaze into your dee
 You squeeze her hand, thumb digging into her palm.
 
 ZINNIA: I love you, too. 
+
+@hidePrinter
+@back black
+@wait i 
+
 @stop

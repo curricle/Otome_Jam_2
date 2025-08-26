@@ -25,3 +25,11 @@ MonoBehaviour:
     value: false
   - name: HasDeadHeat
     value: false
+  - name: Raven
+    value: 0
+  - name: RouteA
+    value: 0
+  - name: RouteB
+    value: 0
+  - name: RouteC
+    value: 0

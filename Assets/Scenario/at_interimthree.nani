@@ -26,4 +26,10 @@ There's a tingling sensation in your fingertips. Itching to get its hands on som
 One mission left. 
 
 Do you know what you want?
+
+@hidePrinter
+@back black
+@wait i
+
 @goto at_missionfour
+@stop

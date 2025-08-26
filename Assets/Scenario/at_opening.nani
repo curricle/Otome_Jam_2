@@ -16,5 +16,9 @@ A one way galactic mission to the planetary systems of Proxima. You’ve never b
 
 Join her?
 
+@hidePrinter
+@back black
+@wait i 
+
 @goto at_dayone
 @stop

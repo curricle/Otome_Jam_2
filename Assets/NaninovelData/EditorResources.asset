@@ -186,6 +186,9 @@ MonoBehaviour:
     - name: ED_DHS_TheSweetestHoneyIs
       pathPrefix: UI
       guid: b91cce231894b5c4e94bc48923db7389
+    - name: CC_DHS_Opening
+      pathPrefix: UI
+      guid: 1ad3602f7bdbbd942a29ce8cc7f985e5
   - Id: Scripts
     Resources:
     - name: Start
@@ -533,6 +536,45 @@ MonoBehaviour:
     - name: Waters
       pathPrefix: Backgrounds/MainBackground
       guid: 38f79f569afc27b489cac0a2950ae5d3
+    - name: CORPOSHIT9000
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8cbc5fb5d20a1434ba40749474b3624f
+    - name: CORPOSHIT9000_CORRUPTED
+      pathPrefix: Backgrounds/MainBackground
+      guid: 877bf7377dd7d1f4cb4e3b3bc5475eca
+    - name: Stadium
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4b372e7503e7d4c48baf4ba37756f9f7
+    - name: StadiumRuins
+      pathPrefix: Backgrounds/MainBackground
+      guid: eb90cda46fd9dbc4ab6a01c6c1bfecdc
+    - name: FeetOnTheGround
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9228e45c5a7f1c244889ebb52435333f
+    - name: black
+      pathPrefix: Backgrounds/MainBackground
+      guid: b9d0acdf520507f46b58d7f8495d86f2
+    - name: ResidentialDistrict
+      pathPrefix: Backgrounds/MainBackground
+      guid: 28e5eb47d58e29f41b7aa17f8a3d6190
+    - name: Incinerator
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0d3e80c2c4cde0c428f935255e8bb2c8
+    - name: FamilyAffairs
+      pathPrefix: Backgrounds/MainBackground
+      guid: cc47c71716f95da46b63174fd9a66ad6
+    - name: EntertainmentDistrict
+      pathPrefix: Backgrounds/MainBackground
+      guid: eb0d9a516e0324842ace56be4f164aab
+    - name: CommercialDistrict
+      pathPrefix: Backgrounds/MainBackground
+      guid: 717ab1f30cc869445a25bfcb93b891e7
+    - name: OpulentTheater
+      pathPrefix: Backgrounds/MainBackground
+      guid: 644ae555179d9854ea9aedb29fbd9915
+    - name: AnArchitecturalMonstrosity
+      pathPrefix: Backgrounds/MainBackground
+      guid: a96fe9cea6cd0ed4b83e876183e69b2b
   - Id: Audio
     Resources:
     - name: Fire

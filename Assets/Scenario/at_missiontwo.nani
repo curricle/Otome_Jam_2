@@ -42,6 +42,8 @@ COLLECT THE “OLD VINYL?”
 @stop
 
 #vinylGet
+
+@set HasOldVinyl=true
 ZINNIA: It's almost like you didn't even try.  
 YOU: You seem pleased about that.
 ZINNIA: Some people think that true value comes from depth and digging deeper. 
@@ -76,6 +78,8 @@ COLLECT THE “PRAYER BEADS?”
 @stop
 
 #prayerGet
+
+@set HasPrayerBeads=true
 YOU: This one just feels right. 
 Zinna stares at the prayer beads. Her fingers twitch as if ready to reach. 
 YOU: Do you want-
@@ -110,6 +114,8 @@ COLLECT THE “GIANT GEAR?”
 @stop
 
 #gearGet
+
+@set HasGiantGear=true
 YOU: I think we'll need both our droids for this collection. 
 ZINNIA: Yes.
 YOU: ….
@@ -127,6 +133,10 @@ ZINNIA: Alright.
 
 #itemGet
 There is silence as you truck back to your ship. Climbing out of the cistern and under the sky, you can feel the weight of the world sting. 
+
+@hidePrinter
+@back black
+@wait i 
 
 @goto at_interimtwo
 @stop
