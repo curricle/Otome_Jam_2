@@ -33,3 +33,9 @@ MonoBehaviour:
     value: 0
   - name: RouteC
     value: 0
+  - name: AT_RouteC
+    value: 0
+  - name: AT_RouteB
+    value: 0
+  - name: AT_RouteA
+    value: 0

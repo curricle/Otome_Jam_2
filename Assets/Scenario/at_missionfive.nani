@@ -14,7 +14,7 @@
 @char YOU
 @char ZINNIA
 
-ZINNIA: Ionna, do you remember life before this?
+ZINNIA: Ioanna, do you remember life before this?
 
 @choice "Yes, but barely" goto:.lifeYes
 @choice No. goto:.lifeNo

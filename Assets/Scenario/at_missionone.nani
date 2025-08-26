@@ -192,11 +192,11 @@ ZINNIA: What do you think the first tool developed by humans was?
 YOU: A stick, obviously. 
 ZINNIA: That fits someone like you. Pokes and prods. 
 YOU: Do I do that to you?
-YOU: One mission and you're calling me nosy! Give me a chance, Number One. ^_^
+YOU: One mission and you're calling me nosy! Give me a chance, Number One. 
 Zinnia gives a tiny smile.
 @goto .bag
 
-#fire
+# fire
 YOU: Fire. 
 ZINNIA: …
 YOU: What? You aren't saying anything. 
