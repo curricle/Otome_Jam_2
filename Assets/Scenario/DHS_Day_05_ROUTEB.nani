@@ -370,6 +370,6 @@ It drinks it, so sweetly.
 @back black
 @wait i 
 
-@goto END_Good_ROUTEB if:"Raven>=20"
-@goto END_Bad_ROUTEB if:"Raven<20"
+@goto END_Good_ROUTEB if:"RavenAffection>=20"
+@goto END_Bad_ROUTEB if:"RavenAffection<20"
 @stop

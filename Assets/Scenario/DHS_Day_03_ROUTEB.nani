@@ -308,7 +308,7 @@ YOU: …
 
 You wait for him to make his move. When he steps forward, he falls in step with your line of sight.
 
-@choice "Smack him over the head." set:RavenPoints=10
+@choice "Smack him over the head." set:Raven+=10
 
     Whack!
 
@@ -340,7 +340,7 @@ You wait for him to make his move. When he steps forward, he falls in step with 
     Everything he does is measured. 
     @goto .03
 
-@choice "Trip him." set:RavenPoints=5
+@choice "Trip him." set:Raven+=5
 
     You stick your leg out. Just enough. When he takes a step forward, you swing it in a smooth arc.
 
@@ -370,7 +370,7 @@ You wait for him to make his move. When he steps forward, he falls in step with 
     And yet…
     @goto .03
 
-@choice "Leave him alone." set:RavenPoints=0
+@choice "Leave him alone." set:Raven+=0
     @goto .03
 
 # 03

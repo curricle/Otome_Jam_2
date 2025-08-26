@@ -243,9 +243,9 @@ RAVEN: …
 RAVEN: Continue your oh so noble mission, milord.
 RAVEN: This killer won’t try again.
 
-@choice "So... whatcha do?" set:Raven+=10 goto:.OptionA 
-@choice "They didn't tell me what you did." set:Raven+=5 goto:.OptionB
-@choice "Do you regret it?" set:Raven+=0 goto:.OptionC
+@choice "So... whatcha do?" set:RavenAffection+=10 goto:.OptionA 
+@choice "They didn't tell me what you did." set:RavenAffection+=5 goto:.OptionB
+@choice "Do you regret it?" set:RavenAffection+=0 goto:.OptionC
 @stop
 
 # OptionA
