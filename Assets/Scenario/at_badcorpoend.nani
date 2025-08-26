@@ -1,8 +1,11 @@
+;bg?
+@back Chains
+
 @char YOU
 @char ZINNIA
 ITEM: A PAIR OF CHAINS
 
-ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these. <3
+ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these.
 
 @choice "A PAIR OF CHAINS" goto:.chains
 @choice "A PAIR OF CHAINS" goto:.chains
@@ -16,6 +19,8 @@ ZINNIA: There’s something I have to show you.
 
 The way her hands curl into the chains. 
 
+@back CORPOSHIT9000
+
 YOU: It’s time to go.
 ZINNIA: Go where? 
 YOU: Time to turn it all back in, silly!
@@ -26,17 +31,21 @@ YOU: I love you so much, and I understand if you were blinded by your vision. It
 ZINNNIA: Show our love…
 YOU: Yeah! She’d reward us for this. I can feel it. I can feel her joy. 
 
-YOU: You poor thing, you’ve been collecting all these years. Finding these beautiful items to communicate with her. But you didn’t realize that burning is what sets them free to her. That how she’s able to breathe, within the ash and smoke. 
+YOU: You poor thing, you’ve been collecting all these years. Finding these beautiful items to communicate with her. But you didn’t realize that burning is what sets them free to her. 
+YOU: That how she’s able to breathe, within the ash and smoke. 
 YOU: That’s okay, she likes her sheep a little confused.
 
 YOU GRAB ZINNNIA. PLACE HER HEAD IN YOURS. PRESS YOUR FOREHEADS TOGETHER FOR A SINGULAR MOMENT.
+
+@back CORPOSHIT9000_CORRUPTED
 
 YOU: Look at me, Zinnia. 
 YOU: Does the god behind my eyes look like whatever was stripped from you? 
 YOU: It’s okay that you were led astray. 
 YOU: It’s why I’m here to shepherd you
 ZINNIA: But - 
-YOU: You need to dull your senses, and forget the material. They are just tools to amplify her voice. You can feel her behind my eyes right? 
+YOU: You need to dull your senses, and forget the material. They are just tools to amplify her voice. 
+YOU: You can feel her behind my eyes right? 
 YOU: You found your faith in me, right? 
 ZINNIA: Yes…
 YOU: You love me right?
@@ -49,6 +58,8 @@ YOU: Let’s go back, yeah?
 ZINNIA: Yeah. 
 
 ;[BACKGROUND CHANGE - THE COMPANY’S CREMATION CENTER]
+@back IncineratorRoom
+
 YOU: It’s pretty right?
 ZINNIA: Yeah…
 YOU: They said we’ve done the company’s best. A whole new record! All that junk being used to fuel the galaxy. It’s amazing what we can accomplish together. 

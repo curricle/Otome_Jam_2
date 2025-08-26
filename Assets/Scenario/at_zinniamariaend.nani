@@ -1,3 +1,6 @@
+;bg
+@back Junkheap
+
 @char YOU
 @char ZINNIA
 @char MARIA
@@ -21,6 +24,8 @@ Your partner can sense it. The higher calling and frequency of the pitch. She’
 ZINNIA: Come. Let’s go back to the ship. 
 
 ZINNIA: There’s something I have to show you. 
+
+@back Spaceship
 
 You stare at the items that Zinnia has collected. Memorabilia and garbage and ancient ruins and relics all astounding years. 
 
