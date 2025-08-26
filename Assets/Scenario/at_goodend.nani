@@ -9,11 +9,11 @@ There are many objects of interest, but only one catches your eye. The only appa
 @choice "THE PHONOGRAPH" goto:.phonoTwo
 @stop
 
-#phonoTwo
+# phonoTwo
 @choice "SHOW HER THE PHONOGRAPH" goto:.phonoThree
 @stop
 
-#phonoThree
+# phonoThree
 ITEM: PHONOGRAPH.   
 
 ITEM DESCRIPTION: A record player. Classic.  

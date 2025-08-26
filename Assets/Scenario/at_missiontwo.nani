@@ -16,13 +16,13 @@ To your dismay, Zinnia isn't very talkative today.
 
 ZINNIA: It's time to collect. 
 
-#itemPick
+# itemPick
 @choice "ITEM: AN OLD VINYL" goto:.vinyl
 @choice "ITEM: PRAYER BEADS" goto:.prayer
 @choice "ITEM: GIANT GEAR" goto:.gear
 @stop
 
-#vinyl
+# vinyl
 
 ITEM DESCRIPTION: A VINYL RECORD. A flame pressed, smoke forged vinyl. It holds something in its grooves, the frequency of this planet changing its sound entirely.
 
@@ -41,7 +41,7 @@ COLLECT THE “OLD VINYL?”
 @choice "NO" goto:.vinylNo
 @stop
 
-#vinylGet
+# vinylGet
 
 @set HasOldVinyl=true
 ZINNIA: It's almost like you didn't even try.  
@@ -52,13 +52,13 @@ YOU: Is there really any use for trash besides being trash?
 ZINNIA: Is it really ever just trash? 
 @goto .itemGet
 
-#vinylNo
+# vinylNo
 YOU: Let's look a bit longer.  
 YOU: I'm not sure yet. 
 ZINNIA: Do what you want. 
 @goto .itemPick
 
-#prayer
+# prayer
 ITEM DESCRIPTION: Various prayer beads that come together in one beautiful chain. Its weight feels right against your palm. 
 
 YOU: I wonder who they prayed to. 
@@ -77,7 +77,7 @@ COLLECT THE “PRAYER BEADS?”
 @choice "NO" goto:.prayerNo
 @stop
 
-#prayerGet
+# prayerGet
 
 @set HasPrayerBeads=true
 YOU: This one just feels right. 
@@ -87,14 +87,14 @@ ZINNIA: Get the droid to bring it to the ship.
 
 @goto .itemGet
 
-#prayerNo
+# prayerNo
 YOU: Let me think about it
 YOU: There are still more items to check out. 
 ZINNIA: Alright. 
 
 @goto .itemPick
 
-#gear
+#  gear
 
 ITEM DESCRIPTION: Just another cog in the machine. You feel an odd sort of kinship to it.  
 
@@ -113,7 +113,7 @@ COLLECT THE “GIANT GEAR?”
 @choice "NO" goto:.gearNo
 @stop
 
-#gearGet
+# gearGet
 
 @set HasGiantGear=true
 YOU: I think we'll need both our droids for this collection. 
@@ -124,14 +124,14 @@ MARIA: Awkward…
 
 @goto .itemGet
 
-#gearNo
+# gearNo
 YOU: I'll come back to it. 
 YOU: I want to look at something else.
 ZINNIA: Alright. 
 
 @goto .itemPick
 
-#itemGet
+# itemGet
 There is silence as you truck back to your ship. Climbing out of the cistern and under the sky, you can feel the weight of the world sting. 
 
 @hidePrinter

@@ -14,7 +14,7 @@ MARIA: How did your first mission go?
 @choice "She makes me want to work hard." goto:.workhard
 @stop
 
-#easy
+# easy
 MARIA: Should a princess be carried by her knight?
 YOU: Am I too obvious? 
 MARIA: Enough to make me feel jealous.
@@ -26,7 +26,7 @@ It feels like a threat.
 You shiver. 
 @goto .mariaResponse
 
-#doesntmatter
+# doesntmatter
 MARIA: It doesn't matter. 
 YOU: It's all the same anyways. Just traaaash.
 MARIA: Not tools?
@@ -34,7 +34,7 @@ YOU: Just heaps of junk.
 MARIA laughs.
 @goto .mariaResponse 
 
-#workhard
+# workhard
 MARIA: How cute. 
 YOU: I didn't expect her to be so. So passionate. 
 MARIA: You think a defector wouldn't have passion?
@@ -43,7 +43,7 @@ YOU: It's just. So. Unexpected.
 YOU: I think I like it. Whatever it is. 
 @goto .mariaResponse
 
-#mariaResponse
+# mariaResponse
 
 MARIA: YOU
 MARIA: RESPECT HER

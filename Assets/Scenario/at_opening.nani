@@ -8,7 +8,7 @@ What’s it like being the highest ranking official in the lowest sector of the 
 @choice "Does it even matter? All that work for a few extra crumbs? No thanks." goto:.after
 @stop
 
-#after
+# after
 
 Look what the top gets you, even as speck of dust. What does the top get you? 
 

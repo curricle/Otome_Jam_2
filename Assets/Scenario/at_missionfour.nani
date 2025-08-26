@@ -11,7 +11,7 @@ YOU: I used to-
 @choice "Really resent you. " goto:.resent
 @stop
 
-#admire
+# admire
 YOU: Company's number one. Aspirational. 
 ZINNIA: How do you feel about me now?
 YOU: Wouldn't you like to know?
@@ -19,7 +19,7 @@ ZINNIA stares at you.
 You don't reply. 
 @goto .atmosphere
 
-#resent
+# resent
 ZINNIA: No one's ever said that to my face before. 
 Zinnia almost looks pleased. 
 YOU: I like you more now. You're a lot cuter than I thought you could be. 
@@ -29,7 +29,7 @@ YOU: A genetic trash super soldier?
 ZINNIA: Ahaha! 
 @goto .atmosphere
 
-#atmosphere
+# atmosphere
 There's something about the atmosphere here that makes you feel off, maybe a little bit more brutally honest. Uncensored. And maybe, just a bit dizzy. 
 
 YOU: My head's pounding. It hurts. 
@@ -52,7 +52,7 @@ She doesn't.
 
 Her silence says get to work. 
 
-#itemPick
+# itemPick
 You collect:
 
 @choice "ITEM: DEVOTIONAL OIL" goto:.oil
@@ -60,7 +60,7 @@ You collect:
 @choice "ITEM: BROKEN CONTROLLER" goto:.controller
 @stop
 
-#oil
+# oil
 
 ITEM DESCRIPTION: Some sort of oil; it's greasy to the touch. Easily flammable. An interesting thing to fish from the bottom of water. You can't quite make out its label, the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
 
@@ -81,7 +81,9 @@ COLLECT THE “DEVOTIONAL OIL?”
 @choice "NO" goto:.oilNo
 @stop
 
-#oilGet
+# oilGet
+
+@set HasDevotionalOil=true
 ZINNIA: The OA team is gonna appreciate it. .   
 YOU: This stuff gets analyzed? 
 ZINNIA: Sometimes.
@@ -89,7 +91,7 @@ ZINNIA: Oil like this, was used to revere.
 ZINNIA: Made to worship.  
 @goto .itemGet
 
-#oilNo
+# oilNo
 ZINNIA: You're tossing it back in?
 She almost sounds pained.
 YOU: We can always fish it out later. 
@@ -97,7 +99,7 @@ ZINNIA: ….
 ZINNIA: Right. 
 @goto .itemPick
 
-#earthenware
+# earthenware
 ITEM DESCRIPTION: In a world full of devices built from machines. This looks special. This looks worthless. This looks entirely made from hand. 
 
 ZINNIA: ....
@@ -117,19 +119,20 @@ COLLECT THE “OLD EARTHENWARE?”
 @choice "NO" goto:.earthenwareNo
 @stop
 
-#earthenwareGet
+# earthenwareGet
+@set HasOldEarthenware=true
 ZINNIA: You're really bringing this back. 
 YOU: Yeah?
 ZINNIA: You just can't. 
 ZINNIA: Nevermind. 
 @goto .itemGet
 
-#earthenwareNo
+# earthenwareNo
 YOU: Hold on. 
 YOU: What if I find something I love even more?
 @goto .itemPick
 
-#controller
+# controller
 ITEM DESCRIPTION: It's a broken controller. You think it was used for music. Some sick warehouse raves. 
 
 YOU: I guess they threw parties here.
@@ -146,18 +149,19 @@ COLLECT THE “BROKEN CONTROLLER?”
 @choice "NO" goto:.controllerno
 @stop
 
-#controllerGet
+# controllerGet
+@set HasBrokenController=true
 YOU: C'mon, we can rig this up and party on the ship.  
 ZINNIA: ...
 You can feel her rolling her eyes. 
 @goto .itemGet
 
-#controllerno
+# controllerno
 YOU: Hmm…
 YOU: I'll be back!!
 @goto .itemPick
 
-#itemGet
+# itemGet
 ZINNIA: Solid collection. Let's head back to the ship. 
 
 @hidePrinter

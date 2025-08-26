@@ -14,16 +14,16 @@ ZINNIA: Are you gunning for a promotion? I can put in a good word.
 @choice "Hah! Not as long as you're still here." goto:.quota
 @stop
 
-#clearance
+# clearance
 ZINNIA: A demotion has never gotten rid of my sway. 
 @goto .career
 
-#quota
+# quota
 YOU: As long as we're partners, your quota is my quota. 
 ZINNIA: Spoken like a true motivated guppy. 
 @goto .career
 
-#career
+# career
 ZINNIA: I didn't think you were that into career progression. The logs have really kept you here, bottomfeeder. 
 YOU: First. I think I did want to try. I wanted a cush gig at the galactic comms. But then…
 
@@ -64,7 +64,7 @@ YOU: Do they?
 @choice "What's wrong with being rotted?." goto:.flowers
 @stop
 
-#flowers
+# flowers
 ZINNIA: Maybe I was wrong to think you'd get it. 
 YOU: What's that supposed to mean? 
 ZINNIA: We have no use of elysium fields, there's something far more promising up ahead. 
@@ -90,7 +90,7 @@ You are mesmerized, however, the way it feels like a practiced action.
 
 ;[CG: ZINNIA STANDING ON TOP OF A TELEPHONE TOWER STARING AT THE SEA, SHE HOLDS HER CONSOLE IN HER HAND. FACE LOCKED IN CONCENTRATION. SHE LOOKS BEYOND YOU. SHE DOES HER JOB.]
 
-#itemPick
+# itemPick
 You stand at the world's shore and open your console. You collect: 
 
 @choice "ITEM: A SYNTHESIZER" goto:.synthesizer
@@ -98,7 +98,7 @@ You stand at the world's shore and open your console. You collect:
 @choice "ITEM: OLD SATELLITE DISKS " goto:.satellite
 @stop
 
-#synthesizer
+# synthesizer
 ITEM DESCRIPTION: It's some sort of device. 
 
 Synthesizer.
@@ -121,7 +121,8 @@ COLLECT THE “SYNTHESIZER?”
 @choice "NO" goto:.synthNo
 @stop
 
-#synthGet
+# synthGet
+@set HasSynthesizer=true
 ZINNIA: Good choice.   
 YOU: Something about it. 
 YOU: It just felt. 
@@ -129,13 +130,13 @@ ZINNIA: Special.
 YOU: Yeah. Special. 
 @goto .itemGet
 
-#synthNo
+# synthNo
 ZINNIA: Is there something else you want? 
 YOU: I just want to double check.
 ZINNIA: Don't hesitate for too long. 
 @goto .itemPick
 
-#phones
+# phones
 ITEM DESCRIPTION: Together all the phones and comms look like they've taken the shape of an angel. You find yourself comforted by the catch. 
 
 ZINNIA: Real quantity, not quality. 
@@ -154,18 +155,19 @@ COLLECT THE “COLLECTION OF PHONES?”
 @choice "NO" goto:.phonesNo
 @stop
 
-#phonesGet
+# phonesGet
+@set HasPhones=true
 YOU: Help me secure this net, before we head back to the ship.
 Zinnia reaches over to help bind the catch.
 As the phones are lifted in the air, you can hear them chime, rattled as they take in the air. The percussion of the devices rings softly into an echo.  
 @goto .itemGet
 
-#phonesNo
+# phonesNo
 YOU: Hold on. 
 YOU: I want to check something. 
 @goto .itemPick
 
-#satellite
+# satellite
 ITEM DESCRIPTION: The way they resemble pothos is beautiful. It makes you yearn for the sun.  
 
 YOU: I've never seen them like this before. 
@@ -182,19 +184,20 @@ COLLECT THE “OLD SATELLITE DISKS?”
 @choice "NO" goto:.satelliteNo
 @stop
 
-#satelliteGet
+# satelliteGet
+@set HasOldSatelliteDisks=true
 ZINNIA: Bringing over some local flora for ship decor?
 YOU: Um, yeah. Is that what this is? 
 ZINNIA: You might be clueless, but you do have a good eye.
 ZINNIA: It would be a shame, if it wasn't so useful. 
 @goto .itemGet
 
-#satelliteNo
+# satelliteNo
 YOU: Hmmm…
 YOU: I might come back to this. 
 @goto .itemPick
 
-#itemGet
+# itemGet
 @hidePrinter
 @back black
 @wait i 
