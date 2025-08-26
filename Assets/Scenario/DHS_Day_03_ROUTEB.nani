@@ -1,0 +1,510 @@
+# DHS03_B
+
+; DEAD HEAT SUPERNOVA —> BACKLIGHT
+@hidePrinter
+@back black
+@showUI CC_DHS_Backlight
+@wait i
+
+@hideUI CC_DHS_Backlight
+@wait i
+
+@printer c_Dialogue
+
+MARIA: …and I have set the parameters for the inside of the ship to be as fuel efficient as possible.
+MARIA: …
+MARIA: Are you listening to me?
+
+@back CORPOSHIT9000
+
+You stir from the heat addled haze. Her pinpricks are ice cold.
+
+YOU: Yes, I am.
+YOU: I understand that you are prioritizing our return trip…
+YOU: But if we die from heatstroke, it will make it difficult to send everything back.
+MARIA: You always have a quip.
+YOU: You always say something that warrants it.
+
+The steady hum of central air keeps you tethered. 
+
+YOU: …
+YOU: Where is he?
+MARIA: I thought you would never ask.
+MARIA: You do a terrible job at keeping an eye on your jailbird.
+YOU: …
+
+You press a tentative hand against your chest. The killswitch is there. 
+There are no signs of activation. No smoldering ruin, no smoky consequence. He’s probably outside.
+
+One deep breath in, one deep breath out.
+
+You relax for a moment.
+
+You need to organize your thoughts. Let’s start…
+
+# MemoriaOrRecollection
+
+@choice "Memoria"
+
+    @set MemoriaChosen=true
+    MARIA: The issue of Memoria.
+    YOU: Estehelix is really full of that stuff, huh.
+    YOU: It makes me wonder why Corpo hasn’t sent more officers here.
+    MARIA: It is simple.
+    MARIA: It is the perfect fuel for the obsessive types.
+    MARIA: They do not want anything interfering with their work.
+    YOU: …
+    MARIA: Oh, that does make you the perfect candidate, though.
+    MARIA: The perfect and unfeeling “Miss Recollection” of Waste Management.
+    YOU: Thank you, Maria.
+    She beams.
+
+    @goto .MemoriaOrRecollection if:RecollectionChosen=false
+    @goto .02 if:RecollectionChosen=true
+
+@choice "Recollection Effort"
+
+    @set RecollectionChosen=true
+    YOU: The issue of Recollection’s mission…
+    YOU: The uncharted territory that is Estehelix.
+    YOU: In that aspect, my assignment to extract Raven and to map everything out…
+    YOU: It makes sense.
+    YOU: The rest of it, though…
+    YOU: Recollection is not something that should take long.
+    YOU: A few weeks, at most.
+    YOU: Canvassing, surveying, extraction.
+
+    @goto .MemoriaOrRecollection if:MemoriaChosen=false
+    @goto .02 if:MemoriaChosen=true
+
+# 02
+
+MARIA: Have you considered that you might simply be too efficient?
+MARIA: Most Recollection Efforts take months.
+YOU: Those Officers are not me.
+YOU: Nor are their projects Waste Management.
+YOU: Their projects typically include the highs and lows of human interaction.
+YOU: So…
+YOU: It would make sense why their efficiency is so low.
+YOU: My job is different.
+MARIA: …
+MARIA: I suppose.
+MARIA: But not in this case.
+MARIA: Here, you have the most human creature you can think of.
+MARIA: A creature with a tremendous ego.
+YOU: You sound jealous.
+MARIA: I will not respond to that query.
+YOU: A shame.
+YOU: I’m sure that I did give you the ability to feel that.
+
+If she could, she would have jabbed you in the throat for that remark.
+You know this.
+
+@choice "Raven."
+
+YOU: Back on topic.
+YOU: He must have something to do with the memoria, then.
+YOU: He seemed pretty crazy about it, so…
+YOU: Maybe a better sensitivity to it? 
+YOU: I don’t want to say control, but…
+MARIA: You would be exactly correct.
+MARIA: I have been running periodic checks.
+MARIA: He is, as you have so eloquently provided, “full of the stuff”.
+MARIA: While memoria is native to Estehelix, it is at its core, something that can be controlled.
+MARIA: It can appear in all states of matter. 
+MARIA: It can be…mm…
+
+She conjures an image of a Frankenstein-style surgery. 
+A beautiful boy being chopped into pieces and stitched back together in a chimerical fashion.
+
+MARIA: Made to be a part of you.
+YOU: How charming.
+
+You make your way through the ship’s compartments until you are in your jumpsuit and you have your pack. You would be traveling past the stadium today. 
+
+MARIA: Conclusion: He must be particularly good at it.
+YOU: Thank you, Maria.
+YOU: To think that I once thought you smarter than me.
+
+She bristles, but she does not comment.
+
+You open the hatch.
+
+Your little jailbird is outside. 
+
+Raven picks at a piece of rations. It doesn’t look any less full than when you left it yesterday. He pokes, prods, and decides against it.
+
+YOU: I’d try and eat a little bit.
+YOU: We have a lot of exploring to do today.
+RAVEN: …
+
+Silence. He shifts to ignore you in higher definition.
+
+YOU: Let’s get to it, then.
+RAVEN: Let’s.
+
+; >> THEATER BACKGROUND
+
+YOU: This place is a nightmare.
+
+Logging every single hallway and possible escape route took longer than you anticipated. Even with Maria’s assistance and the drones, there are still crevices that are unmarked on your map.
+
+It’s a bit frustrating, to say the least. Usually, you would have the pleasure of sneaking around and grabbing whatever was interesting, but everything was interesting here.
+
+Everything shines, underneath the layers of dirt and grime.
+
+It does not help that your partner is useless.
+
+MARIA: He really is. 
+MARIA: Every time you turn around, he is gone.
+
+You grit your teeth. If you aren’t careful, you will grind those veneers into dust.
+
+YOU: I know he can’t run away too far but…
+MARIA: You worry that he will be able to get out of your well laid trap.
+MARIA: He does have the qualities of an escape artist.
+
+You click your tongue, having nothing better to add to the conversation.
+But, it’s nice. 
+This. The chase.
+To have an all consuming project.
+
+YOU: Hey, Raven.
+RAVEN: …
+He shoots you a withering glance.
+YOU: Glad to see you can still hear.
+RAVEN: Tch.
+YOU: Anything of note over there?
+RAVEN: …
+RAVEN: …
+RAVEN: Mmm.
+YOU: …
+
+Right.
+
+; >> ITEM CHOICES
+
+# ItemChoice
+
+@choice "ACTOR’S BOX" goto:.ActorsBox
+@choice "SILVER BULLETS" goto:.SilverBullets
+
+# ActorsBox
+
+ITEM DESCRIPTION: An actor’s box. 
+As in, it belonged to an actor? 
+Or as in, it’s filled with an actor’s tool of his trade? 
+What does an actor need to succeed? 
+The box is filled with makeup. 
+It’s still intact and perfect. 
+The hole that Raven found it in must have been very well kept.
+
+The box is lined with scraps from junkyards. 
+You can tell that much after years of Collecting. 
+
+YOU: Where did you find this?
+RAVEN: …
+RAVEN: I don’t remember.
+RAVEN: Over there, somewhere?
+YOU: You literally just had it.
+RAVEN: Mm, did I?
+RAVEN: You know how it is here.
+YOU: Tch.
+
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “ACTOR’S BOX”? 
+@choice "YES" goto:.ActorsBoxChosen
+@choice "NO" goto:.ActorsBoxRefused
+
+# ActorsBoxChosen
+@set HasActorsBox=true
+@set Day3Item="actor's box"
+@set RouteB++
+YOU: I’m being serious.
+RAVEN: I am too?
+RAVEN: I didn’t know waste management was so particular about this kinda stuff.
+RAVEN: What a pain.
+YOU: It just seems really well-preserved for something so old.
+RAVEN: This isn’t as old as you think.
+YOU: …
+YOU: Oh?
+MARIA: He knows more than he’s letting on.
+YOU: …
+RAVEN: (sprite sliding away)
+MARIA: You’re going to let him leave?
+YOU: We’ll find out soon enough.
+
+The {Day3Item} is small enough to fit in your bag. There’s no real need to call the drone for something like this.
+@goto .ItemChosen
+
+# ActorsBoxRefused
+YOU: Let’s leave it for now.
+MARIA: That’s surprising.
+YOU: In what way?
+MARIA: You seemed attached. That is all.
+@goto .ItemChoice
+
+# SilverBullets
+ITEM DESCRIPTION: Six silver bullets. 
+They are in a varied state of repair. 
+Some of them still have their casings. 
+Some are just a sharp point. 
+Half filled with gunpowder. 
+
+MARIA: Propwork? 
+YOU: Unsure. The size looks too correct for movie magic.
+YOU: Even with the desire to be accurate, these look used.
+YOU: He’s been awfully distant. 
+YOU: Raven.
+RAVEN: Yeah?
+YOU: You used to live here, right?
+YOU: On this colony? 
+RAVEN: …
+RAVEN: You have my dossier.
+
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “SILVER BULLETS”? 
+@choice "YES" goto:.SilverBulletsChosen
+@choice "NO" goto:.SilverBulletsRefused
+
+# SilverBulletsChosen
+
+@set HasSilverBullets=true
+@set Day3Item="silver bullets"
+@set RouteC++
+YOU: We’ll take them. 
+YOU: They might be useful for identification purposes.
+MARIA: …I do not see the point.
+MARIA: Whoever used them is long dead.
+RAVEN: You’d hope so.
+YOU: Oh?
+RAVEN: Staying alive for this long would be a curse.
+
+The {Day3Item} are small enough to fit in your bag. There’s no real need to call the drone for something like this.
+@goto .ItemChosen
+
+# SilverBulletsRefused
+YOU: Let’s keep looking.
+YOU: We’re awfully below quota.
+MARIA: Wise choice.
+@goto .ItemChoice
+
+# ItemChosen
+
+YOU: Stay out of my blind spots.
+RAVEN: …
+RAVEN: You don’t have eyes in the back of your head?
+YOU: …
+
+Well.
+
+MARIA: Not exactly.
+YOU: No.
+YOU: So stay where I can see you.
+RAVEN: Or what?
+YOU: …
+
+You wait for him to make his move. When he steps forward, he falls in step with your line of sight.
+
+@choice "Smack him over the head." set:RavenPoints=10
+
+    Whack!
+
+    RAVEN: (sprite going down) What the hell?!
+    YOU: Please remember that we are partners, Raven.
+    YOU: So. 
+    YOU: Play nice.
+
+    MARIA: That will leave a mark.
+
+    Raven rubs at the back of his neck. He scowls, but he stays within sight. He still walks slowly, slower, slow, so slow, but you adjust to his habit.
+
+    YOU: Do you do this on purpose?
+    RAVEN: …
+    RAVEN: I wonder.
+    YOU: You don’t.
+
+    His scowl changes into something else that you have difficulty parsing. 
+
+    RAVEN: Hmm.
+    YOU: ?
+    YOU: What’s so…
+    YOU: Funny?
+    RAVEN: Nothin’, Miss Recollection.
+
+    Languid. Smooth. 
+    These aren’t words that you would attach to a high profile bomber.
+    And yet.
+    Everything he does is measured. 
+    @goto .03
+
+@choice "Trip him." set:RavenPoints=5
+
+    You stick your leg out. Just enough. When he takes a step forward, you swing it in a smooth arc.
+
+    He steps over it with ease.
+
+    RAVEN: …
+    YOU: …
+    RAVEN: …
+
+    The confrontation has left you speechless.
+
+    RAVEN: …
+    MARIA: Ioanna. That was pathetic.
+    YOU: Can you come back and let me try that again.
+    RAVEN: Hell no.
+
+    His ever-present grimace changes into something else that you have difficulty parsing. 
+
+    RAVEN: Hmm.
+    YOU: ?
+    YOU: What’s so…
+    YOU: Funny?
+    RAVEN: Nothin’, Miss Recollection.
+
+    Languid. Smooth. 
+    These aren’t words that you would attach to a high profile bomber.
+    And yet…
+    @goto .03
+
+@choice "Leave him alone." set:RavenPoints=0
+    @goto .03
+
+# 03
+
+>>>
+>>
+>
+
+He walks past you.
+He does not look back, but he raises his hand.
+
+He’s holding the {Day3Item}.
+
+You immediately check your pockets. 
+Then you press your hand against your chest.
+
+The killswitch is still there.
+
+RAVEN: I thought it’d be interesting to take a look at it, is all.
+RAVEN: Since I found it.
+YOU: Return it.
+YOU: It’s going to be cataloged and…
+RAVEN: Destroyed.
+RAVEN: So, where’s the harm?
+MARIA: …
+MARIA: He is insufferable.
+YOU: …
+YOU: …
+YOU: Fine.
+
+RAVEN: Thanks.
+
+He fiddles with the {Day3Item}. 
+
+@goto .04_ActorsBox if:Day3Item="actor's box"
+@goto .04_SilverBullets if:Day3Item="silver bullets"
+
+# 04_ActorsBox
+
+He keeps the Actor’s box under his arm. 
+It’s a sizable piece. 
+Maria already explained its contents, but he seems familiar with the make and model of each make-up palette. 
+
+You want to ask. 
+You won’t. 
+You can already imagine the smug look of satisfaction that will grace his face and the idea pisses you off so much you taste chalk. 
+
+There are so many things in there. Baubles. Feathers. Fake jewels and rings. All things that a racer wouldn’t have anything to do with.
+Yet, he handles each piece with the eye of an appraiser. 
+All of it is meant for the roar of flames.
+There’s no need to spend so much time on it.
+
+MARIA: Have you considered telling yourself that?
+MARIA: Seriously.
+MARIA: That sort of commentary from you is laughable.
+YOU: …
+
+The two of you make it back to CorpShit9000.
+
+RAVEN: …I’ll start the launch sequence. 
+
+He clearly knows what he’s good at it. You let him into the ship. 
+
+He puts the box on his lap, he works magic with the blinking lights.
+You hover next to him. It’s a weird reversal. You don’t like it.
+
+YOU: …
+RAVEN: Do you know anything about makeup?
+YOU: No.
+RAVEN: Mm.
+
+You can’t tell if this was supposed to be a slight. 
+
+RAVEN: Then this really isn’t useful at all.
+RAVEN: It’s all stagework. 
+RAVEN: …
+RAVEN: That should do it.
+
+He peels himself from the pilot’s chair and takes his box with him.
+
+When it’s lights out, you pretend to sleep. He does, too.
+You watch him organize each vial before he slips out the emergency hatch.
+You didn’t lock the door.
+
+# 04_SilverBullets
+
+Six silver bullets. The two of you counted them. He twirls one of them over his hand.
+Even with the presence of the worn leather, he is precise. The casing twirls perfectly.
+It’s obnoxious.
+
+YOU: You’re a bit of a show off.
+
+He ignores you. 
+
+You’re not sure why that bothers you so much. 
+Maria sighs.
+
+YOU: Were you someone’s dog?
+He looks back. 
+RAVEN: A bird.
+RAVEN: I was a bird once.
+YOU: Hah.
+YOU: …
+RAVEN: …
+
+He stuffs them into his pocket. The two of you make it back to the ship. He waits patiently. He knows he can’t do anything. Maybe. Maybe not. 
+You can’t tell. Not quite yet. You open the door and he walks in first, already headed to the console. 
+
+You don’t need to ask.
+He begins the start up sequence. You watch him like a disgruntled ghost.
+Not that you have any passing regrets.
+Everything you do is calculated.
+Cause, effect. Chain, anchor.
+
+YOU: Have you ever played Russian Roulette?
+
+He doesn’t react to the question. He finishes his preparations and leans back in the pilot’s chair. You sit on the arm rest, arms crossed over your chest.
+
+YOU: It’s an old Recollection myth.
+YOU: An Old World game, where you—
+RAVEN: You play with a loaded gun.
+RAVEN: There’s one empty chamber.
+YOU: Actually—
+RAVEN: That’s how we played on Estehelix.
+
+You swallow back the comment bubbling in your throat.
+
+He’s done talking.
+
+You let him keep the chair.
+
+When it’s lights out, you pretend to sleep. He does, too.
+You watch him as he slips out the emergency hatch.
+You didn’t lock the door.
+
+@goto DHS_Day_04_ROUTEB
+@stop

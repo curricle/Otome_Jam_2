@@ -51,7 +51,7 @@ MonoBehaviour:
   Metadata:
     ids:
     - MainBackground
-    - 
+    - FakersLayered
     metas:
     - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -82,7 +82,7 @@ MonoBehaviour:
       CustomMatchRatio: 0
       Poses: []
       ScenePathRoot: Assets/Scenes
-    - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+    - Implementation: Naninovel.LayeredBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: Backgrounds
@@ -91,7 +91,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: c9e4366e-fd49-4824-98fc-619ffb9ef965
+      guid: 98204f15-d0bb-4f00-aa16-36c15eae4852
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}

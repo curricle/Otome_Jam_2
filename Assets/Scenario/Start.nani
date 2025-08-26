@@ -1,8 +1,9 @@
 # Start
 
+@printer c_Dialogue
 ; CG: Ioanna with her hand pressed against the glass of the incinerator. The machine is on, there’s only her reflection and the red hot fire. Ashes. Whatever civilization she has condemned, it’s gone forever now. There’s an emptiness to her expression that goes unnoticed by everyone without a practiced eye.
 
-@back Incinerator_01
+@back Incinerator
 @bgm Fire
 
 ????: Another job well done.
@@ -27,18 +28,19 @@ You turn on your heel and walk away from the incinerator.
 
 @sfx Footsteps_01
 @stopBgm Fire fade:2
-@back Atrium_01
+@back FAKERS
 
 The mission brief is almost immediate. It’s a breath of freshly circulated air in the fake atrium, where you float from one side of the room to another.
 One step forward and three steps back.
-You wave a hand and pull up the documents in your terminal. 
-
-@back Papers
+You wave a hand and pull up the documents in your terminal.
 
 You see your field manager in your peripheral. She’s a little icon, right at the bottom of the screen. 
 She smiles with all her teeth. 
 Connection, connecting. 
 Maria sighs.
+
+@back YourFriendCastor
+
 CASTOR: It’s a double whammy.
 YOU: You say this like it isn’t your job.
 YOU: You pick these out for me.
@@ -88,9 +90,13 @@ CASTOR: Which one do you want to hear first?
 You let the fake wind tousle your cropped hair. 
 You let the fake sun sink into your synthskin. You let the world spin on its orbit, and sigh.
 
+@back Dossiers
+
 The two dossiers look at you with expectant eyes.
 
-; SHOW REPORT UI
+@hidePrinter
+
+@back Dossiers_Castor
 
 CASTOR: Sooooo?
 MARIA: That Manager of yours should get fired.
@@ -107,7 +113,7 @@ CASTOR: You good there, Ioanna?
 YOU: Yeah. Yeah.
 YOU: Any preference, Manager?
 CASTOR: Ehhhh, no way. 
-CASTOR: They’re both total nightmare cases, but if you manage to come out on top, it’ll be a nice fastpass out of waste management.
+CASTOR: They’re both total nightmare cases, but if you manage to come out on top, it’ll be a fastpass out of waste management.
 CASTOR: Wouldn’t that be nice?
 YOU: I really do need a new Manager.
 CASTOR: Oh, come on.
@@ -139,7 +145,7 @@ CASTOR: It’s part of my duty!
 YOU: You have direct access to my vitals and my terminal. 
 YOU: Take the uploads from there.
 CASTOR: But I like to see you.
-She makes a pathetic unhappy face that turns her entire face into the facsimile of a crying cat. 
+She turns into a facsimile of a crying cat. 
 MARIA: I can do the work she does. 
 MARIA: I can do it better.
 YOU: You already do what Castor is supposed to do.
@@ -156,6 +162,9 @@ CASTOR: Could you say it again, but like you mean it.
 CASTOR: I want to record it.
 YOU: See you later, Castor.
 YOU: I’ll run it through the proper channels.
+
+@back FAKERS
+
 With another wave of your hand, the atrium is back in full view. The skyscape window is real. You float towards it and press your hand against the glass. 
 The galaxy sings. Every single star is a blot in an ink ocean. It moves with your grace.
 MARIA: So.
@@ -170,6 +179,9 @@ YOU: One that I do not want.
 MARIA: An opportunity nonetheless.
 You walk back to your apartment unit. 
 It is at the end of the hall, a very long, long hall. You do not have neighbors.
+
+@back WelcomeHome
+
 It’s considered a perk. You asked for this room. There’s a huge window.
 There’s not much of anything else. There is no reason to keep anything. 
 A barebones set up. Bed. Desk. Closet. Bathroom. Kitchenette. 
@@ -184,9 +196,14 @@ Maria wants to say something but her presence dims. She’s a fuzzy halo instead
 Silent. 
 You close your eyes. The terminal greets you with a fluorescent buzz. 
 
+@back Dossiers_Home
+
 YOU: I guess I’ll go with…
 
-@choice "REPORT 1: DEAD HEAT SUPERNOVA" goto:DHS_Day_01
-@choice "REPORT 2: AFTERTOUCH"
+@hidePrinter
+@back WelcomeHome
+
+@choice handler:ButtonArea button:Raven_Dossier goto:DHS_Day_01 pos:-300,0
+@choice handler:ButtonArea button:Zinnia_Dossier pos:400,0
 
 @stop
