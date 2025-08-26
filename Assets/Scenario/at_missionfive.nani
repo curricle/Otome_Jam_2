@@ -98,6 +98,8 @@ ZINNIA: It depends on what you find.
 @wait i 
 
 ;GO TO ENDINGS
-@goto at_goodend if:HasOldTransmitter&&HasOldVinyls&&HasSynthesizer&&HasDevotionalOil&&HasPhonograph
+@goto at_goodend if:{RouteA > RouteB && RouteA > RouteC }
+@goto at_badcorpoend if:{RouteC > RouteA && RouteC > RouteB}
+@goto at_zinniamariaend if:{RouteB > Route A && RouteB > RouteC}
 
 @stop
