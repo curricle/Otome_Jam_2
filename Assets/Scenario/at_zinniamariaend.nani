@@ -1,9 +1,9 @@
 ;bg
 @back Junkheap
 
-@char YOU
+
 @char ZINNIA
-@char MARIA
+
 
 @choice "THE OMNICHORD" goto:.omniTwo
 @choice "THE OMNICHORD" goto:.omniTwo
