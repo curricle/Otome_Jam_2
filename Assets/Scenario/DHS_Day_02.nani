@@ -176,14 +176,16 @@ MARIA: Estehelix has all kinds of people.
 @goto .ItemChoice
 
 # ItemChosen
+@hide RAVEN
 @back black
 @hidePrinter
 @wait i
 
 @back Stadium
 @printer c_Dialogue
-@char RAVEN.Aloof
+
 With your bounty in hand, you focus your efforts on your new partner. 
+@char RAVEN.Aloof
 While he has a quip for every occasion, Raven generally keeps to himself. He pulls at his collar and lets the wind sway him back and forth. You find him leaning against one of the better seats, dark gaze focused on something far away.
 You turn to look at him.
 
@@ -206,7 +208,7 @@ YOU: <i>So…</i>
 
 RAVEN: Sorry?
 YOU: You’ve been weird about this sector all trip.
-YOU: It’s clearly bothering you
+YOU: It’s clearly bothering you.
 YOU: So.
 YOU: Spit it out.
 YOU: What’s chewing you up? 
@@ -232,7 +234,7 @@ He paints a beautiful scene.
 ; [CG: FAMILY AFFAIRS]
 @back FamilyAffairs
 @hide RAVEN
-@char crew
+@char CREW.white
 VOICE1: “Are you ready ▮▮▮▮▮?” 
 VOICE2: “’course. I was born ready.”
 VOICE1: “Make sure you keep your head on straight; we can’t afford anymore crashes.” 
@@ -241,7 +243,7 @@ VOICE1: “You really are the worst, y’know.”
 VOICE2: “Oh, come on! I’m serious, I’ll be winning this.”
 VOICE3: “That’s not what we have an issue with!”
 The laugh crackles through the intercom.
-@hide crew
+@hide CREW
 
 @back Stadium
 MARIA: What is this? 
@@ -265,10 +267,11 @@ If the cargo was safe, Recollection doesn’t care too much about its passengers
 >>
 >
 
+@hidePrinter
 @back black
 @wait i
 @back CORPOSHIT9000
-
+@printer c_Dialogue
 He makes it back first. 
 He doesn’t help with the load.
 You dig your nails into the mesh bag and throw it over your shoulders.

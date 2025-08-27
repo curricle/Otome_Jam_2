@@ -47,40 +47,37 @@ You need to organize your thoughts. Let’s start…
 
 # MemoriaOrRecollection
 
-@choice "Memoria" if:!MemoriaChosen
-
-    @set MemoriaChosen=true
-    MARIA: The issue of Memoria.
-    YOU: Estehelix is really full of that stuff, huh.
-    YOU: It makes me wonder why Corpo hasn’t sent more officers here.
-    MARIA: It is simple.
-    MARIA: It is the perfect fuel for the obsessive types.
-    MARIA: They do not want anything interfering with their work.
-    YOU: …
-    MARIA: Oh, that does make you the perfect candidate, though.
-    MARIA: The perfect and unfeeling “Miss Recollection” of Waste Management.
-    YOU: Thank you, Maria.
-    She beams.
-
-    @goto .MemoriaOrRecollection if:RecollectionChosen=false
-    @goto .02 if:RecollectionChosen=true
-
-@choice "Recollection Effort" if:!RecollectionChosen
-
-    @set RecollectionChosen=true
-    YOU: The issue of Recollection’s mission…
-    YOU: The uncharted territory that is Estehelix.
-    YOU: In that aspect, my assignment to extract Raven and to map everything out…
-    YOU: It makes sense.
-    YOU: The rest of it, though…
-    YOU: Recollection is not something that should take long.
-    YOU: A few weeks, at most.
-    YOU: Canvassing, surveying, extraction.
-
-    @goto .MemoriaOrRecollection if:MemoriaChosen=false
-    @goto .02 if:MemoriaChosen=true
-
+@choice "Memoria" if:!MemoriaChosen set:RecollectionChosen=true goto:.MemoriaChosen
+@choice "Recollection Effort" if:!RecollectionChosen set:RecollectionChosen=true goto:.RecollectionChosen
 @stop
+
+# MemoriaChosen
+
+YOU: The issue of Recollection’s mission…
+YOU: The uncharted territory that is Estehelix.
+YOU: In that aspect, my assignment to extract Raven and to map everything out…
+YOU: It makes sense.
+YOU: The rest of it, though…
+YOU: Recollection is not something that should take long.
+YOU: A few weeks, at most.
+YOU: Canvassing, surveying, extraction.
+
+@goto .MemoriaOrRecollection if:MemoriaChosen=false
+@goto .02 if:MemoriaChosen=true
+
+# RecollectionChosen
+
+YOU: The issue of Recollection’s mission…
+YOU: The uncharted territory that is Estehelix.
+YOU: In that aspect, my assignment to extract Raven and to map everything out…
+YOU: It makes sense.
+YOU: The rest of it, though…
+YOU: Recollection is not something that should take long.
+YOU: A few weeks, at most.
+YOU: Canvassing, surveying, extraction.
+
+@goto .MemoriaOrRecollection if:MemoriaChosen=false
+@goto .02 if:MemoriaChosen=true
 
 # 02
 
@@ -106,25 +103,26 @@ If she could, she would have jabbed you in the throat for that remark.
 You know this.
 
 @choice "Raven."
+    YOU: Back on topic.
+    YOU: He must have something to do with the memoria, then.
+    YOU: He seemed pretty crazy about it, so…
+    YOU: Maybe a better sensitivity to it? 
+    YOU: I don’t want to say control, but…
+    MARIA: You would be exactly correct.
+    MARIA: I have been running periodic checks.
+    MARIA: He is, as you have so eloquently provided, “full of the stuff”.
+    MARIA: While memoria is native to Estehelix, it is at its core, something that can be controlled.
+    MARIA: It can appear in all states of matter. 
+    MARIA: It can be…mm…
 
-YOU: Back on topic.
-YOU: He must have something to do with the memoria, then.
-YOU: He seemed pretty crazy about it, so…
-YOU: Maybe a better sensitivity to it? 
-YOU: I don’t want to say control, but…
-MARIA: You would be exactly correct.
-MARIA: I have been running periodic checks.
-MARIA: He is, as you have so eloquently provided, “full of the stuff”.
-MARIA: While memoria is native to Estehelix, it is at its core, something that can be controlled.
-MARIA: It can appear in all states of matter. 
-MARIA: It can be…mm…
+    She conjures an image of a Frankenstein-style surgery. 
+    A beautiful boy being chopped into pieces and stitched back together in a chimerical fashion.
 
-She conjures an image of a Frankenstein-style surgery. 
-A beautiful boy being chopped into pieces and stitched back together in a chimerical fashion.
+    MARIA: Made to be a part of you.
+    YOU: How charming.
+@stop
 
-MARIA: Made to be a part of you.
-YOU: How charming.
-
+@back Spaceship
 You make your way through the ship’s compartments until you are in your jumpsuit and you have your pack. You would be traveling past the stadium today. 
 
 MARIA: Conclusion: He must be particularly good at it.
@@ -135,8 +133,11 @@ She bristles, but she does not comment.
 
 You open the hatch.
 
+;bg corposhit9000 v2
+
 Your little jailbird is outside. 
 
+@char RAVEN
 Raven picks at a piece of rations. It doesn’t look any less full than when you left it yesterday. He pokes, prods, and decides against it.
 
 YOU: I’d try and eat a little bit.
@@ -149,6 +150,13 @@ YOU: Let’s get to it, then.
 RAVEN: Let’s.
 
 ; >> THEATER BACKGROUND
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i
+
+@back AnArchitecturalMonstrosity
+@printer c_Dialogue
 
 YOU: This place is a nightmare.
 
@@ -175,7 +183,7 @@ This. The chase.
 To have an all consuming project.
 
 YOU: Hey, Raven.
-RAVEN: …
+RAVEN.Aloof: …
 He shoots you a withering glance.
 YOU: Glad to see you can still hear.
 RAVEN: Tch.
@@ -190,9 +198,11 @@ Right.
 ; >> ITEM CHOICES
 
 # ItemChoice
-
+@hide RAVEN
+@back OpulentTheater
 @choice "ACTOR’S BOX" goto:.ActorsBox
 @choice "SILVER BULLETS" goto:.SilverBullets
+@stop
 
 # ActorsBox
 
@@ -208,7 +218,7 @@ The box is lined with scraps from junkyards.
 You can tell that much after years of Collecting. 
 
 YOU: Where did you find this?
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: I don’t remember.
 RAVEN: Over there, somewhere?
 YOU: You literally just had it.
@@ -236,11 +246,12 @@ YOU: …
 YOU: Oh?
 MARIA: He knows more than he’s letting on.
 YOU: …
-RAVEN: (sprite sliding away)
+;RAVEN: (sprite sliding away)
+@hide RAVEN
 MARIA: You’re going to let him leave?
 YOU: We’ll find out soon enough.
 
-The {Day3Item} is small enough to fit in your bag. There’s no real need to call the drone for something like this.
+The {Day3Item} [if Day3Item=="actor's box"]is [else]are [endif]small enough to fit in your bag. There’s no real need to call the drone for something like this.
 @goto .ItemChosen
 
 # ActorsBoxRefused
@@ -262,7 +273,7 @@ YOU: Unsure. The size looks too correct for movie magic.
 YOU: Even with the desire to be accurate, these look used.
 YOU: He’s been awfully distant. 
 YOU: Raven.
-RAVEN: Yeah?
+RAVEN.Aloof: Yeah?
 YOU: You used to live here, right?
 YOU: On this colony? 
 RAVEN: …
@@ -299,7 +310,7 @@ MARIA: Wise choice.
 # ItemChosen
 
 YOU: Stay out of my blind spots.
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: You don’t have eyes in the back of your head?
 YOU: …
 
@@ -313,21 +324,23 @@ YOU: …
 
 You wait for him to make his move. When he steps forward, he falls in step with your line of sight.
 
-@choice "Smack him over the head." set:RavenAffection+=10
-
+@choice "Smack him over the head." 
+    @set RavenAffection+=10
     Whack!
-
-    RAVEN: (sprite going down) What the hell?!
+    @char RAVEN.EyesClosed
+    @wait 0.5
+    RAVEN.CrashingOut: What the hell?!
     YOU: Please remember that we are partners, Raven.
     YOU: So. 
     YOU: Play nice.
 
     MARIA: That will leave a mark.
 
+    @char RAVEN.EyesClosed
     Raven rubs at the back of his neck. He scowls, but he stays within sight. He still walks slowly, slower, slow, so slow, but you adjust to his habit.
 
     YOU: Do you do this on purpose?
-    RAVEN: …
+    RAVEN.Aloof: …
     RAVEN: I wonder.
     YOU: You don’t.
 
@@ -345,7 +358,8 @@ You wait for him to make his move. When he steps forward, he falls in step with 
     Everything he does is measured. 
     @goto .03
 
-@choice "Trip him." set:RavenAffection+=5
+@choice "Trip him." 
+    @set RavenAffection+=5
 
     You stick your leg out. Just enough. When he takes a step forward, you swing it in a smooth arc.
 
@@ -377,8 +391,10 @@ You wait for him to make his move. When he steps forward, he falls in step with 
 
 @choice "Leave him alone." set:RavenAffection+=0
     @goto .03
+@stop
 
 # 03
+@hide RAVEN
 
 >>>
 >>
@@ -394,7 +410,7 @@ Then you press your hand against your chest.
 
 The killswitch is still there.
 
-RAVEN: I thought it’d be interesting to take a look at it, is all.
+RAVEN.Aloof: I thought it’d be interesting to take a look at it, is all.
 RAVEN: Since I found it.
 YOU: Return it.
 YOU: It’s going to be cataloged and…
@@ -414,8 +430,8 @@ He fiddles with the {Day3Item}.
 @goto .04_SilverBullets if:Day3Item="silver bullets"
 
 # 04_ActorsBox
-
-He keeps the Actor’s box under his arm. 
+@hide RAVEN
+He keeps the actor’s box under his arm. 
 It’s a sizable piece. 
 Maria already explained its contents, but he seems familiar with the make and model of each make-up palette. 
 
@@ -433,9 +449,11 @@ MARIA: Seriously.
 MARIA: That sort of commentary from you is laughable.
 YOU: …
 
+@back CORPOSHIT9000
+
 The two of you make it back to CorpShit9000.
 
-RAVEN: …I’ll start the launch sequence. 
+RAVEN.Aloof: …I’ll start the launch sequence. 
 
 He clearly knows what he’s good at it. You let him into the ship. 
 
@@ -455,10 +473,14 @@ RAVEN: …
 RAVEN: That should do it.
 
 He peels himself from the pilot’s chair and takes his box with him.
+@hide RAVEN
+@back black
 
 When it’s lights out, you pretend to sleep. He does, too.
 You watch him organize each vial before he slips out the emergency hatch.
 You didn’t lock the door.
+
+@goto .Proceed
 
 # 04_SilverBullets
 
@@ -475,12 +497,14 @@ Maria sighs.
 
 YOU: Were you someone’s dog?
 He looks back. 
-RAVEN: A bird.
+RAVEN.Aloof: A bird.
 RAVEN: I was a bird once.
 YOU: Hah.
 YOU: …
 RAVEN: …
 
+@back CORPOSHIT9000
+@hide RAVEN
 He stuffs them into his pocket. The two of you make it back to the ship. He waits patiently. He knows he can’t do anything. Maybe. Maybe not. 
 You can’t tell. Not quite yet. You open the door and he walks in first, already headed to the console. 
 
@@ -496,7 +520,7 @@ He doesn’t react to the question. He finishes his preparations and leans back 
 
 YOU: It’s an old Recollection myth.
 YOU: An Old World game, where you—
-RAVEN: You play with a loaded gun.
+RAVEN.Aloof: You play with a loaded gun.
 RAVEN: There’s one empty chamber.
 YOU: Actually—
 RAVEN: That’s how we played on Estehelix.
@@ -507,10 +531,14 @@ He’s done talking.
 
 You let him keep the chair.
 
+@back black
 When it’s lights out, you pretend to sleep. He does, too.
 You watch him as he slips out the emergency hatch.
 You didn’t lock the door.
 
+# Proceed 
+
+@hide RAVEN
 @hidePrinter
 @back black
 @wait i 

@@ -62,7 +62,12 @@ You zip your suit back on.
 >>
 >
 
+@hidePrinter
+@back black
+@wait i
+
 @back FeetOnTheGround
+@printer c_Dialogue
 
 YOU: Have you gotten comfortable with me, Raven?
 Maria gags.
