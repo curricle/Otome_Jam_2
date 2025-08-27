@@ -13,13 +13,14 @@ You let him in.
 MARIA: Now you’ve done it.
 
 ;[[BACKGROUND: “Do you think we’ll get to leave…”]]
+@back GetToLeave_CORRUPTED
 
 VOICE1: Do you think we’ll get to leave one day?
 VOICE2: I don’t know.
 VOICE2: But I know you’ll make it further than we will.
 VOICE2: You’ve always been our prized jewel, ▮▮▮▮▮.
-???: You’re always sayin’ that but…
-???: What if it ain’t true?
+REDACTED: You’re always sayin’ that but…
+REDACTED: What if it ain’t true?
 VOICE2: You’re the Belladonna’s prince. 
 VOICE2: If anyone’s going to make a miracle happen on the field…
 VOICE2: It’s you.
@@ -33,6 +34,7 @@ He’s younger. Softer. There’s a kindness to his gaze that you’ve never see
 You didn’t know he could even do that.
 
 ;[[BACKGROUND: “He carves space with his index finger.”]]
+@back Photoshoot_CORRUPTED
 
 He carves space with his index finger. His hands are ungloved. He wears paint on his nails. They’re sharp. They can’t possibly be in regulation. He wears his hair in a ponytail. It skims the small of his back. His suit is perfect. 
 
@@ -41,15 +43,15 @@ Click.
 Flash.
 
 VOICE3: Can you tilt your head a bit, ▮▮▮▮▮?
-???: Yeah, like this?
+REDACTED: Yeah, like this?
 VOICE3: Perrrrfect.
 VOICE3: The camera loves loves loves you, you know.
 VOICE3: You could leave this racing stuff behind and find a spot on stage, easy.
-???: My manager must pay you really well.
+REDACTED: My manager must pay you really well.
 VOICE3: This is my pride as an appraiser.
 VOICE3: Estehelix needs charmers like you. 
-???: I dunno…
-???: Oh, sorry. I moved a little too much.
+REDACTED: I dunno…
+REDACTED: Oh, sorry. I moved a little too much.
 VOICE3: Ahhhh, you’re really way too cute.
 VOICE3: Let’s get you an audition! 
 
@@ -75,28 +77,29 @@ YOU: Hah.
 YOU: I wonder if I taste good.
 
 ;[[BACKGROUND: “It’s…not looking good.”]]
+@back ItsNotLookingGood
 
-???: So…
+REDACTED: So…
 VOICE4: It’s…not looking good.
 VOICE4: I know the Program was meant to incentivize building the entertainment colony, but…
 VOICE4: …
-???: You can say it.
-???: I’m a liability. 
+REDACTED: You can say it.
+REDACTED: I’m a liability. 
 
 He’s still so bright. Sparkling. But his gaze is heavy. Tired.
 He fiddles with the chain around his neck. 
 And you press your hand against the one around yours.
 
-???: People don’t want their golden egg killing himself before they can collect.
-???: So.
-???: How much would it be to buy myself out?
+REDACTED: People don’t want their golden egg killing himself before they can collect.
+REDACTED: So.
+REDACTED: How much would it be to buy myself out?
 VOICE4: You can’t be serious.
 VOICE4: Even if you won the next three driver’s championships, it wouldn’t be enough.
-???: That’s fine.
-???: I’ll just win the next four. 
-???: If that’s not enough, I’ll win them all.
-???: Estehelix is our home.
-???: I’m not going to let some fucking Recollection dog take that from me.
+REDACTED: That’s fine.
+REDACTED: I’ll just win the next four. 
+REDACTED: If that’s not enough, I’ll win them all.
+REDACTED: Estehelix is our home.
+REDACTED: I’m not going to let some fucking Recollection dog take that from me.
 
 @back black
 
@@ -109,8 +112,8 @@ YOU: Maybe not.
 
 He pushes his way past his manager. He throws back a defiant look.
 
-???: I am the Belladonna’s prince.
-???: And I won’t let anyone else die.
+REDACTED: I am the Belladonna’s prince.
+REDACTED: And I won’t let anyone else die.
 
 The checkered flag signals the end of the race. The stadium explodes.
 People rise to their feet, again, and again, and again. 
@@ -128,6 +131,7 @@ This is Raven, his back stark against the setting sun.
 His telltale grimace.
 
 ;[[BACKGROUND: “Do you think we’ll get to leave…”]]
+@back GetToLeave_CORRUPTED
 
 RAVEN: It’s not enough, is it.
 VOICE5: Your sponsor is being stubborn.
@@ -165,11 +169,11 @@ He digs.
 Raven sits in the Belladonna’s cockpit. 
 He holds a little black box.
 
-???: Are you scared?
+REDACTED: Are you scared?
 RAVEN: No.
-???: Are you nervous?
+REDACTED: Are you nervous?
 RAVEN: No.
-???: Then…
+REDACTED: Then…
 RAVEN: I know what I have to do.
 RAVEN: I have to race.
 RAVEN: No matter what.
@@ -181,6 +185,7 @@ Year six.
 Year seven.
 
 ; [[BACKGROUND: CG 06 “SKYFALL”]]
+@back Skyfall
 
 Raven sits in the wreckage of the Belladonna’s cockpit.
 He presses his hands against his face. 
@@ -234,7 +239,7 @@ YOU: Yeah?
 
 The stadium beckons. He stands in the middle, arms out stretched.
 
-RAVEN: Do you think I could have found happiness?
+RAVEN.Aloof: Do you think I could have found happiness?
 RAVEN: Outside of the grid?
 
 The Belladonna roars. 
@@ -262,13 +267,14 @@ YOU: Tell me.
 YOU: What do you want to live for? 
 
 ; [[BACKGROUND: CG 07 “THIS IS A MISTAKE”]]
-
+@hide RAVEN
+@char MARIA.Red
 MARIA: THIS
 MARIA: IS
 MARIA: A
 MARIA: MISTAKE
-
-RAVEN: I want to fly.
+@hide MARIA
+RAVEN.LookingAway: I want to fly.
 RAVEN: I want to fly.
 YOU: Then fly, you fucking idiot!
 RAVEN: Even if it didn’t matter?
@@ -280,6 +286,8 @@ YOU: You were meant for the sky.
 
 # ItemChoice
 ;[[BACKGROUND: D5 ITEM CHOICES; THE VOID]]
+@hide RAVEN
+@back VOID
 
 @choice "BLACK BOX" goto:.BlackBox
 @stop
@@ -292,7 +300,7 @@ It’s the last piece of the puzzle.
 You know this, he knows this, and yet, he stares and stares, holding it close to his chest. 
 You need to pull it out. 
 You need to dig your hand through his rib cage and sink your teeth into his heart and tear it out. 
-RAVEN: I’d let you do it.
+RAVEN.Happy: I’d let you do it.
 YOU: Then let me in.
 COLLECT THE “BLACK BOX”? 
 COLLECT THE “BLACK BOX”? 
@@ -314,6 +322,13 @@ YOU: Let’s see it through, until the end.
 >>>
 >>
 >
+
+@hidePrinter
+@back black
+@wait i
+
+@back VOID
+@printer c_Dialogue
 The Belladonna is uncomfortable.
 But she is complete. 
 She takes you, for who you are.
@@ -347,6 +362,7 @@ YOU: Want to give it a try?
 >
 Click.
 
+@hide RAVEN
 @hidePrinter
 @back black
 @wait i 
