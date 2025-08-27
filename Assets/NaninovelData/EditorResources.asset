@@ -509,9 +509,42 @@ MonoBehaviour:
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
-    Resources: []
+    Resources:
+    - name: Default
+      pathPrefix: Characters/CASTOR
+      guid: 71be3683a7f37324f8482d01a6c7975b
+    - name: PeaceSign
+      pathPrefix: Characters/CASTOR
+      guid: a538e0f16688f7744b61db30674c878b
   - Id: Characters/d8b9c781-bfeb-42f1-a563-8aadfb653f32
-    Resources: []
+    Resources:
+    - name: Aloof
+      pathPrefix: Characters/RAVEN
+      guid: f57697cd9d5e9b146b1f847e7cf3698c
+    - name: Happy
+      pathPrefix: Characters/RAVEN
+      guid: 75441b09f6032c1459b84cedd3fe9289
+    - name: Sad
+      pathPrefix: Characters/RAVEN
+      guid: 777ca15a3106f1e4f83b5e2154b27239
+    - name: HeadDownEyesClosed
+      pathPrefix: Characters/RAVEN
+      guid: c6c2861a4b01a8d4daf05b723068076f
+    - name: HeadDownPlayer
+      pathPrefix: Characters/RAVEN
+      guid: 052aeff9d32339f419b8087b66095b44
+    - name: SlightSmile
+      pathPrefix: Characters/RAVEN
+      guid: 8de536831875d344ebf0af7752609799
+    - name: CrashingOut
+      pathPrefix: Characters/RAVEN
+      guid: 819622048daca484ebc2407f76d9b362
+    - name: EyesClosed
+      pathPrefix: Characters/RAVEN
+      guid: e484fc57d3055714596968d443e42c7f
+    - name: LookingAway
+      pathPrefix: Characters/RAVEN
+      guid: 54ea4ddb272cbac4f9d027150e50ecf5
   - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
     Resources: []
   - Id: Characters/50c27364-b925-4cf6-a54b-31f0afc8fa67
@@ -614,6 +647,21 @@ MonoBehaviour:
     - name: AnArchitecturalMonstrosity
       pathPrefix: Backgrounds/MainBackground
       guid: a96fe9cea6cd0ed4b83e876183e69b2b
+    - name: Cisterns
+      pathPrefix: Backgrounds/MainBackground
+      guid: c265d5d0320c3274cad7e45558d081d1
+    - name: Junkheap
+      pathPrefix: Backgrounds/MainBackground
+      guid: 66f8df97357d1b54599b9642720d5edd
+    - name: TheUniverse
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5a02e8a63f012ab408b5b915435da707
+    - name: Chains
+      pathPrefix: Backgrounds/MainBackground
+      guid: a0aa2a1496e558f429371d046200c0c0
+    - name: IncineratorRoom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4c479e9cc76bcf74b982f7857d877e10
   - Id: Audio
     Resources:
     - name: Fire
@@ -641,4 +689,31 @@ MonoBehaviour:
       pathPrefix: Backgrounds
       guid: 4de6ef2e22bc7254aa60bba8899e80be
   - Id: Characters/ab2202b7-3e4d-4294-b8c3-8e4799f0cdf3
-    Resources: []
+    Resources:
+    - name: Aloof
+      pathPrefix: Characters/ZINNIA
+      guid: 4366cef24d67f064888a9023a0228d22
+    - name: EyesClosed
+      pathPrefix: Characters/ZINNIA
+      guid: 69cc050620cc63f4094fcc0c3e7fae73
+    - name: SlightSmile
+      pathPrefix: Characters/ZINNIA
+      guid: 7b009d5ca45b0aa459d889b9a3f28b75
+    - name: EyesClosedSmiling
+      pathPrefix: Characters/ZINNIA
+      guid: 93872bbfa8d91344e86698165a555699
+    - name: PlayerNeutral
+      pathPrefix: Characters/ZINNIA
+      guid: 4387337495bb3ce41922f534d52ba687
+    - name: PlayerSmile
+      pathPrefix: Characters/ZINNIA
+      guid: 5e83784934b7f6c44acb4f50b6acc6b3
+    - name: Embarassed
+      pathPrefix: Characters/ZINNIA
+      guid: 2b9c9d37cea3f344ba53aa3175084933
+    - name: LookingDown
+      pathPrefix: Characters/ZINNIA
+      guid: a88050064b2ff1b4ea98ec313d15f410
+    - name: LookingForward
+      pathPrefix: Characters/ZINNIA
+      guid: 1ddfdbaedb5783745b1e5b9c16b97ff2

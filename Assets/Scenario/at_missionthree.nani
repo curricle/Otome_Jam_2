@@ -50,6 +50,7 @@ ZINNIA: Ioanna?
 ZINNIA: Ioanna are you alright? We've got to finish clearing Prox-2. 
 You: Yeah. Yeah, we do. 
 
+@hide ZINNIA
 The frequency in your brain whirs, as you follow Zinnia down to the coordinates.
 
 Listen. 
@@ -64,6 +65,7 @@ You can feel it guiding you somewhere.  Do you listen to it or do your best to t
 You pass by a beautiful field. 
 
 YOU: We're moving past our assigned coordinates.
+@char ZINNIA
 ZINNIA: Hm.
 
 She continues to march on ahead.
@@ -80,12 +82,14 @@ ZINNIA: Maybe I was wrong to think you'd get it.
 YOU: What's that supposed to mean? 
 ZINNIA: We have no use of elysium fields, there's something far more promising up ahead. 
 YOU: Zinnia, wait up!
+@hide ZINNIA
 
 You cross the hills to telephone poles and towers engulfed by what feels like the ocean. 
 
 ;BACKGROUND SHIFT TO AN EXPANSE OF WATERS HELD UP BY TELEPHONE TOWERS
 @back Waters
 
+@char ZINNIA
 YOU: What happened here? 
 ZINNIA: The remains of a half-submerged planet.
 YOU: It's not like we do dive missions these days. Those are so outdated.
@@ -102,6 +106,7 @@ You are mesmerized, however, the way it feels like a practiced action.
 ;[CG: ZINNIA STANDING ON TOP OF A TELEPHONE TOWER STARING AT THE SEA, SHE HOLDS HER CONSOLE IN HER HAND. FACE LOCKED IN CONCENTRATION. SHE LOOKS BEYOND YOU. SHE DOES HER JOB.]
 
 # itemPick
+@hide ZINNIA
 You stand at the world's shore and open your console. You collect: 
 
 @choice "ITEM: A SYNTHESIZER" goto:.synthesizer
@@ -117,6 +122,7 @@ Synthesizer.
 MARIA supplies the word in your head, but it still doesn't make much sense to you. It's an odd item, almost resembling the control console of your ship, but it doesn't look like it's made for navigation. 
 
 YOU: Is this another transmitter? 
+@char ZINNIA
 ZINNIA: A synthesizer
 MARIA: A Prophet-5. 
 ZINNIA: A model like that looks rare.
@@ -135,6 +141,7 @@ COLLECT THE “SYNTHESIZER?”
 # synthGet
 @set HasSynthesizer=true
 @set AT_RouteA++
+@char Zinnia.SlightSmile
 ZINNIA: Good choice.   
 YOU: Something about it. 
 YOU: It just felt. 
@@ -151,6 +158,7 @@ ZINNIA: Don't hesitate for too long.
 # phones
 ITEM DESCRIPTION: Together all the phones and comms look like they've taken the shape of an angel. You find yourself comforted by the catch. 
 
+@char Zinnia
 ZINNIA: Real quantity, not quality. 
 YOU: Should I toss them back? 
 ZINNIA: Models like these aren't worth much, but it's still worth clearing out. 
@@ -183,6 +191,7 @@ YOU: I want to check something.
 # satellite
 ITEM DESCRIPTION: The way they resemble pothos is beautiful. It makes you yearn for the sun.  
 
+@char ZINNIA
 YOU: I've never seen them like this before. 
 ZINNIA: They mirror nature don't they? 
 ZINNIA: A lot of tech does, the more inhospitable the location. 
@@ -212,6 +221,7 @@ YOU: I might come back to this.
 @goto .itemPick
 
 # itemGet
+@hide ZINNIA
 @hidePrinter
 @back black
 @wait i 

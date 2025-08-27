@@ -1,10 +1,6 @@
 ;bg
 @back Junkheap
 
-
-@char ZINNIA
-
-
 @choice "THE OMNICHORD" goto:.omniTwo
 @choice "THE OMNICHORD" goto:.omniTwo
 @choice "THE OMNICHORD" goto:.omniTwo
@@ -21,16 +17,20 @@ The beast in your belly is pleased, the god in your heart is overjoyed.
 
 Your partner can sense it. The higher calling and frequency of the pitch. She’s someone who’s special, too. 
 
+@char ZINNIA.PlayerNeutral
 ZINNIA: Come. Let’s go back to the ship. 
-
+@char ZINNIA.EyesClosedSmiling
 ZINNIA: There’s something I have to show you. 
 
 @back Spaceship
-
+@hide ZINNIA
 You stare at the items that Zinnia has collected. Memorabilia and garbage and ancient ruins and relics all astounding years. 
 
-ZINNIA: They burned my last batch. 
+@char ZINNIA.LookingDown
+ZINNIA: They burned my last batch.
+@char ZINNIA.Embarrassed 
 ZINNIA: I was finally able to rebuild, thanks to you. 
+@char ZINNIA.EyesClosedSmiling
 ZINNIA: I love you, Ioanna. 
 
 MARIA: I never thought she’d say it first. 
@@ -52,6 +52,7 @@ MARIA: I guess it doesn’t really matter in the end.
 You stare at your reflection, glimmering in the shining knife. The girl in front of you is smiling. You can’t recognize whose eyes are glinting in the reflection. 
 
 You move forward and kiss her. 
+@hide ZINNIA
 
 You kiss her in the space shuttle. Her breath is warm, but her lips are cold to touch. Her skin is too. Calloused hands cradling you, pulling you in. These hands could take you apart. You’d thank her. 
 

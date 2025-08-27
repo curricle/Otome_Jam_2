@@ -26,11 +26,13 @@ YOU: I used to-
 YOU: Company's number one. Aspirational. 
 ZINNIA: How do you feel about me now?
 YOU: Wouldn't you like to know?
-ZINNIA stares at you. 
+@char ZINNIA.PlayerNeutral
+Zinnia stares at you. 
 You don't reply. 
 @goto .atmosphere
 
 # resent
+@char ZINNIA.PlayerSmile
 ZINNIA: No one's ever said that to my face before. 
 Zinnia almost looks pleased. 
 YOU: I like you more now. You're a lot cuter than I thought you could be. 
@@ -41,12 +43,14 @@ ZINNIA: Ahaha!
 @goto .atmosphere
 
 # atmosphere
+@hide ZINNIA
 There's something about the atmosphere here that makes you feel off, maybe a little bit more brutally honest. Uncensored. And maybe, just a bit dizzy. 
 
 YOU: My head's pounding. It hurts. 
 
 Your vision blurs. There's static ringing in your ears, but Zinnia's voice rings louder.
 
+@char ZINNIA.PlayerNeutral
 ZINNIA: You've really been a first class bottom feeder, if you aren't used to these oxygen levels.
 ZINNIA: This isn't just a standard routine planetary rotation.
 ZINNIA: Do you know why we do three planets per run? This used to be a pilgrimage. A sacred rite.
@@ -64,6 +68,8 @@ She doesn't.
 Her silence says get to work. 
 
 # itemPick
+@hide ZINNIA
+
 You collect:
 
 @choice "ITEM: DEVOTIONAL OIL" goto:.oil
@@ -76,7 +82,7 @@ You collect:
 ITEM DESCRIPTION: Some sort of oil; it's greasy to the touch. Easily flammable. 
 
 An interesting thing to fish from the bottom of water. You can't quite make out its label, the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
-
+@char ZINNIA.PlayerNeutral
 YOU: It looks like a bottle.
 YOU: Drone diagnostic scans are saying a bottle of oil…
 YOU: Why would that be over here?
@@ -106,6 +112,7 @@ ZINNIA: Made to worship.
 
 # oilNo
 ZINNIA: You're tossing it back in?
+@char ZINNIA.EyesClosed
 She almost sounds pained.
 YOU: We can always fish it out later. 
 ZINNIA: ….
@@ -115,6 +122,7 @@ ZINNIA: Right.
 # earthenware
 ITEM DESCRIPTION: In a world full of devices built from machines. This looks special. This looks worthless. This looks entirely made from hand. 
 
+@char ZINNIA.Aloof
 ZINNIA: ....
 YOU: You don't seem impressed. 
 ZINNIA: Old “earthenware.”
@@ -148,7 +156,7 @@ YOU: What if I find something I love even more?
 
 # controller
 ITEM DESCRIPTION: It's a broken controller. You think it was used for music. Some sick warehouse raves. 
-
+@char ZINNIA.PlayerNeutral
 YOU: I guess they threw parties here.
 ZINNIA: What was your first guess?
 MARIA: A vintage Pioneer, nice.  
@@ -177,8 +185,10 @@ YOU: I'll be back!!
 @goto .itemPick
 
 # itemGet
+@char ZINNIA.PlayerSmile
 ZINNIA: Solid collection. Let's head back to the ship. 
 
+@hide ZINNIA
 @hidePrinter
 @back black
 @wait i 

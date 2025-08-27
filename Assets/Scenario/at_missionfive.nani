@@ -54,6 +54,7 @@ ZINNIA: You’ll need it.
 Zinnia stares out into the landscape out in front of her, painted by a haze of fire and smoke. Sulfuric and bitter. 
 ; [BACKGROUND: FLASHBACK SCENE OF THE INCINERATOR AND OF ZINNIA STARING AT HER REFLECTION]
 
+@hide ZINNIA
 @back Incinerator
 
 ZINNIA: I used to work for the incinerators crew back then. We’d take the world and we’d burn it. All the discarded trash and memories and scraps that we mined every single bit of use from. I used to think it was noble.
@@ -85,6 +86,8 @@ YOU: ...
 @goto .flashCont
 
 # flashCont
+@back Mission_Control
+@char ZINNIA.PlayerNeutral
 ZINNIA: Did you know this isn’t the first time I defected? They try to take the calling out of me, put me on the operating table and dig up my insides. Not one piece of me is ever wasted. 
 
 ZINNIA: I’ve done this many times, in many worlds. But I was always alone. It feels different this time. Maybe because you’re here. 
@@ -94,9 +97,11 @@ The GOD in your head hums. Preens. She chose you, the prettiest bird with the pr
 
 ZINNIA: When I look at you. At the objects you bring me. It all feels so familiar. Like it slots into place. 
 YOU: Like I slot into place?
-YOU: Do I complete you, Captain? 
+YOU: Do I complete you, Captain?
+@char ZINNIA.SlightSmile 
 ZINNIA: It depends on what you find. 
 
+@hide ZINNIA
 @hidePrinter
 @back black
 @wait i 

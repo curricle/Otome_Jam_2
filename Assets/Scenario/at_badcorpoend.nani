@@ -1,8 +1,6 @@
 ;bg?
 @back Chains
 
-
-@char ZINNIA
 ITEM: A PAIR OF CHAINS
 
 ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these.
@@ -13,21 +11,25 @@ ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for 
 @stop
 
 # chains
+@char ZINNIA.PlayerNeutral
 ZINNIA: Come. Let’s go back to the ship. 
-
+@char ZINNIA.EyesClosedSmiling
 ZINNIA: There’s something I have to show you. 
 
 The way her hands curl into the chains. 
-
+@hide ZINNIA
 @back CORPOSHIT9000
 
 YOU: It’s time to go.
+@char ZINNIA.PlayerNeutral
 ZINNIA: Go where? 
 YOU: Time to turn it all back in, silly!
 ZINNIA: …
+@char ZINNIA.LookingDown
 ZINNIA: Is this not enough?
 YOU: Don’t you love me? You told me you love me. 
 YOU: I love you so much, and I understand if you were blinded by your vision. It’s not something to mourn, lovey. The immolation is pyre rites. It’s how we show our love. 
+@char ZINNIA.LookingForward
 ZINNNIA: Show our love…
 YOU: Yeah! She’d reward us for this. I can feel it. I can feel her joy. 
 
@@ -35,10 +37,12 @@ YOU: You poor thing, you’ve been collecting all these years. Finding these bea
 YOU: That how she’s able to breathe, within the ash and smoke. 
 YOU: That’s okay, she likes her sheep a little confused.
 
+@hide ZINNIA
 YOU GRAB ZINNNIA. PLACE HER HEAD IN YOURS. PRESS YOUR FOREHEADS TOGETHER FOR A SINGULAR MOMENT.
 
 @back CORPOSHIT9000_CORRUPTED
 
+@char ZINNIA.LookingForward
 YOU: Look at me, Zinnia. 
 YOU: Does the god behind my eyes look like whatever was stripped from you? 
 YOU: It’s okay that you were led astray. 
@@ -46,7 +50,8 @@ YOU: It’s why I’m here to shepherd you
 ZINNIA: But - 
 YOU: You need to dull your senses, and forget the material. They are just tools to amplify her voice. 
 YOU: You can feel her behind my eyes right? 
-YOU: You found your faith in me, right? 
+YOU: You found your faith in me, right?
+@char ZINNIA.LookingDown
 ZINNIA: Yes…
 YOU: You love me right?
 
@@ -56,11 +61,16 @@ Not right now.
 
 YOU: Let’s go back, yeah?
 ZINNIA: Yeah. 
+@hide ZINNIA
+
+@back black
+@wait i
 
 ;[BACKGROUND CHANGE - THE COMPANY’S CREMATION CENTER]
 @back IncineratorRoom
 
 YOU: It’s pretty right?
+@char ZINNIA.Aloof
 ZINNIA: Yeah…
 YOU: They said we’ve done the company’s best. A whole new record! All that junk being used to fuel the galaxy. It’s amazing what we can accomplish together. 
 YOU: That beautiful collection, I’m so glad we got to enjoy it, but you know? I think it looks prettier burning. Don’t you? <3
@@ -69,6 +79,7 @@ Zinnia’s fingers curl into your own. If she looks unsure and confused. She’s
 
 YOU: I love you.
 
+@char ZINNIA.EyesClosed
 You turn to face Zinnia. She doesn’t look at you. Doesn’t gaze into your deeply adoring eyes. 
 
 You squeeze her hand, thumb digging into her palm.

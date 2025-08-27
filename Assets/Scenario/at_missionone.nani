@@ -37,6 +37,7 @@ ZINNIA: When you are already the lowest of the low?
 YOU: Am I a cockroach to you?
 YOU: I never took you as a funny person, Number One
 ZINNIA: Hm. 
+@char ZINNIA.SlightSmile
 ZINNIA: Just one of the perks of the job. Anyone can be funny if they are alone with their thoughts enough. 
 
 @goto .afterdirty
@@ -52,6 +53,7 @@ YOU: Ehhhh.... I guess so.
 
 # afterdirty
 YOU: Is that why you came back?  
+@char ZINNIA.Aloof
 ZINNIA: Hm?
 YOU: They said you could be discharged for whatever you did. 
 ZINNIA: Did they? 

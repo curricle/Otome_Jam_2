@@ -1,10 +1,6 @@
 ; needs a background
 @back Junkheap
 
-
-@char ZINNIA
-
-
 There are many objects of interest, but only one catches your eye. The only apparatus of sound, that can ring the call of a new world.  
 
 @choice "THE PHONOGRAPH" goto:.phonoTwo
@@ -27,11 +23,14 @@ Romantic.
 
 A record player untouched under the burning sky, among heaps of junk and plastic. 
 
+@char ZINNIA.PlayerSmile
+
 Your hands are outstretched towards her. You know without a doubt that she’ll take it. 
 
 ZINNIA: Come. Let’s go back to the ship. 
-
+@char ZINNIA.EyesClosedSmiling
 ZINNIA: There’s something I have to show you. 
+@hide ZINNIA
 
 @hidePrinter
 @back black
@@ -60,7 +59,9 @@ YOU: Mhmm.
 
 MARIA’s voice fades into the music, everything dulled outside of the woman in front of you. Your oh so illustrious number one defector. 
 
-You giggle when she catches your gaze. 
+You giggle when she catches your gaze.
+
+@char ZINNIA.EyesClosedSmiling
 
 ZINNIA: Ioanna, I love you. 
 YOU: I love you. 
@@ -71,8 +72,10 @@ Zinnia’s glassy eyed, her smile fond. She reaches for you, and you let her.
 Zinnia stares deep into your eyes. You get the feeling that she’s not really looking at you. Well, you aren’t really looking at her either. You stare into the opaque sea of her eyes, a pool of brown. If your reflection blinks back, you don’t comment on it. 
 
 YOU: Where are we off to now, captain?
+@char ZINNIA.PlayerSmile
 ZINNIA: Off to change the world. 
 
+@hide ZINNIA
 @hidePrinter
 @back black
 @wait i
