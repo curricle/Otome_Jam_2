@@ -34,6 +34,7 @@ The mission brief is almost immediate. It’s a breath of freshly circulated air
 One step forward and three steps back.
 You wave a hand and pull up the documents in your terminal.
 
+@char CASTOR pos:12,30
 You see your field manager in your peripheral. She’s a little icon, right at the bottom of the screen. 
 She smiles with all her teeth. 
 Connection, connecting. 
@@ -63,16 +64,20 @@ CASTOR: Someone cuter, too?
 YOU: So.
 YOU: The brief?
 CASTOR: With two dossiers! 
+@char CASTOR.PeaceSign
 CASTOR: You’re so lucky, Ioanna Arcensis.
+@char CASTOR.Default
 She sends the physical equivalent of a tome over in a nanosecond. 
 You blink, and it is spread across the empty air. Pages and pages. 
 Lots of redacted information. Lots of classified nonsense.
 YOU: What on earth did you sign me up for?
 You can’t muster up the strength to be petty. 
 This is going to be a pain in the ass.
+@char CASTOR.PeaceSign
 CASTOR: I got you a war criminal and a prisoner of war! 
 YOU: You are such a delight, Castor.
 YOU: Where can I sign you up to accompany me?
+@char CASTOR.Default
 CASTOR: Unfoooortunately, we all know that’s impossible.
 CASTOR: Since I’m all digital now.
 CASTOR: And you’re so fleshy and gross.
@@ -90,6 +95,8 @@ CASTOR: Which one do you want to hear first?
 You let the fake wind tousle your cropped hair. 
 You let the fake sun sink into your synthskin. You let the world spin on its orbit, and sigh.
 
+@hide CASTOR
+
 @back Dossiers
 
 The two dossiers look at you with expectant eyes.
@@ -98,6 +105,7 @@ The two dossiers look at you with expectant eyes.
 
 @back Dossiers_Castor
 
+@char CASTOR pos:12,30
 CASTOR: Sooooo?
 MARIA: That Manager of yours should get fired.
 YOU: It’s…interesting.
@@ -159,9 +167,11 @@ CASTOR: I do get bonus outside time when you do well.
 CASTOR: So do well, for me, my princess.
 YOU: Of course, my lady.
 CASTOR: Could you say it again, but like you mean it.
+@char CASTOR.PeaceSign
 CASTOR: I want to record it.
 YOU: See you later, Castor.
 YOU: I’ll run it through the proper channels.
+@hide CASTOR
 
 @back FAKERS
 
