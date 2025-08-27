@@ -36,9 +36,8 @@ YOU: That how she’s able to breathe, within the ash and smoke.
 YOU: That’s okay, she likes her sheep a little confused.
 
 @hide ZINNIA
-YOU GRAB ZINNNIA. PLACE HER HEAD IN YOURS. PRESS YOUR FOREHEADS TOGETHER FOR A SINGULAR MOMENT.
-
 @back CORPOSHIT9000_CORRUPTED
+YOU GRAB ZINNNIA. PLACE HER HEAD IN YOURS. PRESS YOUR FOREHEADS TOGETHER FOR A SINGULAR MOMENT.
 
 @char ZINNIA.LookingForward
 YOU: Look at me, Zinnia. 
@@ -60,12 +59,14 @@ Not right now.
 YOU: Let’s go back, yeah?
 ZINNIA: Yeah. 
 @hide ZINNIA
+@hidePrinter
 
 @back black
 @wait i
 
 ;[BACKGROUND CHANGE - THE COMPANY’S CREMATION CENTER]
 @back IncineratorRoom
+@printer c_Dialogue
 
 YOU: It’s pretty right?
 @char ZINNIA.Aloof
@@ -91,7 +92,7 @@ ZINNIA: I love you, too.
 @showUI ED_AT_Equalized
 @wait i
 
-@hideUI ED_DHS_Equalized
+@hideUI ED_AT_Equalized
 @wait i
 
 @stop

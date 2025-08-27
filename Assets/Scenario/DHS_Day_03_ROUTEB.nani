@@ -42,9 +42,12 @@ You relax for a moment.
 
 You need to organize your thoughts. Let’s start…
 
+@set RecollectionChosen=false
+@set MemoriaChosen=false
+
 # MemoriaOrRecollection
 
-@choice "Memoria"
+@choice "Memoria" if:!MemoriaChosen
 
     @set MemoriaChosen=true
     MARIA: The issue of Memoria.
@@ -62,7 +65,7 @@ You need to organize your thoughts. Let’s start…
     @goto .MemoriaOrRecollection if:RecollectionChosen=false
     @goto .02 if:RecollectionChosen=true
 
-@choice "Recollection Effort"
+@choice "Recollection Effort" if:!RecollectionChosen
 
     @set RecollectionChosen=true
     YOU: The issue of Recollection’s mission…
@@ -76,6 +79,8 @@ You need to organize your thoughts. Let’s start…
 
     @goto .MemoriaOrRecollection if:MemoriaChosen=false
     @goto .02 if:MemoriaChosen=true
+
+@stop
 
 # 02
 
