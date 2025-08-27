@@ -47,7 +47,7 @@ You need to organize your thoughts. Let’s start…
 
 # MemoriaOrRecollection
 
-@choice "Memoria" if:!MemoriaChosen set:RecollectionChosen=true goto:.MemoriaChosen
+@choice "Memoria" if:!MemoriaChosen set:MemoriaChosen=true goto:.MemoriaChosen
 @choice "Recollection Effort" if:!RecollectionChosen set:RecollectionChosen=true goto:.RecollectionChosen
 @stop
 
@@ -62,8 +62,8 @@ YOU: Recollection is not something that should take long.
 YOU: A few weeks, at most.
 YOU: Canvassing, surveying, extraction.
 
-@goto .MemoriaOrRecollection if:MemoriaChosen=false
-@goto .02 if:MemoriaChosen=true
+@goto .MemoriaOrRecollection if:RecollectionChosen=false
+@goto .02 if:RecollectionChosen=true
 
 # RecollectionChosen
 
@@ -134,6 +134,7 @@ She bristles, but she does not comment.
 You open the hatch.
 
 ;bg corposhit9000 v2
+@back CORPOSHIT9000v2
 
 Your little jailbird is outside. 
 
@@ -231,6 +232,7 @@ ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
 COLLECT THE “ACTOR’S BOX”? 
 @choice "YES" goto:.ActorsBoxChosen
 @choice "NO" goto:.ActorsBoxRefused
+@stop
 
 # ActorsBoxChosen
 @set HasActorsBox=true
@@ -284,6 +286,7 @@ ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
 COLLECT THE “SILVER BULLETS”? 
 @choice "YES" goto:.SilverBulletsChosen
 @choice "NO" goto:.SilverBulletsRefused
+@stop
 
 # SilverBulletsChosen
 
@@ -328,7 +331,7 @@ You wait for him to make his move. When he steps forward, he falls in step with 
     @set RavenAffection+=10
     Whack!
     @char RAVEN.EyesClosed
-    @wait 0.5
+    @wait 1
     RAVEN.CrashingOut: What the hell?!
     YOU: Please remember that we are partners, Raven.
     YOU: So. 
