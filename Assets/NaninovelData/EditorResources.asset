@@ -551,7 +551,10 @@ MonoBehaviour:
   - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
     Resources: []
   - Id: Characters/50c27364-b925-4cf6-a54b-31f0afc8fa67
-    Resources: []
+    Resources:
+    - name: Aloof
+      pathPrefix: Characters/??
+      guid: f57697cd9d5e9b146b1f847e7cf3698c
   - Id: Backgrounds/d5b6ed81-4fc3-4298-8077-5a137a47fa0f
     Resources:
     - name: Incinerator_01
@@ -677,6 +680,9 @@ MonoBehaviour:
     - name: TheBelladonna_CORRUPTED_INVERTED
       pathPrefix: Backgrounds/MainBackground
       guid: 84ad0c3851fbb7f4b98d9b1e69972f7b
+    - name: CORPOSHIT9000v2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 181a2d6ed4c908047bb9c7b755c4d2f4
   - Id: Audio
     Resources:
     - name: Fire
@@ -688,6 +694,9 @@ MonoBehaviour:
     - name: Footsteps_02
       pathPrefix: Audio
       guid: a8edae586c4172544a9c2fa0e1a0b647
+    - name: metal_scrape
+      pathPrefix: Audio
+      guid: 0e2a80ce20be47743bc840e64b7a0824
   - Id: TextPrinters/817b1502-585e-4a51-a898-4fb62c3f3971
     Resources:
     - name: c_Dialogue
@@ -735,4 +744,20 @@ MonoBehaviour:
   - Id: Characters/b3c2349c-7350-47c3-8b8b-badbe1139fd7
     Resources: []
   - Id: Characters/663fdb51-d47a-4436-a764-417f159b8c95
+    Resources: []
+  - Id: Characters/27ed6be4-9745-4ffe-9ab0-0d0fbc806a61
+    Resources:
+    - name: Crew
+      pathPrefix: Characters/CREW
+      guid: 4e984ad17644a5644bbccaf7301bc177
+    - name: white
+      pathPrefix: Characters/CREW
+      guid: ca19267548e57db4a83cbec9af1d8a63
+  - Id: Characters/f4465dac-f09d-4abb-b3c9-5aa1a1710317
+    Resources: []
+  - Id: Characters/eeded743-be69-4994-88eb-97d26359572c
+    Resources: []
+  - Id: Characters/debc573e-b0fe-4c6e-8107-7baef577f4f5
+    Resources: []
+  - Id: Characters/6d2ab2ec-d114-4f59-94a8-3590df7398c0
     Resources: []

@@ -18,21 +18,23 @@ You have more interesting things to think about.
 Like Raven’s little project. 
 
 ;[[BACKGROUND: “CORPOSHIT 9000” OUTSIDE VARIANT]]
+@back CORPOSHIT9000v2
 
 YOU: So…
 YOU: Do you need help? 
 He ignores you. You don’t know if he’s actually heard you.  He’s wearing some sort of headphones and he’s got his body underneath his princess. You lean against the door frame of your Corpo Piece of Shit, arms crossed over your chest.
 YOU: Something to drink?
 He pulls himself from under the Belladonna just enough to scowl at you.
-RAVEN: Don’t you have a job?
+RAVEN.Aloof: Don’t you have a job?
 YOU: …
 You kick him back underneath the ship. 
 RAVEN: Are you going collecting?
 YOU: That is my job, after all.
 Not that you’ve been doing much of that, either. You’ve stopped logging your finds. You’ll give Castor a dummy list with bloated information. 
 Your mission has changed.
+@char RAVEN.HeadDownEyesClosed
 Your ward sighs. 
-RAVEN: Miss Recollection.
+RAVEN.Aloof: Miss Recollection.
 YOU: Why do you call me that?
 You’ve never really cared about titles or names. It doesn’t bother you as much as it bothers Maria, or Castor. They always insist on your name, as it is printed on the back of your neck.
 YOU: You’re not the type for pleasantries
@@ -54,6 +56,7 @@ RAVEN: What?
 RAVEN: Do you need me to read it out for you?
 YOU: No need.
 YOU: I’ll get you what you want.
+@hide RAVEN
 
 @back CORPOSHIT9000
 
@@ -65,23 +68,31 @@ She writhes.
 YOU: Thanks.
 YOU: Raven?
 If he was annoyed by the fact he hasn’t been able to finish whatever he was working on this morning, it’s replaced with his obsessive streak.
-RAVEN: Arcensis.
+RAVEN.Aloof: Arcensis.
 YOU: You comin’?
 RAVEN: …
 He sighs.
 It doesn’t stop it from zipping up and finding his place next to you.
+
+@hide RAVEN
 >>>
 >>
 >
 
+@back black
+@hidePrinter
+@wait i
+
 @back AnArchitecturalMonstrosity 
+@printer c_Dialogue
+
 You go deeper into the theater.
 If the race track was his unholy bride, what was the theater to him? 
 You don’t have the opportunity to ask him. He immediately gets to work. He knows this beast in a manner so intimate, it makes you ache.
 This is the curse of a researcher. He moves through hallways with a fervor.
 He’s so desperate. A dead man walking.
 YOU: …
-RAVEN: Tch.
+RAVEN.Aloof: Tch.
 RAVEN: …
 You can’t hear him mumbling but he’s tearing through words like sutras.
 You can watch him suffer forever, you think.
@@ -89,6 +100,7 @@ You can watch him suffer forever, you think.
 ;D4 ITEM CHOICES
 # ItemChoice
 @back OpulentTheater 
+@hide RAVEN
 
 @choice "CIRCUITBOARD"
     ITEM DESCRIPTION: A laminated piece of acrylic. 
@@ -96,28 +108,31 @@ You can watch him suffer forever, you think.
     You’ve seen some of these back on base, but this is special. 
     It has to be. It’s intact. It’s perfect. It’s beautiful. 
     If you touch it directly, it’ll surely break.
-    RAVEN: Don’t touch it with your bare hands.
+    RAVEN.Aloof: Don’t touch it with your bare hands.
     YOU: I wear gloves.
     YOU: You’re acting like I’m rawdogging it.
     RAVEN: You might as well be.
     RAVEN: Here, I’ll take it—
     YOU: Woah, calm it.
+    @hide RAVEN
     DO YOU WANT TO COLLECT THIS?
     ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
     COLLECT THE “CIRCUITBOARD”? 
 
-@choice "YES"
-    YOU: I got it.
-    YOU: See, it’s all contained.
-    YOU: So you can stop wagging your tail.
-    RAVEN: I…am not doing that.
-@choice "NO"
-    Maybe…you should leave it behind?
-    You don’t convince yourself.
-    YOU: Mm.
-    YOU: I don’t know.
-    YOU: …
-    YOU: Raven keeps glancing over here…
+    @choice "YES"
+        YOU: I got it.
+        YOU: See, it’s all contained.
+        YOU: So you can stop wagging your tail.
+        RAVEN.Aloof: I…am not doing that.
+    @choice "NO"
+        Maybe…you should leave it behind?
+        You don’t convince yourself.
+        YOU: Mm.
+        YOU: I don’t know.
+        YOU: …
+        @char RAVEN.LookingAway
+        YOU: Raven keeps glancing over here…
+    @stop
 @stop
 
 >>>
@@ -127,7 +142,7 @@ You can watch him suffer forever, you think.
 @back AnArchitecturalMonstrosity 
 
 You give him the circuitboard. 
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: …
 YOU: You were complaining about my manhandling, why are you so quiet now.
 RAVEN: …
@@ -135,7 +150,7 @@ RAVEN: …
 ;[[BACKGROUND: CG03 “LOOKING OUT”]]
 
 He stares into the distance, fiddling with the acrylic.
-RAVEN: Why haven’t you killed me?
+RAVEN.LookingAway: Why haven’t you killed me?
 
 @choice "Do you want to give me a reason?" set:RavenAffection+=10 goto:.ChoiceA
 @choice "I’m fascinated by you." set:RavenAffection+=5 goto:.ChoiceB
@@ -152,11 +167,11 @@ YOU: Do you want to die, Raven?
 ;[[BACKGROUND: CG03 “LOOKING OUT” V3]]
 
 He closes his eyes. 
-RAVEN: No.
+RAVEN.EyesClosed: No.
 RAVEN: I don’t.
 YOU: Then why did you come back to Estehelix.
 YOU: When you could’ve gone anywhere else.
-RAVEN: Because I want to live.
+RAVEN.LookingAway: Because I want to live.
 
 @back AnArchitecturalMonstrosity  
 
@@ -167,22 +182,29 @@ RAVEN: Do you pity me, then?
 YOU: No.
 YOU: I don’t think you deserve that sort of emotion.
 He smiles. All teeth.
-RAVEN: That’s right.
+RAVEN.Happy: That’s right.
 RAVEN: Not someone like me.
 YOU: But I’m not the kind of person to grant pardons, either.
+;maria angry sprite
 You feel her. You feel her. She’s screaming.
 YOU: You are not a sinner, Raven.
 YOU: And I am not a saint.
+@hide RAVEN
 
 >>>
 >>
 >
 
+@hidePrinter
+@back black
+@wait i
+
 ;[[BACKGROUND: “CORPOSHIT 9000” V3]]
 @back CORPOSHIT9000
+@printer c_Dialogue
 
 YOU: Are you going to bite your gloves off?
-RAVEN: Do you want me to?
+RAVEN.Happy: Do you want me to?
 You intended to tease him a bit more for it but he removes his left glove with a practiced flourish. 
 His hands are callused and gnarled, but they’re delicate. 
 They’re small. 
@@ -196,7 +218,7 @@ You feel something pop.
 
 ;[[cg family matters]]
 @back CORPOSHIT9000_CORRUPTED
-
+@hide RAVEN
 VOICE1: He’s been staying late.
 VOICE2: To work on the ship?
 VOICE1: Yeah…but…
@@ -221,10 +243,10 @@ You feel pressure around your face. Your chin. Your cheeks. Pushing, prodding, e
 
 @back CORPOSHIT9000
 
-RAVEN: Arcensis! Hey!
+RAVEN.Sad: Arcensis! Hey!
 
 @back CORPOSHIT9000_CORRUPTED
-
+@hide RAVEN
 VOICE4: I won’t miss my opportunity.
 VOICE4: I know what the program pays out.
 VOICE4: I’ll make sure they can all leave Estehelix.
@@ -242,6 +264,7 @@ VOICE3: I can’t wait for dinner on—
 @back CORPOSHIT9000
 
 You throw up in his mouth.
+@char RAVEN.CrashingOut
 Raven presses his hands against your face. 
 He digs into your eyes. 
 Wake up. Wake up. Wake up. 
@@ -258,8 +281,9 @@ But wouldn’t it be kinder to let him in.
 
 RAVEN: Do you want to carve me open?
 RAVEN: I’ll let you. 
-RAVEN: I’ll give you everything.
+RAVEN.LookingAway: I’ll give you everything.
 
+@hide RAVEN
 @hidePrinter
 @back black
 @wait i 
@@ -267,7 +291,7 @@ RAVEN: I’ll give you everything.
 
 # ChoiceB
 
-RAVEN: Then you are a woman with bad taste.
+RAVEN.Aloof: Then you are a woman with bad taste.
 YOU: I do get told that a lot.
 RAVEN: Must be a Recollection thing.
 YOU: You’re the most interesting thing here.
@@ -275,11 +299,11 @@ YOU: Why did they send me to get you.
 YOU: Why did you let yourself get caught.
 YOU: Why do you make me want to know more?
 YOU: It drives me mad.
-RAVEN: Ha. Hahahaha.
+RAVEN.Happy: Ha. Hahahaha.
 RAVEN: Hahahaha.
 YOU: I did not think it was nearly that funny.
-RAVEN: It’s only a little ironic.
-RAVEN: An adoring fan.
+RAVEN.SlightSmile: It’s only a little ironic.
+RAVEN.Happy: An adoring fan.
 RAVEN: At the end of the universe.
 Raven reaches his hand out. 
 Is he satisfied with your answer?
@@ -298,6 +322,7 @@ YOU: Is that what you want me to do for you, Raven?
 YOU: I can give you a purpose outside the checkered flag and the bright lights.
 YOU: I can give you something to live for.
 
+@hide RAVEN
 @hidePrinter
 @back black
 @wait i 
@@ -306,6 +331,7 @@ YOU: I can give you something to live for.
 
 # ChoiceC
 
+@hide RAVEN
 @hidePrinter
 @back black
 @wait i 
