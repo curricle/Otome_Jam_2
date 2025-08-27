@@ -89,10 +89,12 @@ ZINNIA: I love you, too.
 @back black
 @wait i
 
+@hide ZINNIA
 @showUI ED_AT_Equalized
 @wait i
 
 @hideUI ED_AT_Equalized
 @wait i
 
+@title
 @stop

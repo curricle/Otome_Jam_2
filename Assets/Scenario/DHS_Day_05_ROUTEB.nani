@@ -8,10 +8,13 @@
 @wait i
 
 @printer c_Dialogue
+@back black
 
 The ship is fast.
 That’s your end all, be all analysis. 
 It’s so much faster than you ever thought possible. 
+
+@back FeetOnTheGround
 He’s a racer, not a mechanic, the mission report said. 
 He won’t have any way of removing himself from the situation. 
 It’s categorically impossible.
@@ -23,23 +26,35 @@ Destroy your livelihood.
 Die on Estehelix and wait for the vulture to come and pick your bones clean. 
 
 This vulture has ruined Recollection’s best efforts.
+
+@hidePrinter
+@showUI Dossier_R_UPDATED
+@wait i
+
+@hideUI Dossier_R_UPDATED
+@printer c_Dialogue
+
 REPORT 1: ▮▮▮▮▮
 REPORT 2: ▮▮▮▮▮
 CODE NAME: RAVEN
 PLANETARY SYSTEM: ESTEHELIX
 THREAT LEVEL: MEDIUM. CONTAINED.
 THREAT LEVEL, UPDATED: EXTREME. IMMEDIATE DISPATCH OF THE SUN EATER REQUESTED. FLIGHT RISK. 
-\SENTENCE: DEATH PENALTY.
+[] SENTENCE: DEATH PENALTY.
 He must not be allowed off Estehelix-1. If he is to accompany the Recollection Officer on any mission, he must be bound in some way. Flight risk.
 Former speedship driver with several record-breaking championships. Known for his arrogant demeanor and violent nature. Be careful when attending to him.
 The Recollection Officer assigned to Estehelix must bring him back so that he may serve his sentence.
 The Prisoner has compromised the Recollection Officer assigned to the case. The most important aspect of the rescue mission is to secure the Prisoner and separate him from the Officer. 
 The Prisoner may return dead or alive. 
 Kill the Officer on sight.
-\REWARD: ▮▮▮▮▮▮▮▮▮▮▮ Credits. Please discuss reimbursement with your Manager. 
+[] REWARD: ▮▮▮▮▮▮▮▮▮▮▮ Credits. Please discuss reimbursement with your Manager. 
 REWARD, UPDATED: ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Credits. 
 Please forward proof of achievement to the Sun Eater.
 
+@back black
+@wait i
+
+@back TheBelladonna
 RAVEN: You’re popular.
 YOU: Mm. 
 
@@ -69,6 +84,8 @@ That’s true.
 Underneath the layers, his collar is gone and the killswitch is a glorified pendant. 
 
 He plays with your nervous system for a bit more, before finally touching back down. 
+
+@back FeetOnTheGround
 You wait until he hops out of the pilot’s seat first. 
 Then, you crawl out. You land on all fours, and wonder if it’s bad for your internals to be inducing vomit so much.
 
@@ -103,16 +120,22 @@ You cannot tell what he is thinking.
 RAVEN: I do need my hand to pilot, y’know.
 
 Ah, right. Of course. You let go. 
-You watch him wipe the back of his knuckles against his jumpsuit. You could watch him forever, you think. You could watch the way he carries himself past the point of no return. 
+You watch him wipe the back of his knuckles against his jumpsuit. You could watch him forever, you think. 
+You could watch the way he carries himself past the point of no return. 
+
+@back black
 
 This will be the Belladonna’s final journey. 
 The two of you know this.
 
-Despite the knowledge, the feeling…it is different. The overlay over your heart and mind. Something like that. It’s complicated, you don’t want to think about it, it makes you sick to your stomach, and it’s not just the airborne nausea without the correct dosage of anti-whatever-medication.
+Despite the knowledge, the feeling…it is different. The overlay over your heart and mind. Something like that. 
+It’s complicated, you don’t want to think about it, it makes you sick to your stomach, and it’s not just the airborne nausea without the correct dosage of anti-whatever-medication.
 
 This is a gamble. 
 This is the gamble to end all shots in the dark. 
 This is the moment where you realize that maybe--
+
+@back FeetOnTheGround
 
 Raven reaches over to pull at your ear. He does so with a firm grip, index and thumb pressing on your singular earring.
 
@@ -126,7 +149,7 @@ He steps back to study his bride.
 You’re at least grateful that Corposhit has ascended to a higher plane. 
 One that is nicer to look at. 
 
-Plan: You do not have one.
+\Plan: You do not have one.
 Execution: Bad, probably.
 Goal: Something of little consequence in the grand scheme of things. 
 
@@ -146,12 +169,19 @@ You palm at the back of your neck.
 >>
 >
 
+@hidePrinter
+@back black
+@wait i
+
+@printer c_Dialogue
 Someone’s voice is far away. He is saying something about coordinates and signals and the noise bounces around in your head.
 
 It hurts. 
 What were you saying, before? 
 Raven, there was something you were saying about where I belonged. 
 I don’t know where that is anymore. 
+
+@back TheBelladonna
 
 A hand reaches out, for the glass. It drags its fingers down, makes a mess out of the condensation. It pauses, and then clenches.
 
@@ -161,12 +191,14 @@ Can it hold out till then?
 Can I hold out till then?
 When is till then?
 
+@back black
 RAVEN: —hey? 
 RAVEN: Hey!
 RAVEN: Arcensis!
 
 That’s you?
 
+@back TheBelladonna_CORRUPTED
 Arcensis…
 The name doesn’t feel quite right. 
 It sinks into my/your frame. 
@@ -178,6 +210,7 @@ A gentle glide. Like cutting butter with a hot knife. The sky is so sweet.
 You’ve never seen a sky like that?
 I have, I think. A long time ago.
 
+@back TheBelladonna_CORRUPTED_INVERTED
 ????: I’m surprised you’re here.
 ????: Or, to be more specific: I’m surprised I’m alive.
 
@@ -222,6 +255,7 @@ It really hurts.
 >>
 >
 
+@back TheBelladonna
 You’re bleeding. 
 A lot.
 You’re bleeding a lot more than you should be. 
