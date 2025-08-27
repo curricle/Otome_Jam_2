@@ -1,16 +1,14 @@
 ;bg?
 @back Chains
 
-ITEM: A PAIR OF CHAINS
-
-ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these.
-
 @choice "A PAIR OF CHAINS" goto:.chains
 @choice "A PAIR OF CHAINS" goto:.chains
 @choice "A PAIR OF CHAINS" goto:.chains
 @stop
 
 # chains
+ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these.
+
 @char ZINNIA.PlayerNeutral
 ZINNIA: Come. Let’s go back to the ship. 
 @char ZINNIA.EyesClosedSmiling
