@@ -66,7 +66,7 @@ You zip your suit back on.
 
 YOU: Have you gotten comfortable with me, Raven?
 Maria gags.
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: Not really.
 He chews on that. 
 YOU: I think you have, a bit.
@@ -110,6 +110,7 @@ RAVEN: You don’t actually mean that.
 @stop
 
 # Continue
+@hide RAVEN
 >>>
 >>
 >
@@ -119,7 +120,7 @@ RAVEN: You don’t actually mean that.
 
 The two of you carve a new path through the entertainment district. The looming coliseum is behind you. Today, you make your way to a new beast. 
 He sticks his hands in his pockets and shuffles off, but you can feel his scowl on the back of your neck. If looks could kill, so on and so forth.
-RAVEN: Do you expect most people to lick your boots?
+RAVEN.Aloof: Do you expect most people to lick your boots?
 He asks, but he doesn’t match your pace. His steps are measured. Yours, moreso. They make his look languid in comparison. 
 YOU: Waste management is…
 MARIA: Not a place for humans.
@@ -136,6 +137,7 @@ YOU: …
 YOU: It hasn’t stopped you so far.
 He tugs at the collar around his neck.
 YOU: Ah, well, I guess that’s true.
+@hide RAVEN
 Estehelix’s grand theater beckons. 
 
 ;[[BACKGROUND: “An architectural monstrosity.”]] 
@@ -147,7 +149,8 @@ MARIA: Well, of course not.
 She hums. 
 MARIA: You’re the Grim Reaper for these sort of places.
 YOU: That’s true.
-RAVEN: …
+RAVEN.Aloof: …
+@hide RAVEN
 He pushes past you and opens the double doors. 
 It’s not so much a welcome, let’s head inside, he holds onto the handles and there’s a pause, and you wonder if he’s going to smash a fist through the glass instead. 
 He doesn’t. 
@@ -161,12 +164,14 @@ YOU: I want a camera in everything here.
 YOU: I need Preservation to come back for this.
 MARIA: …
 MARIA: As you wish.
-SFX: Metal scrape.
+;SFX: Metal scrape.
+@sfx metal_scrape
 YOU: ?!
 You whip around, to see Raven crouching behind an ornate sofa.
 
 
 # ItemChoice
+@hide RAVEN
 @back OpulentTheater
 
 @choice "ENGINE" goto:.Engine
@@ -182,7 +187,7 @@ You’ve never had to do repairs on the corporate ship you’re flying, so this 
 It’s terrifying.
 A cylindrical turbine with the sole intention of bringing metal into space.
 Or something like that.
-RAVEN: We can use this.
+RAVEN.Aloof: We can use this.
 YOU: We can?
 RAVEN: With some adjustments, I can refit it into the fuselage.
 YOU: …
@@ -222,7 +227,7 @@ ITEM DESCRIPTION: An actor’s box. As in, it belonged to an actor? Or as in, it
 The box is filled with makeup. It’s still intact and perfect. The hole that Raven found it in must have been very well kept.
 The box is lined with scraps from junkyards. You can tell that much after years of Collecting.
 YOU: Where did you find this?
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: I don’t remember.
 RAVEN: Over there, somewhere?
 YOU: You literally just had it.
@@ -253,7 +258,8 @@ YOU: …
 YOU: Oh?
 MARIA: He knows more than he’s letting on.
 YOU: …
-RAVEN: (sprite sliding away)
+;RAVEN: (sprite sliding away)
+@hide RAVEN
 MARIA: You’re going to let him leave?
 YOU: We’ll find out soon enough.
 
@@ -281,7 +287,7 @@ YOU: Raven.
 RAVEN: Yeah?
 YOU: You used to live here, right?
 YOU: On this colony?
-RAVEN: …
+RAVEN.Aloof: …
 RAVEN: You have my dossier.
 DO YOU WANT TO COLLECT THIS?
 ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
@@ -313,8 +319,13 @@ YOU: We’re awfully below quota.
 MARIA: Wise choice.
 
 # ItemChosen
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i
 
 @back EntertainmentDistrict
+@printer c_Dialogue
 
 You leave the theater behind for now.
 The sun is low in the sky. The weather is as temperamental as always. The haze of summer sweat has been replaced with something milder. 
@@ -323,7 +334,7 @@ It’s floating above you, the repair drone carries it at perfect elevation. You
 There’s no need to do that. Raven can’t keep his hands off of it.
 He keeps fiddling with it when he thinks you aren’t paying attention.
 YOU: If you keep messing with it, you’ll break it.
-RAVEN: Tch.
+RAVEN.Aloof: Tch.
 RAVEN: I know what I’m looking at.
 MARIA: It is always surprising when he says he can do something.
 YOU: You are really so judgmental.
@@ -341,12 +352,14 @@ YOU: Why are you so fixated on the engine?
 RAVEN: Mind your damn business.
 
 @back FeetOnTheGround
+@hide RAVEN
 
 An impasse.
 You want to ask about the memoria. 
 You want to ask about the engine. 
 You want to ask about a lot of things.
 YOU: Does it make you happy?
+@char RAVEN.Aloof
 This makes him stop. He lets the drone do its job. 
 RAVEN: Happiness?
 RAVEN: What does a person like you know about that?
@@ -398,9 +411,17 @@ The conversation is over. He won’t give you anything else to work with.
 That’s fine. 
 Fine.
 You’ll get it out of him.
+
+@hide RAVEN
+
 The two of you make it back to base.
 
+@back black
+@hidePrinter
+@wait i
+
 @back CORPOSHIT9000
+@printer c_Dialogue
 
 You pretend to be asleep when Raven leaves that night.
 MARIA: Why did you let him speak.
