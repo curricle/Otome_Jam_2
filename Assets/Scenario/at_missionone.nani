@@ -12,13 +12,14 @@
 ;THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
 @back Caves_01
 
-@char ZINNIA
 YOU: *Achoo!*
 Your sneeze echoes through the tunnels. You aren't sure if it's more embarrassing that Zinnia didn't acknowledge it. 
 What does the top get someone like you anyways? Dust allergies?
 Your coworker, however, seems unperturbed. A one way mission to the planetary systems of Proxima. You've never been here before, but with the way your infamous colleague perked up earlier, it seems like she has. 
 She walks with a comfortable gait, while you push yourself harder so as to not lag behind. 
 YOU: Jeez, this place is like a maze.
+
+@char ZINNIA
 ZINNIA: They never assigned you underworlds before? 
 YOU: It's been strictly SURFACES, I can't remember the last time I was underground.
 YOU: Probably the mandatory safety sim? 
@@ -61,6 +62,8 @@ ZINNIA: I would have come back regardless.
 YOU: Why?
 ZINNIA: There's simply something I'm searching for. 
 
+@hide ZINNIA
+
 You both walk further into the tunnel. 
 
 ;[BACKGROUND The tunnel gets a brighter and brighter light of blue.]
@@ -68,11 +71,13 @@ You both walk further into the tunnel.
 
 You both arrive at a clearing, riddled with shelves and giant urns. 
 
+@char ZINNIA
 ZINNIA: Denizens of Prox-1 would have storage here. The rains outside used to be torrential, violent even during the planetary monsoon season. It was valuable once, but now it's just our paycheck.
 
 Her knowledge makes your brain itch.
 
 # itemPick
+@hide ZINNIA
 You gaze around the room and collect:
 
 @choice "ITEM: AN OLD TRANSMITTER" goto:.transmitter
@@ -84,9 +89,12 @@ You gaze around the room and collect:
 ITEM DESCRIPTION: AN OLD TRANSMITTER USED TO SEND MESSAGES BETWEEN THE TUNNELS. 
 
 YOU: What about this one?
+
+@char ZINNIA
 ZINNIA: An old comms unit.
 MARIA: Junk. 
 ZINNIA: A gorgeous one too. Strong if it's able to send frequencies through these tunnels. 
+@hide ZINNIA
 
 DO YOU WANT TO COLLECT THIS? 
 ONE YOU COLLECT AN ITEM, YOU'LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE. 
@@ -98,6 +106,7 @@ COLLECT THE “OLD TRANSMITTER?”
 
 # transmitterGet
 @set AT_RouteA++
+@char ZINNIA
 ZINNIA: Decent find for your first run. 
 YOU: Neat, right? 
 ZINNIA: This will definitely be useful.
@@ -117,6 +126,8 @@ MARIA: She looks almost disappointed.
 ITEM DESCRIPTION: AN OLD CEREMONIAL KNIFE, WITH VARIOUS RUNES ENGRAVED. MADE OF EARLY SPACE METALS, NEVER DULLED AND NEVER RUSTED DESPITE THE TIME. 
 
 YOU: Was this place used recently?
+
+@char ZINNIA
 ZINNIA: What was that?
 You raise the knife in your hand. It glimmers under the drone's light. 
 YOU: This still looks as good as new.
@@ -148,6 +159,7 @@ ZINNIA: Smart call.
 # scrap
 ITEM DESCRIPTION: SCRAP METAL. 
 
+@char ZINNIA
 YOU: This scrap metal looks useful, we can probably melt it down and re-purpose it.
 ZINNIA: You're actually more diligent than you seem.
 YOU: Excuse me???
@@ -174,8 +186,10 @@ ZINNIA: Suit yourself.
 @goto .itemPick
 
 # itemGet
+@hide ZINNIA
 You both finish rifling through the trash. 
 
+@char ZINNIA
 ZINNIA: Good work, let's make our way back to the ship. 
 
 ;[BACKGROUND SCENE CHANGE - SPACESHIP??]
@@ -185,10 +199,10 @@ ZINNIA: What do you think the first tool developed by humans was?
 
 @choice "A stick" goto:.stick
 @choice "Fire" goto:.fire
-@choice "[say nothing]" goto:.bag
+@choice "..." goto:.bag
 @stop
 
-#stick
+# stick
 YOU: A stick, obviously. 
 ZINNIA: That fits someone like you. Pokes and prods. 
 YOU: Do I do that to you?
@@ -241,6 +255,7 @@ ZINNIA: …..
 ZINNIA: We've been to many planets. How many civilizations have you seen? How many micro biomes? How many ecosystems? How many tools? How many minerals? We're on carcasses of carcasses deep in the biosphere. Do you even realize that? 
 ZINNIA: Get some rest. We have a new area to scope tomorrow.
 
+@hide ZINNIA
 You don't comment about how the waste droid floats perfectly above her head. Amidst the planetary sky, it almost looks like a crown. The sharpness of her features, the softness of her gaze. 
 
 It makes her feel closer and farther away than ever.
