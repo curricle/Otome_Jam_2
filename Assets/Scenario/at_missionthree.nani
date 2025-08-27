@@ -141,7 +141,7 @@ COLLECT THE “SYNTHESIZER?”
 # synthGet
 @set HasSynthesizer=true
 @set AT_RouteA++
-@char Zinnia.SlightSmile
+@char ZINNIA.SlightSmile
 ZINNIA: Good choice.   
 YOU: Something about it. 
 YOU: It just felt. 

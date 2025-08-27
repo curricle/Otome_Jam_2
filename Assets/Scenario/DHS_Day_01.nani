@@ -47,7 +47,8 @@ There’s a boy.
 # React
 @back CORPOSHIT9000
 
-Hovering over Ioanna, who is still seated in the cockpit with her knife hand at his throat.
+;CG:Hovering over Ioanna, who is still seated in the cockpit with her knife hand at his throat.
+
 ????: Put the weapon down.
 
 @choice "COMPLY" goto:.Comply

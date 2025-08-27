@@ -253,6 +253,11 @@ If the cargo was safe, Recollection doesn’t care too much about its passengers
 >>>
 >>
 >
+
+@back black
+@wait i
+@back CORPOSHIT9000
+
 He makes it back first. 
 He doesn’t help with the load.
 You dig your nails into the mesh bag and throw it over your shoulders.
@@ -311,7 +316,7 @@ YOU: You’re not that’s interesting.
 He scoffs. 
 It’s closer to what you expect of him, but his ears are dusted red.
 
-@goto DHS_Day_03
+@goto .Proceed
 
 # OptionB
 
@@ -386,7 +391,7 @@ YOU: You are so aggravating.
 RAVEN: Hah.
 His laugh is hollow.
 
-@goto DHS_Day_03
+@goto .Proceed
 
 # OptionC
 
@@ -468,6 +473,8 @@ RAVEN: Fuck.
 RAVEN: We need to go.
 He doesn’t bother apologizing for being the reason for your delay. 
 You make your way back to the ship with little fanfare. 
+
+# Proceed
 
 @hidePrinter
 @back black
