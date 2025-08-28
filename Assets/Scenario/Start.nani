@@ -227,6 +227,7 @@ YOU: I guess I’ll go with…
 @choice handler:ButtonArea button:Zinnia_Dossier goto:.RouteChoice_AT pos:400,0
 @stop
 
+@stopBgm
 # RouteChoice_DHS
 
 @back black
