@@ -93,6 +93,9 @@ MonoBehaviour:
     - name: ClickThroughPanel
       pathPrefix: UI
       guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 772027cb01e01a5479829962dd268079
     - name: BacklogUI
       pathPrefix: UI
       guid: 0664457c391990e41ba5c2f8217a41b3
@@ -129,9 +132,6 @@ MonoBehaviour:
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
-    - name: TitleUI
-      pathPrefix: UI
-      guid: 772027cb01e01a5479829962dd268079
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
@@ -559,12 +559,69 @@ MonoBehaviour:
     - name: metal_scrape
       pathPrefix: Audio
       guid: e393745731e00034d801531dcfeb8b41
-    - name: Spaces
-      pathPrefix: Audio
-      guid: 6f7875ca9af0e6f4f8a46d3355a0dd1e
     - name: HappyCatJingle
       pathPrefix: Audio
       guid: c29a29c325b709a42bdd4c76b883f29a
+    - name: Spaces
+      pathPrefix: Audio
+      guid: 6f7875ca9af0e6f4f8a46d3355a0dd1e
+    - name: AloneDownHere
+      pathPrefix: Audio
+      guid: cf0833cc0e6f3f0488595f29b040f5af
+    - name: Away
+      pathPrefix: Audio
+      guid: ecfa6c4a320749e4faedd289674edd5f
+    - name: ChasingTheSkyline
+      pathPrefix: Audio
+      guid: ec4cb13d98733a44ebeaa560e72d987b
+    - name: Distortions
+      pathPrefix: Audio
+      guid: f19a55f8f21ab71478e44c0f8baef173
+    - name: FaceItAllForAMoment
+      pathPrefix: Audio
+      guid: b80e820164e3d5d42b5a3c37ec644da1
+    - name: FrozenEchoes
+      pathPrefix: Audio
+      guid: 377902df023d93842b926948d2f42e4d
+    - name: Highmark
+      pathPrefix: Audio
+      guid: 06102fd3362f7a14389af291f188c4d1
+    - name: InMotion
+      pathPrefix: Audio
+      guid: 4caa264c0078cf34abc8832994631970
+    - name: LostDreams
+      pathPrefix: Audio
+      guid: 5266ffe9e64610f4cbc149363d7ce017
+    - name: MyWordsCarriedAway
+      pathPrefix: Audio
+      guid: 6ccb18c2fdf5cdc4dac5fb561c89a0d6
+    - name: RestingPlace
+      pathPrefix: Audio
+      guid: 0eb5fd19234f95d40806802c2dea861c
+    - name: ShatteredByTheSun
+      pathPrefix: Audio
+      guid: 2b85c89d9b891ac44ba8a5123d7f6d13
+    - name: StuckOnTheGround
+      pathPrefix: Audio
+      guid: 548186cad1f55874c8f7dcb96ac61626
+    - name: SubterraneanGlistening
+      pathPrefix: Audio
+      guid: 346ba309b7537914f87012ca66915e67
+    - name: Testament
+      pathPrefix: Audio
+      guid: 8d683b70f868b884a8a6b221e23a0bdd
+    - name: ValleyOfDistantTime
+      pathPrefix: Audio
+      guid: 67315c367207bc44b8715f954b2ffc38
+    - name: WeMayNeverKnow
+      pathPrefix: Audio
+      guid: 58cd5e33e6fcda1499a6954a1e570926
+    - name: WhatDoYouHopeToFind
+      pathPrefix: Audio
+      guid: aa2079d16677b6a4c9349c324822ea18
+    - name: WindwardCourse
+      pathPrefix: Audio
+      guid: 7ab5929d1cbdf7240b321e095f904506
   - Id: TextPrinters/817b1502-585e-4a51-a898-4fb62c3f3971
     Resources:
     - name: c_Dialogue
@@ -638,3 +695,8 @@ MonoBehaviour:
     Resources: []
   - Id: Characters/dcf9968d-77c4-48b5-9a32-76a9890bba0b
     Resources: []
+  - Id: Characters/b99ee25f-0161-4227-ad1b-0e790ed0a9b6
+    Resources:
+    - name: Dark
+      pathPrefix: Characters/HappyCatLogo
+      guid: bc2f8852db9ca9a4fa0bd93407e2e4c9

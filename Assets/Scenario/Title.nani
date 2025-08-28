@@ -1,10 +1,20 @@
-@back MainMenuBackground
-@bgm Spaces
-@stop
-
 # SplashScreen
-@back SplashScreen time:3
-@bgm HappyCatJingle
+@back white
+@char HappyCatLogo pos:50,35
+@sfx HappyCatJingle
+@wait 3
+@hide HappyCatLogo
+@back black
+@wait 1
+@goto .PreMenu
+
+# PreMenu
+@back MainMenuBackground time:3
+@bgm Spaces
+
+# MainMenu
+@wait 2
+@stop
 
 # OnNewGame
 @stopBgm
