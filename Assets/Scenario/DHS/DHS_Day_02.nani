@@ -16,6 +16,7 @@ Something cruel and decayed and decrepit, but you’ve really struck gold.
 A fully intact specimen like this is so, so valuable.
 
 @back Stadium
+@bgm StuckOnTheGround
 
 This is a stadium. A full arena, with brittle spectator chairs, and rows and rows of eternally awed ghosts. 
 What sort of games did they play here? 
@@ -266,11 +267,12 @@ If the cargo was safe, Recollection doesn’t care too much about its passengers
 >>>
 >>
 >
-
+@stopBgm
 @hidePrinter
 @back black
 @wait i
 @back CORPOSHIT9000
+@bgm InMotion
 @printer c_Dialogue
 He makes it back first. 
 He doesn’t help with the load.
@@ -396,6 +398,11 @@ YOU: C’mon, take something with you.
 It’s a missed connection. He’s already leagues ahead of you.
 Despite his weak constitution, he’s fast.
 Maybe that’s something he still takes pride in.
+
+@stopBgm
+@back CORPOSHIT9000
+@bgm InMotion
+
 He’s already on the ship by the time you finish loading it.
 RAVEN.Aloof: That took a while.
 YOU: No thanks to my partner.
@@ -499,6 +506,7 @@ He doesn’t bother apologizing for being the reason for your delay.
 You make your way back to the ship with little fanfare. 
 
 # Proceed
+@stopBgm
 @hide RAVEN
 
 @hidePrinter

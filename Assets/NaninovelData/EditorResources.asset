@@ -239,9 +239,6 @@ MonoBehaviour:
     - name: Start
       pathPrefix: Scripts
       guid: 3a3a3126d55fd38478fc6d74c71659d8
-    - name: DHS_Day_02
-      pathPrefix: Scripts
-      guid: b7625e56646777340b8998311b306e4f
     - name: DHS_Day_03_ROUTEA
       pathPrefix: Scripts
       guid: 5d507a07a50b84a41a5adf3b68dda26d
@@ -320,6 +317,9 @@ MonoBehaviour:
     - name: DHS/DHS_Day_01
       pathPrefix: Scripts
       guid: fe2778e08e3f4ec4a91ad6f204dce316
+    - name: DHS/DHS_Day_02
+      pathPrefix: Scripts
+      guid: b7625e56646777340b8998311b306e4f
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
