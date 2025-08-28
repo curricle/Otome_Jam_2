@@ -190,7 +190,7 @@ COLLECT THE “METEORITE”?
     YOU: Good answer.
     @set HasMeteorite=true
     @set RouteC++
-    @goto .Proceed
+    @goto END_SUPERBAD
 @choice "NO"
     MARIA: Do you have anything else you need to review?
     YOU: Yes.
@@ -209,13 +209,15 @@ COLLECT THE “METEORITE”?
 ; [GAME CHECK FOR ITEMS: IF MORE “B” THAN “C”, CONTINUE]
 
 ; [IF MORE “C” THAN “B” GO TO SUPER BAD END DAY 5]
-
-@goto .Continue if:"RouteB > RouteC"
-@goto END_SUPERBAD if:"RouteC >= RouteB"
+@goto END_Bad_ROUTEB if:RouteC>=RouteB
+@goto .Cigarettes if:RouteB>RouteC
 @back black
 @hidePrinter
 @wait i
 @printer c_Dialogue
+
+# Cigarettes
+
 >>>
 >>
 >

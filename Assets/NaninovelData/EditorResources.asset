@@ -42,7 +42,7 @@ MonoBehaviour:
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
-      guid: 1f6aa29000e839c409e6a9c0704adc96
+      guid: f88c5ede26fbfb5408a1a1b5cd14c0b9
   - Id: ChoiceHandlers/e7884fba-954d-4274-9544-55d4120cef1e
     Resources:
     - name: ButtonArea
@@ -659,6 +659,9 @@ MonoBehaviour:
     - name: Junkheap
       pathPrefix: Backgrounds/MainBackground
       guid: 66f8df97357d1b54599b9642720d5edd
+    - name: MariasDoor
+      pathPrefix: Backgrounds/MainBackground
+      guid: f893853e69f43d545b9b1a87c51b56d6
     - name: Mission_Control
       pathPrefix: Backgrounds/MainBackground
       guid: f0ae556c9bd984848a916e344bd4bb8d

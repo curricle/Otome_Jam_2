@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114515851666532020}
   - component: {fileID: 114704911712777760}
   m_Layer: 5
-  m_Name: ButtonList
+  m_Name: c_ButtonList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
   controlsLegend: {fileID: 0}
   fontChangeConfiguration: []
   buttonsContainer: {fileID: 4424433731862741568}
-  defaultButtonPrefab: {fileID: 2090994136984198299, guid: 42edc7aecc2c80841908c954370cb307, type: 3}
+  defaultButtonPrefab: {fileID: 2090994136984198299, guid: 6762fcac6f7ae814b80a4be2ca3c4bc2, type: 3}
   focusChoiceButtons: 1
 --- !u!225 &225470808532994266
 CanvasGroup:
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 0
+  m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
