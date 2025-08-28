@@ -53,14 +53,17 @@ You need to organize your thoughts. Let’s start…
 
 # MemoriaChosen
 
-YOU: The issue of Recollection’s mission…
-YOU: The uncharted territory that is Estehelix.
-YOU: In that aspect, my assignment to extract Raven and to map everything out…
-YOU: It makes sense.
-YOU: The rest of it, though…
-YOU: Recollection is not something that should take long.
-YOU: A few weeks, at most.
-YOU: Canvassing, surveying, extraction.
+MARIA: The issue of Memoria.
+YOU: Estehelix is really full of that stuff, huh.
+YOU: It makes me wonder why Corpo hasn’t sent more officers here.
+MARIA: It is simple.
+MARIA: It is the perfect fuel for the obsessive types.
+MARIA: They do not want anything interfering with their work.
+YOU: …
+MARIA: Oh, that does make you the perfect candidate, though.
+MARIA: The perfect and unfeeling “Miss Recollection” of Waste Management.
+YOU: Thank you, Maria.
+She beams.
 
 @goto .MemoriaOrRecollection if:RecollectionChosen=false
 @goto .02 if:RecollectionChosen=true
