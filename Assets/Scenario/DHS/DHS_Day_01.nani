@@ -12,6 +12,7 @@
 The trip to Estehelix is boring.
 
 @back CORPOSHIT9000
+@bgm InMotion
 
 Maria handles the ship. It’s on autopilot, with her perfectly standardized route and crash collision detection system. 
 If a meteor so much as looked at the ship the wrong way, she would bring it down into some unsuspecting planet. 
@@ -35,9 +36,11 @@ You aren’t being paid for this, that’s for sure.
 YOU: Wake me ten minutes before landing.
 MARIA: Understood.
 MARIA: Goodnight, Ioanna.
+@stopBgm
 >>>
 >>
 >
+@bgm Away
 You wake up to the sound of glass breaking. 
 Your heart leaps out of your chest, it gets stuck in your throat. You fumble for the knife strapped to your jump suit. You move to cut the seatbelt off, but--
 There’s a boy.
@@ -106,6 +109,7 @@ She almost sounds concerned.
 YOU: I’m fine.
 YOU: And you must be Raven.
 
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black
@@ -127,6 +131,7 @@ YOU: And you must be Raven.
 Maria is unhappy with you.
 
 @back CORPOSHIT9000
+@bgm InMotion
 
 There’s always that hint of disappointment in her good mornings, just enough enunciation to make you feel like, oh, okay. I get it.
 MARIA: Have you decided what you are going to do with him?
@@ -198,6 +203,10 @@ Right.
 >>>
 >>
 >
+
+@stopBgm
+@bgm WeMayNeverKnow
+
 Raven stays in your blind spots. You have to look over your shoulder every so often to make sure he’s still following you. He is. He always is. But he’s making it a pain in the ass. 
 Este-3 is a tram ride away. 
 All aboard. 
@@ -264,6 +273,8 @@ RAVEN: This killer won’t try again.
 @stop
 
 # OptionA
+@stopBgm
+@bgm FaceItAllForAMoment
 
 It’s an awkward way to break the silence, but you do it anyways. Make it casual. Make it fun.
 Make it feel like you really hate the idea of letting sleeping beasts lie.
@@ -295,6 +306,8 @@ YOU: Hah.
 @goto .GAP_Continued_01
 
 # OptionB
+@stopBgm
+@bgm FaceItAllForAMoment
 
 That’s fine, right? It’s true. The mission brief expunged any mention of Raven’s crime. You were able to scrub for the sentence and for the threat level, but when it came to the details on how he got in this situation…Nothing.
 RAVEN.Aloof: Mm.
@@ -325,6 +338,8 @@ YOU: Then let’s get back to work.
 @goto .GAP_Continued_01
 
 # OptionC
+@stopBgm
+@bgm FaceItAllForAMoment
 
 Raven tilts his head. The question…does something. You’re not sure what sort of reaction that is. Is he surprised, is he annoyed, is he intrigued by the line of questioning.
 RAVEN.Aloof: Regret?
@@ -544,6 +559,7 @@ He’s unsatisfied with that answer. But he follows you back to base camp.
 
 Maria has made the ship spotless in your absence.
 
+@stopBgm
 @hidePrinter
 @wait i 
 
