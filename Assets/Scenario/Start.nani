@@ -5,6 +5,7 @@
 
 @back Incinerator
 @bgm Fire
+;@bgm AloneDownHere
 
 ????: Another job well done.
 YOU: Was it?
@@ -27,6 +28,8 @@ You turn on your heel and walk away from the incinerator.
 
 @sfx Footsteps_01
 @stopBgm Fire fade:2
+
+@bgm WindwardCourse fade:5
 @back FAKERS
 
 The mission brief is almost immediate. It’s a breath of freshly circulated air in the fake atrium, where you float from one side of the room to another.
@@ -100,6 +103,9 @@ You let the fake sun sink into your synthskin. You let the world spin on its orb
 
 The two dossiers look at you with expectant eyes.
 
+@stopBgm
+@bgm FaceItAllForAMoment
+
 @hidePrinter
 
 @back Dossiers_Castor
@@ -172,6 +178,9 @@ YOU: See you later, Castor.
 YOU: I’ll run it through the proper channels.
 @hide CASTOR
 
+@stopBgm
+@bgm WindwardCourse
+
 @back FAKERS
 
 With another wave of your hand, the atrium is back in full view. The skyscape window is real. You float towards it and press your hand against the glass. 
@@ -189,7 +198,9 @@ MARIA: An opportunity nonetheless.
 You walk back to your apartment unit. 
 It is at the end of the hall, a very long, long hall. You do not have neighbors.
 
+@stopBgm
 @back WelcomeHome
+@bgm AloneDownHere
 
 It’s considered a perk. You asked for this room. There’s a huge window.
 There’s not much of anything else. There is no reason to keep anything. 
