@@ -9,6 +9,7 @@ All of it demands you stay behind.
 
 ;[[BACKGROUND: “Goodbye, Estehelix.”]]
 @back TheBelladonna
+@bgm ShatteredByTheSun
 
 RAVEN.CrashingOut: They’ll kill us.
 RAVEN: They’ll find us.
@@ -153,6 +154,7 @@ YOU: I think I can find happiness with you.
 @showUI ED_DHS_TheSkysTheLimit
 @wait i
 
+@stopBgm
 @hideUI ED_DHS_TheSkysTheLimit
 @wait i
 

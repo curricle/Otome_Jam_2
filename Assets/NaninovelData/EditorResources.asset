@@ -257,9 +257,6 @@ MonoBehaviour:
     - name: DHS_Day_05_ROUTEB
       pathPrefix: Scripts
       guid: 53d651a5a8699fb4e99f97734a6cc7e4
-    - name: END_Good_ROUTEA
-      pathPrefix: Scripts
-      guid: c0ff455d2c510354c86d4e5649c53c4d
     - name: END_Bad_ROUTEA
       pathPrefix: Scripts
       guid: 8fd71396eef5de442b6baed991ffcb92
@@ -320,6 +317,9 @@ MonoBehaviour:
     - name: DHS/END_Good_ROUTEB
       pathPrefix: Scripts
       guid: a28e02c8bf985814189ce9340816d7cb
+    - name: DHS/END_Good_ROUTEA
+      pathPrefix: Scripts
+      guid: c0ff455d2c510354c86d4e5649c53c4d
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
