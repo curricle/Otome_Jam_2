@@ -190,6 +190,10 @@ COLLECT THE “METEORITE”?
     YOU: Good answer.
     @set HasMeteorite=true
     @set RouteC++
+    @hide RAVEN
+    @hidePrinter
+    @back black
+    @wait i
     @goto END_SUPERBAD
 @choice "NO"
     MARIA: Do you have anything else you need to review?
@@ -205,19 +209,18 @@ COLLECT THE “METEORITE”?
 >>>
 >>
 >
+@back black
+@hidePrinter
+@wait i
 
 ; [GAME CHECK FOR ITEMS: IF MORE “B” THAN “C”, CONTINUE]
 
 ; [IF MORE “C” THAN “B” GO TO SUPER BAD END DAY 5]
-@goto END_Bad_ROUTEB if:RouteC>=RouteB
+@goto END_SUPERBAD if:RouteC>=RouteB
 @goto .Cigarettes if:RouteB>RouteC
-@back black
-@hidePrinter
-@wait i
-@printer c_Dialogue
 
 # Cigarettes
-
+@printer c_Dialogue
 >>>
 >>
 >
@@ -295,6 +298,7 @@ YOU: …
 YOU: …
 YOU: Fuck, where is he?
 
+@hide MARIA
 @back white
 
 You can’t worry about your head. You need to find him. 
@@ -330,9 +334,16 @@ RAVEN: Fuck.
 RAVEN: Okay.
 RAVEN: Okay, let’s go.
 
-MARIA: You really are stupid, Ioanna.
+MARIA.Neutral: You really are stupid, Ioanna.
 
-You throw up outside of Corposhit9000. Raven holds your hair back, whatever is left of it. You cut it before the mission. You’ve always kept it short. Yeah. Think about that. Think about what you can. The physicality of it. Think about his hand against your neck and then against your back, rubbing circles. It’s okay, he says. Let it all out.
+@back CORPOSHIT9000v2
+@hide RAVEN
+@hide MARIA
+
+You throw up outside of Corposhit9000. 
+Raven holds your hair back, whatever is left of it. You cut it before the mission. You’ve always kept it short. 
+Yeah. Think about that. Think about what you can. The physicality of it. 
+Think about his hand against your neck and then against your back, rubbing circles. It’s okay, he says. Let it all out.
 
 You don’t even remember drinking.
 You don’t remember what happened between extraction and collection.
@@ -352,13 +363,15 @@ You blink back heavy tears and grit your teeth and hope and pray and beg that it
 
 God, you’re going to throw up again.
 
-RAVEN: Lord.
+RAVEN.Aloof: Lord.
 RAVEN: Arcensis.
 RAVEN: C’mon. Let it out.
 
+@char RAVEN.HeadDownEyesClosed
 You can hear him sigh. Sigh so heavily. 
 You can see him twirl the hilt of a sheathed blade.
 
+@hide RAVEN
 He’s all platitudes and kindness but you throw up anyways. 
 Your head hurts. Your throat hurts. 
 Everything fucking hurts and you’re heaving everything you’ve ever had next to the stupid piece of shit junk that Recollection dares calls a ship.
