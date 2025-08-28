@@ -1,4 +1,6 @@
 @back TheSkyIsSharp
+@bgm WhatDoYouHopeToFind
+
 Is romance a waltz at the end of the world? 
 You do not know how to dance.
 His hands are shaking and you step on his toes. 
@@ -70,6 +72,8 @@ Will you live forever in each other’s company? Is this enough for you? You alm
 Is this really what you wanted?
 
 Ah, well.
+@stopBgm
+@bgm ShatteredByTheSun
 
 RAVEN.Happy: Haha.
 RAVEN: Hahaha…
@@ -120,6 +124,7 @@ Let’s sink into the abyss, ▮▮▮▮▮.
 @showUI ED_DHS_TheSweetestHoneyIs
 @wait i
 
+@stopBgm
 @hideUI ED_DHS_TheSweetestHoneyIs
 @wait i
 
