@@ -13,6 +13,7 @@
 You wake up hungry. 
 
 @back Cisterns
+@bgm SubterraneanGlistening
 
 Today Zinnia takes you back down to the cistern caverns. It feels practiced, as if this is a place she's been before. 
 
@@ -151,6 +152,7 @@ ZINNIA: Alright.
 @hide ZINNIA
 There is silence as you truck back to your ship. Climbing out of the cistern and under the sky, you can feel the weight of the world sting. 
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i 

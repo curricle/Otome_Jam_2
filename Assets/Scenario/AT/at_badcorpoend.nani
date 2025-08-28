@@ -1,5 +1,6 @@
 ;bg?
 @back Chains
+@bgm RestingPlace
 
 @choice "A PAIR OF CHAINS" goto:.chains
 @choice "A PAIR OF CHAINS" goto:.chains
@@ -93,6 +94,7 @@ ZINNIA: I love you, too.
 @showUI ED_AT_Equalized
 @wait i
 
+@stopBgm
 @hideUI ED_AT_Equalized
 @wait i
 

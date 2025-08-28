@@ -11,6 +11,7 @@
 
 ;[BACKGROUND SHIFT: SPACE SHIP GENERAL]
 @back Spaceship
+@bgm FrozenEchoes
 
 @char ZINNIA
 
@@ -59,8 +60,11 @@ Tune it Out.
 
 You can feel it guiding you somewhere.  Do you listen to it or do your best to tune it out? Where's it guiding you? You don't know, but somehow, you can't help but want to chase that high. 
 
+@stopBgm
+
 ;[BACKGROUND SHIFT - A BRIGHT FIELD OF GREEN]
 @back Field
+@bgm SubterraneanGlistening
 
 You pass by a beautiful field. 
 
@@ -221,6 +225,7 @@ YOU: I might come back to this.
 @goto .itemPick
 
 # itemGet
+@stopBgm
 @hide ZINNIA
 @hidePrinter
 @back black

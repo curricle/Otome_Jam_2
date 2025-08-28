@@ -1,5 +1,6 @@
 ;background: mission control
 @back Mission_Control
+@bgm FrozenEchoes
 There was a code red at work today. A defection. Miss number one, XXX company’s number one bottom feeder as defected and took a whole compactor with her. Insubordination will be punished, but management’s still kept her on the roster. Just demoted. With you. You’re not mad about it. You won’t complain. 
 
 What’s it like being the highest ranking official in the lowest sector of the galaxy’s totem pole. You wouldn’t know. Someone like you has never had the luxury of being on top. 
@@ -16,6 +17,7 @@ A one way galactic mission to the planetary systems of Proxima. You’ve never b
 
 Join her?
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i 

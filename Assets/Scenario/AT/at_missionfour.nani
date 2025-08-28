@@ -11,6 +11,7 @@
 
 ;DAY3  background should take place in Proxima-IIi's overworld. There's an old warehouse, and the sky is a lit with shooting stars. Most dangerous of the worlds to stay in for long. 
 @back Warehouse
+@bgm FrozenEchoes
 
 @char ZINNIA
 
@@ -67,7 +68,10 @@ She doesn't.
 
 Her silence says get to work. 
 
+@stopBgm
+
 # itemPick
+@bgm SubterraneanGlistening
 @hide ZINNIA
 
 You collect:
@@ -188,6 +192,7 @@ YOU: I'll be back!!
 @char ZINNIA.PlayerSmile
 ZINNIA: Solid collection. Let's head back to the ship. 
 
+@stopBgm
 @hide ZINNIA
 @hidePrinter
 @back black

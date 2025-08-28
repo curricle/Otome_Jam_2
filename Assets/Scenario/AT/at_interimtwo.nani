@@ -11,8 +11,7 @@
 
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
-
-
+@bgm LostDreams
 
 You stand in front of the bathroom mirror, after washing your face. Spacefaring lowlife or not, you still double cleanse. 
 
@@ -31,6 +30,7 @@ Your stomach grumbles again. Louder.
 
 MARIA: Eat well next time. 
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i

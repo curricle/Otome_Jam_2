@@ -11,8 +11,7 @@
 
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
-
-
+@bgm LostDreams
 
 MARIA cradles you with her voice. 
 
@@ -35,6 +34,7 @@ A god's love is-
 
 MARIA: Unconditional. 
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i

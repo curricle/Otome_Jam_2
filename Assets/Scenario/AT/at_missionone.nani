@@ -11,6 +11,7 @@
 
 ;THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
 @back Caves_01
+@bgm FrozenEchoes
 
 YOU: *Achoo!*
 Your sneeze echoes through the tunnels. You aren't sure if it's more embarrassing that Zinnia didn't acknowledge it. 
@@ -262,6 +263,7 @@ You don't comment about how the waste droid floats perfectly above her head. Ami
 
 It makes her feel closer and farther away than ever.
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i 

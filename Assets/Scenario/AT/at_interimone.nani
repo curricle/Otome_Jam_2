@@ -11,8 +11,7 @@
 
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
-
-
+@bgm LostDreams
 
 You stand in front of the bathroom mirror, both palms on the countertop. The sink runs with cold water. You feel dizzy, like you've been spinning. Dancing. 
 
@@ -68,6 +67,7 @@ A poor hungry beast like you, who has only known the taste of freeze dried meal 
 
 Don't you want another taste? 
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i

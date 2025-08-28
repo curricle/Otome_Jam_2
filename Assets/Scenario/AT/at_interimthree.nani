@@ -11,8 +11,7 @@
 
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
-
-
+@bgm LostDreams
 
 You feel restless. 
 
@@ -38,6 +37,7 @@ One mission left.
 
 Do you know what you want?
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i

@@ -1,5 +1,6 @@
 ; needs a background
 @back Junkheap
+@bgm Highmark
 
 There are many objects of interest, but only one catches your eye. The only apparatus of sound, that can ring the call of a new world.  
 
@@ -81,6 +82,7 @@ ZINNIA: Off to change the world.
 @showUI ED_AT_Synthesis
 @wait i
 
+@stopBgm
 @hideUI ED_AT_Synthesis
 @wait i
 
