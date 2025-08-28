@@ -16,7 +16,7 @@ MARIA: …
 MARIA: Are you listening to me?
 
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 You stir from the heat addled haze. Her pinpricks are ice cold.
 
 YOU: Yes, I am.
@@ -161,7 +161,7 @@ RAVEN: Let’s.
 @wait i
 
 @back AnArchitecturalMonstrosity
-@bgm MyWordsCarriedAway
+@bgm MyWordsCarriedAway fade:5
 @printer c_Dialogue
 
 YOU: This place is a nightmare.
@@ -316,7 +316,7 @@ MARIA: Wise choice.
 # ItemChosen
 @stopBgm
 @back FeetOnTheGround
-@bgm WeMayNeverKnow
+@bgm WeMayNeverKnow fade:5
 
 The {Day3Item} [if Day3Item=="actor's box"]is [else]are [endif]small enough to fit in your bag. There’s no real need to call the drone for something like this.
 YOU: Stay out of my blind spots.
@@ -460,7 +460,7 @@ MARIA: That sort of commentary from you is laughable.
 YOU: …
 @stopBgm
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 The two of you make it back to CorpShit9000.
 
 RAVEN.Aloof: …I’ll start the launch sequence. 
@@ -514,7 +514,7 @@ YOU: …
 RAVEN: …
 @stopBgm
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 @hide RAVEN
 He stuffs them into his pocket. The two of you make it back to the ship. He waits patiently. He knows he can’t do anything. Maybe. Maybe not. 
 You can’t tell. Not quite yet. You open the door and he walks in first, already headed to the console. 

@@ -15,7 +15,7 @@ That’s your end all, be all analysis.
 It’s so much faster than you ever thought possible. 
 
 @back FeetOnTheGround
-@bgm WeMayNeverKnow
+@bgm WeMayNeverKnow fade:5
 He’s a racer, not a mechanic, the mission report said. 
 He won’t have any way of removing himself from the situation. 
 It’s categorically impossible.
@@ -58,7 +58,7 @@ Please forward proof of achievement to the Sun Eater.
 @wait i
 
 @back TheBelladonna
-@bgm Away
+@bgm Away fade:5
 @printer c_Dialogue
 RAVEN: You’re popular.
 YOU: Mm. 
@@ -95,7 +95,7 @@ He plays with your nervous system for a bit more, before finally touching back d
 @back black
 @wait i
 @back FeetOnTheGround
-@bgm WeMayNeverKnow
+@bgm WeMayNeverKnow fade:5
 You wait until he hops out of the pilot’s seat first. 
 Then, you crawl out. You land on all fours, and wonder if it’s bad for your internals to be inducing vomit so much.
 
@@ -197,7 +197,7 @@ I don’t know where that is anymore.
 
 @stopBgm
 @back TheBelladonna
-@bgm Away
+@bgm Away fade:5
 
 A hand reaches out, for the glass. It drags its fingers down, makes a mess out of the condensation. It pauses, and then clenches.
 
@@ -290,7 +290,7 @@ It’s not something that comes from you.
 
 @stopBgm
 @back TheSkyIsSharp
-@bgm WhatDoYouHopeToFind
+@bgm WhatDoYouHopeToFind fade:5
 
 The sky is sharp.
 

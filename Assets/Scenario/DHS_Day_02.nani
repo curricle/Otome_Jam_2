@@ -16,7 +16,7 @@ Something cruel and decayed and decrepit, but you’ve really struck gold.
 A fully intact specimen like this is so, so valuable.
 
 @back Stadium
-@bgm StuckOnTheGround
+@bgm StuckOnTheGround fade:5
 
 This is a stadium. A full arena, with brittle spectator chairs, and rows and rows of eternally awed ghosts. 
 What sort of games did they play here? 
@@ -272,7 +272,7 @@ If the cargo was safe, Recollection doesn’t care too much about its passengers
 @back black
 @wait i
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 @printer c_Dialogue
 He makes it back first. 
 He doesn’t help with the load.
@@ -401,7 +401,7 @@ Maybe that’s something he still takes pride in.
 
 @stopBgm
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 
 He’s already on the ship by the time you finish loading it.
 RAVEN.Aloof: That took a while.

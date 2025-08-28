@@ -12,7 +12,7 @@ It leaves your throat feeling raw.
 You press your thumb up against the roof of your mouth and bite down as hard as you can.
 
 @back FAKERS_v2
-@bgm WeMayNeverKnow
+@bgm WeMayNeverKnow fade:5
 
 Castor is unhappy. 
 Maria is unhappy. 
@@ -36,7 +36,7 @@ Instead, she stared at you coolly. Her tinted goggles hid most of her expression
 
 @stopBgm
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 
 MARIA.Red: You still need to meet quota.
 MARIA: Have you realized what a waste of time playing house was? 
@@ -64,7 +64,7 @@ One step, two steps. Each measured and precise. You put on your jumpsuit and you
 @wait i
 
 @back ResidentialDistrict
-@bgm StuckOnTheGround
+@bgm StuckOnTheGround fade:5
 @printer c_Dialogue
 He’s waiting for you like a decadent bride. 
 
@@ -130,7 +130,7 @@ MARIA: You need to collect.
 YOU: You’ll give it to me, right?
 YOU: You’ll give me your heart?
 @stopBgm
-@bgm Away
+@bgm Away fade:5
 He’s going to cry.
 He’s going to cry, and cry. 
 His eyes are welling up with tears he probably didn’t think he had left. 
@@ -173,7 +173,7 @@ MARIA: We have a job to finish, Ioanna.
 
 ;[INCINERATOR CG]
 @back IncineratorRoom
-@bgm AloneDownHere
+@bgm AloneDownHere fade:5
 @printer c_Dialogue
 
 YOU: …

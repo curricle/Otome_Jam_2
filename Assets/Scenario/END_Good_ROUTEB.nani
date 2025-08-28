@@ -1,5 +1,5 @@
 @back TheSkyIsSharp
-@bgm WhatDoYouHopeToFind
+@bgm WhatDoYouHopeToFind fade:5
 
 Is romance a waltz at the end of the world? 
 You do not know how to dance.
@@ -73,7 +73,7 @@ Is this really what you wanted?
 
 Ah, well.
 @stopBgm
-@bgm ShatteredByTheSun
+@bgm ShatteredByTheSun fade:5
 
 RAVEN.Happy: Haha.
 RAVEN: Hahaha…

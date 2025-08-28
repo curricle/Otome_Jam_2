@@ -104,7 +104,7 @@ You let the fake sun sink into your synthskin. You let the world spin on its orb
 The two dossiers look at you with expectant eyes.
 
 @stopBgm
-@bgm FaceItAllForAMoment
+@bgm FaceItAllForAMoment fade:5
 
 @hidePrinter
 
@@ -179,7 +179,7 @@ YOU: I’ll run it through the proper channels.
 @hide CASTOR
 
 @stopBgm
-@bgm WindwardCourse
+@bgm WindwardCourse fade:5
 
 @back FAKERS
 
@@ -200,7 +200,7 @@ It is at the end of the hall, a very long, long hall. You do not have neighbors.
 
 @stopBgm
 @back WelcomeHome
-@bgm AloneDownHere
+@bgm AloneDownHere fade:5
 
 It’s considered a perk. You asked for this room. There’s a huge window.
 There’s not much of anything else. There is no reason to keep anything. 

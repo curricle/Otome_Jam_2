@@ -13,7 +13,7 @@
 
 The two of you sit side to side on Corposhit2000’s floor, backs against the wall.
 @back TheFilmProjectorHums 
-@bgm StuckOnTheGround
+@bgm StuckOnTheGround fade:5
 The film projector hums. After Maria’s work on it, it practically sings. 
 You’re not sure why she was so nice about this particular issue. 
 Especially when she called the movie you are watching absolute drivel.
@@ -39,7 +39,7 @@ The boy on the screen, he smiles so brightly. His dogtags fly in the manufacture
 His hair is perfect, well-kept. He’s got a helmet tucked under his arm. His racing suit is stylishly sloppy, zipper hanging at his navel, showing off a perfect muscle shirt and the hint of a surgical procedure. 
 @stopBgm
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 YOU: I’m surprised they didn’t edit it out.
 RAVEN: …
 
@@ -107,7 +107,7 @@ RAVEN: Let’s go, then.
 
 @printer c_Dialogue
 @back AnArchitecturalMonstrosity
-@bgm MyWordsCarriedAway
+@bgm MyWordsCarriedAway fade:5
 
 The final stretch of your journey. 
 The heart of the entertainment district, this decrepit theater and all it has to offer. 
@@ -236,7 +236,7 @@ You twist at the strands of your hair, whatever is left of it, at least.
 MARIA: That is because it was just us, Ioanna.
 MARIA: No one else.
 MARIA: For better, or worse.
-@bgm AloneDownHere
+@bgm AloneDownHere fade:5
 
 While that was true, it did make it frustrating to reconcile. 
 
@@ -313,7 +313,7 @@ RAVEN: If you call my name like that, even I’d be interested in what you have 
 YOU: I haven’t done that.
 RAVEN: Oh?
 @stopBgm
-@bgm InMotion
+@bgm InMotion fade:5
 @back CORPOSHIT9000
 RAVEN.Happy: You’re not the one who’s been wailing Ravennnnnn, ravennnnnn, ravennnnnn?!!!!
 RAVEN: For the last ten minutes?
@@ -673,7 +673,7 @@ You’ve made your choice.
 @wait i
 
 @back FeetOnTheGround
-@bgm WeMayNeverKnow
+@bgm WeMayNeverKnow fade:5
 @printer c_Dialogue
 
 The Belladonna is a cruel mistress. His one and only.
@@ -689,7 +689,7 @@ Past the theater. Past the coliseum. Past the stars.
 
 @stopBgm
 @back ResidentialDistrict
-@bgm StuckOnTheGround
+@bgm StuckOnTheGround fade:5
 
 It’s a rundown segment of the residential complex. The Belladonna, in all of its glory, next to an abandoned church.
 

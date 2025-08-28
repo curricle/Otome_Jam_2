@@ -14,7 +14,7 @@ MARIA: Now you’ve done it.
 
 ;[[BACKGROUND: “Do you think we’ll get to leave…”]]
 @back GetToLeave_CORRUPTED
-@bgm Away
+@bgm Away fade:5
 
 VOICE1: Do you think we’ll get to leave one day?
 VOICE2: I don’t know.
@@ -205,7 +205,7 @@ A tender thought. It escapes from your lips.
 
 @stopBgm
 @back black
-@bgm WhatDoYouHopeToFind
+@bgm WhatDoYouHopeToFind fade:5
 
 RAVEN: It did.
 RAVEN: I tried to cheat the system, and it punished me for it.

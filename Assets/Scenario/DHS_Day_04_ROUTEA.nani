@@ -19,7 +19,7 @@ Like Raven’s little project.
 
 ;[[BACKGROUND: “CORPOSHIT 9000” OUTSIDE VARIANT]]
 @back CORPOSHIT9000v2
-@bgm InMotion
+@bgm InMotion fade:5
 YOU: So…
 YOU: Do you need help? 
 He ignores you. You don’t know if he’s actually heard you.  He’s wearing some sort of headphones and he’s got his body underneath his princess. You lean against the door frame of your Corpo Piece of Shit, arms crossed over your chest.
@@ -84,7 +84,7 @@ It doesn’t stop it from zipping up and finding his place next to you.
 @wait i
 
 @back AnArchitecturalMonstrosity 
-@bgm MyWordsCarriedAway
+@bgm MyWordsCarriedAway fade:5
 @printer c_Dialogue
 
 You go deeper into the theater.
@@ -203,7 +203,7 @@ YOU: And I am not a saint.
 
 ;[[BACKGROUND: “CORPOSHIT 9000” V3]]
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 @printer c_Dialogue
 
 ; dim this scene somehow lol
@@ -222,7 +222,7 @@ You feel something pop.
 @stopBgm
 ;[[cg family matters]]
 @back CORPOSHIT9000_CORRUPTED
-@bgm Away
+@bgm Away fade:5
 @hide RAVEN
 VOICE1: He’s been staying late.
 VOICE2: To work on the ship?
@@ -268,7 +268,7 @@ VOICE3: I can’t wait for dinner on—
 @stopBgm
 
 @back CORPOSHIT9000
-@bgm InMotion
+@bgm InMotion fade:5
 
 You throw up in his mouth.
 @char RAVEN.CrashingOut

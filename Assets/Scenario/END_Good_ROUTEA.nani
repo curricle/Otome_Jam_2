@@ -9,7 +9,7 @@ All of it demands you stay behind.
 
 ;[[BACKGROUND: “Goodbye, Estehelix.”]]
 @back TheBelladonna
-@bgm ShatteredByTheSun
+@bgm ShatteredByTheSun fade:5
 
 RAVEN.CrashingOut: They’ll kill us.
 RAVEN: They’ll find us.
