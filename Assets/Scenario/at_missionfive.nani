@@ -57,10 +57,12 @@ Zinnia stares out into the landscape out in front of her, painted by a haze of f
 @hide ZINNIA
 @back Incinerator
 
+@char CREW.white pos:50,-10
 ZINNIA: I used to work for the incinerators crew back then. We’d take the world and we’d burn it. All the discarded trash and memories and scraps that we mined every single bit of use from. I used to think it was noble.
 ZINNIA: The way people talk about skinning a carcass, all the bone, meat and fur used. We even save the teeth, and ring out the flesh and tan it to leather. Space grade industrial. 
 ZINNIA: Something beautiful and useful. An ecosystem that grows with us. It wasn’t until one shift, I saw my own face reflecting back in the flames. 
 ZINNIA: What do you think I saw in me? 
+@hide CREW
 
 @choice "A pretty face." goto:.prettyFace
 @choice "Number one." goto:.numberOne
