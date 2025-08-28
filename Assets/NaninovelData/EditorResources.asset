@@ -549,7 +549,13 @@ MonoBehaviour:
       pathPrefix: Characters/RAVEN
       guid: 54ea4ddb272cbac4f9d027150e50ecf5
   - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
-    Resources: []
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/MARIA
+      guid: 4909152e67fb8da40bcb1e6b0490a940
+    - name: Red
+      pathPrefix: Characters/MARIA
+      guid: 195ef663b9e5c8f4596dfd4dc11dc1e8
   - Id: Characters/50c27364-b925-4cf6-a54b-31f0afc8fa67
     Resources:
     - name: Aloof
@@ -683,6 +689,27 @@ MonoBehaviour:
     - name: CORPOSHIT9000v2
       pathPrefix: Backgrounds/MainBackground
       guid: 181a2d6ed4c908047bb9c7b755c4d2f4
+    - name: TheFilmProjectorHums
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0aa4428fc09d92b46be8bef27ba7c812
+    - name: white
+      pathPrefix: Backgrounds/MainBackground
+      guid: 888115ca3137a794ab96166d5da8660b
+    - name: GetToLeave_CORRPUTED
+      pathPrefix: Backgrounds/MainBackground
+      guid: fa5a29c2067bf4e49921dbc06e26aed4
+    - name: Photoshoot_CORRUPTED
+      pathPrefix: Backgrounds/MainBackground
+      guid: cb9ae033a28755841a647ad0f1b04c6a
+    - name: Skyfall
+      pathPrefix: Backgrounds/MainBackground
+      guid: b147203464f723f4bad9c3928d91e82f
+    - name: VOID
+      pathPrefix: Backgrounds/MainBackground
+      guid: fc4d663bba321314b8fff660780bd098
+    - name: TheSkyIsSharp
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8b6aacfe636b0684a9c831292fa62544
   - Id: Audio
     Resources:
     - name: Fire

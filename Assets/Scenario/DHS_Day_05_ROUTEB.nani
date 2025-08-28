@@ -67,8 +67,9 @@ The gaping hole in the back of your head, to start.
 You’ve staunched it as well as you could under the circumstances. 
 Your hands are covered in a mix of machine oil and blood, all things that should be inside of you. 
 
-RAVEN: …
+RAVEN.Aloof: …
 
+@hide RAVEN
 He goes faster. You lurch in your seat. There’s no perfect seatbelt or voice filled with cool indifference to tell you, make sure to hold onto your seat—you are about to experience turbulence.
 
 There’s only the roar of the engine and his hair in your mouth. 
@@ -85,13 +86,15 @@ Underneath the layers, his collar is gone and the killswitch is a glorified pend
 
 He plays with your nervous system for a bit more, before finally touching back down. 
 
+@back black
+@wait i
 @back FeetOnTheGround
 You wait until he hops out of the pilot’s seat first. 
 Then, you crawl out. You land on all fours, and wonder if it’s bad for your internals to be inducing vomit so much.
 
 No comment.
 
-RAVEN: Thought you were better about this kinda stuff.
+RAVEN.Aloof: Thought you were better about this kinda stuff.
 YOU: Me too.
 
 He doesn’t leave, doesn’t turn away. That’s worse, you think. He helps you wash up, he fixes the bandages around your head, he makes it easy.
@@ -107,8 +110,8 @@ RAVEN: Arcensis.
 His gaze flickers from your face to the hand that is bleeding. You keep digging. 
 
 If it bothers him, he will never show it. 
-For as long as the two of you are alive. For the  remainder of these short lives, because this will not be a long story. 
-The ending is past the horizon, you see the allcaps font and all white “FIN”, next to the shortest obituary known to humankind.
+For as long as the two of you are alive. For the remainder of these short lives, because this will not be a long story. 
+The ending is past the horizon, you see the allcaps font and all white “FIN,” next to the shortest obituary known to humankind.
 
 They got what they deserved.
 
@@ -122,6 +125,7 @@ RAVEN: I do need my hand to pilot, y’know.
 Ah, right. Of course. You let go. 
 You watch him wipe the back of his knuckles against his jumpsuit. You could watch him forever, you think. 
 You could watch the way he carries himself past the point of no return. 
+@hide RAVEN
 
 @back black
 
@@ -139,19 +143,20 @@ This is the moment where you realize that maybe--
 
 Raven reaches over to pull at your ear. He does so with a firm grip, index and thumb pressing on your singular earring.
 
-RAVEN: Focus.
+RAVEN.Aloof: Focus.
 YOU: …
 YOU: Right.
 YOU: Is it ready, then?
-RAVEN: Yeah.
+RAVEN.Happy: Yeah.
 
+@hide RAVEN
 He steps back to study his bride.
 You’re at least grateful that Corposhit has ascended to a higher plane. 
 One that is nicer to look at. 
 
 [] Plan: You do not have one.
-Execution: Bad, probably.
-Goal: Something of little consequence in the grand scheme of things. 
+[] Execution: Bad, probably.
+[] Goal: Something of little consequence in the grand scheme of things. 
 
 Is there even a grand scheme at this point? You chew on that for a bit.
 The two of you will leave Estehelix. Some way, some how. 
@@ -211,6 +216,7 @@ You’ve never seen a sky like that?
 I have, I think. A long time ago.
 
 @back TheBelladonna_CORRUPTED_INVERTED
+@char MARIA
 ????: I’m surprised you’re here.
 ????: Or, to be more specific: I’m surprised I’m alive.
 
@@ -254,7 +260,7 @@ It really hurts.
 >>>
 >>
 >
-
+@hide MARIA
 @back TheBelladonna
 You’re bleeding. 
 A lot.
@@ -262,7 +268,7 @@ You’re bleeding a lot more than you should be.
 It’s mostly for show. Your system doesn’t need this much. 
 Maybe this is her idea of a joke.
 
-RAVEN: Christ.
+RAVEN.CrashingOut: Christ.
 YOU: Recollection removed all traces of pre-Golden Age faith, you know.
 
 He doesn’t respond. He throws his arms around you, and you can’t help but think: 
@@ -271,6 +277,8 @@ What kind of person deserves this?
 
 It’s not something that comes from you. 
 
+@back TheSkyIsSharp
+
 The sky is sharp.
 
 RAVEN: It’s…sharp?
@@ -278,6 +286,7 @@ YOU: Yeah.
 RAVEN: …!
 YOU: …
 
+@hide RAVEN
 The ship has sunk into Estehelix’s beloved memoria. 
 It clings to you. Seeps into every crevice. It fills out the hollow in your chassis, it acts as a stop gap. It’s every element. It’s every form. 
 
@@ -285,26 +294,28 @@ You have no other choice. You drink it in desperate gulps.
 
 You don’t ask where you are, or if everything’s okay. The Belladonna sings, anyways.
 
+@back IncineratorRoom_CORRUPTED
 IOANNA: So, are you ready?
 ????: Of course I am!
 IOANNA: It’s going to be a difficult journey.
 ????: You say that about every trip.
 ????: We’re the worst girls in Recollection.
 ????: I don’t think anything could possibly make our current situation worse.
-
-RAVEN: …
+@back TheSkyIsSharp
+RAVEN.Sad: …
 YOU: …
-
+@hide RAVEN
+@back ItsNotLookingGood
 RAVEN: And I said I would win.
 RAVEN: No matter the cost.
 RAVEN: If it means having to bend the rules a little, then so be it.
 ????: A little?
 ????: This is a flagrant violation of construction rules.
 ????: If you get caught, it’s not just going to be a disqualification, it’s going to be a full expulsion. 
-
+@back TheSkyIsSharp
 Why now?
 
-RAVEN: Maybe you have something worth eating now.
+RAVEN.Aloof: Maybe you have something worth eating now.
 YOU: Haha.
 
 It’s not funny. You press your hand against your lips. 
@@ -331,23 +342,28 @@ Are you scared?
 
 RAVEN: Are you not?
 
+@back AreYouScared
+
 The two of you stand at the edge of the world. 
 
 >>>
 >>
 >
 
+@back TheSkyIsSharp
+
 You don’t think you’ve ever been scared. Truly, really scared.
 Two children, back to back. One of them holds a toy plane.
-That must be your jailbird.
+That must be your jailbird. The other one…?
 
-RAVEN: It’s you.
+RAVEN.Aloof: It’s you.
 YOU: …?
 
 You want to argue, but it can’t be anyone else.
 
-RAVEN: Hah…
+RAVEN.Happy: Hah…
 
+@hide RAVEN
 You don’t remember your childhood.
 At least, you didn’t. It’s something hazy now.
 It surely must have existed at some point.
@@ -357,8 +373,9 @@ The child with the plane jumps into the fog.
 But you didn’t care about the before, right?
 
 You know if you look back, you’ll see something you don’t want to remember.
-You’ll feel her against your skin.
+You’ll feel {REDACTED} against your skin.
 
+@back GetToLeave_CORRUPTED
 ????: This is for you.
 RAVEN: For me?
 
@@ -376,9 +393,9 @@ RAVEN: Why are you giving it to me?
 RAVEN: …
 RAVEN: I…understand.
 
-RAVEN: But I resented her for it all the same.
+RAVEN.Aloof: But I resented her for it all the same.
 Both of them hold the nondescript mirror in their hands.
-
+@char RAVEN.Happy
 He looks at you.
 He really looks at you.
 
@@ -387,8 +404,12 @@ It’s kind. It’s a saint’s prayer and an actor’s wish.
 
 RAVEN: Let me give you everything.
 
-\ITEM: BROKEN MIRROR
-ITEM DESCRIPTION: A handheld mirror. 
+# ItemChoice
+@back VOID
+@hide RAVEN
+@choice "ITEM: BROKEN MIRROR"
+    ITEM DESCRIPTION: A handheld mirror. 
+@stop
 
 Ancient and cruel. 
 A family heirloom. 
