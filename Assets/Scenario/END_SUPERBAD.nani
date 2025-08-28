@@ -11,7 +11,7 @@ It leaves your throat feeling raw.
 
 You press your thumb up against the roof of your mouth and bite down as hard as you can.
 
-@back FAKERS
+@back FAKERS_v2
 
 Castor is unhappy. 
 Maria is unhappy. 
@@ -54,8 +54,12 @@ One step, two steps. Each measured and precise. You put on your jumpsuit and you
 >>>
 >>
 >
+@back black
+@hidePrinter
+@wait i
 
 @back ResidentialDistrict
+@printer c_Dialogue
 He’s waiting for you like a decadent bride. 
 
 He has a hand around a crowbar. You know he won’t use it.
@@ -96,7 +100,9 @@ YOU: Maria.
 YOU: You know what to do.
 
 ;[ITEM CHOOSING INTERFACE]
-
+# ItemChoice
+@hide RAVEN
+@back ResidentialDistrict
 @choice "THE BELLADONNA"
     ITEM DESCRIPTION: The wreckage of Estehelix’s finest ship. 
 @stop

@@ -8,8 +8,9 @@ All of it embraces you.
 All of it demands you stay behind.
 
 ;[[BACKGROUND: “Goodbye, Estehelix.”]]
+@back TheBelladonna
 
-RAVEN: They’ll kill us.
+RAVEN.CrashingOut: They’ll kill us.
 RAVEN: They’ll find us.
 YOU: You are so annoying.
 YOU: Seriously, it’s fine.
@@ -17,7 +18,7 @@ RAVEN: They’ll find us and torture us and I’ll never see the sky again—
 YOU: If you keep talking, then yes. 
 YOU: They will find us and flay you, specifically.
 YOU: Recollection lost all of the torture techniques of the old world, but they’ll bring them back, just for you.
-RAVEN: You…really are the worst.
+RAVEN.LookingAway: You…really are the worst.
 
 His expression softens, just a bit. He swallows back his next complaint and zips up his jumpsuit. He pulls the hair out of his collar and ties it into a perfect ponytail. 
 It’s been so long since you’ve seen it. 
@@ -29,7 +30,7 @@ He’s going to explode.
 You’ll be with him, every step of the way.
 This is your promise.
 
-RAVEN: All right, partner.
+RAVEN.Aloof: All right, partner.
 
 He’s not talking to you.
 
@@ -96,6 +97,7 @@ RAVEN: …
 RAVEN: …!
 
 ;[[BACKGROUND: “Goodbye, Estehelix.”]]
+@back TheBelladonna
 
 YOU: You act so virginal every time.
 YOU: Do you want me to recount our last romp?
