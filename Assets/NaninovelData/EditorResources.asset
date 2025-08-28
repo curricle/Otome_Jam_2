@@ -122,13 +122,13 @@ MonoBehaviour:
       guid: a32c73a3aff4b274c85b3ff16c854b07
     - name: SaveLoadUI
       pathPrefix: UI
-      guid: 8d53726b3d08433479398f02b4780e7f
+      guid: 6423eaabc72cf1c4e85053c2ffa19922
     - name: SceneTransitionUI
       pathPrefix: UI
       guid: e3b234b4273b7f64ab3f1d9fe425ed23
     - name: SettingsUI
       pathPrefix: UI
-      guid: 65c37f59e9b266f468dd5381fdc03fc3
+      guid: 536177ff2fee9c74b8d26cfd53ba4802
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
@@ -380,9 +380,6 @@ MonoBehaviour:
     - name: AreYouScared
       pathPrefix: Backgrounds/MainBackground
       guid: 744ff9c5467dc0346a364322ff012ca1
-    - name: Atrium_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: b2b310844fe56de488918191a7c07100
     - name: Bathroom
       pathPrefix: Backgrounds/MainBackground
       guid: 28396784181e7aa40b60b49e0b6ecb13
@@ -428,9 +425,6 @@ MonoBehaviour:
     - name: EntertainmentDistrict
       pathPrefix: Backgrounds/MainBackground
       guid: eb0d9a516e0324842ace56be4f164aab
-    - name: Estehelix_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: 63b945cec38e1b84a83f945b54e26e6b
     - name: ExecutionChamber
       pathPrefix: Backgrounds/MainBackground
       guid: 491eeb1bbade17846af95d7f2c13472d
@@ -455,9 +449,6 @@ MonoBehaviour:
     - name: Incinerator
       pathPrefix: Backgrounds/MainBackground
       guid: f6cd973f68a2ea44c815949fc8ea64b0
-    - name: Incinerator_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: abbd2fc335dcd624a86f7d308ab8f788
     - name: IncineratorRoom
       pathPrefix: Backgrounds/MainBackground
       guid: 4c479e9cc76bcf74b982f7857d877e10
@@ -479,9 +470,6 @@ MonoBehaviour:
     - name: OpulentTheater
       pathPrefix: Backgrounds/MainBackground
       guid: 644ae555179d9854ea9aedb29fbd9915
-    - name: Papers
-      pathPrefix: Backgrounds/MainBackground
-      guid: 9e66c313ec98034478e489c87980af8e
     - name: Photoshoot_CORRUPTED
       pathPrefix: Backgrounds/MainBackground
       guid: cb9ae033a28755841a647ad0f1b04c6a
@@ -497,9 +485,6 @@ MonoBehaviour:
     - name: StadiumRuins
       pathPrefix: Backgrounds/MainBackground
       guid: eb90cda46fd9dbc4ab6a01c6c1bfecdc
-    - name: Space_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: e1a03efd3f68c1c41a089257b1226ac6
     - name: Spaceship
       pathPrefix: Backgrounds/MainBackground
       guid: 3886d21ddf21ce64e8d052ffa39a518d
