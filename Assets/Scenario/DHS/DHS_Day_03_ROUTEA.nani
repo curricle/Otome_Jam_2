@@ -15,6 +15,7 @@ YOU: Do you like music, Raven?
 RAVEN: I have no particular feelings on the matter.
 
 @back CORPOSHIT9000
+@bgm InMotion
 
 The two of you sit back to back. Seasons come and go on other systems, but Estehelix is a cruel lover. Days go by, they turn into weeks, and the weather worsens for all those involved.
 Why were you still here?
@@ -61,12 +62,13 @@ You zip your suit back on.
 >>>
 >>
 >
-
+@stopBgm
 @hidePrinter
 @back black
 @wait i
 
 @back FeetOnTheGround
+@bgm WeMayNeverKnow
 @printer c_Dialogue
 
 YOU: Have you gotten comfortable with me, Raven?
@@ -119,10 +121,10 @@ RAVEN: You don’t actually mean that.
 >>>
 >>
 >
-
+@stopBgm
 ;[[BACKGROUND: “Entertainment district.”]]
 @back EntertainmentDistrict
-
+@bgm MyWordsCarriedAway
 The two of you carve a new path through the entertainment district. The looming coliseum is behind you. Today, you make your way to a new beast. 
 He sticks his hands in his pockets and shuffles off, but you can feel his scowl on the back of your neck. If looks could kill, so on and so forth.
 RAVEN.Aloof: Do you expect most people to lick your boots?
@@ -358,8 +360,9 @@ RAVEN: Seriously, what?
 YOU: It’s not important.
 YOU: Why are you so fixated on the engine?
 RAVEN: Mind your damn business.
-
+@stopBgm
 @back FeetOnTheGround
+@bgm WeMayNeverKnow
 @hide RAVEN
 
 An impasse.
@@ -424,11 +427,13 @@ You’ll get it out of him.
 
 The two of you make it back to base.
 
+@stopBgm
 @back black
 @hidePrinter
 @wait i
 
 @back CORPOSHIT9000
+@bgm InMotion
 @printer c_Dialogue
 
 You pretend to be asleep when Raven leaves that night.
@@ -441,6 +446,7 @@ MARIA: …are you finally going for that promotion?
 You catch your reflection in the overhead console. 
 You’re smiling.
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i 
