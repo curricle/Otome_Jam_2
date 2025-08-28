@@ -180,8 +180,8 @@ You whip around, to see Raven crouching behind an ornate sofa.
 @back OpulentTheater
 
 @choice "ENGINE" goto:.Engine
-@choice "ACTOR'S BOX" goto:.ActorsBox lock:{HasBrokenRudder=true}
-@choice "SILVER BULLETS" goto:.SilverBullets lock:{HasBrokenRudder=true}
+@choice "ACTOR'S BOX" goto:.ActorsBox if:{HasBrokenRudder=true}
+@choice "SILVER BULLETS" goto:.SilverBullets if:{HasBrokenRudder=true}
 @stop
 
 # Engine
