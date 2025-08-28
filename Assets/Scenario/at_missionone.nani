@@ -11,7 +11,7 @@
 
 ;THE CAVERNS. CISTERN TUNNELS FULL OF DUST, ROCKS AND ROTS. 
 @back Caves_01
-@bgm FrozenEchoes
+@bgm FrozenEchoes fade:5
 
 YOU: *Achoo!*
 Your sneeze echoes through the tunnels. You aren't sure if it's more embarrassing that Zinnia didn't acknowledge it. 
@@ -255,7 +255,8 @@ ZINNIA: …..
 
 # endingM1
 
-ZINNIA: We've been to many planets. How many civilizations have you seen? How many micro biomes? How many ecosystems? How many tools? How many minerals? We're on carcasses of carcasses deep in the biosphere. Do you even realize that? 
+ZINNIA: We've been to many planets. How many civilizations have you seen? 
+ZINNIA: How many biomes? How many ecosystems? How many tools? How many minerals? We're on carcasses of carcasses deep in the biosphere. Do you even realize that? 
 ZINNIA: Get some rest. We have a new area to scope tomorrow.
 
 @hide ZINNIA

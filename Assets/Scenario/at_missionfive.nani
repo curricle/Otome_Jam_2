@@ -11,7 +11,7 @@
 
 ; [BACKGROUND: INSIDE THE SHIP MISSION CONTROL]
 @back Mission_Control
-@bgm FrozenEchoes
+@bgm FrozenEchoes fade:5
 
 @char ZINNIA
 
@@ -43,7 +43,7 @@ ZINNIA: This is what the world used to be like.
 YOU: I do remember that a little bit. 
 
 @stopBgm
-@bgm Testament
+@bgm Testament fade:5
 
 You remember the red skies. The red smoke. Air levels when air levels used to matter. 
 

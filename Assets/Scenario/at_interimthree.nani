@@ -11,7 +11,7 @@
 
 ;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
 @back Bathroom
-@bgm LostDreams
+@bgm LostDreams fade:5
 
 You feel restless. 
 

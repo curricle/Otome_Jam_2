@@ -239,87 +239,87 @@ MonoBehaviour:
     - name: Start
       pathPrefix: Scripts
       guid: 3a3a3126d55fd38478fc6d74c71659d8
-    - name: AT/at_opening
-      pathPrefix: Scripts
-      guid: f9d89a37948a6d945ba8ae518dc164b6
-    - name: AT/at_dayone
-      pathPrefix: Scripts
-      guid: a24cfdbc1c59a4941a56bee00dd94c55
-    - name: AT/at_missionone
-      pathPrefix: Scripts
-      guid: 14a507d5087720a438659c400e53fea8
-    - name: AT/at_interimone
-      pathPrefix: Scripts
-      guid: c009ff74360f312488b2755ac94897a4
-    - name: AT/at_missiontwo
-      pathPrefix: Scripts
-      guid: 7f9cda8e4069d6f43bde206219349a73
-    - name: AT/at_interimtwo
-      pathPrefix: Scripts
-      guid: 8fbadefcc738afd49a45ced45899aaa1
-    - name: AT/at_missionthree
-      pathPrefix: Scripts
-      guid: ebc5e9321ecaa9a49b7e7413e8b64c91
-    - name: AT/at_interimthree
-      pathPrefix: Scripts
-      guid: 7f8d0256e7bdcb44c8fcffd7f3efbb33
-    - name: AT/at_missionfour
-      pathPrefix: Scripts
-      guid: c4759c9c6457b0f4a9bd19be85f3f889
-    - name: AT/at_interimfour
-      pathPrefix: Scripts
-      guid: d2a68a8069445c246bba95a800ca9b26
-    - name: AT/at_missionfive
-      pathPrefix: Scripts
-      guid: 4c5a542b7786fd24b843480851be5165
-    - name: AT/at_goodend
-      pathPrefix: Scripts
-      guid: 2f432de92a38a024a8b8d8b834526d4b
-    - name: AT/at_zinniamariaend
-      pathPrefix: Scripts
-      guid: 912095784f07c2b4ba54eaf612dad307
-    - name: AT/at_badcorpoend
-      pathPrefix: Scripts
-      guid: 8596c5e18b1f8314180c07ca8a27a4a0
-    - name: DHS/DHS_Day_01
+    - name: DHS_Day_01
       pathPrefix: Scripts
       guid: fe2778e08e3f4ec4a91ad6f204dce316
-    - name: DHS/DHS_Day_02
+    - name: DHS_Day_02
       pathPrefix: Scripts
       guid: b7625e56646777340b8998311b306e4f
-    - name: DHS/END_SUPERBAD
-      pathPrefix: Scripts
-      guid: ebc09900dd7dfba40b008e922ab8bae8
-    - name: DHS/END_Good_ROUTEB
-      pathPrefix: Scripts
-      guid: a28e02c8bf985814189ce9340816d7cb
-    - name: DHS/END_Good_ROUTEA
-      pathPrefix: Scripts
-      guid: c0ff455d2c510354c86d4e5649c53c4d
-    - name: DHS/END_Bad_ROUTEB
-      pathPrefix: Scripts
-      guid: cc8dc4fbf2d1bf14a913a469912566c4
-    - name: DHS/END_Bad_ROUTEA
-      pathPrefix: Scripts
-      guid: 8fd71396eef5de442b6baed991ffcb92
-    - name: DHS/DHS_Day_03_ROUTEA
+    - name: DHS_Day_03_ROUTEA
       pathPrefix: Scripts
       guid: 5d507a07a50b84a41a5adf3b68dda26d
-    - name: DHS/DHS_Day_03_ROUTEB
+    - name: DHS_Day_03_ROUTEB
       pathPrefix: Scripts
       guid: bff0af2d246bbc345857fccc5d1cb540
-    - name: DHS/DHS_Day_04_ROUTEA
+    - name: DHS_Day_04_ROUTEA
       pathPrefix: Scripts
       guid: e89b18d52f959be45a440afa65444264
-    - name: DHS/DHS_Day_04_ROUTEB
+    - name: DHS_Day_04_ROUTEB
       pathPrefix: Scripts
       guid: 6d6e3ad34f812f143b0fe3860a23fa31
-    - name: DHS/DHS_Day_05_ROUTEA
+    - name: DHS_Day_05_ROUTEA
       pathPrefix: Scripts
       guid: dc615c087ede8294f90644ce94849615
-    - name: DHS/DHS_Day_05_ROUTEB
+    - name: DHS_Day_05_ROUTEB
       pathPrefix: Scripts
       guid: 53d651a5a8699fb4e99f97734a6cc7e4
+    - name: END_Bad_ROUTEA
+      pathPrefix: Scripts
+      guid: 8fd71396eef5de442b6baed991ffcb92
+    - name: END_Bad_ROUTEB
+      pathPrefix: Scripts
+      guid: cc8dc4fbf2d1bf14a913a469912566c4
+    - name: END_Good_ROUTEA
+      pathPrefix: Scripts
+      guid: c0ff455d2c510354c86d4e5649c53c4d
+    - name: END_Good_ROUTEB
+      pathPrefix: Scripts
+      guid: a28e02c8bf985814189ce9340816d7cb
+    - name: END_SUPERBAD
+      pathPrefix: Scripts
+      guid: ebc09900dd7dfba40b008e922ab8bae8
+    - name: at_badcorpoend
+      pathPrefix: Scripts
+      guid: 8596c5e18b1f8314180c07ca8a27a4a0
+    - name: at_dayone
+      pathPrefix: Scripts
+      guid: a24cfdbc1c59a4941a56bee00dd94c55
+    - name: at_goodend
+      pathPrefix: Scripts
+      guid: 2f432de92a38a024a8b8d8b834526d4b
+    - name: at_interimfour
+      pathPrefix: Scripts
+      guid: d2a68a8069445c246bba95a800ca9b26
+    - name: at_interimone
+      pathPrefix: Scripts
+      guid: c009ff74360f312488b2755ac94897a4
+    - name: at_interimthree
+      pathPrefix: Scripts
+      guid: 7f8d0256e7bdcb44c8fcffd7f3efbb33
+    - name: at_interimtwo
+      pathPrefix: Scripts
+      guid: 8fbadefcc738afd49a45ced45899aaa1
+    - name: at_missionfive
+      pathPrefix: Scripts
+      guid: 4c5a542b7786fd24b843480851be5165
+    - name: at_missionfour
+      pathPrefix: Scripts
+      guid: c4759c9c6457b0f4a9bd19be85f3f889
+    - name: at_missionone
+      pathPrefix: Scripts
+      guid: 14a507d5087720a438659c400e53fea8
+    - name: at_missionthree
+      pathPrefix: Scripts
+      guid: ebc5e9321ecaa9a49b7e7413e8b64c91
+    - name: at_missiontwo
+      pathPrefix: Scripts
+      guid: 7f9cda8e4069d6f43bde206219349a73
+    - name: at_opening
+      pathPrefix: Scripts
+      guid: f9d89a37948a6d945ba8ae518dc164b6
+    - name: at_zinniamariaend
+      pathPrefix: Scripts
+      guid: 912095784f07c2b4ba54eaf612dad307
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f

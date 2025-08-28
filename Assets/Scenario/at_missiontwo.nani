@@ -9,11 +9,10 @@
 
 @printer c_Dialogue
 
-
+@bgm SubterraneanGlistening fade:5
 You wake up hungry. 
 
 @back Cisterns
-@bgm SubterraneanGlistening
 
 Today Zinnia takes you back down to the cistern caverns. It feels practiced, as if this is a place she's been before. 
 

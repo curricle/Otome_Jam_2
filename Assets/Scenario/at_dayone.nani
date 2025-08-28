@@ -1,4 +1,5 @@
 ;Route Title Card
+@stopBgm
 @hidePrinter
 @showUI CC_AT_Opening
 @wait i

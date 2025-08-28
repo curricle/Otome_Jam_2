@@ -1,6 +1,6 @@
 ;bg?
 @back Chains
-@bgm RestingPlace
+@bgm RestingPlace fade:5
 
 @choice "A PAIR OF CHAINS" goto:.chains
 @choice "A PAIR OF CHAINS" goto:.chains
@@ -73,7 +73,7 @@ YOU: It’s pretty right?
 @char ZINNIA.Aloof
 ZINNIA: Yeah…
 YOU: They said we’ve done the company’s best. A whole new record! All that junk being used to fuel the galaxy. It’s amazing what we can accomplish together. 
-YOU: That beautiful collection, I’m so glad we got to enjoy it, but you know? I think it looks prettier burning. Don’t you? <3
+YOU: That beautiful collection, I’m so glad we got to enjoy it, but you know? I think it looks prettier burning. Don’t you?
 
 Zinnia’s fingers curl into your own. If she looks unsure and confused. She’s cuter that way. 
 
