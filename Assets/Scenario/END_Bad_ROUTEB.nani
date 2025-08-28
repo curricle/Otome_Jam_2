@@ -2,19 +2,20 @@
 @back IncineratorRoom
 
 There’s an emptiness that seems to swallow the entire room.
-MARIA: Ioanna.
+MARIA.Default: Ioanna.
 MARIA: Are you happy?
 YOU: Happy…
 The emotion is a beast. It curls around your neck, your wrists. 
 It eats at you.
+@hide MARIA
 He once said that was an emotion that he could not afford. 
 It was something that he gave others.
 Happiness, joy, love—all things that he abandoned on the grid.
 His entire purpose was to serve the hand that feeds.
 
 ;[MUTED BACKGROUND, B/W SPRITES]
-
-RAVEN: I came to Estehelix for one thing.
+@back CommercialDistrict_v2
+RAVEN.Aloof: I came to Estehelix for one thing.
 RAVEN: And that was to race.
 RAVEN: A life without it was not a life worth living.
 RAVEN: But…
@@ -26,8 +27,9 @@ YOU: I can give you a purpose outside the checkered flag and the bright lights.
 YOU: I can give you something to live for.
 
 ;[BACK TO PRESENT DAY; CG GONE]
-
-MARIA: Did you think he would be stupid enough to take your hand?
+@back FAKERS
+@hide RAVEN
+MARIA.Default: Did you think he would be stupid enough to take your hand?
 YOU: No.
 MARIA: But he was.
 YOU: He was.
@@ -51,11 +53,19 @@ MARIA: …
 She flickers underneath your eyelids.
 YOU: Are you unhappy with my answer?
 She does not reply.
+@hide MARIA
 >>>
 >>
 >
+@back black
+@hidePrinter
+@wait i
+
+@back ExecutionChamber
+@printer c_Dialogue
+@char SUNEATER
 ????: Do you have any last words?
-RAVEN: I do not.
+RAVEN.Aloof: I do not.
 RAVEN: I made my peace with my fate.
 RAVEN: I wish she was here to see it.
 ????: I can bring her to you.
@@ -66,10 +76,20 @@ RAVEN: I couldn’t live up to her expectations.
 ????: …
 ????: Then…
 ????: Good night, ▮▮▮▮▮.
+@hide RAVEN
 >>>
 >>
 >
+@hide SUNEATER
+
+@hidePrinter
+@back black
+@wait i
+
+@back FAKERS
+@printer c_Dialogue
 YOU: Is it done?
+@char SUNEATER
 ????: Yes.
 YOU: Good work, Miss Sun Eater.
 SUNEATER: Mmm.
@@ -79,6 +99,7 @@ SUNEATER: …
 SUNEATER: Waste management really is…
 YOU: The worst, yes.
 YOU: I’ve heard.
+@hide SUNEATER
 You press your hand against the glass that separates you from him.
 The executioner’s chamber is clean and sterile. He sits so politely in that chair. 
 The chair that’s been waiting for him for so, so long.
