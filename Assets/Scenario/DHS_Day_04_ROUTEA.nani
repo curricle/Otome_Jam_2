@@ -326,8 +326,8 @@ YOU: I can give you something to live for.
 @hidePrinter
 @back black
 @wait i 
-@goto DHS_Day_05_ROUTEA if:Raven>=25
-@goto END_Bad_ROUTEA if:Raven<25
+@goto DHS_Day_05_ROUTEA if:RavenAffection>=25
+@goto END_Bad_ROUTEA if:RavenAffection<25
 
 # ChoiceC
 
