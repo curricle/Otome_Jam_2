@@ -12,6 +12,7 @@ It leaves your throat feeling raw.
 You press your thumb up against the roof of your mouth and bite down as hard as you can.
 
 @back FAKERS_v2
+@bgm WeMayNeverKnow
 
 Castor is unhappy. 
 Maria is unhappy. 
@@ -33,7 +34,9 @@ The Sun Eater did not like that explanation. Nor did she refute it.
 Instead, she stared at you coolly. Her tinted goggles hid most of her expression, but you could tell the glare was meant to kill.
 @hide SUNEATER
 
+@stopBgm
 @back CORPOSHIT9000
+@bgm InMotion
 
 MARIA.Red: You still need to meet quota.
 MARIA: Have you realized what a waste of time playing house was? 
@@ -55,11 +58,13 @@ One step, two steps. Each measured and precise. You put on your jumpsuit and you
 >>>
 >>
 >
+@stopBgm
 @back black
 @hidePrinter
 @wait i
 
 @back ResidentialDistrict
+@bgm StuckOnTheGround
 @printer c_Dialogue
 He’s waiting for you like a decadent bride. 
 
@@ -124,7 +129,8 @@ MARIA: You need to collect.
 @char RAVEN.Sad
 YOU: You’ll give it to me, right?
 YOU: You’ll give me your heart?
-
+@stopBgm
+@bgm Away
 He’s going to cry.
 He’s going to cry, and cry. 
 His eyes are welling up with tears he probably didn’t think he had left. 
@@ -160,13 +166,14 @@ MARIA: We have a job to finish, Ioanna.
 >>>
 >>
 >
-
+@stopBgm
 @hidePrinter
 @back black
 @wait i
 
 ;[INCINERATOR CG]
 @back IncineratorRoom
+@bgm AloneDownHere
 @printer c_Dialogue
 
 YOU: …
@@ -232,6 +239,7 @@ YOU: It was a job.
 @showUI ED_DHS_AndThenInDreaming
 @wait i
 
+@stopBgm
 @hideUI ED_DHS_AndThenInDreaming
 @wait i
 
