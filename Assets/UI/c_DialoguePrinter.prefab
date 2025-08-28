@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224243699134924802}
   - component: {fileID: 223701720754181858}
+  - component: {fileID: 7045495300277627229}
   - component: {fileID: 114943319459938548}
   - component: {fileID: 225261487971049352}
   - component: {fileID: 114653316575572746}
@@ -64,7 +65,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
---- !u!114 &114943319459938548
+--- !u!114 &7045495300277627229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,6 +73,66 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216038347459006}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfe7d774d7b03042912bcb3aa9d7ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableInteraction: 0
+  visibleOnAwake: 1
+  controlOpacity: 1
+  fadeTime: 0.3
+  ignoreTimeScale: 1
+  focusObject: {fileID: 0}
+  focusMode: 0
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
+    m_PersistentCalls:
+      m_Calls: []
+  hideOnLoad: 1
+  hideInThumbnail: 0
+  saveVisibilityState: 1
+  blockInputWhenVisible: 0
+  adaptToInputMode: 1
+  allowedSamplers: []
+  modalUI: 0
+  modalGroup: 
+  buttonControls: {fileID: 0}
+  controlsLegend: {fileID: 0}
+  fontChangeConfiguration: []
+  content: {fileID: 7466899038394840338}
+  continueInputTriggers: []
+  defaultTemplates: []
+  onTintChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  revealableText: {fileID: 2347954492099014096}
+  authorNamePanel: {fileID: 4764392917934067185}
+  authorAvatarImage: {fileID: 0}
+  inputIndicator: {fileID: 7636991501353365997}
+  positionIndicatorOverText: 1
+  autoLineBreaks: 0
+  appearances: []
+  charsSfx: []
+  charsCommands: []
+  onAuthorChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onRevealStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onRevealFinished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114943319459938548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216038347459006}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5c537a095efa0e439d2d3d1ce5f0d5b, type: 3}
   m_Name: 
@@ -668,6 +729,7 @@ GameObject:
   - component: {fileID: 222838265447118684}
   - component: {fileID: 114760778610137920}
   - component: {fileID: 114791849451478686}
+  - component: {fileID: 7830418041690830660}
   - component: {fileID: 4764392917934067185}
   - component: {fileID: 4786881664162003506}
   - component: {fileID: 882794428151311419}
@@ -762,6 +824,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7830418041690830660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942969057305980}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705765625f9ebcd48aecef04da05624d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4764392917934067185
 MonoBehaviour:
   m_ObjectHideFlags: 0

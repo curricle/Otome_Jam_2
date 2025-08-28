@@ -1,0 +1,17 @@
+using Microsoft.Unity.VisualStudio.Editor;
+using TMPro;
+using UnityEngine;
+
+namespace Naninovel.UI
+{
+    public class c_AuthorNameTMProPanel : AuthorNamePanel
+    {
+        public override string Text { get => TextComp ? TextComp.text : null; set { if (TextComp) TextComp.text = value ?? string.Empty; } }
+        public override Color TextColor { get => TextComp ? TextComp.color : default; set { if (TextComp) TextComp.color = value; } }
+
+        public Image NamePanel;
+
+        private TextMeshProUGUI TextComp => textCompCache ? textCompCache : (textCompCache = GetComponentInChildren<TextMeshProUGUI>());
+        private TextMeshProUGUI textCompCache;
+    }
+}
