@@ -15,6 +15,7 @@ You don’t know how much of it is her manipulation or his memoria.
 
 ;[[BACKGROUND: CG 07 “She stands at the edge of the universe.”]]
 @char MARIA
+@bgm ChasingTheSkyline
 She stands at the edge of the universe. 
 
 MARIA: You love to jerk me around, Ioanna.
@@ -142,10 +143,10 @@ YOU: And it’s lights out.
 >>>
 >>
 >
-
+@stopBgm
 ;[[BACKGROUND: CG: “Another job well done.”]]
 @back IncineratorRoom
-
+@bgm AloneDownHere
 SUNEATER: Hmm?
 SUNEATER: It’s rare to see you here these days.
 SUNEATER.Silhouette: Ever since they took you out of Waste Management.
@@ -213,6 +214,7 @@ MARIA: Sickening.
 @showUI ED_DHS_DeepDownLament
 @wait i
 
+@stopBgm
 @hideUI ED_DHS_DeepDownLament
 @wait i
 

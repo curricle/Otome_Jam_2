@@ -6,6 +6,8 @@ There’s an emptiness that seems to swallow the entire room.
 MARIA.Neutral: Ioanna.
 MARIA: Are you happy?
 YOU: Happy…
+
+@bgm AloneDownHere
 The emotion is a beast. It curls around your neck, your wrists. 
 It eats at you.
 @hide MARIA
@@ -58,11 +60,13 @@ She does not reply.
 >>>
 >>
 >
+@stopBgm
 @back black
 @hidePrinter
 @wait i
 
 @back ExecutionChamber
+@bgm ChasingTheSkyline
 @printer c_Dialogue
 @char SUNEATER
 ????: Do you have any last words?
@@ -118,6 +122,7 @@ Why aren’t you happy?
 @showUI ED_DHS_TheseViolentDelights
 @wait i
 
+@stopBgm
 @hideUI ED_DHS_TheseViolentDelights
 @wait i
 
