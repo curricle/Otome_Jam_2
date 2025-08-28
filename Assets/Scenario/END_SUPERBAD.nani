@@ -24,17 +24,18 @@ You have spent enough time, floating in the recesses of deep-space.
 Your mission was simple. Retrieve the prisoner. Bring him back. 
 Execute justice.
 
-SUNEATER: Surely, that wasn’t too difficult of a project.
+SUNEATER.Silhouette: Surely, that wasn’t too difficult of a project.
 
 You wanted to bite back, say something about time here, how it slips from unprepared fingers.
 Maybe you needed more backup.
 
 The Sun Eater did not like that explanation. Nor did she refute it.
 Instead, she stared at you coolly. Her tinted goggles hid most of her expression, but you could tell the glare was meant to kill.
+@hide SUNEATER
 
 @back CORPOSHIT9000
 
-MARIA: You still need to meet quota.
+MARIA.Red: You still need to meet quota.
 MARIA: Have you realized what a waste of time playing house was? 
 MARIA: Are you ready to repent, Ioanna?
 
@@ -44,11 +45,11 @@ Not yet, at least.
 
 You turn off all the monitors. Maria does not help. She makes you walk to every single one and press each individual button.
 
-MARIA: It is nice to see you so hard-working.
+MARIA.Neutral: It is nice to see you so hard-working.
 MARIA: I wish you showed this type of initiative earlier.
 MARIA: You are running out of time.
 YOU: I am glad you think I still have some left.
-
+@hide MARIA
 One step, two steps. Each measured and precise. You put on your jumpsuit and you fix the killswitch around your neck. It fits perfectly in the palm of your hand, fingers curled just so.
 
 >>>
@@ -64,7 +65,7 @@ He’s waiting for you like a decadent bride.
 
 He has a hand around a crowbar. You know he won’t use it.
 
-RAVEN: I’m leaving.
+RAVEN.Aloof: I’m leaving.
 YOU: You are?
 
 You give him what could qualify as a smile. Wry. Thin. 
@@ -82,11 +83,12 @@ He’s digging his heels in but you have him up against the wall of his beloved 
 
 YOU: I do not have anymore time left.
 He spits.
-RAVEN: Did you get tired of playin’ nice?
+RAVEN.LookingAway: Did you get tired of playin’ nice?
 RAVEN: Did they up my bounty?
 YOU: …
 YOU: They did not.
 
+@char RAVEN.Aloof
 You let the answer sink in.
 He narrows his gaze, but he does not let go of his weapon.
 
@@ -116,9 +118,10 @@ All of it sings under your touch.
 It begs to be reconstructed. It begs to fly.
 It begs for mercy.
 
-MARIA: Do not indulge him.
+MARIA.Neutral: Do not indulge him.
 MARIA: There is no need to ask “why” or “how”. 
 MARIA: You need to collect.
+@char RAVEN.Sad
 YOU: You’ll give it to me, right?
 YOU: You’ll give me your heart?
 
@@ -132,9 +135,9 @@ Just enough.
 
 Show your devotion to me, Raven. 
 
-RAVEN: We need to meet the quota. 
+RAVEN.LookingAway: We need to meet the quota. 
 RAVEN: After all.
-
+@hide MARIA
 ????: Despite that declaration, 
 ????: You do not believe him.
 
@@ -148,11 +151,12 @@ RAVEN: It was always just you, and whoever you talked to.
 RAVEN: —
 
 He’s still talking but you can’t hear him.
+@hide RAVEN
 REDACTED: Despite it all.
 ????: In sickness and in health.
-MARIA: You will always be here with me.
+MARIA.Neutral: You will always be here with me.
 MARIA: We have a job to finish, Ioanna.
-
+@hide MARIA
 >>>
 >>
 >
@@ -167,7 +171,7 @@ MARIA: We have a job to finish, Ioanna.
 
 YOU: …
 YOU: …
-MARIA: Saintess.
+MARIA.Neutral: Saintess.
 YOU: I get it comes with the promotion, but I need you to drop it.
 YOU: Immediately.
 MARIA: …
@@ -203,17 +207,21 @@ YOU: I put the restrains over his arms.
 YOU: He looked at me but…
 YOU: He was not looking at me.
 YOU: There was nothing in his eyes.
-
-RAVEN: I hope you get what you deserve.
+@hide MARIA
+@back ExecutionChamber
+RAVEN.Aloof: I hope you get what you deserve.
 RAVEN: Ioanna Arcensis.
+@hide RAVEN
+@back FAKERS
 
-MARIA: Hmm.
+MARIA.Neutral: Hmm.
 MARIA: A little anticlimactic.
 
 You stick your hand into your pocket. Dig around. You find what you want.
 You open your metal tin and take out a perfectly rolled cigarette.
 
 YOU: It was a job.
+@hide MARIA
 
 ;ED: AND THEN, IN DREAMING.
 
