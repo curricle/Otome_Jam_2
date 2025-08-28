@@ -14,6 +14,7 @@ MARIA: Now you’ve done it.
 
 ;[[BACKGROUND: “Do you think we’ll get to leave…”]]
 @back GetToLeave_CORRUPTED
+@bgm Away
 
 VOICE1: Do you think we’ll get to leave one day?
 VOICE2: I don’t know.
@@ -202,7 +203,9 @@ YOU: Estehelix destroyed him.
 
 A tender thought. It escapes from your lips.
 
+@stopBgm
 @back black
+@bgm WhatDoYouHopeToFind
 
 RAVEN: It did.
 RAVEN: I tried to cheat the system, and it punished me for it.
@@ -365,6 +368,7 @@ YOU: Want to give it a try?
 >
 Click.
 
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black
