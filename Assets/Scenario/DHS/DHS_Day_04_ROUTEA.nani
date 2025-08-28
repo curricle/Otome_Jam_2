@@ -19,7 +19,7 @@ Like Raven’s little project.
 
 ;[[BACKGROUND: “CORPOSHIT 9000” OUTSIDE VARIANT]]
 @back CORPOSHIT9000v2
-
+@bgm InMotion
 YOU: So…
 YOU: Do you need help? 
 He ignores you. You don’t know if he’s actually heard you.  He’s wearing some sort of headphones and he’s got his body underneath his princess. You lean against the door frame of your Corpo Piece of Shit, arms crossed over your chest.
@@ -78,12 +78,13 @@ It doesn’t stop it from zipping up and finding his place next to you.
 >>>
 >>
 >
-
+@stopBgm
 @back black
 @hidePrinter
 @wait i
 
 @back AnArchitecturalMonstrosity 
+@bgm MyWordsCarriedAway
 @printer c_Dialogue
 
 You go deeper into the theater.
@@ -195,14 +196,17 @@ YOU: And I am not a saint.
 >>
 >
 
+@stopBgm
 @hidePrinter
 @back black
 @wait i
 
 ;[[BACKGROUND: “CORPOSHIT 9000” V3]]
 @back CORPOSHIT9000
+@bgm InMotion
 @printer c_Dialogue
 
+; dim this scene somehow lol
 YOU: Are you going to bite your gloves off?
 RAVEN.Happy: Do you want me to?
 You intended to tease him a bit more for it but he removes his left glove with a practiced flourish. 
@@ -215,9 +219,10 @@ You see stars.
 You see every star.
 Should you kiss him? It’s an idle thought. You press your tongue against his lower lip, you feel for his teeth. You probe. You prod. You explore. It’s your vice. You get an inch, you want the mile. 
 You feel something pop.
-
+@stopBgm
 ;[[cg family matters]]
 @back CORPOSHIT9000_CORRUPTED
+@bgm Away
 @hide RAVEN
 VOICE1: He’s been staying late.
 VOICE2: To work on the ship?
@@ -260,8 +265,10 @@ VOICE2: Ah…I’m really glad.
 VOICE1: You really are an idiot, ▮▮▮▮▮.
 VOICE2: A total idiot.
 VOICE3: I can’t wait for dinner on—
+@stopBgm
 
 @back CORPOSHIT9000
+@bgm InMotion
 
 You throw up in his mouth.
 @char RAVEN.CrashingOut
@@ -283,6 +290,7 @@ RAVEN: Do you want to carve me open?
 RAVEN: I’ll let you. 
 RAVEN.LookingAway: I’ll give you everything.
 
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black
@@ -322,6 +330,7 @@ YOU: Is that what you want me to do for you, Raven?
 YOU: I can give you a purpose outside the checkered flag and the bright lights.
 YOU: I can give you something to live for.
 
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black
@@ -330,7 +339,7 @@ YOU: I can give you something to live for.
 @goto END_Bad_ROUTEA if:RavenAffection<25
 
 # ChoiceC
-
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black

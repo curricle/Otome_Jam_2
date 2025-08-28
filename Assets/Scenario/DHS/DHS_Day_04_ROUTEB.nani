@@ -13,6 +13,7 @@
 
 The two of you sit side to side on Corposhit2000’s floor, backs against the wall.
 @back TheFilmProjectorHums 
+@bgm StuckOnTheGround
 The film projector hums. After Maria’s work on it, it practically sings. 
 You’re not sure why she was so nice about this particular issue. 
 Especially when she called the movie you are watching absolute drivel.
@@ -36,9 +37,9 @@ The screen flickers to the next scene.
 
 The boy on the screen, he smiles so brightly. His dogtags fly in the manufactured summer breeze, and he is stark against the setting sun. 
 His hair is perfect, well-kept. He’s got a helmet tucked under his arm. His racing suit is stylishly sloppy, zipper hanging at his navel, showing off a perfect muscle shirt and the hint of a surgical procedure. 
-
+@stopBgm
 @back CORPOSHIT9000
-
+@bgm InMotion
 YOU: I’m surprised they didn’t edit it out.
 RAVEN: …
 
@@ -99,13 +100,14 @@ RAVEN: Let’s go, then.
 >>>
 >>
 >
-
+@stopBgm
 @back black
 @hidePrinter
 @wait i
 
 @printer c_Dialogue
 @back AnArchitecturalMonstrosity
+@bgm MyWordsCarriedAway
 
 The final stretch of your journey. 
 The heart of the entertainment district, this decrepit theater and all it has to offer. 
@@ -209,6 +211,7 @@ COLLECT THE “METEORITE”?
 >>>
 >>
 >
+@stopBgm
 @back black
 @hidePrinter
 @wait i
@@ -233,14 +236,16 @@ You twist at the strands of your hair, whatever is left of it, at least.
 MARIA: That is because it was just us, Ioanna.
 MARIA: No one else.
 MARIA: For better, or worse.
+@bgm AloneDownHere
 
-@back CORPOSHIT9000_CORRUPTED
 While that was true, it did make it frustrating to reconcile. 
 
 Was all of this a byproduct of the absurdity of the situation? Were you simply unaccustomed to the presence of another human being?
 
 How…
 Pathetic.
+
+@back CORPOSHIT9000_CORRUPTED
 
 How pathetic, all of it,
 It frustrates you.
@@ -307,7 +312,8 @@ Where the fuck is he?!
 RAVEN: If you call my name like that, even I’d be interested in what you have to offer.
 YOU: I haven’t done that.
 RAVEN: Oh?
-
+@stopBgm
+@bgm InMotion
 @back CORPOSHIT9000
 RAVEN.Happy: You’re not the one who’s been wailing Ravennnnnn, ravennnnnn, ravennnnnn?!!!!
 RAVEN: For the last ten minutes?
@@ -660,12 +666,14 @@ You’ve made your choice.
 @goto .Continue
 
 # Continue
+@stopBgm
 @hide RAVEN
 @back black
 @hidePrinter
 @wait i
 
 @back FeetOnTheGround
+@bgm WeMayNeverKnow
 @printer c_Dialogue
 
 The Belladonna is a cruel mistress. His one and only.
@@ -679,7 +687,9 @@ YOU: Why here?
 
 Past the theater. Past the coliseum. Past the stars.
 
+@stopBgm
 @back ResidentialDistrict
+@bgm StuckOnTheGround
 
 It’s a rundown segment of the residential complex. The Belladonna, in all of its glory, next to an abandoned church.
 
@@ -710,6 +720,7 @@ You take that first step.
 
 RAVEN.Aloof: I want to see your face when you see what’s beyond that.
 
+@stopBgm
 @hide RAVEN
 @hidePrinter
 @back black

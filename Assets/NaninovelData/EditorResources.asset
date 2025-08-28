@@ -239,12 +239,6 @@ MonoBehaviour:
     - name: Start
       pathPrefix: Scripts
       guid: 3a3a3126d55fd38478fc6d74c71659d8
-    - name: DHS_Day_04_ROUTEA
-      pathPrefix: Scripts
-      guid: e89b18d52f959be45a440afa65444264
-    - name: DHS_Day_04_ROUTEB
-      pathPrefix: Scripts
-      guid: 6d6e3ad34f812f143b0fe3860a23fa31
     - name: DHS_Day_05_ROUTEA
       pathPrefix: Scripts
       guid: dc615c087ede8294f90644ce94849615
@@ -320,6 +314,12 @@ MonoBehaviour:
     - name: DHS/DHS_Day_03_ROUTEB
       pathPrefix: Scripts
       guid: bff0af2d246bbc345857fccc5d1cb540
+    - name: DHS/DHS_Day_04_ROUTEA
+      pathPrefix: Scripts
+      guid: e89b18d52f959be45a440afa65444264
+    - name: DHS/DHS_Day_04_ROUTEB
+      pathPrefix: Scripts
+      guid: 6d6e3ad34f812f143b0fe3860a23fa31
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
