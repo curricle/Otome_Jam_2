@@ -1,0 +1,675 @@
+# Fuselage
+Fuselage | Item | <b>ITEM DESCRIPTION:</b> The main body of a ship. You think it belongs to the Belladonna, but without its pilot to make the confirmation, this autopsy is a bust.
+<br>The wreckage is a deep violet. A one-seater. 
+<br>
+<br><b>PART ONE:</b>
+<br>Record 1098: Play.
+<br>IOANNA: Hey.
+<br>IOANNA: When did you start racing? 
+<br>IOANNA: How old were you?
+<br><br>MARIA: Suggestion: Abandon this line of questioning.
+<br><br>MARIA: There is nothing to be—
+<br>IOANNA: Gained, yes, yes. I understand.
+<br>IOANNA: But it is important to canvass and to analyze. 
+<br>IOANNA: So, when did you start?
+<br>RAVEN: …
+<br>IOANNA: Ah, I understand.
+<br><br>MARIA: What on earth did you glean from that?
+<br>
+<br><b>PART TWO:</b>
+<br>Record 1099: Play.
+<br>RAVEN: …
+<br>IOANNA: …shove off.
+<br>RAVEN: Oh, so now it’s an issue when I tell you the truth?
+<br>IOANNA: There is just simply no way that you are being truthful about that.
+<br>RAVEN: You believe in ghosts but you don’t think I started racing at age 3?
+<br>IOANNA: First—
+<br><br>MARIA: To think a woman of your station takes stock in the supernatural.
+<br><br>MARIA: A bit pathetic, no?
+<br>IOANNA: I do not believe in ghosts.
+<br>RAVEN: You nearly jumped outta your skin when I pointed out the taxidermy on the second floor.
+<br>IOANNA: That is different.
+<br>RAVEN: How.
+<br>IOANNA: It is unnatural.
+<br>RAVEN: Okay, sure.
+<br>
+<br><b>PART THREE:</b>
+<br>Record 1100: Play.
+<br>RAVEN: There are actually different types of racing.
+<br>IOANNA: You don’t say.
+<br>RAVEN: I’ve always been in the traditional sort, but for the last couple of years I was looking at doing endurance racing.
+<br><br>MARIA: Endurance racing is a form of motorspot that pushes both pilot and ship to the absolute limit. 
+<br><br>MARIA: I have a difficult time imagining your jailbird succeeding in this avenue. 
+<br>RAVEN: For some reason, I feel like you just really disagreed with that…
+<br>IOANNA: I said no such thing.
+<br>RAVEN: …
+<br>IOANNA: What made you change your mind?
+<br>RAVEN: …
+<br>IOANNA: Speak up.
+<br>RAVEN: …the ships weren’t as nice.
+<br><br>MARIA: …
+<br>IOANNA: …
+<br>RAVEN: The ships look best when fashioned for real racing. That’s it.
+<br>IOANNA: …I’m sorry, who are you?
+
+# FilmReel
+Film Reel | Item |
+ITEM DESCRIPTION: A silver disk with twelve circles. 
+<br>Six of the circles form an outer ring, while the remaining six form what you can describe as a flower. There’s a thin piece of plastic hanging on for dear life. 
+<br>
+<br><b>PART ONE:</b>
+<br>Record 3113: Play.
+<br>IOANNA: Do you like movies, Raven?
+<br>RAVEN: …
+<br>IOANNA: You participate in all sorts of silver screen projects, but…
+<br>RAVEN: Do I like it?
+<br>RAVEN: Why do you care?
+<br>IOANNA: Is it so bad that I want to get to know you better?
+<br><br>MARIA: Yes.
+<br>RAVEN: Yes?
+<br>IOANNA: Mm.
+<br>RAVEN: …
+<br>
+<br><b>PART TWO:</b>
+<br>Record 3114: Play.
+<br>IOANNA: I have a bad habit.
+<br>IOANNA: Pressed disks. Records. 
+<br>RAVEN: You can call them vinyls.
+<br>RAVEN: Our common language isn’t so out of touch, Arcensis.
+<br>IOANNA: …
+<br>IOANNA: Why did I get this nasty sense of deja vu?
+<br>RAVEN: From talkin’ to yourself so much.
+<br>RAVEN: …
+<br>RAVEN: Do you like music?
+<br>IOANNA: Like you like movies, maybe.
+<br>RAVEN: I do like them. 
+<br>RAVEN: Movies.
+<br>IOANNA: …
+<br>IOANNA: Then, yes. I guess so.
+<br>
+<br><b>PART THREE:</b>
+<br>Record 3115: Play.
+<br>RAVEN: You’ve watched this like three times already.
+<br>RAVEN: Can you stop?
+<br>IOANNA: The score is really good.
+<br>RAVEN: You didn’t even know what background music was before this trip.
+<br>IOANNA: I resent that.
+<br>IOANNA: I just didn’t care.
+<br>RAVEN: Tch.
+<br>IOANNA: I especially like how the music blends into the environmental discord—
+<br>RAVEN: You’re just makin’ shit up.
+<br>
+
+# RustedKnife
+Rusted Knife | Item | <b>ITEM DESCRIPTION:</b> A knife. 
+<br>The blade is rusted over. It’s about six solar inches and it fits nicely in the palm of your hand. The hilt is bound with rotted leather. 
+<br>
+<br><b>PART ONE:</b>
+<br>Record 8628: Play.
+<br>RAVEN: …
+<br>IOANNA: …
+<br><br>MARIA: This is insufferable.
+<br>IOANNA: …
+<br>RAVEN: …
+<br>
+<br><b>PART TWO:</b>
+<br>Record 8629: Play.
+<br>IOANNA: Nothing taboo, then?
+<br>RAVEN: T-taboo?
+<br>IOANNA: Huh?
+<br>IOANNA: What sort of reaction is that?
+<br>RAVEN: You suddenly started sayin’ shit, how else would I react?
+<br>IOANNA: …
+<br>IOANNA: Could it be that you are a virgin, R—
+<br>RAVEN: Shut it, bitch.
+<br>IOANNA: Ah…
+<br>RAVEN: Whatever you’re thinkin’, it ain’t it, so just, shut up!
+<br>IOANNA: Noted.
+<br><br>MARIA: What are you, children?
+<br>IOANNA: No knifeplay for our star pilot. Understood.
+<br>RAVEN: There’s nothin’ to understand! 
+<br>
+<br><b>PART THREE:</b>
+<br>Record 8630: Play.
+<br>RAVEN: You really are the worst kinda person.
+<br>IOANNA: Is that really what you should be saying in this kind of situation? 
+<br>RAVEN: Oh, sorry. What else should I be saying in this situation then?
+<br>IOANNA: Thank you, maybe?
+<br>RAVEN: Shove it.
+<br>RAVEN: …
+<br>RAVEN: Can you at least cut me already?
+<br>RAVEN: You’ve been danglin’ it above me this entire time.
+<br>RAVEN: Just do it.
+<br>IOANNA: …
+<br>RAVEN: …Chicken.
+
+# BrokenRudder
+Broken Rudder | Item |
+<b>ITEM DESCRIPTION:</b> A flat piece of sheet metal. Meant for steering. 
+<br>
+<br><b>PART ONE:</b>
+<br>Record 1101: Play.
+<br>RAVEN: Hmm~ hmm~
+<br>RAVEN: Mm…
+<br>RAVEN: Tch…
+<br>RAVEN: Shit!
+<br>RAVEN: …
+<br>RAVEN: …
+<br>RAVEN: …how long have you been out there?
+<br>IOANNA: Long enough.
+<br>
+<br><b>PART TWO:</b>
+<br>Record 1102: Play.
+<br>IOANNA: Hard at work, or hardly working?
+<br>RAVEN: Those sort of jokes don’t really suit you…
+<br>IOANNA: Oh, sorry.
+<br>IOANNA: What the fuck are you doing, Raven?
+<br>RAVEN: …
+<br>RAVEN: Mind your damn business.
+<br>
+<br><b>PART THREE:</b>
+<br>Record 1103: Play.
+<br>RAVEN: …
+<br>RAVEN: Hmm~ hmm~
+<br>IOANNA: …
+<br>RAVEN: Hmm…
+<br>RAVEN: Fuck.
+<br>RAVEN: You really gotta make more noise when you walk in.
+<br>RAVEN: Ouch…
+<br>IOANNA: Here.
+<br>RAVEN: …
+<br>RAVEN: Thanks…
+
+# SolidProjector
+Solid Projector | Item | 
+<b>ITEM DESCRIPTION:</b> A film projector. 
+<br>Perfect for film reels. Old-school. Pre-golden age.
+<br>
+<br><b>PART ONE:</b>
+<br>Record 3113: Play.
+<br>IOANNA: Ah, to be honest, I do not like movies.
+<br>RAVEN: Then why did you put this on?
+<br>IOANNA: You seemed interested.
+<br>
+<b>PART TWO:</b>
+<br>Record 3114: Play.
+<br>RAVEN: …
+<br>RAVEN: !!!
+<br>RAVEN: …snf.
+<br>IOANNA: S…seriously?
+<br>RAVEN: Seriously—make some noise before you walk in!
+<br>IOANNA: We live in the same quarters.
+<br>IOANNA: I can hear you from across the ship.
+<br>IOANNA: Stop watching these animal movies, for god’s sake.
+
+<b>PART THREE:</b>
+<br>Record 3115: Play.
+<br>RAVEN: …move over.
+<br>IOANNA: This is as far as I can move.
+<br>RAVEN: Tch.
+<br>IOANNA: …is it so unpleasant?
+<br>RAVEN: I can’t concentrate on the movie with you breathing down my back, is all.
+<br>IOANNA: Then, is this better?
+<br>RAVEN: …
+<br>RAVEN: …it’s…fine.
+<br>RAVEN: Way too close.
+
+# DeadHeat
+“Dead Heat” | Item | 
+<b>ITEM DESCRIPTION:</b> “Dead Heat”. It’s a racing movie turned stage play turned cult classic. 
+<br>
+<br><b>PART ONE:</b>
+<br>Record 8631: Play.
+<br>RAVEN: …asking about it.
+<br>IOANNA: I simply want to know whether or not you still had the outfit.
+<br>RAVEN: You think I had time to keep anything?!
+<br>IOANNA: Well—
+<br>
+<br><b>PART TWO:</b>
+<br>Record 8632: Play.
+<br>IOANNA: It is a nice outfit.
+<br><br>MARIA: To think that Recollection’s greatest would be undone by a cheap polyester suit.
+<br>IOANNA: Now now. You know better than anyone that it is made out of completely real leather.
+<br>IOANNA: A Collector has an eye for this sort of detail—
+<br><br>MARIA: The only thing you should have an eye for is how well it will burn.
+<br>
+<br><b>PART THREE:</b>
+<br>Record 8633: Play.
+<br>RAVEN: —tugging on it so much!
+<br>IOANNA: That is a nice sound.
+<br>RAVEN: If you’re gonna compliment me, I’d prefer it you didn’t, but also, the dead stare doesn’t make it any better—!
+<br>IOANNA: You are so…
+<br>IOANNA: Hmm.
+<br>IOANNA: Prudish?
+<br>RAVEN: To think that an executioner would play with her food.
+<br>RAVEN: Gross.
+<br>IOANNA: It does look good.
+<br>IOANNA: If that does make you feel better.
+<br>RAVEN: It doesn’t.
+
+# Engine
+Engine | Item | 
+<b>ITEM DESCRIPTION:</b> A cylindrical turbine with the sole intention of bringing metal into space. 
+<b>PART ONE:</b>
+<br>Record 1104: Play.
+<br>IOANNA: Do you know a lot about engineering? 
+<br>RAVEN: What’s with the question?
+<br>IOANNA: Curiosity.
+<br>RAVEN: Sure.
+<br>IOANNA: My boss said she wanted me in engineering for Recollection.
+<br>IOANNA: My theory scores were good, but not my practicals.
+<br>RAVEN: …
+<br>RAVEN: How…do you get around places?
+<br>
+<b>PART TWO:</b>
+<br>Record 1105: Play.
+<br>RAVEN: You’re holding the tool the wrong way.
+<br>IOANNA: I am not.
+<br>RAVEN: Oh, sorry.
+<br>RAVEN: Then obviously the screw you’re trying to yank out is in the wrong.
+<br>
+<b>PART THREE:</b>
+<br>Record 1106: Play.
+<br>IOANNA: Hey.
+<br>IOANNA: Wake up.
+<br>RAVEN: Tch…
+<br>RAVEN: It’s bright.
+<br>RAVEN: What the hell is this?
+<br>RAVEN: New form of torture?
+<br>IOANNA: If that is what we call a wake up call nowadays, then yes.
+<br>RAVEN: Ugh…
+<br>RAVEN: Okay, I’m up.
+<br>RAVEN: What?
+<br>IOANNA: …
+<br>IOANNA: The hoverboard is not working.
+<br>RAVEN: I am going to beat you over the head.
+
+# ActorsBox
+Actor’s Box | Item | 
+<b>ITEM DESCRIPTION:</b> An actor’s box. The box is filled with makeup. It’s still intact and perfect. 
+<b>PART ONE:</b>
+<br>Record 3116: Play.
+<br>IOANNA: …Tch.
+<br>RAVEN: I mean, I could tell that you didn’t do makeup but this is kinda…
+<br>IOANNA: I am not sure what this has to do with anything.
+<br>MARIA: Oh, so now you are all for the mission.
+<br>MARIA: You reap what you sow.
+<br>
+<b>PART TWO:</b>
+<br>Record 3117: Play.
+<br>RAVEN: Practicin’ again?
+<br>IOANNA: Fuck–!
+<br>RAVEN: Wow.
+<br>RAVEN: I’ve never heard you curse the entire time we’ve been here.
+<br>RAVEN: Is this eyeliner really givin’ you that much of an issue?
+<br>RAVEN: Haha.
+<br>IOANNA: I know we live in the same quarters but I will make you sleep outside.
+<br>
+<b>PART THREE:</b>
+<br>Record 3118: Play.
+<br>RAVEN: You need to keep your hand steady when you do this sort of thing.
+<br>IOANNA: You do not need to act so smug.
+<br>RAVEN: Hah.
+<br>RAVEN: You can be sweeter.
+<br>RAVEN: Ask me to do your makeup, and I’ll do it.
+<br>RAVEN: Maybe if you beg, I’ll give you a cut crease.
+<br>IOANNA: If it was not for my mission, I would have killed you myself.
+<br>RAVEN: Right, right.
+
+# SilverBullets
+Silver Bullets | Item | 
+<b>ITEM DESCRIPTION:</b> Six silver bullets. 
+<b>PART ONE:</b>
+<br>Record 8634: Play.
+<br>IOANNA: –!
+<br>RAVEN: Mm.
+<br>RAVEN: …
+<br>IOANNA: …
+<br>IOANNA: …
+<br>RAVEN: Are you going to stop here, Miss Officer?
+<br>IOANNA: …yes.
+<br>
+<b>PART TWO:</b>
+<br>Record 8635: Play.
+<br>RAVEN: One, two, three, four, five, and–
+<br>IOANNA: Six.
+<br>RAVEN: Oh, you’re here.
+<br>RAVEN: Enjoyin’ the show?
+<br>IOANNA: Did you already have that?
+<br>RAVEN: Mmm.
+<br>RAVEN: Maybe I made it.
+<br>IOANNA: I sincerely doubt you could make a gun.
+<br>RAVEN: Aww, c’mon.
+<br>
+<b>PART THREE:</b>
+<br>Record 8636: Play.
+<br>IOANNA: …it fits rather nicely.
+<br>RAVEN: Tch…
+<br>IOANNA: Do not speak with your mouth full, Raven.
+
+# Circuitboard
+Circuitboard | Item |
+<b>ITEM DESCRIPTION:</b> A laminated piece of acrylic. 
+<b>PART ONE:</b>
+<br>Record 1107: Play.
+<br>RAVEN: –Hands! Off!
+<br>IOANNA: I was not even within a foot of it.
+<br>RAVEN: I saw your sticky fingers waggling in its general direction.
+<br>RAVEN: Back away.
+<br>IOANNA: Insufferable prick.
+<br>
+<b>PART TWO:</b>
+<br>Record 1108: Play.
+<br>IOANNA: Hmm…
+<br>IOANNA: Ah…
+<br>IOANNA: Mm.
+<br>RAVEN: Are you done?
+<br>IOANNA: I am not.
+<br>IOANNA: It is interesting. Seeing it in real time.
+<br>RAVEN: I know you asked me to do maintenance but…
+<br>RAVEN: It’s…weird.
+<br>
+<b>PART THREE:</b>
+<br>Record 1109: Play.
+<br>RAVEN: …you’re awfully used to this.
+<br>IOANNA: It is better to have someone else check for me.
+<br>IOANNA: It is difficult to manage spinal networking in front of a mirror.
+<br>IOANNA: …
+<br>IOANNA: What do you see?
+<br>RAVEN: A goddamn exhibitionist.
+
+# CostumeJewelry
+Costume Jewelry | Item | 
+<b>ITEM DESCRIPTION:</b> Costume jewelry. Fake pearl necklaces, sparkling plasticine diamonds, and a decrepit feather boa. 
+<b>PART ONE:</b>
+<br>Record 3119: Play.
+<br>MARIA: I do not like it.
+<br>IOANNA: The pretentiousness of it?
+<br>MARIA: The lack of utility.
+<br>MARIA: Estehelix is a den of sinners.
+<br>MARIA: Layabouts. Louts. Leeches.
+<br>IOANNA: I am glad that you are keeping up to date with the latest Old World Dictionary, Maria.
+<br>RAVEN: Are you done? You want me to put this away, yeah?
+<br>
+<b>PART TWO:</b>
+<br>Record 3120: Play.
+<br>RAVEN: …Hmm.
+<br>RAVEN: It’s nice to see my things in good condition.
+<br>RAVEN: Ah, haha.
+<br>RAVEN: God…I took this one from my last set.
+<br>RAVEN: [][][][][] really let me have it…
+<br>RAVEN: Sigh…
+<br>RAVEN: …
+<br>RAVEN: Shit.
+<br>RAVEN: Is she back?
+<br>RAVEN: …
+<br>
+<b>PART THREE:</b>
+<br>Record 3121: Play.
+<br>RAVEN: …
+<br>RAVEN: ~
+<br>IOANNA: Did you decide what you’re keeping?
+<br>RAVEN: …
+<br>RAVEN: I picked somethin’ out for you.
+<br>RAVEN: I can redo your ears if need be.
+<br>IOANNA: You said that so confidently I thought I walked into the wrong room.
+<br>RAVEN: …
+<br>RAVEN: We only have one room.
+
+# Meteorite
+Meteorite | Item |
+<b>ITEM DESCRIPTION:</b> A chunk of meteorite. 
+<b>PART ONE:</b>
+<br>Record 8637: Play.
+<br>RAVEN: –time?
+<br>IOANNA: Sorry, what?
+<br>RAVEN: I said, you’ve been spendin’ a lotta time here.
+<br>RAVEN: What are you workin’ on?
+<br>IOANNA: Do we partake in this sort of useless drivel now, Raven?
+<br>RAVEN: …
+<br>RAVEN: No, I guess not.
+<br>
+<b>PART TWO:</b>
+<br>Record 8638: Play.
+<br>MARIA: You are running out of time.
+<br>IOANNA: I know.
+<br>IOANNA: I need to finish qualifying these pieces for disposal.
+<br>IOANNA: I have already finished cataloging. I submitted the rubric.
+<br>IOANNA: …
+<br>IOANNA: We need more.
+<br>MARIA: Go send your stupid bird.
+<br>IOANNA: To what? His funeral?
+<br>IOANNA: Maybe I should–
+<br>
+<b>PART THREE:</b>
+<br>Record 8639 Play.
+<br>IOANNA: This is frustrating.
+<br>MARIA: In what aspect.
+<br>MARIA: Pray tell.
+<br>IOANNA: Everything.
+<br>IOANNA: The last haul was a bust.
+<br>IOANNA: It feels as if…
+<br>IOANNA: It feels as if the system is hiding something.
+<br>MARIA: We knew coming into this mission that Estehelix’s most valuable asset was its memoria.
+<br>MARIA: Maybe you need to start bottling it, Ioanna.
+<br>IOANNA: You were never good at jokes.
+<br>IOANNA: I see that is a horizon you will never reach.
+<br>MARIA: Hmm.
+
+# BlackBox
+Black Box | Item | 
+<b>ITEM DESCRIPTION:</b> A black box. 
+<b>PART ONE:</b>
+<br>Record 1110: Play.
+<br>RAVEN: I wish you killed me on the first night.
+<br>RAVEN: I knew you could’ve.
+<br>RAVEN: What stopped you?
+<br>IOANNA: …
+<br>IOANNA: I do not know.
+<br>IOANNA: Perhaps…my dedication to the mission?
+<br>IOANNA: It said dead or alive.
+<br>IOANNA: It felt like a waste.
+<br>
+<b>PART TWO:</b>
+<br>Record 1111: Play.
+<br>IOANNA: Do you want to die, Raven?
+<br>RAVEN: I used to.
+<br>RAVEN: I used to wake up, still dreamin’.
+<br>RAVEN: Memoria’s like that.
+<br>RAVEN: You start to lose touch of what is real and what is fake.
+<br>RAVEN: It was…
+<br>RAVEN: …
+<br>RAVEN: Did you know, you could kill yourself and come back fine the next day?
+<br>RAVEN: The knife would turn into plastic. The gun, to smoke.
+<br>RAVEN: Now, it’s…
+<br>RAVEN: It’s weird.
+<br>RAVEN: I think there will still be days I want to die.
+<br>RAVEN: But there will be more where I will want to live.
+<br>RAVEN: Because I want to fly. 
+<br>RAVEN: More than anything in the world. 
+<br>
+<b>PART THREE:</b>
+<br>Record 1110: Play.
+<br>IOANNA: …
+<br>IOANNA: …
+<br>RAVEN: …
+<br>IOANNA: You need to eat something.
+<br>RAVEN: I’m not hungry.
+<br>RAVEN: You can eat it.
+<br>RAVEN: We still have another stretch before we can land.
+<br>RAVEN: The next system should be…
+<br>RAVEN: …
+<br>IOANNA: More amenable?
+<br>RAVEN: I think that’s a little too optimistic for people like us.
+<br>IOANNA: But you laugh anyway.
+<br>RAVEN: …yeah, I guess.
+<br>RAVEN: It’s fine. I’ll have a bite.
+<br>RAVEN: I’ll need you to be able to fight our way through, y’know.
+<br>IOANNA: You paint me as such a brute.
+<br>RAVEN: And you’re not? 
+<br>RAVEN: Oooookay, sorry.
+<br>IOANNA: That is right.
+<br>IOANNA: Eat your ration.
+
+# BrokenMirror
+Broken Mirror | Item |
+<b>ITEM DESCRIPTION:</b> A handheld mirror.
+<b>PART ONE:</b>
+<br>Record 3122: Play.
+<br>IOANNA: …
+<br>IOANNA: …
+<br>RAVEN: Are you havin’ fun?
+<br>IOANNA: No.
+<br>IOANNA: I’m not.
+<br>RAVEN: Sorry to hear that.
+<br>RAVEN: Maybe if you stopped watchin’ my shitty movie, you’d feel better.
+<br>IOANNA: I like your shitty movie.
+<br>IOANNA: I like who you were.
+<br>RAVEN: …
+<br>IOANNA: …
+<br>IOANNA: I like who you are, too.
+<br>RAVEN: Nice save.
+<br>
+<b>PART TWO:</b>
+<br>Record 3123: Play.
+<br>RAVEN: You’re watchin’ it again?
+<br>IOANNA: …
+<br>IOANNA: Zzz…
+<br>RAVEN: Huh.
+<br>RAVEN: …
+<br>RAVEN: Y’know, seeing you like this…
+<br>RAVEN: It’s kinda sad.
+<br>RAVEN: What kind of person are you, Arcensis? 
+<br>RAVEN: …
+<br>IOANNA: Mmm…
+<br>IOANNA: Shit.
+<br>IOANNA: Where…what…
+<br>IOANNA: …
+<br>IOANNA: You’re awfully uncomfortable, Raven.
+<br>
+<b>PART THREE:</b>
+<br>Record 3124: Play.
+<br>RAVEN: I am not gonna do that.
+<br>IOANNA: Seriously? 
+<br>IOANNA: Even if I ask nicely?
+<br>RAVEN: You have never asked for anything in your life.
+<br>RAVEN: I will not indulge your first ever selfish request. 
+<br>IOANNA: I feel that is not completely right, but…
+<br>IOANNA: I really did spend a lot of time finding something close.
+<br>IOANNA: You should be grateful that Recollection’s Vulture managed to find a one of a kind plugsuit, just for you.
+<br>RAVEN: I wish you used your shady connections for something useful, like the Belladonna’s maintenance.
+<br>RAVEN: …
+<br>RAVEN: …
+<br>RAVEN: Stop lookin’ at me like that.
+<br>IOANNA: Like how?
+<br>RAVEN: Tch.
+
+# TheBelladonna
+The Belladonna | Item | 
+<b>ITEM DESCRIPTION:</b> The wreckage of Estehelix’s finest ship. The Belladonna.
+<br>
+<br>Record 964920:
+<br>▮▮▮▮▮: I am going to kill you.
+<br>▮▮▮▮▮: I am going to tear you from limb to limb. 
+<br>▮▮▮▮▮: I’m going to watch your blood drain from your face and I am going to–
+<br>IOANNA: Go ahead, then.
+<br>IOANNA: Try your best.
+
+# Raven
+RAVEN | Person of Interest |
+<br><b>PART ONE:</b>
+<br>Raven. Real name: ▮▮▮▮▮.
+<br>He received his nom de plume during his maiden race. He’s Raven. No further questions. No interviews, no post-race debrief, no nothing.
+<br>
+<br>Former racing royalty, known across the galaxies for dead heat finishes and an awful personality. He’s larger than life, cruel and vindictive, and awfully quick to resort to violence. 
+<br>
+<br>The Raven you meet in Planet Estehelix is nothing of the sort. 
+<br>
+<br>He’s a death row prisoner, sent to the wastes of the universe to complete a life sentence after murdering hundreds of innocents at his final competition. He isn’t here to collect scrap, or to manage waste, or to better any sort of societal outcome. He looks at you with an expression that is both scathing and haughty and exhausted. He’s someone more than willing to kill you to end his own miserable existence.
+<br>
+<br>He’s addicted to the rush of flight but now that his wings have been cut, he is ready for his last flight into an impossible horizon. 
+<br>
+<br><b>PART TWO:</b>
+<br>Raven has been self flagellating over something in his past that does not end up being his fault. 
+<br>It’s something that they intended to do, sure. He put the explosives in his ship and he intended to blow himself up and anyone else who was too damn close. He was spiraling after consecutive losses and the threat of his agency sponsorship was pressing down on him and his life seemed meaningless. Without the thrill of the battle, there was nothing he could live for. 
+<br>
+<br>But…that didn’t happen. An engineer figured out his lukewarm attempt at suicide and was able to deactivate everything.
+<br>
+<br>The huge explosion that ruined his life was caused by some irrelevant atmospheric nonsense that was a one in a million chance of interacting with his equipment. 
+<br>
+<br>He’s a total failure. 
+<br>He couldn’t even crash into the wall, he’s still spinning his wheels at the start of the race.
+<br>
+<br><b>PART THREE:</b>
+<br>Raven is a creature of contradiction. He grew up on Estehelix and spent his summers racing. Like all people born and raised on Estehelix, he was made into a betting coin for the Pioneer Project. His life became intertwined with those who came to the entertainment district to strike it rich. With every grand prix win, he began to amass a terrible wealth.
+<br>
+<br>Raven knew he had an all encompassing mission. He’s a good kid. He spent his childhood growing up in the sheet metal streets and the memoria surgery tables. He spent his childhood getting organs swapped for something more particularized for the environment. He spent his teen years experimenting with what he could do. What he couldn’t. What was expected of him as a rising star and as the primary breadwinner for a decrepit neighborhood. Memoria seeped out of every orifice, it combined with his blood, when he raced, it became a part of his ship.
+<br>
+<br>The Belladonna, do not touch me.
+<br>
+<br><b>Are you having fun editorializing?
+<br>It’s all “thinking” here. I know it’s your digital kingdom but everything is under my jurisdiction on this system.
+<br>What else do you want? 
+<br>Do you want to know about the people I slept with for a bit of money? For a piece of bread? Do you want to know about how wide I can open my mouth? 
+<br>No? Maybe my dead heat finishes on the grid, then? Do you want to know about the people I had to sabotage to get to where I placed? Do you want to know about my affair with my mentor’s engineer? 
+<br>Get out of my brain, [][][][][].
+<br>I know you get a kick outta this sorta thing but it’s really pissing me off.
+<br>At the end of the day, I lost. I died. I came back like a holy ghost. 
+<br>Are you mad I took your girl?
+<br>Oh, c’mon. Clearly, it aggravates you.
+<br>Or…is it that cuz you can’t do anythin’ about it? 
+<br>Hahaha. Sorry, sorry. 
+<br>The me that lives, and the me that dies, and the me that lives here. 
+<br>In between the lines of reality and dreams. 
+<br>That is what Estehelix has always stood for.</b> 
+
+# SunEater
+THE SUN EATER | Person of Interest |
+<br><b>PART ONE:</b>
+<br>Recollection’s beloved executioner and errand dog. A “Record Keeper”.
+<br>
+<br>She is a cool-headed and cold-hearted woman. Currently out of office on a more demanding mission. She takes her title seriously.
+<br>
+<br><b>PART TWO:</b>
+<br>Worldly desires? Unnecessary. 
+<br>
+<br>Love? Romance? Camaraderie? All values to hold close with the capacity to abandon.
+<br>
+<br>The Sun Eater is a woman of renowned cruelty, but lately, there are rumors swirling around her previous assignment.
+<br>
+<br>Do not ask her about the Columbine’s final fate. Recollection cannot afford to replace more agents.  
+<br>
+<br><b>PART THREE:</b>
+<br>Moira is not a happy woman. She understands the importance of running a tight ship. She understands the importance of a hierarchy. She understands how she has failed, and how she has succeeded. 
+<br>
+<br>She is nursing bruises that she cannot articulate.
+<br>
+<br>She does not care for this world. She does not care for the future. 
+<br>
+<br>She grinds her axe with the intention of lopping off Recollection’s head. 
+<br>
+<br>“Was this not the Moira who was kind and levelheaded? A polite, yet charming woman?”
+<br>
+<br>“Was this not the Moira with a 100% success rate?”
+<br>
+<br>“Was this not the Moira who brought the Kalmia Project to its knees? The one who was able to save the Columbine?” 
+<br>
+<br>“I…thought the Columbine died?” 
+
+# Proxima
+Proxima | Location | PROXIMA, THE PLANETARY SYSTEM THAT STARTED IT ALL. A BARREN LANDSCAPE, ONCE FILLED WITH THE ORIGINAL SPACERS. COLOGOMATE XXX BUILT THE ORIGINAL SPACE COLONIES HERES. 
+<br>
+<br>Humble in nature, there is nothing glamorous about these colonies. No shiny skyscrapers or towers, this was blue-collared in nature, never blue-blooded in wealth. These colonies were eventually forgotten, its people left to fend for themselves until waste management found the remains. 
+<br>
+<br>Proxima has three main planets, coded by -I, -II, and -III. Proxi-I has the cistern underground, Proxi-2 has the remains of a great flood, and Prox-3 has been razed down by time and a constant beratement of stars. Very dangerous. All that remains for your parameter is the old warehouse.. Whatever connecting orbital systems that joined these planets no longer work, they travel by ship. 
+<br>
+<br>If being here is technically against mission parameters, you don’t comment on it. 
+
+# Estehelix
+Estehelix | Location | Estehelix, the planetary system of entertainment and vice. Originally ruled by a rich conglomerate until a hostile takeover in 1092X. Lavish skyscrapers and opulent vistas find a silent grave. Eventually condemned as a waste management colony. A great Flight left the place abandoned.
+<br>
+<br>Known for its memoria basins. Memoria is a liquid that stems from natural reservoirs in the system. It takes the form of an individual’s memories. Not everyone can tap into memoria, but those who are skilled in its control are highly regarded. Charlatans of the highest order.
+<br>
+<br>Known for its racing circuit, grand theater, and skyline.
+<br>
+<br>Estehelix has three main planets, coded by -1, -2, and -3. Este-1 has the theater, Este-2 has the circuit, and Este-3 is the commercial and residential area. Each planet is connected by a train of sorts.
