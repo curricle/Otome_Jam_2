@@ -44,39 +44,39 @@ YOU: I’m feeling a little left out.
 
 The deadpan gets a laugh out of him. 
 
-RAVEN: C’mon, Miss Recollection.
+RAVEN.Happy: C’mon, Miss Recollection.
 
 He offers you his hand. 
 You take it.
 It’s perfect. 
-
+@hide RAVEN
 The Belladonna is a single seater. He sits on your lap. You press your chin against his shoulder, wondering, oh, will you need a helmet? 
 You can’t ask her anymore. 
 There’s a hum. A flicker.
 He lets you sink into his skin.
 
-RAVEN: It’s going to be rough.
+RAVEN.Happy: It’s going to be rough.
 RAVEN: It’s going to suck.
 YOU: Your vision for the future is really so bright. 
 YOU: It’s blinding me.
 RAVEN: Can you spread your legs a bit more?
 YOU: …
-RAVEN: …
-RAVEN: I know.
+RAVEN.Aloof: …
+RAVEN.EyesClosed: I know.
 
 You do as asked. He’s able to press all the necessary foot pedals now.
 
 YOU: Ha. Hahahaha.
-RAVEN: It really isn’t that funny.
+RAVEN.CrashingOut: It really isn’t that funny.
 YOU: It is, a little bit.
 YOU: You’re so polite in this mode.
 YOU: I like it.
 YOU: What if I asked you to treat me like this forever?
-RAVEN: I would abandon you on the first outpost.
+RAVEN.Aloof: I would abandon you on the first outpost.
 RAVEN: Miss Recollection.
 RAVEN: …
 RAVEN: …Arcensis.
-RAVEN: Are you sure?
+RAVEN.LookingAway: Are you sure?
 
 He doesn’t turn to look at you when he asks. His hand is over the console. He’s ready to go. 
 He’s ready to fly.
@@ -93,7 +93,7 @@ RAVEN: And all sorts of awful shit.
 You cut him off. 
 Grabbing his ponytail, you pull him back. Just enough to press a kiss against the edge of his lips.
 
-RAVEN: …
+RAVEN.HeadDownPlayer: …
 RAVEN: …!
 
 ;[[BACKGROUND: “Goodbye, Estehelix.”]]
@@ -102,11 +102,12 @@ RAVEN: …!
 YOU: You act so virginal every time.
 YOU: Do you want me to recount our last romp?
 YOU: When you started disassembling my chassis—
-RAVEN: Point made.
+RAVEN.LookingAway: Point made.
 RAVEN: …
-RAVEN: Thank you.
+RAVEN.SlightSmile: Thank you.
 RAVEN: For trusting me.
 
+@hide RAVEN
 Estehelix’s sky swallows you. 
 Every single star, every single swatch of ice blue and violet, every single atom capsized into meteors and galactic junk.
 None of it matters.
@@ -116,8 +117,8 @@ This is your future.
 You have found you want to gamble your life on.
 
 YOU: The moon really is beautiful here.
-RAVEN: …that’s what you focus on? 
-RAVEN: Hah. Maybe you are more of a tourist than you let on.
+RAVEN.Aloof: …that’s what you focus on? 
+RAVEN.Happy: Hah. Maybe you are more of a tourist than you let on.
 YOU: Are you going to give me the grand tour, then?
 YOU: All of Estehelix’s wonders and delights?
 RAVEN: No fuckin’ way.
@@ -126,14 +127,14 @@ RAVEN: Or wanted to.
 RAVEN: How is it that we can still talk about work even while we’re on the run for presumably the rest of our lives?
 YOU: It will take more than a runaway ward to take the officer out of me, I guess.
 RAVEN: Hah.
-
+@hide RAVEN
 You don’t know how long this ship will last. 
 You don’t know how long the journey will be. 
 You don’t know when you’ll reach the next outpost. 
 You do know this: 
 
 YOU: I could be happy, flying with you forever.
-RAVEN: You have really bad taste.
+RAVEN.Happy: You have really bad taste.
 YOU: I know that.
 
 You can feel him, in every moment, in every breath. 
@@ -142,6 +143,7 @@ YOU: So…
 RAVEN: Are you happy, Arcensis?
 YOU: I think I can be.
 YOU: I think I can find happiness with you.
+@hide RAVEN
 
 ;ENDING: THE SKY’S THE LIMIT
 @hidePrinter
