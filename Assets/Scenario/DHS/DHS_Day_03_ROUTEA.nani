@@ -1,0 +1,450 @@
+# DHS03_A
+
+; [[DEAD HEAT SUPERNOVA    DRIFTING]]
+@hidePrinter
+@back black
+@showUI CC_DHS_Drifting
+@wait i
+
+@hideUI CC_DHS_Drifting
+@wait i
+
+@printer c_Dialogue
+
+YOU: Do you like music, Raven?
+RAVEN: I have no particular feelings on the matter.
+
+@back CORPOSHIT9000
+
+The two of you sit back to back. Seasons come and go on other systems, but Estehelix is a cruel lover. Days go by, they turn into weeks, and the weather worsens for all those involved.
+Why were you still here?
+The thought flickers. Maria smiles thinly, a chastising finger down your neck.
+The suits are half-off, the fans are at full blast, and the latest trek into the entertainment district is a menacing haze.
+YOU: None at all?
+YOU: Were you not allowed to listen while racing?
+RAVEN: I can’t hear my engineer if I’m listening to music.
+YOU: The speeds and winds aside, of course.
+RAVEN: …yeah.
+His back is sticky. It feels weird against your synthskin and chassis. You’re sure there are pieces of his hair in between the gaps of your metallic spine. 
+YOU: I enjoy music.
+RAVEN: …I didn’t ask.
+He leans back. As if he knows you hate the feeling of his sweat. You want to turn around and pinch him but the idea was exhausting enough without the execution. The days melt into each other. How many times have you had this conversation?
+MARIA: Once.
+It’s strange.
+Recollection never takes this long. It’s a stop and go deal. 
+You spend the first week scouring, scouting, surveying. The second week is for clean-up. The third week, for extraction.
+Why were you here for so long?
+YOU: Pressed records.
+YOU: I have a bad habit.
+MARIA: You do.
+MARIA: You speak too much.
+MARIA: Ioanna.
+YOU: I don’t have a record player.
+YOU: But I keep collecting them.
+RAVEN: Yeah. That’s pretty nasty.
+RAVEN: I could build you one.
+RAVEN: A record player.
+YOU: I thought you didn’t like music?
+RAVEN: I don’t care for it.
+RAVEN: But it’d be interesting.
+RAVEN: To do something new.
+YOU: …
+YOU: A charming notion.
+MARIA: From a dead man.
+RAVEN: Are we heading out soon?
+He gets up first. You watch him go. The jumpsuit drips from his hips. He shrugs it back on with little fanfare. He pulls his hair out. You want to lean over and pull. Just a little bit. Just enough. 
+You watch your hand reach forward. The killswitch brushes against your chest.
+Oh.
+On its silver chain. Pressed against the curve of your breast. 
+YOU: Yeah. 
+You zip your suit back on.
+>>>
+>>
+>
+
+@hidePrinter
+@back black
+@wait i
+
+@back FeetOnTheGround
+@printer c_Dialogue
+
+YOU: Have you gotten comfortable with me, Raven?
+Maria gags.
+RAVEN.Aloof: …
+RAVEN: Not really.
+He chews on that. 
+YOU: I think you have, a bit.
+YOU: You complain more.
+RAVEN: I have plenty to complain about.
+His brow furrows. Maria’s nose twitches at the display. 
+Disgusting.
+YOU: It’s not so bad, you know.
+RAVEN: There’s plenty bad about you.
+MARIA: I have to agree with him.
+YOU: We haven’t talked about what happened at the stadium yet.
+RAVEN: And we aren’t going to.
+YOU: And if I forced it out of you?
+RAVEN: You don’t actually mean that.
+
+@choice "Mmm…it’s not that, exactly." 
+    @set RavenAffection+=10
+    YOU: It’s nice to have someone bite at me, is all.
+    RAVEN: You’re really an awful sorta person, Miss Recollection.
+    YOU: Like having a cute dog nip at my heels.
+    YOU: If I asked you to bark for me, would you?
+    RAVEN: …
+    RAVEN: I know you’re joking but having you say that with that dead fish expression really is gross.
+    This exchange irritates him more than the journey. 
+    ;@goto .Continue
+@choice "It’d be easy to make you." 
+    @set RavenAffection+=5
+    RAVEN: …
+    YOU: I wouldn’t have to use the bomb.
+    YOU: But you seem like you’re into the idea.
+    RAVEN: …
+    MARIA: …
+    MARIA: Is he blushing?
+    RAVEN: Shut up.
+    You take this as your win.
+    ;@goto .Continue
+@choice "Then, we’ll leave it at that." 
+    @set RavenAffection+=0
+    ;@goto .Continue
+    ;[NO FURTHER DIALOGUE]
+@stop
+
+# Continue
+@hide RAVEN
+>>>
+>>
+>
+
+;[[BACKGROUND: “Entertainment district.”]]
+@back EntertainmentDistrict
+
+The two of you carve a new path through the entertainment district. The looming coliseum is behind you. Today, you make your way to a new beast. 
+He sticks his hands in his pockets and shuffles off, but you can feel his scowl on the back of your neck. If looks could kill, so on and so forth.
+RAVEN.Aloof: Do you expect most people to lick your boots?
+He asks, but he doesn’t match your pace. His steps are measured. Yours, moreso. They make his look languid in comparison. 
+YOU: Waste management is…
+MARIA: Not a place for humans.
+YOU: Not anyone’s favorite department.
+MARIA: Ha. 
+MARIA: What a kind assessment for yourself.
+YOU: Most people tend to steer clear.
+YOU: But because of that…
+YOU: They tend to treat me with perfect apathy.
+RAVEN: …
+RAVEN: Makes sense.
+RAVEN: If they stuck around longer, they’d see that you’re insufferable.
+YOU: …
+YOU: It hasn’t stopped you so far.
+He tugs at the collar around his neck.
+YOU: Ah, well, I guess that’s true.
+@hide RAVEN
+Estehelix’s grand theater beckons. 
+
+;[[BACKGROUND: “An architectural monstrosity.”]] 
+@back AnArchitecturalMonstrosity
+
+It is an architectural monstrosity. You’ve never stepped foot inside.
+Maria runs down your arm. 
+MARIA: Well, of course not.
+She hums. 
+MARIA: You’re the Grim Reaper for these sort of places.
+YOU: That’s true.
+RAVEN.Aloof: …
+@hide RAVEN
+He pushes past you and opens the double doors. 
+It’s not so much a welcome, let’s head inside, he holds onto the handles and there’s a pause, and you wonder if he’s going to smash a fist through the glass instead. 
+He doesn’t. 
+It’s almost reverent, the way he opens those damn doors. 
+
+@back OpulentTheater
+
+MARIA: You seem at a loss for words.
+MARIA: I did not think that was possible, for a person like you.
+The theater was perfect. 
+Every chandelier, every metal work fixture. 
+It was all frozen in time. 
+YOU: I want a camera in everything here. 
+YOU: I need Preservation to come back for this.
+MARIA: …
+MARIA: As you wish.
+;SFX: Metal scrape.
+@sfx metal_scrape
+YOU: ?!
+You whip around, to see Raven crouching behind an ornate sofa.
+
+
+# ItemChoice
+@hide RAVEN
+@back OpulentTheater
+
+@choice "ENGINE" goto:.Engine
+@choice "ACTOR'S BOX" goto:.ActorsBox if:{HasBrokenRudder=true}
+@choice "SILVER BULLETS" goto:.SilverBullets if:{HasBrokenRudder=true}
+@stop
+
+# Engine
+
+ITEM DESCRIPTION: A metal contraption.
+Maria supplies: A ship engine.
+You’ve never had to do repairs on the corporate ship you’re flying, so this is unfamiliar territory.
+It’s terrifying.
+A cylindrical turbine with the sole intention of bringing metal into space.
+Or something like that.
+RAVEN.Aloof: We can use this.
+YOU: We can?
+RAVEN: With some adjustments, I can refit it into the fuselage.
+YOU: …
+RAVEN: What?
+MARIA: I did not think you were capable of engineering feats, let alone identification of such.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “ENGINE”?
+
+@choice "YES" goto:.EngineChosen
+@choice "NO" goto:.EngineRefused
+@stop
+
+# EngineChosen
+
+@set HasEngine=true
+@set RouteA++
+RAVEN: ?
+YOU: Nothing.
+YOU: Help me move it, then.
+RAVEN: …
+RAVEN: I’ll call the drone…
+
+@goto .ItemChosen
+
+# EngineRefused
+
+RAVEN: …are you sure?
+YOU: I’m double checking.
+MARIA: You are so bad.
+
+@goto .ItemChoice
+
+# ActorsBox
+
+ITEM DESCRIPTION: An actor’s box. As in, it belonged to an actor? Or as in, it’s filled with an actor’s tool of his trade? What does an actor need to succeed?
+The box is filled with makeup. It’s still intact and perfect. The hole that Raven found it in must have been very well kept.
+The box is lined with scraps from junkyards. You can tell that much after years of Collecting.
+YOU: Where did you find this?
+RAVEN.Aloof: …
+RAVEN: I don’t remember.
+RAVEN: Over there, somewhere?
+YOU: You literally just had it.
+RAVEN: Mm, did I?
+RAVEN: You know how it is here.
+YOU: Tch.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “ACTOR’S BOX”?
+
+@choice "YES" goto:.ActorsBoxChosen
+@choice "NO" goto:.ActorsBoxRefused
+@stop
+
+# ActorsBoxChosen
+
+@set HasActorsBox=true
+@set RouteB++
+
+YOU: I’m being serious.
+RAVEN: I am too?
+RAVEN: I didn’t know waste management was so particular about this kinda stuff.
+RAVEN: What a pain.
+YOU: It just seems really well-preserved for something so old.
+RAVEN: That’s where you’re wrong.
+RAVEN: This isn’t as old as you think.
+YOU: …
+YOU: Oh?
+MARIA: He knows more than he’s letting on.
+YOU: …
+;RAVEN: (sprite sliding away)
+@hide RAVEN
+MARIA: You’re going to let him leave?
+YOU: We’ll find out soon enough.
+
+@goto .ItemChosen
+
+# ActorsBoxRefused
+
+YOU: Let’s leave it for now.
+MARIA: That’s surprising.
+YOU: In what way?
+MARIA: You seemed attached. That is all.
+
+@goto .ItemChoice
+
+# SilverBullets
+
+ITEM DESCRIPTION: Six silver bullets.
+They are in a varied state of repair. Some of them still have their casings.
+Some are just a sharp point. Half filled with gunpowder.
+MARIA: Propwork?
+YOU: Unsure. The size looks too correct for movie magic.
+YOU: Even with the desire to be accurate, these look used.
+YOU: He’s been awfully distant.
+YOU: Raven.
+RAVEN: Yeah?
+YOU: You used to live here, right?
+YOU: On this colony?
+RAVEN.Aloof: …
+RAVEN: You have my dossier.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “SILVER BULLETS”?
+
+@choice "YES" goto:.SilverBulletsChosen
+@choice "NO" goto:.SilverBulletsRefused
+@stop
+
+# SilverBulletsChosen
+
+@set HasSilverBullets=true
+@set RouteC++
+
+YOU: We’ll take them.
+YOU: They might be useful for identification purposes.
+MARIA: …I do not see the point.
+MARIA: Whoever used them is long dead.
+RAVEN: You’d hope so.
+YOU: Oh?
+RAVEN: Staying alive for this long would be a curse.
+
+@goto .ItemChosen
+
+# SilverBulletsRefused
+
+YOU: Let’s keep looking.
+YOU: We’re awfully below quota.
+MARIA: Wise choice.
+
+# ItemChosen
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i
+
+@back EntertainmentDistrict
+@printer c_Dialogue
+
+You leave the theater behind for now.
+The sun is low in the sky. The weather is as temperamental as always. The haze of summer sweat has been replaced with something milder. 
+The engine catches light. A very poor excuse for a disco ball.
+It’s floating above you, the repair drone carries it at perfect elevation. You can touch it if you reach out. 
+There’s no need to do that. Raven can’t keep his hands off of it.
+He keeps fiddling with it when he thinks you aren’t paying attention.
+YOU: If you keep messing with it, you’ll break it.
+RAVEN.Aloof: Tch.
+RAVEN: I know what I’m looking at.
+MARIA: It is always surprising when he says he can do something.
+YOU: You are really so judgmental.
+RAVEN: You’re so fuckin’ annoying.
+RAVEN: Do you gotta comment on everything?
+YOU: Oh, sorry. I wasn’t talking to you.
+RAVEN: That’s worse?
+YOU: Not the issue.
+RAVEN: Oh, sorry.
+RAVEN: …
+RAVEN: …
+RAVEN: Seriously, what?
+YOU: It’s not important.
+YOU: Why are you so fixated on the engine?
+RAVEN: Mind your damn business.
+
+@back FeetOnTheGround
+@hide RAVEN
+
+An impasse.
+You want to ask about the memoria. 
+You want to ask about the engine. 
+You want to ask about a lot of things.
+YOU: Does it make you happy?
+@char RAVEN.Aloof
+This makes him stop. He lets the drone do its job. 
+RAVEN: Happiness?
+RAVEN: What does a person like you know about that?
+He’s not wrong.
+YOU: Consider it part of my research.
+YOU: My responsibility as your warden.
+RAVEN: Tch.
+RAVEN: Is it an order? 
+YOU: No.
+MARIA: You need to drop this line of questioning, Ioanna.
+MARIA: No good will come out of it.
+YOU: It’s a request.
+You make the first move. A single step forward. 
+Why? Why were you so invested in this? 
+RAVEN: Happiness isn’t somethin’ for people like us, Miss Recollection.
+He finally looks at you. He’s so sharp.
+YOU: You bend so easily.
+MARIA: Because you don’t see him as a person.
+MARIA: You see him as something to collect.
+RAVEN: Happiness wasn’t somethin’ I could afford.
+He scoffs, but it doesn’t stop him from saying his piece.
+RAVEN: I grew up on Estehelix. I’ve always wanted to see the sky.
+RAVEN: When the Project started, those of us who were here, we didn’t have a choice in the matter.
+MARIA: Ioanna.
+MARIA: Listen to me.
+MARIA: You are going to get in trouble.
+MARIA: If you do not stop this right now.
+YOU: …
+YOU: Did you start racing as a form of revolt?
+It sounds stupid, saying it like that.
+He thinks so too, because he stares at you like you just ate a baby.
+RAVEN: It’s always been my calling.
+RAVEN: It’s also easier to get sponsors when they know your true value.
+RAVEN: But that ended with the Exodus.
+RAVEN: And now I am here.
+YOU: A murderer. 
+YOU: With an engine and an awfully good hand at memoria manipulation.
+The air grows heavy. It’s humid. 
+It’s back to how it should be. 
+Your screens and tools all synchronize. 
+RAVEN: …
+RAVEN: Miss Recollection.
+RAVEN: Are you the type of person who gets used, or uses others?
+How precious.
+YOU: …you have to ask?
+RAVEN: Hah.
+RAVEN: That’s a good point.
+The conversation is over. He won’t give you anything else to work with.
+That’s fine. 
+Fine.
+You’ll get it out of him.
+
+@hide RAVEN
+
+The two of you make it back to base.
+
+@back black
+@hidePrinter
+@wait i
+
+@back CORPOSHIT9000
+@printer c_Dialogue
+
+You pretend to be asleep when Raven leaves that night.
+MARIA: Why did you let him speak.
+It isn’t a question. It’s a resignation. She leans against you, all cruel static. 
+YOU: Because Recollection wants something from him.
+YOU: And I think it would be stupid of me not to find out what it is.
+MARIA: …
+MARIA: …are you finally going for that promotion? 
+You catch your reflection in the overhead console. 
+You’re smiling.
+
+@hidePrinter
+@back black
+@wait i 
+
+@goto DHS_Day_04_ROUTEA
+
+@stop

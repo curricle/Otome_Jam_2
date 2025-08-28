@@ -1,0 +1,19 @@
+@back MainMenuBackground
+@bgm Spaces
+@stop
+
+# SplashScreen
+@back SplashScreen time:3
+@bgm HappyCatJingle
+
+# OnNewGame
+@stopBgm
+@stop
+
+# OnLoad
+@wait 0.5
+@stop
+
+# OnExit
+@wait 1.5
+@stop

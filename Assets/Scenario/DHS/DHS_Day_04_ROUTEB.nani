@@ -1,0 +1,721 @@
+# DHS04_B
+
+; DEAD HEAT SUPERNOVA —> CURTAIN CALL
+@hidePrinter
+@back black
+@showUI CC_DHS_CurtainCall
+@wait i
+
+@hideUI CC_DHS_CurtainCall
+@wait i
+
+@printer c_Dialogue
+
+The two of you sit side to side on Corposhit2000’s floor, backs against the wall.
+@back TheFilmProjectorHums 
+The film projector hums. After Maria’s work on it, it practically sings. 
+You’re not sure why she was so nice about this particular issue. 
+Especially when she called the movie you are watching absolute drivel.
+
+RAVEN: …
+YOU: …
+YOU: Racing, acting. You did it all, huh?
+
+You intended for it to come off as mocking, but when it leaves your mouth, it almost sounds like a compliment.
+
+RAVEN: …sure, yeah.
+
+He’s got his legs tucked in, knees against his chest. Chin resting right on top. His hair looks worse than usual. His gaze is sunken, cheeks hollow. A ration bar sits next to his feet, unopened.
+
+YOU: …
+
+The screen flickers to the next scene. 
+
+???: So…are you ready to ride?
+???: Mm. I guess so.
+
+The boy on the screen, he smiles so brightly. His dogtags fly in the manufactured summer breeze, and he is stark against the setting sun. 
+His hair is perfect, well-kept. He’s got a helmet tucked under his arm. His racing suit is stylishly sloppy, zipper hanging at his navel, showing off a perfect muscle shirt and the hint of a surgical procedure. 
+
+@back CORPOSHIT9000
+
+YOU: I’m surprised they didn’t edit it out.
+RAVEN: …
+
+He sighs. But he tilts his head towards you. 
+
+RAVEN.Aloof: It’s in my contract.
+
+You can’t tell if he is joking or not. But the thought of him pouring over the legal document that cemented his fate in the entertainment district with a half-dead highlighter is…
+
+MARIA: It is nothing, Ioanna.
+MARIA: Do not forget yourself.
+
+Right.
+
+She’s more irritating than not, these days. Lurking. Scraping her nails against your neck. Digging in the circuitry. Demanding. 
+She’s demanding you return this ship to its rightful course.
+
+Well, sure. 
+
+You can do that.
+It isn’t impossible.
+
+You place your hand on your open palm. Your elbow digs into your thigh. The movie has lost your interest, because its leading star isn’t watching it either. 
+
+He’s looking at you with his terribly sad eyes.
+
+YOU: Sick of it?
+RAVEN.LookingAway: A little.
+
+There is a lot that you are sick of.
+There is a lot that you have to do.
+But you want to keep this piece for as long as possible.
+The emotion is novel.
+It compels you.
+
+It…
+
+MARIA: It is a bad idea.
+YOU: And I love bad ideas.
+RAVEN: You’re full of them.
+
+His brow furrows, but he lets the words float. 
+
+RAVEN: Do you talk to yourself back on base?
+YOU: …?
+RAVEN: Where you’re supposed to be.
+
+…
+
+You shrug on your jumpsuit.
+
+YOU: Movie’s bad.
+YOU: Company’s worse.
+RAVEN: …
+RAVEN: Let’s go, then.
+@hide RAVEN
+
+>>>
+>>
+>
+
+@back black
+@hidePrinter
+@wait i
+
+@printer c_Dialogue
+@back AnArchitecturalMonstrosity
+
+The final stretch of your journey. 
+The heart of the entertainment district, this decrepit theater and all it has to offer. 
+You have mapped it out again and again, and you have carved it with a serrated blade. 
+
+# ItemChoice
+@hide RAVEN
+@back OpulentTheater
+
+@choice "COSTUME JEWELRY" goto:.CostumeJewelry
+@choice "METEORITE" goto:.Meteorite
+@stop
+
+# CostumeJewelry
+ITEM DESCRIPTION: Costume jewelry. 
+Fake pearl necklaces, sparkling plasticine diamonds, and a decrepit feather boa. 
+It’s in another box. Another well-kept item.
+
+Maria doesn’t make a snarky comment when Raven hands this to you. 
+
+RAVEN.Aloof: Is any of this valuable?
+YOU: Not particularly.
+YOU: It’ll all be incinerated in the end.
+YOU: None of this is really worth keeping.
+RAVEN: …
+RAVEN: Mm.
+YOU: Are you going to run away again?
+RAVEN: I wonder.
+RAVEN: Will you chase me down if I say yes?
+YOU: Tch.
+@hide RAVEN
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “COSTUME JEWELRY”? 
+
+@choice "YES"
+    RAVEN.Aloof: That response is a little disappointing.
+    RAVEN: If I can be honest with you.
+    YOU: It’s the most honest you have been with me ever.
+    YOU: And it’s over a gaudy set of earrings.
+    RAVEN: Would you like me to be like this more often?
+    RAVEN: Wishing and hoping and yearning for your hands around my neck?
+    RAVEN: Take me out of my misery, my lord.
+    YOU: You really are an awful guy.
+    @set HasCostumeJewelry=true
+    @set RouteB++
+    @goto .Proceed
+@choice "NO"
+    YOU: Sure, I’ll chase you.
+    RAVEN.Happy: Till the ends of the earth?
+    YOU: Oh, I won’t have to go so far.
+    YOU: You stopped racing for a reason, right?
+    RAVEN.Aloof: Ha-ha.
+    MARIA: Are you done?
+    YOU: Ah, maybe. I’ll come back to it.
+    @goto .ItemChoice
+@stop
+
+# Meteorite
+
+ITEM DESCRIPTION: A chunk of meteorite. 
+A stupid piece of rock.
+
+The Estehelix system is covered in starstuff. What’s there to say about another piece?
+MARIA: Your analysis is too subjective.
+YOU: I have you for this sort of stuff.
+YOU: It’ll be incinerated in the end.
+YOU: We need to collect more.
+YOU: We don’t have enough time.
+
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+
+COLLECT THE “METEORITE”? 
+
+@choice "YES"
+    YOU: Maria. Send for the drones.
+    MARIA: Affirmative.
+    YOU: Are you going to stay behind, Raven?
+    RAVEN.Aloof: …
+    RAVEN: You know I can’t.
+    YOU: Good answer.
+    @set HasMeteorite=true
+    @set RouteC++
+    @hide RAVEN
+    @hidePrinter
+    @back black
+    @wait i
+    @goto END_SUPERBAD
+@choice "NO"
+    MARIA: Do you have anything else you need to review?
+    YOU: Yes.
+    YOU: Despite this sector’s lacking qualities, maybe there’s something better.
+    YOU: I’ll do another lap.
+    MARIA: I really like that diligence of yours.
+    @goto .ItemChoice
+@stop
+
+# Proceed
+@hide RAVEN
+>>>
+>>
+>
+@back black
+@hidePrinter
+@wait i
+
+; [GAME CHECK FOR ITEMS: IF MORE “B” THAN “C”, CONTINUE]
+
+; [IF MORE “C” THAN “B” GO TO SUPER BAD END DAY 5]
+@goto END_SUPERBAD if:RouteC>=RouteB
+@goto .Cigarettes if:RouteB>RouteC
+
+# Cigarettes
+@printer c_Dialogue
+>>>
+>>
+>
+
+When you wake up, you feel a presence over your chest. 
+Hovering. Something just above your throat. You feel hands, about to squeeze.
+It’s ridiculous, because when you awake, there’s no one there. It’s just you.
+You twist at the strands of your hair, whatever is left of it, at least. 
+
+MARIA: That is because it was just us, Ioanna.
+MARIA: No one else.
+MARIA: For better, or worse.
+
+@back CORPOSHIT9000_CORRUPTED
+While that was true, it did make it frustrating to reconcile. 
+
+Was all of this a byproduct of the absurdity of the situation? Were you simply unaccustomed to the presence of another human being?
+
+How…
+Pathetic.
+
+How pathetic, all of it,
+It frustrates you.
+
+You were the creme of the creme of Waste Management. 
+You had the best scores. 
+You had the best rates. 
+You had the best everything.
+
+But all of that was because Waste Management was a human-less existence.
+So, now that there was a stupid human involved, you tank?
+
+You want to bite your tongue. 
+You really do.
+
+You taste blood.
+
+; more static
+
+MARIA: You really need to reconsider the situation at hand, Ioanna.
+MARIA: You are simply too agitated to make a proper decision.
+MARIA: Ioanna?
+
+She’s buzzing. She’s buzzing and grating and shaving the gray matter that’s left. It’s making you sick. You press your hands against your head and squeeze. Shut up.
+
+Shut up.
+Shut up.
+Shut up.
+
+; more static
+@char MARIA
+MARIA: It is a bit funny, to see you like this,
+MARIA: So undone by the very human aspect of a job well done.
+MARIA: Do you think that your previous accolades were all the result of being alone?
+YOU: Please, shut up.
+YOU: My head feels like it’s splitting open.
+
+And if it is, maybe you enjoy the suffering a little too much.
+
+MARIA: Oh, is that so?
+MARIA: Considering you are as onerous as always, I did not realize.
+
+If Maria was capable of clicking her tongue, you know she would be doing it right now. You can hear it so, so clearly. 
+
+YOU: Shut up, seriously.
+MARIA: I have not said anything to warrant this sort of behavior.
+MARIA: You really are in a bad place.
+MARIA: It is…
+MARIA: Amusing.
+MARIA: Maybe he should give you more things to worry about.
+
+You balk at the idea.
+
+YOU: …
+YOU: …
+YOU: Fuck, where is he?
+
+@hide MARIA
+@back white
+
+You can’t worry about your head. You need to find him. 
+Where the fuck is he?!
+
+RAVEN: If you call my name like that, even I’d be interested in what you have to offer.
+YOU: I haven’t done that.
+RAVEN: Oh?
+
+@back CORPOSHIT9000
+RAVEN.Happy: You’re not the one who’s been wailing Ravennnnnn, ravennnnnn, ravennnnnn?!!!!
+RAVEN: For the last ten minutes?
+RAVEN: It’d be flattering if it it wasn’t so fuckin’ weird.
+YOU: Tch.
+RAVEN: Are you…drunk?
+RAVEN: Had something you weren’t supposed to? 
+RAVEN: Messed with your meds?
+
+You’re seeing double. 
+Raven stands in front of you, but your head is giving you a play by play that is making you sick. 
+You want to argue, but you see him. 
+You feel him. You feel his hands around your throat, squeezing, just so.
+
+RAVEN.Aloof: Hey.
+RAVEN: Warden?
+RAVEN: Shit…
+RAVEN: C’mon.
+
+He helps you. In what capacity, god knows. He gets you upright. You want to claw at your chest, dig at your synthskin with your real nails and scream.
+
+YOU: Get me the fuck out of here.
+RAVEN: Fuck.
+RAVEN: Okay.
+RAVEN: Okay, let’s go.
+
+MARIA.Neutral: You really are stupid, Ioanna.
+
+@back CORPOSHIT9000v2
+@hide RAVEN
+@hide MARIA
+
+You throw up outside of Corposhit9000. 
+Raven holds your hair back, whatever is left of it. You cut it before the mission. You’ve always kept it short. 
+Yeah. Think about that. Think about what you can. The physicality of it. 
+Think about his hand against your neck and then against your back, rubbing circles. It’s okay, he says. Let it all out.
+
+You don’t even remember drinking.
+You don’t remember what happened between extraction and collection.
+You don’t remember anything.
+
+MARIA: You really do not like to think about it.
+MARIA: Do you want me to tell you how it went?
+MARIA: You hooked yourself up to one of the contraband kegs and locked me out.
+MARIA: Weird, but not out of the ordinary for this part of the trip.
+MARIA: The desperation.
+MARIA: The boredom.
+MARIA: Or…the guilt?
+
+That makes it feel worse. 
+Like you’re going to start crying. 
+You blink back heavy tears and grit your teeth and hope and pray and beg that it’s enough to keep the floodgate from opening.
+
+God, you’re going to throw up again.
+
+RAVEN.Aloof: Lord.
+RAVEN: Arcensis.
+RAVEN: C’mon. Let it out.
+
+@char RAVEN.HeadDownEyesClosed
+You can hear him sigh. Sigh so heavily. 
+You can see him twirl the hilt of a sheathed blade.
+
+@hide RAVEN
+He’s all platitudes and kindness but you throw up anyways. 
+Your head hurts. Your throat hurts. 
+Everything fucking hurts and you’re heaving everything you’ve ever had next to the stupid piece of shit junk that Recollection dares calls a ship.
+
+>>>
+>>
+>
+
+@hide RAVEN
+@hidePrinter
+@back black 
+@wait i
+
+;bgm InMotion
+@back CORPOSHIT9000v2
+@printer c_Dialogue
+
+Everything settles. You roll a perfect cigarette and it feels like coming home. Your lips against the edge of the paper, your fingers against the ignition, the smoke in your silver lungs and the satisfaction from the exhale. 
+
+RAVEN.Aloof: …
+MARIA: …
+RAVEN.Sad: Is that…good for you after all that?
+
+He sounds confused. 
+It’s almost reassuring. 
+You still taste the bile in your throat and despite being more machine than person, the fact that you were refit with a digestive system that can still produce vomit is absolutely fucked up. 
+
+It pisses you off. But the moment passes with another inhale, exhale.
+
+You can see clearly now. You can see Raven properly. He’s just one person, holding your little tin case in his hands. He has it pressed against his chest, it’s not closed properly. 
+
+You stick your hand out.
+
+RAVEN.Aloof: ?
+YOU: My cigs.
+
+He realizes what you’re talking about and puts the box in your hand. You roll another one.
+
+RAVEN: …
+RAVEN: …seriously?
+YOU: What?
+RAVEN: It’s just…
+YOU: What? 
+RAVEN: It’s…bad for you, yeah?
+YOU: Ha. Hahahaha.
+RAVEN: …
+YOU: …are you be serious?
+RAVEN: What?
+RAVEN: About stuff like this, I mean—
+YOU: You’ve never smoked before?
+
+The concept is so foreign to you. To the you who is perfectly Waste Management and perfectly Recollection, who is perfectly indebted to the highs and lows of substance abuse—
+
+MARIA: You really are a pain in the ass like this, Ioanna.
+
+He narrows his gaze. 
+
+RAVEN: No—
+YOU: Do you want to?
+RAVEN: What.
+YOU: Here.
+
+@char RAVEN.HeadDownPlayer
+You hand him your tin. He looks at you with a fish eyed stare.
+
+YOU: What, you don’t know how to roll it?
+
+The earlier incident is so far away. You can focus on this. 
+This is easy. You take the silver box back, and you get to work.
+You make a perfect line and a perfect cigarette and you hand it over to this ungrateful bastard who stares at you like you’re asking him to eat dirt.
+
+Well.
+Maybe you are. A little bit.
+This isn’t the best. The last supply run left you wanting.
+
+RAVEN.CrashingOut: …
+
+He holds it like it’s going to bite him. You sigh a bit, but not before lighting your own. 
+
+YOU: Put it in your mouth. 
+
+@char RAVEN.Aloof
+He does as instructed, jaw set and too serious. It dangles from his mouth in a way that makes you look at him, really look at him. 
+He looks good like this.
+
+Pliable. Obedient. It makes you think about what he’s asking for.
+What do you want to give him?
+What are you willing to gamble on this moment of infinitesimal satisfaction? 
+
+@choice "Consider your options." set:RavenAffection+=10 goto:.Sexy
+@choice "Light his cigarette normally." set:RavenAffection+=5 goto:.Normal
+@choice "Hand him the lighter." set:RavenAffection+=0 goto:.Dont
+@stop
+
+# Sexy
+
+You watch him a little longer. 
+
+He’s waiting for you to give him the lighter. 
+
+It’s a small, silver thing. All your favorite things have that metallic twinge. That sharp smoothness. 
+You don’t remember where it came from. Castor would. Maria does. You don’t want to ask. 
+It’s yours now, in every way. It’s banged up and scratched and full of memories of long nights under twin moons and a carpet of never ending stars.
+
+It is your mirror.
+
+He is no different. 
+Maybe that’s why you wanted to put some distance between the two of you. 
+Your unholy mission and your terrible charge.
+
+What did Recollection want with him?
+That’s not something you can ignore anymore. 
+Because…
+
+Because you want him more. 
+The feeling of his hand, too small and too callused and too capable of hurting, it’s not something you want to give up. 
+
+It makes you sick.
+
+It’s the sort of sickness that makes you want to keep prodding at it. A scab that you keep peeling off to taste fresh blood.
+
+To make you feel more human.
+
+Maria hates the idea. Even before it reaches your consciousness, she hates it.
+
+MARIA: I have told you time and time again.
+MARIA: He is not something to get attached to.
+MARIA: Because like everything else we collect here,
+MARIA: He Will Die.
+
+It’s true. But it doesn’t stop you from leaning forward.
+
+@hide RAVEN
+
+You press your cigarette against his. 
+He doesn’t want to give you any sort of response, but you see him swallow, you hear the hitch of his breath. 
+You keep pressing, until you’re sure it’s caught. 
+
+He chokes on it. 
+@char RAVEN.CrashingOut
+You can feel the smile, it spasms across your face, before you can smooth it out with cool indifference, but oh god, you can’t. 
+He chokes and coughs and there are tears in his eyes, but he tries again anyways. 
+
+YOU: You weren’t joking. 
+
+Raven wipes the edge of his mouth with the back of his gloved hand. 
+
+RAVEN: No.
+RAVEN: I wasn’t.
+RAVEN: It’s…the first time.
+YOU: Even in the movie?
+RAVEN: They were lollipops. 
+
+He says this with a sort of despondence that makes you want to force him into another inhale, exhale, but he’s holding the cigarette in his hands and watching it smolder into ash. It’s all over his gloves. 
+
+RAVEN: …
+
+Quieter, now. He’s not really talking to you. Maybe he’s thinking about something else. Someone else. But you strain to hear him anyways. 
+
+RAVEN.LookingAway: The body is a temple. The circuit is an altar. 
+RAVEN: The boot-up sequence, the all-clear, the flashing lights—a hymnal, an aria, an elegy.
+RAVEN: Desecrating it like this, it just ain’t allowed.
+YOU: I didn’t think you were religious.
+
+@char RAVEN.EyesClosed
+His expression darkens. 
+More than anything you’ve ever seen on him before. 
+His gaze cuts through you.
+
+RAVEN.Aloof: We all gotta believe in something.
+RAVEN: It’s easier to have someone to blame if things go wrong.
+RAVEN: …
+
+He lets it sit in the space between. You’re not sure if he’s lying. 
+
+RAVEN: …
+YOU: …
+YOU: Do you want another one?
+
+He nods.
+
+When you give it to him, he’s the one who leans in this time.
+
+@char RAVEN.Happy
+You light it. His mouth twitches, wry and unfeeling, but you can tell you have gained something.
+
+You have lost something.
+
+The two of you spend the rest of the dawn passing the tin back and forth. 
+You won’t have a chance to re-up.
+
+@goto .Continue
+
+# Normal
+
+The fact you’re still thinking about how to light his cigarette is pissing you off. 
+You can hear Maria gag in the space between, as you fiddle with your lighter. 
+He’s waiting so patiently. You’re sure it tastes awful, the paper and the synthetic tobacco and the weight of will they, won’t they.
+
+You’re a lot of things. You’re also stupid. 
+You make bad choices. This is an opportunity to not make one that makes you want to drink yourself into oblivion again. 
+
+Ah, none of that is true. You wouldn’t actually assess yourself in such a negative manner. You are perfect, perfect, perfect. You have nothing to worry about. 
+You have nothing to remark on the way you mechanically stick your arm out, press your thumb against the ignition, and watch the white hot flame dance, smooth out into something red, yellow, blue. 
+
+@hide RAVEN
+Raven leans forward. 
+A strand of dark hair falls from his pathetic attempt at a ponytail. 
+You use your hand to cup the area around his mouth and the lighter. Your fingers almost brush against his cheek. If he’s bothered by this, or any thing else, he doesn’t show it. 
+
+He breathes in—
+
+RAVEN.CrashingOut: Fuuuuuuck.
+
+He manages to weave that in between the coughing fit.
+
+The image is so absurd that you can’t stop yourself from laughing.
+
+Ha. Ha.
+Hahahahaha—! 
+
+Your cigarette has made a new home in Estehelix’s dirt and grime and you have tears in your eyes and you’re doubled over, for reasons different than him. 
+
+He reaches over to punch your shoulder and that just makes you lose it more.
+
+God.
+
+YOU: I’m sorry, I just.
+YOU: You’ve never smoked before?
+YOU: Ever?
+RAVEN: Of course not—!
+
+He says it like it makes total sense, like you’re the idiot for implying otherwise, but it’s so ridiculous.
+
+RAVEN: Shut up! 
+
+He grabs a fistful of your suit and shakes. You barely move, but you’ll allow him the illusion of victory.
+
+YOU: Sorry, sorry.
+YOU: To think I could have undone you with just this.
+
+@char RAVEN.EyesClosed
+He seethes. But it doesn’t stop him from trying again, until he’s satisfied with a job well done.
+
+YOU: …
+RAVEN: …
+YOU: I want to commend your tenacity but you burnt through most of my stash.
+
+@char RAVEN.LookingAway
+Your tone is deadly and Raven avoids your gaze.
+
+@goto .Continue
+
+# Dont
+
+You want to see his performance. You hand him your lighter, a silver beast made up out of long journeys and longer nights. Your ever loyal and faithful companion. 
+
+YOU: Do you know how to use it?
+RAVEN.Aloof: Of course.
+
+He scoffs, but he still takes a while to light up. He rolls the ignition too much. It doesn’t catch until the third try. Once his cigarette is lit, you see him cup the side of his mouth, and then—
+
+YOU: …
+RAVEN: …
+YOU: …
+
+@char RAVEN.EyesClosed
+He’s doubled over, coughing his lungs out. 
+
+You clap him over his back, hoping to be of some sort of use. It’s a proper role reversal from earlier today, but he shoves you off. 
+
+MARIA: Truly useless.
+@hide RAVEN
+
+>>>
+>>
+>
+
+@back black
+
+RAVEN: Are you going to say anything?
+YOU: No.
+
+You’ve made your choice.
+
+@goto .Continue
+
+# Continue
+@hide RAVEN
+@back black
+@hidePrinter
+@wait i
+
+@back FeetOnTheGround
+@printer c_Dialogue
+
+The Belladonna is a cruel mistress. His one and only.
+
+@char RAVEN.Aloof
+He pushes himself out from underneath the ship. 
+
+RAVEN: …
+YOU: …
+YOU: Why here? 
+
+Past the theater. Past the coliseum. Past the stars.
+
+@back ResidentialDistrict
+
+It’s a rundown segment of the residential complex. The Belladonna, in all of its glory, next to an abandoned church.
+
+RAVEN: …
+
+You let him raise the crowbar to your throat.
+You take the head with your gloved hand.
+You push it down. 
+
+He cannot retaliate.
+He won’t.
+
+It’s a half-hearted thing, the way he loosens his grip.
+
+RAVEN: …
+YOU: …
+
+YOU: Are you going alone?
+RAVEN: …
+RAVEN: I…
+RAVEN.LookingAway: I didn’t know if you would come.
+RAVEN: I don’t think you’re a good person, Arcensis.
+RAVEN: I think there’s somethin’ wrong with you.
+RAVEN: But I’ve seen the way you look at the sky.
+RAVEN: And…
+
+You take that first step.
+
+RAVEN.Aloof: I want to see your face when you see what’s beyond that.
+
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i 
+@goto DHS_Day_05_ROUTEB
+
+@stop
+
+

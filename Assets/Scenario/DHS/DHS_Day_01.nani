@@ -1,0 +1,552 @@
+# DHS01
+
+@showUI CC_DHS_Opening
+@wait i
+
+@back black
+@hideUI CC_DHS_Opening
+@wait i
+
+@printer c_Dialogue
+
+The trip to Estehelix is boring.
+
+@back CORPOSHIT9000
+
+Maria handles the ship. It’s on autopilot, with her perfectly standardized route and crash collision detection system. 
+If a meteor so much as looked at the ship the wrong way, she would bring it down into some unsuspecting planet. 
+The sky is the darkest shade of ink blue. Stars are pinpricks of light. The ship carves out a wave. 
+Yawn.
+You were usually asleep for this part of the journey, but you’ve been trying to figure out the plan for Estehelix. 
+A former entertainment district, the crème of the crème playground of the rich and famous. 
+The turn of phrase isn’t quite right, you can hear Maria chide you over the intercom. 
+Estehelix used to be a big deal. Now, it was a big pile of nothing. Rotting buildings and once upon a time stories about beautiful people with too much time on their hands.
+It’s weird that Raven is there.
+MARIA: It is not necessary to mull this over.
+YOU: There isn’t anyone in that system.
+YOU: It’d make sense if he was on a penal colony.
+MARIA: Ioanna.
+She crackles with the ship. The cabin light flickers.
+YOU: Hmm.
+You close your eyes.
+Maybe you’re over thinking it.
+Maybe you aren’t.
+You aren’t being paid for this, that’s for sure.
+YOU: Wake me ten minutes before landing.
+MARIA: Understood.
+MARIA: Goodnight, Ioanna.
+>>>
+>>
+>
+You wake up to the sound of glass breaking. 
+Your heart leaps out of your chest, it gets stuck in your throat. You fumble for the knife strapped to your jump suit. You move to cut the seatbelt off, but--
+There’s a boy.
+
+; CG: The titular Raven. The boy of the hour. The boy of my dreams. He’s carrying a metal pipe and he’s about to bring it down over Ioanna’s head. There’s blood on his hands and streaked across his cheek. An expression full of hatred. 
+
+@set Complied=false
+# React
+@back CORPOSHIT9000
+
+;CG:Hovering over Ioanna, who is still seated in the cockpit with her knife hand at his throat.
+
+@char RAVEN
+??: Put the weapon down.
+
+@choice "COMPLY" goto:.Comply if:Complied=false
+@choice "ENGAGE" goto:.Engage
+@stop
+
+# Comply
+@set Complied=true
+You breathe in, he breathes out, ragged and cruel. A wild beast has come into your ship. 
+; CG UPDATE: Ioanna’s knife falls onto her lap.
+At least, that’s the thought that sinks into your brain when he swings the pipe down. 
+>>>
+>>
+>
+
+@back black
+
+MARIA: You really are an idiot, my dear Ioanna.
+
+@hidePrinter
+@wait i
+@hide RAVEN
+@wait i
+
+@goto .React
+
+# Engage
+
+You just need a split-second opening. 
+He’s skinny. 
+Skinnier than you are, about the same height—his arms shake as he holds onto that pipe for dear life. It’s taking everything out of him to swing, but that’s the easiest thing to do. Gravity will work its magic. 
+??: Are you stupid? 
+??: Put the fucking knife down.
+YOU: Is this the part where I ask you to put the pipe down first?
+??: Do you think you’re in any position to be making demands?
+You don’t really need him to do anything. The edge of your knife dances across his collar. 
+With a flick of your wrist, you’ll slice skin.
+
+;[[REMOVE CG]]
+
+With your free hand, you’ve already found the button that undoes the straps over your chest. It’s close to the right side of your seat, hidden and unassuming. The release latch on the harness over your chest is solely for decorative purposes.
+You’ll thank Maria for this design point later. 
+For now, you focus on one thing—launching yourself at the boy with the metal pipe.
+You tackle him onto the floor. 
+Subdue. Disarm. Restrain.
+
+@char RAVEN.EyesClosed
+??: Bitch.
+YOU: Yeah, yeah. 
+His wrists fit comfortably in your hand. The pipe clatters to the floor. 
+MARIA: Ioanna? Are you okay?
+She almost sounds concerned.
+YOU: I’m fine.
+YOU: And you must be Raven.
+
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i 
+
+# GAP
+
+;[[DEAD HEAT SUPERNOVA    GAP]]
+@hidePrinter
+@showUI CC_DHS_Gap
+@wait i
+
+@back black
+@hideUI CC_DHS_Gap
+@wait i
+
+@printer c_Dialogue
+
+Maria is unhappy with you.
+
+@back CORPOSHIT9000
+
+There’s always that hint of disappointment in her good mornings, just enough enunciation to make you feel like, oh, okay. I get it.
+MARIA: Have you decided what you are going to do with him?
+YOU: No good morning starshine, I am so happy to see you?
+MARIA: I do not greet you like that under any circumstances.
+YOU: Maybe I should rewire you to do so.
+The light flickers in a way that expresses her distaste for the idea. You shelve it for now.
+YOU: It’s one ship for the two of us. 
+YOU: He really can’t do anything.
+RAVEN.Aloof: ...
+He’s handcuffed to the bed. You took the pilot’s chair for the night.
+YOU: Good morning, Raven.
+YOU: I’m glad to see you’ve calmed down.
+RAVEN: …
+RAVEN: …
+YOU: Are you hungry?
+You reach for a ration packet from under your chair. You find one next to the broken glass and pool of dry blood from yesterday’s incident.
+He stares at you. His gaze lowers to the offering.
+RAVEN: …no.
+@hide RAVEN
+He turns on his side.
+Right.
+YOU: I’ll get to work then.
+Maria turns the lights on. She calls for recovery drones, she establishes basepoint. Estehelix-1, here we are. 
+
+@back FeetOnTheGround
+
+The landing was smooth; the welcoming party was annoying; the situation was as established in the brief.
+It would be important to do some preliminary recon. Some research. You like research. You like it enough. 
+There’s no need to map with Maria on it, she would have a 1:1 3D replica ready for you if you asked. But you don’t want to do that. Feet on the ground, and eyes to the sky.
+Something like that?
+YOU: I’m going out. 
+YOU: You are coming with me.
+YOU: Do you have any questions?
+RAVEN.Aloof: …
+He lifts up his bound wrist.
+Ah. Right.
+You walk over. Maria buzzes with discontent. Raven swings his legs over to sit up. His previous display of defiance looks a little sad in hindsight.
+MARIA: Are you stupid, by chance?
+YOU: I am not.
+An easy sleight of hands. His wrists are free, but his neck is not.
+RAVEN: …
+RAVEN.Sad: A bomb collar?
+His practiced indifference scales a few octaves. It’s closer to the person you met yesterday. 
+He presses a gloved hand against the metal and hooks his index finger under the blinking pendant.
+YOU: I wonder.
+RAVEN: Do you do this.
+RAVEN: Often?
+YOU: No.
+YOU: Waste management is a people-less endeavor.
+YOU: Maybe the powers that be thought it would be funny.
+YOU: But..
+YOU: I’m not laughing.
+
+@char RAVEN.Aloof
+This earns you a scoff. He shrugs his shoulders. His hand returns to his side. You’re not sure what kind of person you’re working with. He goes quiet, but he stands up and starts heading for the door. 
+You notice the way he looks for his reflection in one of the paneled mirrors. He doesn’t like what he sees.
+RAVEN: After you, then.
+The mission brief said to expect violence. You were prepared for that.
+You were not prepared for his despondence. 
+YOU: Right.
+The mess he made still needs to get cleaned up. Maria will handle it. 
+YOU: You’ll handle it, yeah?
+She hums.
+Right.
+…Right.
+@hide RAVEN
+
+>>>
+>>
+>
+Raven stays in your blind spots. You have to look over your shoulder every so often to make sure he’s still following you. He is. He always is. But he’s making it a pain in the ass. 
+Este-3 is a tram ride away. 
+All aboard. 
+The railway isn’t working, it hasn’t been for so long, but your grappling hook and levi-bike do the trick. The two of you make it back on land safely. You walk for what feels like hours. System years, capsized into the steady thump, thump of work boots against rubble. 
+
+@back CommercialDistrict
+
+MARIA: Este-3 is known for its sprawling commercial district. This is also where most of its residents used to live.
+You do not remember asking her to explain. You’ve been here before.
+MARIA: Ioanna, I am being polite.
+YOU: Ah, right.
+RAVEN.Aloof: …
+Your partner in waste management and dubious human combustion finds a wall to lean against. 
+RAVEN: …yeah?
+You carve out a spot next to him. His expression does not change, but you can see the beginning of a furrowed brow.
+YOU: So…
+YOU: Are you mad?
+YOU: That someone finally found you?
+RAVEN: I don’t think it’s “finally” if I was asking to be caught.
+He doesn’t elaborate. You don’t press.
+RAVEN: You read my file.
+YOU: I did.
+YOU: Death penalty, huh.
+YOU: I didn’t know they made those official anymore.
+RAVEN: I’m a special boy.
+YOU: Hah.
+MARIA: I fail to see what is humorous about this exchange.
+RAVEN: …
+YOU: …
+YOU: Is… there a reason you haven’t left Estehelix, Raven?
+RAVEN: Weird question.
+YOU: Is it?
+YOU: You’re a pilot, yeah?
+His scowl deepens. Any fostered goodwill retracts like claws.
+RAVEN: What of it.
+YOU: I just feel like Estehelix is a weird choice.
+YOU: So…
+RAVEN: What do you want to hear?
+You’re just curious. That’s all. It’s interesting. You see all sorts of potential research in this. Waste management was as much about documentation as it was about the incinerator at the end of the journey.
+This particular piece simply got the jump on you. And you want to pay that back.
+YOU: The truth?
+RAVEN: Is that an order?
+He taps at his collar.
+YOU: It can be.
+RAVEN: They made me crash my ship.
+
+;[CG: RAVEN IN THE WRECKAGE OF THE BELLADONNA]
+
+RAVEN: I was ready to come in.
+RAVEN: Are you ready to take me out?
+YOU: I have my instructions.
+MARIA: You do.
+MARIA: And the first one was to disregard the ward.
+MARIA: Do you enjoy this, Ioanna?
+YOU: A bit.
+YOU: That makes things make sense.
+RAVEN: …
+RAVEN: Continue your oh so noble mission, milord.
+RAVEN: This killer won’t try again.
+
+@choice "So... whatcha do?" set:RavenAffection+=10 goto:.OptionA 
+@choice "They didn't tell me what you did." set:RavenAffection+=5 goto:.OptionB
+@choice "Do you regret it?" set:RavenAffection+=0 goto:.OptionC
+@stop
+
+# OptionA
+
+It’s an awkward way to break the silence, but you do it anyways. Make it casual. Make it fun.
+Make it feel like you really hate the idea of letting sleeping beasts lie.
+YOU: I mean. 
+YOU: If you want to share.
+RAVEN: I don’t.
+YOU: Ooookay.
+MARIA: I am not sure why you thought this would be appropriate.
+YOU: I was hoping I’d get him mad enough to start talking.
+RAVEN: …
+YOU: But he’s clearly beyond that.
+YOU: Uh.
+YOU: Sorry…?
+You try the word out. It falls on deaf ears. Raven picks at a strand of long hair. His hair is so long. Two-toned. It’s out of his jumpsuit today. Maybe he’s trying to hide the collar. 
+YOU: For taking the job?
+You’re sorrier for yourself in that respect. Maria reminds you of this. 
+YOU: For…beating the snot outta you?
+RAVEN.Happy: If we’re just going to start making things up…
+YOU: Okay, yeah. You’re right.
+YOU: …
+YOU: Did you just laugh?
+RAVEN.Aloof: No.
+He’s almost as good at parlor tricks as you are. 
+His lips twitch into something you want to call a smile.
+RAVEN.Happy: I got an NDA.
+MARIA: False. 
+YOU: Hah.
+
+@goto .GAP_Continued_01
+
+# OptionB
+
+That’s fine, right? It’s true. The mission brief expunged any mention of Raven’s crime. You were able to scrub for the sentence and for the threat level, but when it came to the details on how he got in this situation…Nothing.
+RAVEN.Aloof: Mm.
+RAVEN: ‘sthat so?
+YOU: Yeah.
+YOU: Death sentence, sure. 
+YOU: But not what put you in the chair.
+MARIA: I do not recommend following this line of questioning.
+MARIA: It is unnecessary for the mission.
+YOU: But I’m curious.
+RAVEN: …Mm.
+RAVEN: You know what they said about that.
+RAVEN: Cat, and all.
+YOU: So? 
+He twists a piece of hair around. He’s going to tear it right off if he doesn’t stop soon. 
+You move before you can think about it. Your hand finds his wrist.
+He pulls back.
+RAVEN: …hands off the merchandise. 
+You acquiesce. 
+YOU: Partner.
+YOU: You’re my partner.
+RAVEN: That’s not something you get to decide.
+He rubs his wrist. You watch him. He doesn’t meet your gaze.
+RAVEN: Warden. 
+YOU: Tch. 
+YOU: Then let’s get back to work.
+
+@goto .GAP_Continued_01
+
+# OptionC
+
+Raven tilts his head. The question…does something. You’re not sure what sort of reaction that is. Is he surprised, is he annoyed, is he intrigued by the line of questioning.
+RAVEN.Aloof: Regret?
+YOU: Do you regret what you did?
+YOU: Do you regret getting caught?
+YOU: Do you regret turning yourself in?
+RAVEN: …
+RAVEN: I wonder.
+YOU: Oh?
+MARIA: It is like hearing two of you.
+YOU: Mm.
+RAVEN: What about you?
+RAVEN: Do you regret taking this job?
+YOU: Oh, absolutely.
+YOU: Waste management prides itself on solitude and isolation.
+YOU: This is out of my area of expertise.
+RAVEN: You’re awfully good at fighting.
+YOU: It’s part of the training.
+MARIA: Are you done?
+YOU: You, in comparison, are bad at fighting.
+YOU: Your hands were pretty beat up after the piping.
+RAVEN: …do you need to say it like that?
+YOU: Haha.
+RAVEN: …
+He crosses his arms over his chest and turns his head away from the conversation. That’s fine, you can work with that. 
+You can figure something out from this.
+RAVEN.LookingAway: There are some things I regret.
+RAVEN: But not what I did.
+YOU: Is that your pride?
+RAVEN: A racer cannot hesitate.
+RAVEN: That’s all.
+Oh?
+MARIA: That is enough, Ioanna.
+
+@goto .GAP_Continued_01
+
+# GAP_Continued_01
+
+@back ResidentialDistrict
+
+@hide RAVEN
+The two of you roam the residential district. You haven’t found anything you’re in love with yet.
+Love.
+That’s funny. 
+You would’ve never thought about this as a love affair, but Estehelix is special.
+He keeps looking for something. You can tell. He dips in and out of corners and sticks his head behind dilapidated brick walls. 
+
+; CG: RESIDENTIAL DISTRICT / COMMERCIAL BACKGROUND CG W/ ITEMS
+
+# ItemChoice
+@back ResidentialDistrict
+@hide RAVEN
+
+@choice "FUSELAGE" goto:.Fuselage
+@choice "FILM REEL" goto:.FilmReel
+@choice "RUSTED KNIFE" goto:.RustedKnife
+@stop
+
+# Fuselage
+
+ITEM DESCRIPTION: The main body of a ship. You think it’s a raceship, but without its pilot to make the confirmation, this autopsy is a bust. The wreckage is a deep violet. A one-seater.
+@char RAVEN.HeadDownPlayer
+YOU: Oh, that reaction is clear as day.
+RAVEN.HeadDownEyesClosed: …
+RAVEN: …
+RAVEN: …
+YOU: Are you going to say anything?
+YOU: I’m going to need an extra pair of hands to extract it.
+RAVEN: …Use the drone.
+MARIA: It does not seem like he’s going to be helpful at all.
+@hide RAVEN
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “FUSELAGE”?
+
+@choice "YES" goto:.FuselageChosen
+@choice "NO" goto:.FuselageRefused
+@stop
+
+# FuselageChosen
+
+@set HasFuselage=true
+@set RouteA=1
+
+YOU: Send the drone.
+MARIA: Affirmative.
+YOU: Raven keeps looking at it.
+YOU: …do you want to say anything?
+RAVEN.LookingAway: It’s the Belladonna.
+RAVEN: …
+
+@goto .ItemChosen
+
+# FuselageRefused
+
+@char RAVEN.Happy
+MARIA: He almost seems relieved you are leaving it behind.
+YOU: Just for now. I want to mull it over.
+
+@goto .ItemChoice
+
+# FilmReel
+
+ITEM DESCRIPTION: A silver disk with twelve circles.
+Six of the circles form an outer ring, while the remaining six form what you can describe as a flower.
+There’s a thin piece of plastic hanging on for dear life.
+Maria thinks this evaluation is not analytical enough.
+What else is there to say?
+MARIA: I am not incorrect in my judgment.
+YOU: Do we even have some way of playing this?
+YOU: This is some sort of movie, right?
+RAVEN.Aloof: …
+RAVEN: It’s a reel.
+RAVEN: Pre-golden age.
+MARIA: Oh…he speaks.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “FILM REEL”?
+
+@choice "YES" goto:.FilmReelChosen
+@choice "NO" goto:.FilmReelRefused
+@stop
+
+# FilmReelChosen
+
+@set HasFilmReel=true
+@set RouteB=1
+
+YOU: Do you have any ideas?
+RAVEN: …
+YOU: He’s lost interest…I think.
+MARIA: …
+YOU: Maria, find me something to play this on.
+MARIA: …Objective confirmed.
+
+@goto .ItemChosen
+
+# FilmReelRefused
+
+YOU: Let me think about it.
+MARIA: Be quick about it.
+
+@goto .ItemChoice
+
+# RustedKnife
+
+ITEM DESCRIPTION: A knife.
+The blade is rusted over. It’s about six solar inches and it fits nicely in the palm of your hand.
+The hilt is bound with rotted leather.
+There’s something really awful about it that you can’t quite place.
+RAVEN.Aloof: That’s pretty nasty.
+YOU: He speaks.
+MARIA: Do not get too close.
+MARIA: A killer of his caliber would clearly react to this sort of thing.
+YOU: Ahaha…
+YOU: Do you recognize it?
+RAVEN: …
+RAVEN: I’m an arsonist.
+YOU: <i>He says it so bluntly that it’s difficult to gauge if he’s serious or not…</i>
+YOU: Right.
+RAVEN: Let me hold it?
+YOU: No.
+DO YOU WANT TO COLLECT THIS?
+ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+COLLECT THE “RUSTED KNIFE”?
+
+@choice "YES" goto:.RustedKnifeChosen
+@choice "NO" goto:.RustedKnifeRefused
+@stop
+
+# RustedKnifeChosen
+
+@set HasRustedKnife=true
+@set RouteC=1
+
+RAVEN: …
+YOU: I’ll put it away for now.
+YOU: Do you know any knife tricks?
+RAVEN: Of course not.
+MARIA: What a liar.
+YOU: What a liar.
+RAVEN: For some reason I feel you’re disappointed by this…
+
+@goto .ItemChosen
+
+# RustedKnifeRefused
+
+YOU: Let me think it over.
+YOU: I don’t know how useful a knife is in the Great Scheme.
+MARIA: Nothing is useful in the eyes of our Overlords, Ioanna.
+YOU: This isn’t incorrect but it still stings…
+
+@goto .ItemChoice
+
+# ItemChosen
+
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i
+
+@printer c_Dialogue
+@back CommercialDistrict 
+
+RAVEN: Do you enjoy your work?
+YOU: A weird question.
+RAVEN.Aloof: Hmm.
+YOU: I think I have explained my feelings on this enough.
+RAVEN: It just makes you seem crazy.
+YOU: Right, right.
+YOU: You have to be, a little bit. 
+YOU: Recollection only takes the best.
+He’s unsatisfied with that answer. But he follows you back to base camp.
+
+@hide RAVEN
+@back black
+
+Maria has made the ship spotless in your absence.
+
+@hidePrinter
+@wait i 
+
+@goto DHS_Day_02
+
+@stop

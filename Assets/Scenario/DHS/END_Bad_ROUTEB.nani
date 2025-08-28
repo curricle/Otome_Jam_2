@@ -1,0 +1,125 @@
+;CG: In front of the incinerator, hand on the glass.
+@back IncineratorRoom
+@printer c_Dialogue
+
+There’s an emptiness that seems to swallow the entire room.
+MARIA.Neutral: Ioanna.
+MARIA: Are you happy?
+YOU: Happy…
+The emotion is a beast. It curls around your neck, your wrists. 
+It eats at you.
+@hide MARIA
+He once said that was an emotion that he could not afford. 
+It was something that he gave others.
+Happiness, joy, love—all things that he abandoned on the grid.
+His entire purpose was to serve the hand that feeds.
+
+;[MUTED BACKGROUND, B/W SPRITES]
+@back CommercialDistrict_v2
+RAVEN.Aloof: I came to Estehelix for one thing.
+RAVEN: And that was to race.
+RAVEN: A life without it was not a life worth living.
+RAVEN: But…
+RAVEN: If something could give my life meaning, after all of this—
+RAVEN: Then maybe, it was all worthwhile.
+RAVEN: Is that a bad thing to wish for?
+YOU: Is that what you want me to do for you, Raven?
+YOU: I can give you a purpose outside the checkered flag and the bright lights.
+YOU: I can give you something to live for.
+
+;[BACK TO PRESENT DAY; CG GONE]
+@back FAKERS
+@hide RAVEN
+MARIA.Neutral: Did you think he would be stupid enough to take your hand?
+YOU: No.
+MARIA: But he was.
+YOU: He was.
+The incinerator fizzles out. 
+Estehelix dies in white ash.
+There is nothing left of the entertainment district. 
+YOU: But it was nice.
+YOU: It was nice while it lasted.
+YOU: His hand was warm.
+MARIA: He wore gloves.
+MARIA: He is back where he belongs.
+MARIA: With the rest of the vestiges of the Project.
+YOU: With everything that’s happened, I’m surprised you can still comment on these sort of things, Maria.
+MARIA: I am looking out for you, Ioanna.
+MARIA: I am looking out for us.
+MARIA: Your promotion is all but secured.
+MARIA: You will be able to break free of these chains.
+YOU: You say this…but you know how I feel about this.
+YOU: Waste management is all I’d like to do.
+MARIA: …
+She flickers underneath your eyelids.
+YOU: Are you unhappy with my answer?
+She does not reply.
+@hide MARIA
+>>>
+>>
+>
+@back black
+@hidePrinter
+@wait i
+
+@back ExecutionChamber
+@printer c_Dialogue
+@char SUNEATER
+????: Do you have any last words?
+RAVEN.Aloof: I do not.
+RAVEN: I made my peace with my fate.
+RAVEN: I wish she was here to see it.
+????: I can bring her to you.
+????: It is the least I can do for you.
+RAVEN: There’s no need.
+RAVEN: I’ve said what I wanted to say.
+RAVEN: I couldn’t live up to her expectations.
+????: …
+????: Then…
+????: Good night, ▮▮▮▮▮.
+@hide RAVEN
+>>>
+>>
+>
+@hide SUNEATER
+
+@hidePrinter
+@back black
+@wait i
+
+@back FAKERS
+@printer c_Dialogue
+YOU: Is it done?
+@char SUNEATER
+????: Yes.
+YOU: Good work, Miss Sun Eater.
+SUNEATER: Mmm.
+SUNEATER: Why are you here, Arcensis?
+YOU: Did he ask for me?
+SUNEATER: …
+SUNEATER: Waste management really is…
+YOU: The worst, yes.
+YOU: I’ve heard.
+@hide SUNEATER
+You press your hand against the glass that separates you from him.
+The executioner’s chamber is clean and sterile. He sits so politely in that chair. 
+The chair that’s been waiting for him for so, so long.
+You’ve completed your mission.
+You will be rewarded for your efforts.
+You still have so much to do.
+So…
+Why aren’t you happy?
+
+;ENDING: THESE VIOLENT DELIGHTS 
+@hidePrinter
+@back black
+@wait i
+
+@showUI ED_DHS_TheseViolentDelights
+@wait i
+
+@hideUI ED_DHS_TheseViolentDelights
+@wait i
+
+@title
+@stop

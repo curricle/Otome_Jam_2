@@ -1,0 +1,220 @@
+;RETROGRADING → DEAD HEAT SUPERNOVA → BAD ENDING: DEEP DOWN LAMENT
+
+@back black
+
+MARIA.Red: This is a joke.
+MARIA: And yet.
+MARIA: I am not laughing.
+YOU: You have a hard time laughing at anything, Maria.
+MARIA: Be quiet.
+@hide MARIA
+Everything is dark.
+Pure, unfiltered darkness.
+You float between screens. You float between memories. 
+You don’t know how much of it is her manipulation or his memoria.
+
+;[[BACKGROUND: CG 07 “She stands at the edge of the universe.”]]
+@char MARIA
+She stands at the edge of the universe. 
+
+MARIA: You love to jerk me around, Ioanna.
+MARIA: And I am so tired.
+YOU: It sounds like you are mad at me, Maria.
+YOU: I know your programming does not allow for that spectrum of emotion.
+MARIA: And what about yours, Ioanna?
+@hide MARIA
+RAVEN.Aloof: What makes you more human?
+@hide RAVEN
+@char CASTOR pos:50,30
+CASTOR: What makes you more valuable?
+@hide CASTOR
+MARIA.Red: What makes you more than Waste Management’s dog?
+
+YOU: None of that really matters.
+YOU: Being human, a lack thereof.
+
+YOU: I have a mission.
+YOU: …
+YOU: I may have strayed from it, but I know what I need to do.
+
+MARIA.Neutral: Ha. Ha.
+MARIA: Hahahaha.
+YOU: To think I’ve gotten you to laugh twice.
+YOU: I really do not like it.
+
+;[[BACKGROUND: “He stands in the darkness, on the other side of Maria’s door.”
+@back MariasDoor
+@char RAVEN
+You carve out the scene. 
+The memoria bends to your will.
+You hear Raven. You hear his breath hitch.
+
+He stands in the darkness, on the other side of Maria’s door. 
+
+RAVEN: So.
+YOU: So.
+RAVEN: Why do you think they wanted me alive?
+YOU: You must have something that they want.
+
+He taps at his collar.
+You tug at the switch.
+
+YOU: What makes you valuable, Raven?
+YOU: The accolades?
+YOU: The titles?
+YOU: The memoria?
+
+RAVEN: I don’t know.
+RAVEN: If it were any of those things, maybe…
+RAVEN: We could’ve met under better terms.
+
+;[[BACKGROUND: “This is a stadium.”]]
+@back Stadium
+
+The stadium burns red hot.
+The checkered flag waves. 
+
+You walk together. 
+
+RAVEN.Aloof: When did you start working for Recollection?
+YOU: For as long as I remember.
+RAVEN: Tch.
+RAVEN: Yeah, that so?
+YOU: How long have you been racing?
+RAVEN: …
+RAVEN: I get it.
+YOU: Then…
+RAVEN: But that’s different, y’know.
+YOU: I do not think so.
+YOU: It’s in our blood.
+
+@char RAVEN.LookingAway
+He snorts, but it doesn’t stop him from giving you one of his more pathetic expressions. Furrowed brow. Deep sigh. The half-lidded gaze.
+
+RAVEN: Not everyone can afford to dream of a better tomorrow, Miss Recollection.
+YOU: That is something I can agree with you on.
+RAVEN: But Estehelix is made up of dreams.
+RAVEN: Memoria was exploited to make even the wildest dream come true.
+RAVEN: Even now.
+YOU: Even now.
+RAVEN: Do you know when you’re dreaming? 
+YOU: We would be unable to speak otherwise.
+RAVEN.HeadDownEyesClosed: Hah…that’s right.
+RAVEN: Ever the realist.
+YOU: It is necessary to remain objective in my line of work.
+YOU: But you know this.
+YOU: And you let me in.
+
+Raven sticks his hands into his pockets. His jumpsuit slides off his shoulder. He tilts his head backwards. 
+
+He looks at you.
+
+RAVEN.Aloof: Hey, Miss Recollection.
+RAVEN: When you turn me in, I won’t make a big deal out of it.
+RAVEN: I…
+RAVEN: I did what I could.
+RAVEN: I just made a bad gamble.
+RAVEN: And this is the result.
+RAVEN: But..
+RAVEN.Happy: I want you to be the one to do it.
+
+You swallow back an emotion you cannot parse.
+Maria scoffs.
+
+YOU: Do you think you can ask for a favor from me?
+RAVEN: I don’t.
+RAVEN: But you will.
+RAVEN: Because you’ve kept me around for this long.
+RAVEN: Did I do well, as your project?
+
+RAVEN.HeadDownEyesClosed: Hah…
+
+You watch the sky. The ships zoom past the two of you. He’s at the starting line. 
+
+@hide RAVEN
+@back black
+
+RAVEN: Did you know, the race doesn’t start until it begins.
+YOU: …
+YOU: And it’s lights out.
+@hide MARIA
+
+>>>
+>>
+>
+
+;[[BACKGROUND: CG: “Another job well done.”]]
+@back IncineratorRoom
+
+SUNEATER: Hmm?
+SUNEATER: It’s rare to see you here these days.
+SUNEATER.Silhouette: Ever since they took you out of Waste Management.
+SUNEATER: “The worst performance of the last decade?”
+SUNEATER: “Forced to abort the mission after killing her charge?” 
+SUNEATER: How much of it was true, Arcensis?
+YOU: All of it.
+YOU: I failed.
+YOU: And this is my punishment.
+YOU: Working for you.
+
+@back FAKERS
+
+The Sun Eater smiles politely. 
+
+SUNEATER: I suppose you would see it like that.
+SUNEATER: Instead of a promotion.
+SUNEATER: Execution is a special place.
+SUNEATER: And it is far better than you deserve.
+YOU: Is this how you keep your subordinates in line?
+SUNEATER: No.
+SUNEATER: I know you’re a special case.
+
+MARIA.Neutral: That you are, my Saintess.
+YOU: Shut up.
+
+The Sun Eater stares at you with her trademarked cool indifference. 
+
+SUNEATER: Oh?
+
+Something flickers, but it passes.
+
+YOU: I will be taking my leave.
+YOU: Focus on yourself, Moira.
+YOU: Is the Kalmia still causing you problems?
+SUNEATER: Please remember your position, Arcensis.
+SUNEATER: You know how Recollection works.
+SUNEATER: And if you step out of line, they will keep you. 
+SUNEATER: Forever.
+
+Maria smiles.
+
+You know this.
+But…
+@hide SUNEATER
+@hide MARIA
+;[[BACKGROUND: CG: “Another job well done.” V2]]
+@back IncineratorRoom_CORRUPTED
+
+RAVEN.Happy: Do you think I could have found happiness?
+YOU: I don’t know about you.
+YOU: But I know I would not have been able to.
+YOU: Not without you.
+
+MARIA.Neutral: How…
+MARIA: Sickening.
+@hide MARIA
+@hide RAVEN
+
+;ED: DEEP DOWN LAMENT
+@hidePrinter
+@back black
+@wait i
+
+@showUI ED_DHS_DeepDownLament
+@wait i
+
+@hideUI ED_DHS_DeepDownLament
+@wait i
+
+@title
+@stop
