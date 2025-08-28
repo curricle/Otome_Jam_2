@@ -156,7 +156,7 @@ MonoBehaviour:
       HasName: 1
       DisplayName: MARIA
       UseCharacterColor: 1
-      NameColor: {r: 0.7372549, g: 0.9333334, b: 0.9450981, a: 1}
+      NameColor: {r: 0.19080427, g: 0.71008337, b: 0.7412399, a: 1}
       MessageColor: {r: 0.73825735, g: 0.9319772, b: 0.94609153, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -198,8 +198,8 @@ MonoBehaviour:
       BakedLookDirection: 1
       HasName: 1
       DisplayName: CASTOR
-      UseCharacterColor: 0
-      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      UseCharacterColor: 1
+      NameColor: {r: 0.7412399, g: 0.66143554, b: 0.27072236, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -241,8 +241,8 @@ MonoBehaviour:
       BakedLookDirection: 1
       HasName: 1
       DisplayName: RAVEN
-      UseCharacterColor: 0
-      NameColor: {r: 0.16078432, g: 0.007843138, b: 0.27058825, a: 1}
+      UseCharacterColor: 1
+      NameColor: {r: 0.2963752, g: 0.18733148, b: 0.374663, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -284,8 +284,8 @@ MonoBehaviour:
       BakedLookDirection: 1
       HasName: 1
       DisplayName: 
-      UseCharacterColor: 0
-      NameColor: {r: 0.05882353, g: 0.3019608, b: 0.05882353, a: 1}
+      UseCharacterColor: 1
+      NameColor: {r: 0.18178083, g: 0.4393531, b: 0.18178083, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
       HasName: 1
       DisplayName: "\u25AE\u25AE\u25AE\u25AE\u25AE"
       UseCharacterColor: 1
-      NameColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 1}
+      NameColor: {r: 0.15902954, g: 0.15902954, b: 0.15902954, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -715,7 +715,7 @@ MonoBehaviour:
       HasName: 1
       DisplayName: ????
       UseCharacterColor: 1
-      NameColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 1}
+      NameColor: {r: 0.4501347, g: 0.4501347, b: 0.4501347, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -758,7 +758,7 @@ MonoBehaviour:
       HasName: 1
       DisplayName: 
       UseCharacterColor: 1
-      NameColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 1}
+      NameColor: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
@@ -801,7 +801,7 @@ MonoBehaviour:
       HasName: 1
       DisplayName: 
       UseCharacterColor: 1
-      NameColor: {r: 0.8392157, g: 0.8392157, b: 0.8392157, a: 1}
+      NameColor: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
