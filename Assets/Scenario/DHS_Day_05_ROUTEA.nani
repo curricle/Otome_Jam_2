@@ -287,12 +287,14 @@ YOU: You were meant for the sky.
 # ItemChoice
 ;[[BACKGROUND: D5 ITEM CHOICES; THE VOID]]
 @hide RAVEN
+@hidePrinter
 @back VOID
 
 @choice "BLACK BOX" goto:.BlackBox
 @stop
 
 # BlackBox
+@printer c_Dialogue
 ITEM DESCRIPTION: A black box. 
 It’s not real, really. 
 A byproduct of the very fake memoria and the very real Belladonna’s control system. 
@@ -309,6 +311,7 @@ COLLECT THE “BLACK BOX”?
 @choice "YES" goto:.Yes
 @choice "YES" goto:.Yes
 @choice "YES" goto:.Yes
+@stop 
 
 # Yes
 
@@ -367,7 +370,7 @@ Click.
 @back black
 @wait i 
 
-@goto END_Good_ROUTEA if:"Raven>=20"
-@goto END_Bad_ROUTEA if:"Raven<20"
+@goto END_Good_ROUTEA if:"RavenAffection>=20"
+@goto END_Bad_ROUTEA if:"RavenAffection<20"
 
 @stop

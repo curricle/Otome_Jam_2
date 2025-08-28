@@ -51,10 +51,12 @@ Kill the Officer on sight.
 REWARD, UPDATED: ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Credits. 
 Please forward proof of achievement to the Sun Eater.
 
+@hidePrinter
 @back black
 @wait i
 
 @back TheBelladonna
+@printer c_Dialogue
 RAVEN: You’re popular.
 YOU: Mm. 
 
@@ -103,7 +105,9 @@ Is this what tenderness feels like?
 You don’t know. 
 It’s been eons since you last felt someone press their hand against your cheek. 
 
-He lets the emotion linger. His ungloved hand, too small, too sweet. It is not something you deserve. It is not something he gives for free. It is something you tear from him. One hand over the other. Nails digging into skin.
+He lets the emotion linger. His ungloved hand, too small, too sweet. 
+It is not something you deserve. It is not something he gives for free. 
+It is something you tear from him. One hand over the other. Nails digging into skin.
 
 RAVEN: Arcensis.
 
@@ -373,7 +377,7 @@ The child with the plane jumps into the fog.
 But you didn’t care about the before, right?
 
 You know if you look back, you’ll see something you don’t want to remember.
-You’ll feel {REDACTED} against your skin.
+You’ll feel ▮▮▮▮▮ against your skin.
 
 @back GetToLeave_CORRUPTED
 ????: This is for you.
@@ -406,11 +410,13 @@ RAVEN: Let me give you everything.
 
 # ItemChoice
 @back VOID
+@hidePrinter
 @hide RAVEN
 @choice "ITEM: BROKEN MIRROR"
     ITEM DESCRIPTION: A handheld mirror. 
 @stop
 
+@printer c_Dialogue
 Ancient and cruel. 
 A family heirloom. 
 A creature made out of memoria and the very real silver. 

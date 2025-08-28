@@ -563,120 +563,132 @@ MonoBehaviour:
       guid: f57697cd9d5e9b146b1f847e7cf3698c
   - Id: Backgrounds/d5b6ed81-4fc3-4298-8077-5a137a47fa0f
     Resources:
-    - name: Incinerator_01
+    - name: AnArchitecturalMonstrosity
       pathPrefix: Backgrounds/MainBackground
-      guid: abbd2fc335dcd624a86f7d308ab8f788
+      guid: a96fe9cea6cd0ed4b83e876183e69b2b
+    - name: AreYouScared
+      pathPrefix: Backgrounds/MainBackground
+      guid: 744ff9c5467dc0346a364322ff012ca1
     - name: Atrium_01
       pathPrefix: Backgrounds/MainBackground
       guid: b2b310844fe56de488918191a7c07100
-    - name: Papers
-      pathPrefix: Backgrounds/MainBackground
-      guid: 9e66c313ec98034478e489c87980af8e
-    - name: Space_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: e1a03efd3f68c1c41a089257b1226ac6
-    - name: Estehelix_01
-      pathPrefix: Backgrounds/MainBackground
-      guid: 63b945cec38e1b84a83f945b54e26e6b
-    - name: Dossiers
-      pathPrefix: Backgrounds/MainBackground
-      guid: 4c1793dc7cd47f54b9f6b811df6aca6e
-    - name: FAKERS
-      pathPrefix: Backgrounds/MainBackground
-      guid: 5953478976e7af0438d744d3bd0e4f86
-    - name: YourFriendCastor
-      pathPrefix: Backgrounds/MainBackground
-      guid: d286a365cbd803d4d8e518fe769acf54
-    - name: WelcomeHome
-      pathPrefix: Backgrounds/MainBackground
-      guid: f934f7b0fd607e5469431a5b812fdfff
-    - name: Dossiers_Home
-      pathPrefix: Backgrounds/MainBackground
-      guid: bb6ea57e8049e49438d6c9d90eefc2d9
-    - name: Dossiers_Castor
-      pathPrefix: Backgrounds/MainBackground
-      guid: cc8bb777d5f9117438ea65d903b3bba3
-    - name: Mission_Control
-      pathPrefix: Backgrounds/MainBackground
-      guid: f0ae556c9bd984848a916e344bd4bb8d
     - name: Bathroom
       pathPrefix: Backgrounds/MainBackground
       guid: 28396784181e7aa40b60b49e0b6ecb13
-    - name: Warehouse
+    - name: black
       pathPrefix: Backgrounds/MainBackground
-      guid: 8c100600ef0e8714da2b34d21cfb79a0
+      guid: b9d0acdf520507f46b58d7f8495d86f2
     - name: Caves_01
       pathPrefix: Backgrounds/MainBackground
       guid: 4745198a941200249a7801d4d1226b41
     - name: Caves_02
       pathPrefix: Backgrounds/MainBackground
       guid: a88ebca531da4b847a8544fe4a9c3374
-    - name: Spaceship
+    - name: Chains
       pathPrefix: Backgrounds/MainBackground
-      guid: 3886d21ddf21ce64e8d052ffa39a518d
-    - name: Field
+      guid: a0aa2a1496e558f429371d046200c0c0
+    - name: Cisterns
       pathPrefix: Backgrounds/MainBackground
-      guid: 4c446e91a3a3f6a448b2d1262a2eda58
-    - name: Waters
+      guid: c265d5d0320c3274cad7e45558d081d1
+    - name: CommercialDistrict
       pathPrefix: Backgrounds/MainBackground
-      guid: 38f79f569afc27b489cac0a2950ae5d3
+      guid: 717ab1f30cc869445a25bfcb93b891e7
+    - name: CommercialDistrict_v2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 71da74de66796724ab89fc9b6ae9ae61
     - name: CORPOSHIT9000
       pathPrefix: Backgrounds/MainBackground
       guid: 8cbc5fb5d20a1434ba40749474b3624f
     - name: CORPOSHIT9000_CORRUPTED
       pathPrefix: Backgrounds/MainBackground
       guid: 877bf7377dd7d1f4cb4e3b3bc5475eca
-    - name: Stadium
+    - name: CORPOSHIT9000v2
       pathPrefix: Backgrounds/MainBackground
-      guid: 4b372e7503e7d4c48baf4ba37756f9f7
-    - name: StadiumRuins
+      guid: 181a2d6ed4c908047bb9c7b755c4d2f4
+    - name: Dossiers
       pathPrefix: Backgrounds/MainBackground
-      guid: eb90cda46fd9dbc4ab6a01c6c1bfecdc
-    - name: FeetOnTheGround
+      guid: 4c1793dc7cd47f54b9f6b811df6aca6e
+    - name: Dossiers_Home
       pathPrefix: Backgrounds/MainBackground
-      guid: 9228e45c5a7f1c244889ebb52435333f
-    - name: black
+      guid: bb6ea57e8049e49438d6c9d90eefc2d9
+    - name: Dossiers_Castor
       pathPrefix: Backgrounds/MainBackground
-      guid: b9d0acdf520507f46b58d7f8495d86f2
-    - name: ResidentialDistrict
-      pathPrefix: Backgrounds/MainBackground
-      guid: 28e5eb47d58e29f41b7aa17f8a3d6190
-    - name: Incinerator
-      pathPrefix: Backgrounds/MainBackground
-      guid: f6cd973f68a2ea44c815949fc8ea64b0
-    - name: FamilyAffairs
-      pathPrefix: Backgrounds/MainBackground
-      guid: cc47c71716f95da46b63174fd9a66ad6
+      guid: cc8bb777d5f9117438ea65d903b3bba3
     - name: EntertainmentDistrict
       pathPrefix: Backgrounds/MainBackground
       guid: eb0d9a516e0324842ace56be4f164aab
-    - name: CommercialDistrict
+    - name: Estehelix_01
       pathPrefix: Backgrounds/MainBackground
-      guid: 717ab1f30cc869445a25bfcb93b891e7
-    - name: OpulentTheater
+      guid: 63b945cec38e1b84a83f945b54e26e6b
+    - name: ExecutionChamber
       pathPrefix: Backgrounds/MainBackground
-      guid: 644ae555179d9854ea9aedb29fbd9915
-    - name: AnArchitecturalMonstrosity
+      guid: 491eeb1bbade17846af95d7f2c13472d
+    - name: FAKERS
       pathPrefix: Backgrounds/MainBackground
-      guid: a96fe9cea6cd0ed4b83e876183e69b2b
-    - name: Cisterns
+      guid: 5953478976e7af0438d744d3bd0e4f86
+    - name: FAKERS_v2
       pathPrefix: Backgrounds/MainBackground
-      guid: c265d5d0320c3274cad7e45558d081d1
-    - name: Junkheap
+      guid: 318d983205742644992163ee29eb4af0
+    - name: FamilyAffairs
       pathPrefix: Backgrounds/MainBackground
-      guid: 66f8df97357d1b54599b9642720d5edd
-    - name: TheUniverse
+      guid: cc47c71716f95da46b63174fd9a66ad6
+    - name: FeetOnTheGround
       pathPrefix: Backgrounds/MainBackground
-      guid: 5a02e8a63f012ab408b5b915435da707
-    - name: Chains
+      guid: 9228e45c5a7f1c244889ebb52435333f
+    - name: Field
       pathPrefix: Backgrounds/MainBackground
-      guid: a0aa2a1496e558f429371d046200c0c0
+      guid: 4c446e91a3a3f6a448b2d1262a2eda58
+    - name: GetToLeave_CORRUPTED
+      pathPrefix: Backgrounds/MainBackground
+      guid: fa5a29c2067bf4e49921dbc06e26aed4
+    - name: Incinerator
+      pathPrefix: Backgrounds/MainBackground
+      guid: f6cd973f68a2ea44c815949fc8ea64b0
+    - name: Incinerator_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: abbd2fc335dcd624a86f7d308ab8f788
     - name: IncineratorRoom
       pathPrefix: Backgrounds/MainBackground
       guid: 4c479e9cc76bcf74b982f7857d877e10
     - name: IncineratorRoom_CORRUPTED
       pathPrefix: Backgrounds/MainBackground
       guid: 87211f6cd3c6d49438ad7a188b772037
+    - name: ItsNotLookingGood
+      pathPrefix: Backgrounds/MainBackground
+      guid: d07541bccb1a68041a2163f595041479
+    - name: Junkheap
+      pathPrefix: Backgrounds/MainBackground
+      guid: 66f8df97357d1b54599b9642720d5edd
+    - name: Mission_Control
+      pathPrefix: Backgrounds/MainBackground
+      guid: f0ae556c9bd984848a916e344bd4bb8d
+    - name: OpulentTheater
+      pathPrefix: Backgrounds/MainBackground
+      guid: 644ae555179d9854ea9aedb29fbd9915
+    - name: Papers
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9e66c313ec98034478e489c87980af8e
+    - name: Photoshoot_CORRUPTED
+      pathPrefix: Backgrounds/MainBackground
+      guid: cb9ae033a28755841a647ad0f1b04c6a
+    - name: ResidentialDistrict
+      pathPrefix: Backgrounds/MainBackground
+      guid: 28e5eb47d58e29f41b7aa17f8a3d6190
+    - name: Skyfall
+      pathPrefix: Backgrounds/MainBackground
+      guid: b147203464f723f4bad9c3928d91e82f
+    - name: Stadium
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4b372e7503e7d4c48baf4ba37756f9f7
+    - name: StadiumRuins
+      pathPrefix: Backgrounds/MainBackground
+      guid: eb90cda46fd9dbc4ab6a01c6c1bfecdc
+    - name: Space_01
+      pathPrefix: Backgrounds/MainBackground
+      guid: e1a03efd3f68c1c41a089257b1226ac6
+    - name: Spaceship
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3886d21ddf21ce64e8d052ffa39a518d
     - name: TheBelladonna
       pathPrefix: Backgrounds/MainBackground
       guid: f0275d543914f6448830215d267020c5
@@ -686,30 +698,33 @@ MonoBehaviour:
     - name: TheBelladonna_CORRUPTED_INVERTED
       pathPrefix: Backgrounds/MainBackground
       guid: 84ad0c3851fbb7f4b98d9b1e69972f7b
-    - name: CORPOSHIT9000v2
-      pathPrefix: Backgrounds/MainBackground
-      guid: 181a2d6ed4c908047bb9c7b755c4d2f4
     - name: TheFilmProjectorHums
       pathPrefix: Backgrounds/MainBackground
       guid: 0aa4428fc09d92b46be8bef27ba7c812
-    - name: white
-      pathPrefix: Backgrounds/MainBackground
-      guid: 888115ca3137a794ab96166d5da8660b
-    - name: GetToLeave_CORRPUTED
-      pathPrefix: Backgrounds/MainBackground
-      guid: fa5a29c2067bf4e49921dbc06e26aed4
-    - name: Photoshoot_CORRUPTED
-      pathPrefix: Backgrounds/MainBackground
-      guid: cb9ae033a28755841a647ad0f1b04c6a
-    - name: Skyfall
-      pathPrefix: Backgrounds/MainBackground
-      guid: b147203464f723f4bad9c3928d91e82f
-    - name: VOID
-      pathPrefix: Backgrounds/MainBackground
-      guid: fc4d663bba321314b8fff660780bd098
     - name: TheSkyIsSharp
       pathPrefix: Backgrounds/MainBackground
       guid: 8b6aacfe636b0684a9c831292fa62544
+    - name: TheUniverse
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5a02e8a63f012ab408b5b915435da707
+    - name: VOID
+      pathPrefix: Backgrounds/MainBackground
+      guid: fc4d663bba321314b8fff660780bd098
+    - name: WelcomeHome
+      pathPrefix: Backgrounds/MainBackground
+      guid: f934f7b0fd607e5469431a5b812fdfff
+    - name: Warehouse
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8c100600ef0e8714da2b34d21cfb79a0
+    - name: Waters
+      pathPrefix: Backgrounds/MainBackground
+      guid: 38f79f569afc27b489cac0a2950ae5d3
+    - name: white
+      pathPrefix: Backgrounds/MainBackground
+      guid: 888115ca3137a794ab96166d5da8660b
+    - name: YourFriendCastor
+      pathPrefix: Backgrounds/MainBackground
+      guid: d286a365cbd803d4d8e518fe769acf54
   - Id: Audio
     Resources:
     - name: Fire
@@ -769,7 +784,10 @@ MonoBehaviour:
       pathPrefix: Characters/ZINNIA
       guid: 1ddfdbaedb5783745b1e5b9c16b97ff2
   - Id: Characters/b3c2349c-7350-47c3-8b8b-badbe1139fd7
-    Resources: []
+    Resources:
+    - name: Silhouette
+      pathPrefix: Characters/SUNEATER
+      guid: 3f61d8c1139f0374e93d0126a439ca69
   - Id: Characters/663fdb51-d47a-4436-a764-417f159b8c95
     Resources: []
   - Id: Characters/27ed6be4-9745-4ffe-9ab0-0d0fbc806a61

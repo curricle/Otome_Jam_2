@@ -25,7 +25,8 @@ MARIA: And what about yours, Ioanna?
 @hide MARIA
 RAVEN.Aloof: What makes you more human?
 @hide RAVEN
-CASTOR.Default: What makes you more valuable?
+@char CASTOR pos:50,30
+CASTOR: What makes you more valuable?
 @hide CASTOR
 MARIA.Red: What makes you more than Waste Management’s dog?
 
@@ -36,7 +37,7 @@ YOU: I have a mission.
 YOU: …
 YOU: I may have strayed from it, but I know what I need to do.
 
-MARIA.Default: Ha. Ha.
+MARIA.Neutral: Ha. Ha.
 MARIA: Hahahaha.
 YOU: To think I’ve gotten you to laugh twice.
 YOU: I really do not like it.
@@ -136,6 +137,7 @@ You watch the sky. The ships zoom past the two of you. He’s at the starting li
 RAVEN: Did you know, the race doesn’t start until it begins.
 YOU: …
 YOU: And it’s lights out.
+@hide MARIA
 
 >>>
 >>
@@ -167,7 +169,7 @@ YOU: Is this how you keep your subordinates in line?
 SUNEATER: No.
 SUNEATER: I know you’re a special case.
 
-MARIA.Default: That you are, my Saintess.
+MARIA.Neutral: That you are, my Saintess.
 YOU: Shut up.
 
 The Sun Eater stares at you with her trademarked cool indifference. 
@@ -198,9 +200,10 @@ YOU: I don’t know about you.
 YOU: But I know I would not have been able to.
 YOU: Not without you.
 
-MARIA.Default: How…
+MARIA.Neutral: How…
 MARIA: Sickening.
 @hide MARIA
+@hide RAVEN
 
 ;ED: DEEP DOWN LAMENT
 @hidePrinter

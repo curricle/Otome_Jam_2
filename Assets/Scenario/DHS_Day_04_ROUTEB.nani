@@ -150,6 +150,9 @@ COLLECT THE “COSTUME JEWELRY”?
     RAVEN: Wishing and hoping and yearning for your hands around my neck?
     RAVEN: Take me out of my misery, my lord.
     YOU: You really are an awful guy.
+    @set HasCostumeJewelry=true
+    @set RouteB++
+    @goto .Proceed
 @choice "NO"
     YOU: Sure, I’ll chase you.
     RAVEN.Happy: Till the ends of the earth?
@@ -158,6 +161,7 @@ COLLECT THE “COSTUME JEWELRY”?
     RAVEN.Aloof: Ha-ha.
     MARIA: Are you done?
     YOU: Ah, maybe. I’ll come back to it.
+    @goto .ItemChoice
 @stop
 
 # Meteorite
@@ -184,14 +188,19 @@ COLLECT THE “METEORITE”?
     RAVEN.Aloof: …
     RAVEN: You know I can’t.
     YOU: Good answer.
+    @set HasMeteorite=true
+    @set RouteC++
+    @goto .Proceed
 @choice "NO"
     MARIA: Do you have anything else you need to review?
     YOU: Yes.
     YOU: Despite this sector’s lacking qualities, maybe there’s something better.
     YOU: I’ll do another lap.
     MARIA: I really like that diligence of yours.
+    @goto .ItemChoice
 @stop
 
+# Proceed
 @hide RAVEN
 >>>
 >>
@@ -202,7 +211,7 @@ COLLECT THE “METEORITE”?
 ; [IF MORE “C” THAN “B” GO TO SUPER BAD END DAY 5]
 
 @goto .Continue if:"RouteB > RouteC"
-@goto END_SUPERBAD if:"RouteC > RouteB"
+@goto END_SUPERBAD if:"RouteC >= RouteB"
 @back black
 @hidePrinter
 @wait i
