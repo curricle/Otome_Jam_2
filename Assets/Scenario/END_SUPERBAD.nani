@@ -172,7 +172,8 @@ MARIA: We have a job to finish, Ioanna.
 @wait i
 
 ;[INCINERATOR CG]
-@back IncineratorRoom
+@back CG/IncineratorCG
+@unlock CG/IncineratorCG
 @bgm AloneDownHere fade:5
 @printer c_Dialogue
 

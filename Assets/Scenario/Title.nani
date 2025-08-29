@@ -9,7 +9,7 @@
 @goto .PreMenu
 
 # PreMenu
-@back MainMenuBackground time:3
+@back MainMenuBackground_2 time:3
 @bgm Spaces
 
 # MainMenu
