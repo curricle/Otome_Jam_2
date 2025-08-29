@@ -29,7 +29,7 @@ You stare at the items that Zinnia has collected. Memorabilia and garbage and an
 
 @char ZINNIA.LookingDown
 ZINNIA: They burned my last batch.
-@char ZINNIA.Embarrassed 
+@char ZINNIA.Embarassed 
 ZINNIA: I was finally able to rebuild, thanks to you. 
 @char ZINNIA.EyesClosedSmiling
 ZINNIA: I love you, Ioanna. 
