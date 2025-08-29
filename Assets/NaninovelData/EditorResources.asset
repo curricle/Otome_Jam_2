@@ -101,7 +101,7 @@ MonoBehaviour:
       guid: 0664457c391990e41ba5c2f8217a41b3
     - name: CGGalleryUI
       pathPrefix: UI
-      guid: 71da50c8dae82bd42ba67528804e820c
+      guid: 67298c4c34c3bc441948a35a752ef4c9
     - name: ConfirmationUI
       pathPrefix: UI
       guid: 990ce397dcbd741478d5098286e11738
@@ -533,6 +533,12 @@ MonoBehaviour:
     - name: MainMenuBackground
       pathPrefix: Backgrounds/MainBackground
       guid: 62067de78d920a4418a34d980de2fe76
+    - name: MainMenuBackground_2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 409e641a1c5f0394cb7f57c2af6e5cac
+    - name: CG/IncineratorCG
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0546456369a314a4b82942d18585638c
   - Id: Audio
     Resources:
     - name: Fire
@@ -688,3 +694,8 @@ MonoBehaviour:
     - name: Dark
       pathPrefix: Characters/HappyCatLogo
       guid: bc2f8852db9ca9a4fa0bd93407e2e4c9
+  - Id: Unlockables
+    Resources:
+    - name: CG/IncineratorCG
+      pathPrefix: Unlockables
+      guid: 0546456369a314a4b82942d18585638c
