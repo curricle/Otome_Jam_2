@@ -1,0 +1,27 @@
+@hidePrinter
+@back black
+@showUI c_Credits_1
+@wait i
+
+@hideUI c_Credits_1
+@showUI c_Credits_2
+@wait i
+
+@hideUI c_Credits_2
+@showUI c_Credits_3
+@wait i
+
+@hideUI c_Credits_3
+@showUI c_Credits_4
+@wait i
+
+@hideUI c_Credits_4
+@showUI c_Credits_5
+@wait i
+
+@hideUI c_Credits_5
+@showUI ThanksForPlaying
+@wait i
+
+@title
+@stop

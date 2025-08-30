@@ -231,6 +231,24 @@ MonoBehaviour:
     - name: Dossier_R_UPDATED
       pathPrefix: UI
       guid: 860343c33f549b146853aad7d931dc79
+    - name: c_Credits_1
+      pathPrefix: UI
+      guid: 538a98675a9b3b147a28a77ccd4b423c
+    - name: c_Credits_2
+      pathPrefix: UI
+      guid: 750597f426643864f901cf6e35fa35ee
+    - name: c_Credits_3
+      pathPrefix: UI
+      guid: 38259ab1bb01b7a4eb887a8b7024a5f0
+    - name: c_Credits_4
+      pathPrefix: UI
+      guid: b1fbe01d38bf5a541a5038f3d37ef8b9
+    - name: c_Credits_5
+      pathPrefix: UI
+      guid: b3e37980078a3ca4cbef8b22940fdc22
+    - name: ThanksForPlaying
+      pathPrefix: UI
+      guid: 0cbe37adba27a0944ac31afde0128550
   - Id: Scripts
     Resources:
     - name: Title
@@ -323,6 +341,9 @@ MonoBehaviour:
     - name: END_CORPOBLUES
       pathPrefix: Scripts
       guid: 15dc21f22263c294093ec51af7b99a25
+    - name: Credits
+      pathPrefix: Scripts
+      guid: 534b249f69fa19e4fae7c07a9e2b9fa0
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f
