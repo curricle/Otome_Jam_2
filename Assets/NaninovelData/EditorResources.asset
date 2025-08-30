@@ -344,6 +344,9 @@ MonoBehaviour:
     - name: Credits
       pathPrefix: Scripts
       guid: 534b249f69fa19e4fae7c07a9e2b9fa0
+    - name: Splash
+      pathPrefix: Scripts
+      guid: f8870ed6cf12ff749bbd76afcc187171
   - Id: Characters/05f6f43e-3c67-404d-bee7-c2ddc9652991
     Resources: []
   - Id: Characters/fd6b99d3-4503-4405-a7e7-bfbd39bf603f

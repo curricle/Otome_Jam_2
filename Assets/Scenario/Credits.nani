@@ -1,3 +1,4 @@
+@hideUI TitleUI
 @hidePrinter
 @back black
 @showUI c_Credits_1
