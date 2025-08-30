@@ -73,5 +73,5 @@ The god in your head hums. She’d never let Zinnia do that. She loves you too m
 @hideUI ED_AT_Counterpoint
 @wait i
 
-@title
+@goto Credits
 @stop

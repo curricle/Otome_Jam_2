@@ -128,5 +128,5 @@ Let’s sink into the abyss, ▮▮▮▮▮.
 @hideUI ED_DHS_TheSweetestHoneyIs
 @wait i
 
-@title
+@goto Credits
 @stop

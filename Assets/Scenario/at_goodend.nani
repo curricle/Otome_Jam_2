@@ -88,5 +88,5 @@ ZINNIA: Off to change the world.
 @hideUI ED_AT_Synthesis
 @wait i
 
-@title
+@goto Credits
 @stop

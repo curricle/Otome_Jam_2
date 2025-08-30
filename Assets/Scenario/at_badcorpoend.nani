@@ -100,5 +100,5 @@ ZINNIA: I love you, too.
 @hideUI ED_AT_Equalized
 @wait i
 
-@title
+@goto Credits
 @stop

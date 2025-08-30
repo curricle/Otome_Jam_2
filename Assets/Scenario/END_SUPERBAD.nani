@@ -248,5 +248,5 @@ YOU: It was a job.
 @hideUI ED_DHS_AndThenInDreaming
 @wait i
 
-@title
+@goto Credits
 @stop
