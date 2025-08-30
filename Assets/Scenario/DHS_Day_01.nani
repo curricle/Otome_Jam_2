@@ -143,7 +143,7 @@ YOU: It’s one ship for the two of us.
 YOU: He really can’t do anything.
 
 @toast "Record unlocked!"
-@unlock Tips/RAVEN
+@unlock Tips/Raven
 RAVEN.Aloof: ...
 He’s handcuffed to the bed. You took the pilot’s chair for the night.
 YOU: Good morning, Raven.
@@ -518,7 +518,7 @@ COLLECT THE “RUSTED KNIFE”?
 
 # RustedKnifeChosen
 @toast "Record unlocked!"
-@unlock Tips/FilmReel
+@unlock Tips/RustedKnife
 @set HasRustedKnife=true
 @set RouteC=1
 

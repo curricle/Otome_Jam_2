@@ -220,7 +220,7 @@ COLLECT THE “OLD SATELLITE DISKS?”
 
 # satelliteGet
 @toast "Record unlocked!"
-@unlock Tips/OldSatellite
+@unlock Tips/OldSatelliteDisks
 @set AT_RouteC++
 @set HasOldSatelliteDisks=true
 ZINNIA: Bringing over some local flora for ship decor?

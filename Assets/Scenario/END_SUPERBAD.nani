@@ -116,6 +116,8 @@ YOU: You know what to do.
     ITEM DESCRIPTION: The wreckage of Estehelix’s finest ship. 
 @stop
 
+@toast "Record unlocked!"
+@unlock Tips/TheBelladonna
 The Belladonna.
 Maria supplies a succinct description of the parts.  
 A beautiful fuselage, a lovely rudder, a cruel black box. 

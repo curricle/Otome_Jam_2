@@ -57,7 +57,7 @@ COLLECT THE “OLD VINYL?”
 
 # vinylGet
 @toast "Record unlocked!"
-@unlock Tips/OldVinyl
+@unlock Tips/OldVinyls
 @set AT_RouteA++
 @set HasOldVinyl=true
 ZINNIA: It's almost like you didn't even try.  

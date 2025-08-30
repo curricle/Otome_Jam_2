@@ -29,8 +29,9 @@ MARIA | Person of Interest |
 <b>PART ONE:</b>
 <br>Would it be incorrect to call myself your “Guardian Angel”?
 <br>
-<b>PART TWO:</b>
+<br><b>PART TWO:</b>
 <br>[[Encrypted Transmission]] 
+<br>
 <br>“The Pioneer Project…how vile.”
 <br>“That system is all about bread and circuses, huh.”
 <br>“What a reference. Have you been reading a ton, Maria?”
@@ -62,21 +63,29 @@ CASTOR | Person of Interest |
 <b>PART ONE:</b>
 <br>Castor, real name scrubbed from public record.
 <br>Previously, a Record Keeper, currently, Ioanna Arcesnis’s “Manager”. 
+<br>
 <br>Bright and fun, she’s happy to yap away at Ioanna’s terminal, with little regard for how her Agent feels about it.
 <br>
 <br><b>PART TWO:</b>
-<br>Castor’s work focused on Old World religious practices and customs. She wrote the most comprehensive text on a concept known as “Catholicism”. 
-<br>Her fascination would eventually lead to her defection in Year XX29. 
+<br>Castor’s work focused on Old World religious practices and customs. She wrote the most comprehensive text on a concept known as “Catholicism”. Her fascination would eventually lead to her defection in Year XX29. 
+<br>
 <br>The Sun Eater brought her back.
 <br>
 <br><b>PART THREE:</b>
 <br>“Oh, wicked Kalmia. Do you know what the greatest punishment for sinners is?”
+<br>
 <br>“...”
+<br>
 <br>“That is fine, then. I am happy to philosophize on my own.”
+<br>
 <br>“It is Pure Removal. Unfiltered access to our digital realm. If they want to live in an Old World, then, be consumed by the New Era’s greatest accomplishment.”
+<br>
 <br>“Become less than a person. Become more than a god. Become an eternal servant for our beautiful mission.”
+<br>
 <br>“...Is that all?”
+<br>
 <br>“Are you not thrilled at the culmination of your work with the Columbine, Kalmia?” 
+<br>
 <br>“...ah, he left.”
 <br>
 <br><i>Excerpt from Record 28182.</i> 
@@ -86,101 +95,101 @@ Fuselage | Item | <b>ITEM DESCRIPTION:</b> The main body of a ship. You think it
 <br>The wreckage is a deep violet. A one-seater. 
 <br>
 <br><b>PART ONE:</b>
-<br>Record 1098: Play.
-<br>IOANNA: Hey.
-<br>IOANNA: When did you start racing? 
-<br>IOANNA: How old were you?
-<br><br>MARIA: Suggestion: Abandon this line of questioning.
-<br><br>MARIA: There is nothing to be—
-<br>IOANNA: Gained, yes, yes. I understand.
-<br>IOANNA: But it is important to canvass and to analyze. 
-<br>IOANNA: So, when did you start?
-<br>RAVEN: …
-<br>IOANNA: Ah, I understand.
-<br><br>MARIA: What on earth did you glean from that?
+<br><i>Record 1098: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Hey.
+<br><color=#34c3e3>IOANNA:</color> When did you start racing? 
+<br><color=#34c3e3>IOANNA:</color> How old were you?
+<br><color=#31B5BD>MARIA:</color> Suggestion: Abandon this line of questioning.
+<br><color=#31B5BD>MARIA:</color> There is nothing to be—
+<br><color=#34c3e3>IOANNA:</color> Gained, yes, yes. I understand.
+<br><color=#34c3e3>IOANNA:</color> But it is important to canvass and to analyze. 
+<br><color=#34c3e3>IOANNA:</color> So, when did you start?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> Ah, I understand.
+<br><color=#31B5BD>MARIA:</color> What on earth did you glean from that?
 <br>
 <br><b>PART TWO:</b>
-<br>Record 1099: Play.
-<br>RAVEN: …
-<br>IOANNA: …shove off.
-<br>RAVEN: Oh, so now it’s an issue when I tell you the truth?
-<br>IOANNA: There is just simply no way that you are being truthful about that.
-<br>RAVEN: You believe in ghosts but you don’t think I started racing at age 3?
-<br>IOANNA: First—
-<br><br>MARIA: To think a woman of your station takes stock in the supernatural.
-<br><br>MARIA: A bit pathetic, no?
-<br>IOANNA: I do not believe in ghosts.
-<br>RAVEN: You nearly jumped outta your skin when I pointed out the taxidermy on the second floor.
-<br>IOANNA: That is different.
-<br>RAVEN: How.
-<br>IOANNA: It is unnatural.
-<br>RAVEN: Okay, sure.
+<br><i>Record 1099: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> …shove off.
+<br><color=#ab82ba>RAVEN:</color> Oh, so now it’s an issue when I tell you the truth?
+<br><color=#34c3e3>IOANNA:</color> There is just simply no way that you are being truthful about that.
+<br><color=#ab82ba>RAVEN:</color> You believe in ghosts but you don’t think I started racing at age 3?
+<br><color=#34c3e3>IOANNA:</color> First—
+<br><color=#31B5BD>MARIA:</color> To think a woman of your station takes stock in the supernatural.
+<br><color=#31B5BD>MARIA:</color> A bit pathetic, no?
+<br><color=#34c3e3>IOANNA:</color> I do not believe in ghosts.
+<br><color=#ab82ba>RAVEN:</color> You nearly jumped outta your skin when I pointed out the taxidermy on the second floor.
+<br><color=#34c3e3>IOANNA:</color> That is different.
+<br><color=#ab82ba>RAVEN:</color> How.
+<br><color=#34c3e3>IOANNA:</color> It is unnatural.
+<br><color=#ab82ba>RAVEN:</color> Okay, sure.
 <br>
 <br><b>PART THREE:</b>
-<br>Record 1100: Play.
-<br>RAVEN: There are actually different types of racing.
-<br>IOANNA: You don’t say.
-<br>RAVEN: I’ve always been in the traditional sort, but for the last couple of years I was looking at doing endurance racing.
-<br><br>MARIA: Endurance racing is a form of motorspot that pushes both pilot and ship to the absolute limit. 
-<br><br>MARIA: I have a difficult time imagining your jailbird succeeding in this avenue. 
-<br>RAVEN: For some reason, I feel like you just really disagreed with that…
-<br>IOANNA: I said no such thing.
-<br>RAVEN: …
-<br>IOANNA: What made you change your mind?
-<br>RAVEN: …
-<br>IOANNA: Speak up.
-<br>RAVEN: …the ships weren’t as nice.
-<br><br>MARIA: …
-<br>IOANNA: …
-<br>RAVEN: The ships look best when fashioned for real racing. That’s it.
-<br>IOANNA: …I’m sorry, who are you?
+<br><i>Record 1100: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> There are actually different types of racing.
+<br><color=#34c3e3>IOANNA:</color> You don’t say.
+<br><color=#ab82ba>RAVEN:</color> I’ve always been in the traditional sort, but for the last couple of years I was looking at doing endurance racing.
+<br><color=#31B5BD>MARIA:</color> Endurance racing is a form of motorspot that pushes both pilot and ship to the absolute limit. 
+<br><color=#31B5BD>MARIA:</color> I have a difficult time imagining your jailbird succeeding in this avenue. 
+<br><color=#ab82ba>RAVEN:</color> For some reason, I feel like you just really disagreed with that…
+<br><color=#34c3e3>IOANNA:</color> I said no such thing.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> What made you change your mind?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> Speak up.
+<br><color=#ab82ba>RAVEN:</color> …the ships weren’t as nice.
+<br><color=#31B5BD>MARIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> The ships look best when fashioned for real racing. That’s it.
+<br><color=#34c3e3>IOANNA:</color> …I’m sorry, who are you?
 
 # FilmReel
 Film Reel | Item |
-ITEM DESCRIPTION: A silver disk with twelve circles. 
+<b>ITEM DESCRIPTION:</b> A silver disk with twelve circles. 
 <br>Six of the circles form an outer ring, while the remaining six form what you can describe as a flower. There’s a thin piece of plastic hanging on for dear life. 
 <br>
 <br><b>PART ONE:</b>
-<br>Record 3113: Play.
-<br>IOANNA: Do you like movies, Raven?
-<br>RAVEN: …
-<br>IOANNA: You participate in all sorts of silver screen projects, but…
-<br>RAVEN: Do I like it?
-<br>RAVEN: Why do you care?
-<br>IOANNA: Is it so bad that I want to get to know you better?
-<br><br>MARIA: Yes.
-<br>RAVEN: Yes?
-<br>IOANNA: Mm.
-<br>RAVEN: …
+<br><i>Record 3113: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you like movies, Raven?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> You participate in all sorts of silver screen projects, but…
+<br><color=#ab82ba>RAVEN:</color> Do I like it?
+<br><color=#ab82ba>RAVEN:</color> Why do you care?
+<br><color=#34c3e3>IOANNA:</color> Is it so bad that I want to get to know you better?
+<br><color=#31B5BD>MARIA:</color> Yes.
+<br><color=#ab82ba>RAVEN:</color> Yes?
+<br><color=#34c3e3>IOANNA:</color> Mm.
+<br><color=#ab82ba>RAVEN:</color> …
 <br>
 <br><b>PART TWO:</b>
-<br>Record 3114: Play.
-<br>IOANNA: I have a bad habit.
-<br>IOANNA: Pressed disks. Records. 
-<br>RAVEN: You can call them vinyls.
-<br>RAVEN: Our common language isn’t so out of touch, Arcensis.
-<br>IOANNA: …
-<br>IOANNA: Why did I get this nasty sense of deja vu?
-<br>RAVEN: From talkin’ to yourself so much.
-<br>RAVEN: …
-<br>RAVEN: Do you like music?
-<br>IOANNA: Like you like movies, maybe.
-<br>RAVEN: I do like them. 
-<br>RAVEN: Movies.
-<br>IOANNA: …
-<br>IOANNA: Then, yes. I guess so.
+<br><i>Record 3114: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> I have a bad habit.
+<br><color=#34c3e3>IOANNA:</color> Pressed disks. Records. 
+<br><color=#ab82ba>RAVEN:</color> You can call them vinyls.
+<br><color=#ab82ba>RAVEN:</color> Our common language isn’t so out of touch, Arcensis.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Why did I get this nasty sense of deja vu?
+<br><color=#ab82ba>RAVEN:</color> From talkin’ to yourself so much.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Do you like music?
+<br><color=#34c3e3>IOANNA:</color> Like you like movies, maybe.
+<br><color=#ab82ba>RAVEN:</color> I do like them. 
+<br><color=#ab82ba>RAVEN:</color> Movies.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Then, yes. I guess so.
 <br>
 <br><b>PART THREE:</b>
-<br>Record 3115: Play.
-<br>RAVEN: You’ve watched this like three times already.
-<br>RAVEN: Can you stop?
-<br>IOANNA: The score is really good.
-<br>RAVEN: You didn’t even know what background music was before this trip.
-<br>IOANNA: I resent that.
-<br>IOANNA: I just didn’t care.
-<br>RAVEN: Tch.
-<br>IOANNA: I especially like how the music blends into the environmental discord—
-<br>RAVEN: You’re just makin’ shit up.
+<br><i>Record 3115: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> You’ve watched this like three times already.
+<br><color=#ab82ba>RAVEN:</color> Can you stop?
+<br><color=#34c3e3>IOANNA:</color> The score is really good.
+<br><color=#ab82ba>RAVEN:</color> You didn’t even know what background music was before this trip.
+<br><color=#34c3e3>IOANNA:</color> I resent that.
+<br><color=#34c3e3>IOANNA:</color> I just didn’t care.
+<br><color=#ab82ba>RAVEN:</color> Tch.
+<br><color=#34c3e3>IOANNA:</color> I especially like how the music blends into the environmental discord—
+<br><color=#ab82ba>RAVEN:</color> You’re just makin’ shit up.
 <br>
 
 # RustedKnife
@@ -188,80 +197,80 @@ Rusted Knife | Item | <b>ITEM DESCRIPTION:</b> A knife.
 <br>The blade is rusted over. It’s about six solar inches and it fits nicely in the palm of your hand. The hilt is bound with rotted leather. 
 <br>
 <br><b>PART ONE:</b>
-<br>Record 8628: Play.
-<br>RAVEN: …
-<br>IOANNA: …
-<br><br>MARIA: This is insufferable.
-<br>IOANNA: …
-<br>RAVEN: …
+<br><i>Record 8628: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#31B5BD>MARIA:</color> This is insufferable.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> …
 <br>
 <br><b>PART TWO:</b>
-<br>Record 8629: Play.
-<br>IOANNA: Nothing taboo, then?
-<br>RAVEN: T-taboo?
-<br>IOANNA: Huh?
-<br>IOANNA: What sort of reaction is that?
-<br>RAVEN: You suddenly started sayin’ shit, how else would I react?
-<br>IOANNA: …
-<br>IOANNA: Could it be that you are a virgin, R—
-<br>RAVEN: Shut it, bitch.
-<br>IOANNA: Ah…
-<br>RAVEN: Whatever you’re thinkin’, it ain’t it, so just, shut up!
-<br>IOANNA: Noted.
-<br><br>MARIA: What are you, children?
-<br>IOANNA: No knifeplay for our star pilot. Understood.
-<br>RAVEN: There’s nothin’ to understand! 
+<br><i>Record 8629: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Nothing taboo, then?
+<br><color=#ab82ba>RAVEN:</color> T-taboo?
+<br><color=#34c3e3>IOANNA:</color> Huh?
+<br><color=#34c3e3>IOANNA:</color> What sort of reaction is that?
+<br><color=#ab82ba>RAVEN:</color> You suddenly started sayin’ shit, how else would I react?
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Could it be that you are a virgin, R—
+<br><color=#ab82ba>RAVEN:</color> Shut it, bitch.
+<br><color=#34c3e3>IOANNA:</color> Ah…
+<br><color=#ab82ba>RAVEN:</color> Whatever you’re thinkin’, it ain’t it, so just, shut up!
+<br><color=#34c3e3>IOANNA:</color> Noted.
+<br><color=#31B5BD>MARIA:</color> What are you, children?
+<br><color=#34c3e3>IOANNA:</color> No knifeplay for our star pilot. Understood.
+<br><color=#ab82ba>RAVEN:</color> There’s nothin’ to understand! 
 <br>
 <br><b>PART THREE:</b>
-<br>Record 8630: Play.
-<br>RAVEN: You really are the worst kinda person.
-<br>IOANNA: Is that really what you should be saying in this kind of situation? 
-<br>RAVEN: Oh, sorry. What else should I be saying in this situation then?
-<br>IOANNA: Thank you, maybe?
-<br>RAVEN: Shove it.
-<br>RAVEN: …
-<br>RAVEN: Can you at least cut me already?
-<br>RAVEN: You’ve been danglin’ it above me this entire time.
-<br>RAVEN: Just do it.
-<br>IOANNA: …
-<br>RAVEN: …Chicken.
+<br><i>Record 8630: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> You really are the worst kinda person.
+<br><color=#34c3e3>IOANNA:</color> Is that really what you should be saying in this kind of situation? 
+<br><color=#ab82ba>RAVEN:</color> Oh, sorry. What else should I be saying in this situation then?
+<br><color=#34c3e3>IOANNA:</color> Thank you, maybe?
+<br><color=#ab82ba>RAVEN:</color> Shove it.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Can you at least cut me already?
+<br><color=#ab82ba>RAVEN:</color> You’ve been danglin’ it above me this entire time.
+<br><color=#ab82ba>RAVEN:</color> Just do it.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> …Chicken.
 
 # BrokenRudder
 Broken Rudder | Item |
 <b>ITEM DESCRIPTION:</b> A flat piece of sheet metal. Meant for steering. 
 <br>
 <br><b>PART ONE:</b>
-<br>Record 1101: Play.
-<br>RAVEN: Hmm~ hmm~
-<br>RAVEN: Mm…
-<br>RAVEN: Tch…
-<br>RAVEN: Shit!
-<br>RAVEN: …
-<br>RAVEN: …
-<br>RAVEN: …how long have you been out there?
-<br>IOANNA: Long enough.
+<br><i>Record 1101: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> Hmm~ hmm~
+<br><color=#ab82ba>RAVEN:</color> Mm…
+<br><color=#ab82ba>RAVEN:</color> Tch…
+<br><color=#ab82ba>RAVEN:</color> Shit!
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> …how long have you been out there?
+<br><color=#34c3e3>IOANNA:</color> Long enough.
 <br>
 <br><b>PART TWO:</b>
-<br>Record 1102: Play.
-<br>IOANNA: Hard at work, or hardly working?
-<br>RAVEN: Those sort of jokes don’t really suit you…
-<br>IOANNA: Oh, sorry.
-<br>IOANNA: What the fuck are you doing, Raven?
-<br>RAVEN: …
-<br>RAVEN: Mind your damn business.
+<br><i>Record 1102: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Hard at work, or hardly working?
+<br><color=#ab82ba>RAVEN:</color> Those sort of jokes don’t really suit you…
+<br><color=#34c3e3>IOANNA:</color> Oh, sorry.
+<br><color=#34c3e3>IOANNA:</color> What the fuck are you doing, Raven?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Mind your damn business.
 <br>
 <br><b>PART THREE:</b>
-<br>Record 1103: Play.
-<br>RAVEN: …
-<br>RAVEN: Hmm~ hmm~
-<br>IOANNA: …
-<br>RAVEN: Hmm…
-<br>RAVEN: Fuck.
-<br>RAVEN: You really gotta make more noise when you walk in.
-<br>RAVEN: Ouch…
-<br>IOANNA: Here.
-<br>RAVEN: …
-<br>RAVEN: Thanks…
+<br><i>Record 1103: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Hmm~ hmm~
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> Hmm…
+<br><color=#ab82ba>RAVEN:</color> Fuck.
+<br><color=#ab82ba>RAVEN:</color> You really gotta make more noise when you walk in.
+<br><color=#ab82ba>RAVEN:</color> Ouch…
+<br><color=#34c3e3>IOANNA:</color> Here.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Thanks…
 
 # SolidProjector
 Solid Projector | Item | 
@@ -269,383 +278,391 @@ Solid Projector | Item |
 <br>Perfect for film reels. Old-school. Pre-golden age.
 <br>
 <br><b>PART ONE:</b>
-<br>Record 3113: Play.
-<br>IOANNA: Ah, to be honest, I do not like movies.
-<br>RAVEN: Then why did you put this on?
-<br>IOANNA: You seemed interested.
+<br><i>Record 3113: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Ah, to be honest, I do not like movies.
+<br><color=#ab82ba>RAVEN:</color> Then why did you put this on?
+<br><color=#34c3e3>IOANNA:</color> You seemed interested.
 <br>
-<b>PART TWO:</b>
-<br>Record 3114: Play.
-<br>RAVEN: …
-<br>RAVEN: !!!
-<br>RAVEN: …snf.
-<br>IOANNA: S…seriously?
-<br>RAVEN: Seriously—make some noise before you walk in!
-<br>IOANNA: We live in the same quarters.
-<br>IOANNA: I can hear you from across the ship.
-<br>IOANNA: Stop watching these animal movies, for god’s sake.
-
-<b>PART THREE:</b>
-<br>Record 3115: Play.
-<br>RAVEN: …move over.
-<br>IOANNA: This is as far as I can move.
-<br>RAVEN: Tch.
-<br>IOANNA: …is it so unpleasant?
-<br>RAVEN: I can’t concentrate on the movie with you breathing down my back, is all.
-<br>IOANNA: Then, is this better?
-<br>RAVEN: …
-<br>RAVEN: …it’s…fine.
-<br>RAVEN: Way too close.
+<br><b>PART TWO:</b>
+<br><i>Record 3114: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> !!!
+<br><color=#ab82ba>RAVEN:</color> …snf.
+<br><color=#34c3e3>IOANNA:</color> S…seriously?
+<br><color=#ab82ba>RAVEN:</color> Seriously—make some noise before you walk in!
+<br><color=#34c3e3>IOANNA:</color> We live in the same quarters.
+<br><color=#34c3e3>IOANNA:</color> I can hear you from across the ship.
+<br><color=#34c3e3>IOANNA:</color> Stop watching these animal movies, for god’s sake.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 3115: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …move over.
+<br><color=#34c3e3>IOANNA:</color> This is as far as I can move.
+<br><color=#ab82ba>RAVEN:</color> Tch.
+<br><color=#34c3e3>IOANNA:</color> …is it so unpleasant?
+<br><color=#ab82ba>RAVEN:</color> I can’t concentrate on the movie with you breathing down my back, is all.
+<br><color=#34c3e3>IOANNA:</color> Then, is this better?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> …it’s…fine.
+<br><color=#ab82ba>RAVEN:</color> Way too close.
 
 # DeadHeat
 “Dead Heat” | Item | 
 <b>ITEM DESCRIPTION:</b> “Dead Heat”. It’s a racing movie turned stage play turned cult classic. 
 <br>
 <br><b>PART ONE:</b>
-<br>Record 8631: Play.
-<br>RAVEN: …asking about it.
-<br>IOANNA: I simply want to know whether or not you still had the outfit.
-<br>RAVEN: You think I had time to keep anything?!
-<br>IOANNA: Well—
+<br><i>Record 8631: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …asking about it.
+<br><color=#34c3e3>IOANNA:</color> I simply want to know whether or not you still had the outfit.
+<br><color=#ab82ba>RAVEN:</color> You think I had time to keep anything?!
+<br><color=#34c3e3>IOANNA:</color> Well—
 <br>
 <br><b>PART TWO:</b>
-<br>Record 8632: Play.
-<br>IOANNA: It is a nice outfit.
-<br><br>MARIA: To think that Recollection’s greatest would be undone by a cheap polyester suit.
-<br>IOANNA: Now now. You know better than anyone that it is made out of completely real leather.
-<br>IOANNA: A Collector has an eye for this sort of detail—
-<br><br>MARIA: The only thing you should have an eye for is how well it will burn.
+<br><i>Record 8632: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> It is a nice outfit.
+<br><color=#31B5BD>MARIA:</color> To think that Recollection’s greatest would be undone by a cheap polyester suit.
+<br><color=#34c3e3>IOANNA:</color> Now now. You know better than anyone that it is made out of completely real leather.
+<br><color=#34c3e3>IOANNA:</color> A Collector has an eye for this sort of detail—
+<br><color=#31B5BD>MARIA:</color> The only thing you should have an eye for is how well it will burn.
 <br>
 <br><b>PART THREE:</b>
-<br>Record 8633: Play.
-<br>RAVEN: —tugging on it so much!
-<br>IOANNA: That is a nice sound.
-<br>RAVEN: If you’re gonna compliment me, I’d prefer it you didn’t, but also, the dead stare doesn’t make it any better—!
-<br>IOANNA: You are so…
-<br>IOANNA: Hmm.
-<br>IOANNA: Prudish?
-<br>RAVEN: To think that an executioner would play with her food.
-<br>RAVEN: Gross.
-<br>IOANNA: It does look good.
-<br>IOANNA: If that does make you feel better.
-<br>RAVEN: It doesn’t.
+<br><i>Record 8633: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> —tugging on it so much!
+<br><color=#34c3e3>IOANNA:</color> That is a nice sound.
+<br><color=#ab82ba>RAVEN:</color> If you’re gonna compliment me, I’d prefer it you didn’t, but also, the dead stare doesn’t make it any better—!
+<br><color=#34c3e3>IOANNA:</color> You are so…
+<br><color=#34c3e3>IOANNA:</color> Hmm.
+<br><color=#34c3e3>IOANNA:</color> Prudish?
+<br><color=#ab82ba>RAVEN:</color> To think that an executioner would play with her food.
+<br><color=#ab82ba>RAVEN:</color> Gross.
+<br><color=#34c3e3>IOANNA:</color> It does look good.
+<br><color=#34c3e3>IOANNA:</color> If that does make you feel better.
+<br><color=#ab82ba>RAVEN:</color> It doesn’t.
 
 # Engine
 Engine | Item | 
 <b>ITEM DESCRIPTION:</b> A cylindrical turbine with the sole intention of bringing metal into space. 
-<b>PART ONE:</b>
-<br>Record 1104: Play.
-<br>IOANNA: Do you know a lot about engineering? 
-<br>RAVEN: What’s with the question?
-<br>IOANNA: Curiosity.
-<br>RAVEN: Sure.
-<br>IOANNA: My boss said she wanted me in engineering for Recollection.
-<br>IOANNA: My theory scores were good, but not my practicals.
-<br>RAVEN: …
-<br>RAVEN: How…do you get around places?
 <br>
-<b>PART TWO:</b>
-<br>Record 1105: Play.
-<br>RAVEN: You’re holding the tool the wrong way.
-<br>IOANNA: I am not.
-<br>RAVEN: Oh, sorry.
-<br>RAVEN: Then obviously the screw you’re trying to yank out is in the wrong.
+<br><b>PART ONE:</b>
+<br><i>Record 1104: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you know a lot about engineering? 
+<br><color=#ab82ba>RAVEN:</color> What’s with the question?
+<br><color=#34c3e3>IOANNA:</color> Curiosity.
+<br><color=#ab82ba>RAVEN:</color> Sure.
+<br><color=#34c3e3>IOANNA:</color> My boss said she wanted me in engineering for Recollection.
+<br><color=#34c3e3>IOANNA:</color> My theory scores were good, but not my practicals.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> How…do you get around places?
 <br>
-<b>PART THREE:</b>
-<br>Record 1106: Play.
-<br>IOANNA: Hey.
-<br>IOANNA: Wake up.
-<br>RAVEN: Tch…
-<br>RAVEN: It’s bright.
-<br>RAVEN: What the hell is this?
-<br>RAVEN: New form of torture?
-<br>IOANNA: If that is what we call a wake up call nowadays, then yes.
-<br>RAVEN: Ugh…
-<br>RAVEN: Okay, I’m up.
-<br>RAVEN: What?
-<br>IOANNA: …
-<br>IOANNA: The hoverboard is not working.
-<br>RAVEN: I am going to beat you over the head.
+<br><b>PART TWO:</b>
+<br><i>Record 1105: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> You’re holding the tool the wrong way.
+<br><color=#34c3e3>IOANNA:</color> I am not.
+<br><color=#ab82ba>RAVEN:</color> Oh, sorry.
+<br><color=#ab82ba>RAVEN:</color> Then obviously the screw you’re trying to yank out is in the wrong.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 1106: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Hey.
+<br><color=#34c3e3>IOANNA:</color> Wake up.
+<br><color=#ab82ba>RAVEN:</color> Tch…
+<br><color=#ab82ba>RAVEN:</color> It’s bright.
+<br><color=#ab82ba>RAVEN:</color> What the hell is this?
+<br><color=#ab82ba>RAVEN:</color> New form of torture?
+<br><color=#34c3e3>IOANNA:</color> If that is what we call a wake up call nowadays, then yes.
+<br><color=#ab82ba>RAVEN:</color> Ugh…
+<br><color=#ab82ba>RAVEN:</color> Okay, I’m up.
+<br><color=#ab82ba>RAVEN:</color> What?
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> The hoverboard is not working.
+<br><color=#ab82ba>RAVEN:</color> I am going to beat you over the head.
 
 # ActorsBox
 Actor’s Box | Item | 
 <b>ITEM DESCRIPTION:</b> An actor’s box. The box is filled with makeup. It’s still intact and perfect. 
-<b>PART ONE:</b>
-<br>Record 3116: Play.
-<br>IOANNA: …Tch.
-<br>RAVEN: I mean, I could tell that you didn’t do makeup but this is kinda…
-<br>IOANNA: I am not sure what this has to do with anything.
-<br>MARIA: Oh, so now you are all for the mission.
-<br>MARIA: You reap what you sow.
 <br>
-<b>PART TWO:</b>
-<br>Record 3117: Play.
-<br>RAVEN: Practicin’ again?
-<br>IOANNA: Fuck–!
-<br>RAVEN: Wow.
-<br>RAVEN: I’ve never heard you curse the entire time we’ve been here.
-<br>RAVEN: Is this eyeliner really givin’ you that much of an issue?
-<br>RAVEN: Haha.
-<br>IOANNA: I know we live in the same quarters but I will make you sleep outside.
+<br><b>PART ONE:</b>
+<br><i>Record 3116: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> …Tch.
+<br><color=#ab82ba>RAVEN:</color> I mean, I could tell that you didn’t do makeup but this is kinda…
+<br><color=#34c3e3>IOANNA:</color> I am not sure what this has to do with anything.
+<br><color=#31B5BD>MARIA:</color> Oh, so now you are all for the mission.
+<br><color=#31B5BD>MARIA:</color> You reap what you sow.
 <br>
-<b>PART THREE:</b>
-<br>Record 3118: Play.
-<br>RAVEN: You need to keep your hand steady when you do this sort of thing.
-<br>IOANNA: You do not need to act so smug.
-<br>RAVEN: Hah.
-<br>RAVEN: You can be sweeter.
-<br>RAVEN: Ask me to do your makeup, and I’ll do it.
-<br>RAVEN: Maybe if you beg, I’ll give you a cut crease.
-<br>IOANNA: If it was not for my mission, I would have killed you myself.
-<br>RAVEN: Right, right.
+<br><b>PART TWO:</b>
+<br><i>Record 3117: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> Practicin’ again?
+<br><color=#34c3e3>IOANNA:</color> Fuck–!
+<br><color=#ab82ba>RAVEN:</color> Wow.
+<br><color=#ab82ba>RAVEN:</color> I’ve never heard you curse the entire time we’ve been here.
+<br><color=#ab82ba>RAVEN:</color> Is this eyeliner really givin’ you that much of an issue?
+<br><color=#ab82ba>RAVEN:</color> Haha.
+<br><color=#34c3e3>IOANNA:</color> I know we live in the same quarters but I will make you sleep outside.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 3118: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> You need to keep your hand steady when you do this sort of thing.
+<br><color=#34c3e3>IOANNA:</color> You do not need to act so smug.
+<br><color=#ab82ba>RAVEN:</color> Hah.
+<br><color=#ab82ba>RAVEN:</color> You can be sweeter.
+<br><color=#ab82ba>RAVEN:</color> Ask me to do your makeup, and I’ll do it.
+<br><color=#ab82ba>RAVEN:</color> Maybe if you beg, I’ll give you a cut crease.
+<br><color=#34c3e3>IOANNA:</color> If it was not for my mission, I would have killed you myself.
+<br><color=#ab82ba>RAVEN:</color> Right, right.
 
 # SilverBullets
 Silver Bullets | Item | 
 <b>ITEM DESCRIPTION:</b> Six silver bullets. 
-<b>PART ONE:</b>
-<br>Record 8634: Play.
-<br>IOANNA: –!
-<br>RAVEN: Mm.
-<br>RAVEN: …
-<br>IOANNA: …
-<br>IOANNA: …
-<br>RAVEN: Are you going to stop here, Miss Officer?
-<br>IOANNA: …yes.
 <br>
-<b>PART TWO:</b>
-<br>Record 8635: Play.
-<br>RAVEN: One, two, three, four, five, and–
-<br>IOANNA: Six.
-<br>RAVEN: Oh, you’re here.
-<br>RAVEN: Enjoyin’ the show?
-<br>IOANNA: Did you already have that?
-<br>RAVEN: Mmm.
-<br>RAVEN: Maybe I made it.
-<br>IOANNA: I sincerely doubt you could make a gun.
-<br>RAVEN: Aww, c’mon.
+<br><b>PART ONE:</b>
+<br><i>Record 8634: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> –!
+<br><color=#ab82ba>RAVEN:</color> Mm.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> Are you going to stop here, Miss Officer?
+<br><color=#34c3e3>IOANNA:</color> …yes.
 <br>
-<b>PART THREE:</b>
-<br>Record 8636: Play.
-<br>IOANNA: …it fits rather nicely.
-<br>RAVEN: Tch…
-<br>IOANNA: Do not speak with your mouth full, Raven.
+<br><b>PART TWO:</b>
+<br><i>Record 8635: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> One, two, three, four, five, and–
+<br><color=#34c3e3>IOANNA:</color> Six.
+<br><color=#ab82ba>RAVEN:</color> Oh, you’re here.
+<br><color=#ab82ba>RAVEN:</color> Enjoyin’ the show?
+<br><color=#34c3e3>IOANNA:</color> Did you already have that?
+<br><color=#ab82ba>RAVEN:</color> Mmm.
+<br><color=#ab82ba>RAVEN:</color> Maybe I made it.
+<br><color=#34c3e3>IOANNA:</color> I sincerely doubt you could make a gun.
+<br><color=#ab82ba>RAVEN:</color> Aww, c’mon.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 8636: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> …it fits rather nicely.
+<br><color=#ab82ba>RAVEN:</color> Tch…
+<br><color=#34c3e3>IOANNA:</color> Do not speak with your mouth full, Raven.
 
 # Circuitboard
 Circuitboard | Item |
 <b>ITEM DESCRIPTION:</b> A laminated piece of acrylic. 
-<b>PART ONE:</b>
-<br>Record 1107: Play.
-<br>RAVEN: –Hands! Off!
-<br>IOANNA: I was not even within a foot of it.
-<br>RAVEN: I saw your sticky fingers waggling in its general direction.
-<br>RAVEN: Back away.
-<br>IOANNA: Insufferable prick.
 <br>
-<b>PART TWO:</b>
-<br>Record 1108: Play.
-<br>IOANNA: Hmm…
-<br>IOANNA: Ah…
-<br>IOANNA: Mm.
-<br>RAVEN: Are you done?
-<br>IOANNA: I am not.
-<br>IOANNA: It is interesting. Seeing it in real time.
-<br>RAVEN: I know you asked me to do maintenance but…
-<br>RAVEN: It’s…weird.
+<br><b>PART ONE:</b>
+<br><i>Record 1107: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> –Hands! Off!
+<br><color=#34c3e3>IOANNA:</color> I was not even within a foot of it.
+<br><color=#ab82ba>RAVEN:</color> I saw your sticky fingers waggling in its general direction.
+<br><color=#ab82ba>RAVEN:</color> Back away.
+<br><color=#34c3e3>IOANNA:</color> Insufferable prick.
 <br>
-<b>PART THREE:</b>
-<br>Record 1109: Play.
-<br>RAVEN: …you’re awfully used to this.
-<br>IOANNA: It is better to have someone else check for me.
-<br>IOANNA: It is difficult to manage spinal networking in front of a mirror.
-<br>IOANNA: …
-<br>IOANNA: What do you see?
-<br>RAVEN: A goddamn exhibitionist.
+<br><b>PART TWO:</b>
+<br><i>Record 1108: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Hmm…
+<br><color=#34c3e3>IOANNA:</color> Ah…
+<br><color=#34c3e3>IOANNA:</color> Mm.
+<br><color=#ab82ba>RAVEN:</color> Are you done?
+<br><color=#34c3e3>IOANNA:</color> I am not.
+<br><color=#34c3e3>IOANNA:</color> It is interesting. Seeing it in real time.
+<br><color=#ab82ba>RAVEN:</color> I know you asked me to do maintenance but…
+<br><color=#ab82ba>RAVEN:</color> It’s…weird.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 1109: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …you’re awfully used to this.
+<br><color=#34c3e3>IOANNA:</color> It is better to have someone else check for me.
+<br><color=#34c3e3>IOANNA:</color> It is difficult to manage spinal networking in front of a mirror.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> What do you see?
+<br><color=#ab82ba>RAVEN:</color> A goddamn exhibitionist.
 
 # CostumeJewelry
 Costume Jewelry | Item | 
 <b>ITEM DESCRIPTION:</b> Costume jewelry. Fake pearl necklaces, sparkling plasticine diamonds, and a decrepit feather boa. 
-<b>PART ONE:</b>
-<br>Record 3119: Play.
-<br>MARIA: I do not like it.
-<br>IOANNA: The pretentiousness of it?
-<br>MARIA: The lack of utility.
-<br>MARIA: Estehelix is a den of sinners.
-<br>MARIA: Layabouts. Louts. Leeches.
-<br>IOANNA: I am glad that you are keeping up to date with the latest Old World Dictionary, Maria.
-<br>RAVEN: Are you done? You want me to put this away, yeah?
 <br>
-<b>PART TWO:</b>
-<br>Record 3120: Play.
-<br>RAVEN: …Hmm.
-<br>RAVEN: It’s nice to see my things in good condition.
-<br>RAVEN: Ah, haha.
-<br>RAVEN: God…I took this one from my last set.
-<br>RAVEN: [][][][][] really let me have it…
-<br>RAVEN: Sigh…
-<br>RAVEN: …
-<br>RAVEN: Shit.
-<br>RAVEN: Is she back?
-<br>RAVEN: …
+<br><b>PART ONE:</b>
+<br><i>Record 3119: Play.</i><br>
+<br><color=#31B5BD>MARIA:</color> I do not like it.
+<br><color=#34c3e3>IOANNA:</color> The pretentiousness of it?
+<br><color=#31B5BD>MARIA:</color> The lack of utility.
+<br><color=#31B5BD>MARIA:</color> Estehelix is a den of sinners.
+<br><color=#31B5BD>MARIA:</color> Layabouts. Louts. Leeches.
+<br><color=#34c3e3>IOANNA:</color> I am glad that you are keeping up to date with the latest Old World Dictionary, Maria.
+<br><color=#ab82ba>RAVEN:</color> Are you done? You want me to put this away, yeah?
 <br>
-<b>PART THREE:</b>
-<br>Record 3121: Play.
-<br>RAVEN: …
-<br>RAVEN: ~
-<br>IOANNA: Did you decide what you’re keeping?
-<br>RAVEN: …
-<br>RAVEN: I picked somethin’ out for you.
-<br>RAVEN: I can redo your ears if need be.
-<br>IOANNA: You said that so confidently I thought I walked into the wrong room.
-<br>RAVEN: …
-<br>RAVEN: We only have one room.
+<br><b>PART TWO:</b>
+<br><i>Record 3120: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …Hmm.
+<br><color=#ab82ba>RAVEN:</color> It’s nice to see my things in good condition.
+<br><color=#ab82ba>RAVEN:</color> Ah, haha.
+<br><color=#ab82ba>RAVEN:</color> God…I took this one from my last set.
+<br><color=#ab82ba>RAVEN:</color> [][][][][] really let me have it…
+<br><color=#ab82ba>RAVEN:</color> Sigh…
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Shit.
+<br><color=#ab82ba>RAVEN:</color> Is she back?
+<br><color=#ab82ba>RAVEN:</color> …
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 3121: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> ~
+<br><color=#34c3e3>IOANNA:</color> Did you decide what you’re keeping?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> I picked somethin’ out for you.
+<br><color=#ab82ba>RAVEN:</color> I can redo your ears if need be.
+<br><color=#34c3e3>IOANNA:</color> You said that so confidently I thought I walked into the wrong room.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> We only have one room.
 
 # Meteorite
 Meteorite | Item |
 <b>ITEM DESCRIPTION:</b> A chunk of meteorite. 
-<b>PART ONE:</b>
-<br>Record 8637: Play.
-<br>RAVEN: –time?
-<br>IOANNA: Sorry, what?
-<br>RAVEN: I said, you’ve been spendin’ a lotta time here.
-<br>RAVEN: What are you workin’ on?
-<br>IOANNA: Do we partake in this sort of useless drivel now, Raven?
-<br>RAVEN: …
-<br>RAVEN: No, I guess not.
 <br>
-<b>PART TWO:</b>
-<br>Record 8638: Play.
-<br>MARIA: You are running out of time.
-<br>IOANNA: I know.
-<br>IOANNA: I need to finish qualifying these pieces for disposal.
-<br>IOANNA: I have already finished cataloging. I submitted the rubric.
-<br>IOANNA: …
-<br>IOANNA: We need more.
-<br>MARIA: Go send your stupid bird.
-<br>IOANNA: To what? His funeral?
-<br>IOANNA: Maybe I should–
+<br><b>PART ONE:</b>
+<br><i>Record 8637: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> –time?
+<br><color=#34c3e3>IOANNA:</color> Sorry, what?
+<br><color=#ab82ba>RAVEN:</color> I said, you’ve been spendin’ a lotta time here.
+<br><color=#ab82ba>RAVEN:</color> What are you workin’ on?
+<br><color=#34c3e3>IOANNA:</color> Do we partake in this sort of useless drivel now, Raven?
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> No, I guess not.
 <br>
-<b>PART THREE:</b>
+<br><b>PART TWO:</b>
+<br><i>Record 8638: Play.</i><br>
+<br><color=#31B5BD>MARIA:</color> You are running out of time.
+<br><color=#34c3e3>IOANNA:</color> I know.
+<br><color=#34c3e3>IOANNA:</color> I need to finish qualifying these pieces for disposal.
+<br><color=#34c3e3>IOANNA:</color> I have already finished cataloging. I submitted the rubric.
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> We need more.
+<br><color=#31B5BD>MARIA:</color> Go send your stupid bird.
+<br><color=#34c3e3>IOANNA:</color> To what? His funeral?
+<br><color=#34c3e3>IOANNA:</color> Maybe I should–
+<br>
+<br><b>PART THREE:</b>
 <br>Record 8639 Play.
-<br>IOANNA: This is frustrating.
-<br>MARIA: In what aspect.
-<br>MARIA: Pray tell.
-<br>IOANNA: Everything.
-<br>IOANNA: The last haul was a bust.
-<br>IOANNA: It feels as if…
-<br>IOANNA: It feels as if the system is hiding something.
-<br>MARIA: We knew coming into this mission that Estehelix’s most valuable asset was its memoria.
-<br>MARIA: Maybe you need to start bottling it, Ioanna.
-<br>IOANNA: You were never good at jokes.
-<br>IOANNA: I see that is a horizon you will never reach.
-<br>MARIA: Hmm.
+<br><color=#34c3e3>IOANNA:</color> This is frustrating.
+<br><color=#31B5BD>MARIA:</color> In what aspect.
+<br><color=#31B5BD>MARIA:</color> Pray tell.
+<br><color=#34c3e3>IOANNA:</color> Everything.
+<br><color=#34c3e3>IOANNA:</color> The last haul was a bust.
+<br><color=#34c3e3>IOANNA:</color> It feels as if…
+<br><color=#34c3e3>IOANNA:</color> It feels as if the system is hiding something.
+<br><color=#31B5BD>MARIA:</color> We knew coming into this mission that Estehelix’s most valuable asset was its memoria.
+<br><color=#31B5BD>MARIA:</color> Maybe you need to start bottling it, Ioanna.
+<br><color=#34c3e3>IOANNA:</color> You were never good at jokes.
+<br><color=#34c3e3>IOANNA:</color> I see that is a horizon you will never reach.
+<br><color=#31B5BD>MARIA:</color> Hmm.
 
 # BlackBox
 Black Box | Item | 
 <b>ITEM DESCRIPTION:</b> A black box. 
-<b>PART ONE:</b>
-<br>Record 1110: Play.
-<br>RAVEN: I wish you killed me on the first night.
-<br>RAVEN: I knew you could’ve.
-<br>RAVEN: What stopped you?
-<br>IOANNA: …
-<br>IOANNA: I do not know.
-<br>IOANNA: Perhaps…my dedication to the mission?
-<br>IOANNA: It said dead or alive.
-<br>IOANNA: It felt like a waste.
 <br>
-<b>PART TWO:</b>
-<br>Record 1111: Play.
-<br>IOANNA: Do you want to die, Raven?
-<br>RAVEN: I used to.
-<br>RAVEN: I used to wake up, still dreamin’.
-<br>RAVEN: Memoria’s like that.
-<br>RAVEN: You start to lose touch of what is real and what is fake.
-<br>RAVEN: It was…
-<br>RAVEN: …
-<br>RAVEN: Did you know, you could kill yourself and come back fine the next day?
-<br>RAVEN: The knife would turn into plastic. The gun, to smoke.
-<br>RAVEN: Now, it’s…
-<br>RAVEN: It’s weird.
-<br>RAVEN: I think there will still be days I want to die.
-<br>RAVEN: But there will be more where I will want to live.
-<br>RAVEN: Because I want to fly. 
-<br>RAVEN: More than anything in the world. 
+<br><b>PART ONE:</b>
+<br><i>Record 1110: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> I wish you killed me on the first night.
+<br><color=#ab82ba>RAVEN:</color> I knew you could’ve.
+<br><color=#ab82ba>RAVEN:</color> What stopped you?
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> I do not know.
+<br><color=#34c3e3>IOANNA:</color> Perhaps…my dedication to the mission?
+<br><color=#34c3e3>IOANNA:</color> It said dead or alive.
+<br><color=#34c3e3>IOANNA:</color> It felt like a waste.
 <br>
-<b>PART THREE:</b>
-<br>Record 1110: Play.
-<br>IOANNA: …
-<br>IOANNA: …
-<br>RAVEN: …
-<br>IOANNA: You need to eat something.
-<br>RAVEN: I’m not hungry.
-<br>RAVEN: You can eat it.
-<br>RAVEN: We still have another stretch before we can land.
-<br>RAVEN: The next system should be…
-<br>RAVEN: …
-<br>IOANNA: More amenable?
-<br>RAVEN: I think that’s a little too optimistic for people like us.
-<br>IOANNA: But you laugh anyway.
-<br>RAVEN: …yeah, I guess.
-<br>RAVEN: It’s fine. I’ll have a bite.
-<br>RAVEN: I’ll need you to be able to fight our way through, y’know.
-<br>IOANNA: You paint me as such a brute.
-<br>RAVEN: And you’re not? 
-<br>RAVEN: Oooookay, sorry.
-<br>IOANNA: That is right.
-<br>IOANNA: Eat your ration.
+<br><b>PART TWO:</b>
+<br><i>Record 1111: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you want to die, Raven?
+<br><color=#ab82ba>RAVEN:</color> I used to.
+<br><color=#ab82ba>RAVEN:</color> I used to wake up, still dreamin’.
+<br><color=#ab82ba>RAVEN:</color> Memoria’s like that.
+<br><color=#ab82ba>RAVEN:</color> You start to lose touch of what is real and what is fake.
+<br><color=#ab82ba>RAVEN:</color> It was…
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Did you know, you could kill yourself and come back fine the next day?
+<br><color=#ab82ba>RAVEN:</color> The knife would turn into plastic. The gun, to smoke.
+<br><color=#ab82ba>RAVEN:</color> Now, it’s…
+<br><color=#ab82ba>RAVEN:</color> It’s weird.
+<br><color=#ab82ba>RAVEN:</color> I think there will still be days I want to die.
+<br><color=#ab82ba>RAVEN:</color> But there will be more where I will want to live.
+<br><color=#ab82ba>RAVEN:</color> Because I want to fly. 
+<br><color=#ab82ba>RAVEN:</color> More than anything in the world. 
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 1110: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> You need to eat something.
+<br><color=#ab82ba>RAVEN:</color> I’m not hungry.
+<br><color=#ab82ba>RAVEN:</color> You can eat it.
+<br><color=#ab82ba>RAVEN:</color> We still have another stretch before we can land.
+<br><color=#ab82ba>RAVEN:</color> The next system should be…
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> More amenable?
+<br><color=#ab82ba>RAVEN:</color> I think that’s a little too optimistic for people like us.
+<br><color=#34c3e3>IOANNA:</color> But you laugh anyway.
+<br><color=#ab82ba>RAVEN:</color> …yeah, I guess.
+<br><color=#ab82ba>RAVEN:</color> It’s fine. I’ll have a bite.
+<br><color=#ab82ba>RAVEN:</color> I’ll need you to be able to fight our way through, y’know.
+<br><color=#34c3e3>IOANNA:</color> You paint me as such a brute.
+<br><color=#ab82ba>RAVEN:</color> And you’re not? 
+<br><color=#ab82ba>RAVEN:</color> Oooookay, sorry.
+<br><color=#34c3e3>IOANNA:</color> That is right.
+<br><color=#34c3e3>IOANNA:</color> Eat your ration.
 
 # BrokenMirror
 Broken Mirror | Item |
 <b>ITEM DESCRIPTION:</b> A handheld mirror.
-<b>PART ONE:</b>
-<br>Record 3122: Play.
-<br>IOANNA: …
-<br>IOANNA: …
-<br>RAVEN: Are you havin’ fun?
-<br>IOANNA: No.
-<br>IOANNA: I’m not.
-<br>RAVEN: Sorry to hear that.
-<br>RAVEN: Maybe if you stopped watchin’ my shitty movie, you’d feel better.
-<br>IOANNA: I like your shitty movie.
-<br>IOANNA: I like who you were.
-<br>RAVEN: …
-<br>IOANNA: …
-<br>IOANNA: I like who you are, too.
-<br>RAVEN: Nice save.
 <br>
-<b>PART TWO:</b>
-<br>Record 3123: Play.
-<br>RAVEN: You’re watchin’ it again?
-<br>IOANNA: …
-<br>IOANNA: Zzz…
-<br>RAVEN: Huh.
-<br>RAVEN: …
-<br>RAVEN: Y’know, seeing you like this…
-<br>RAVEN: It’s kinda sad.
-<br>RAVEN: What kind of person are you, Arcensis? 
-<br>RAVEN: …
-<br>IOANNA: Mmm…
-<br>IOANNA: Shit.
-<br>IOANNA: Where…what…
-<br>IOANNA: …
-<br>IOANNA: You’re awfully uncomfortable, Raven.
+<br><b>PART ONE:</b>
+<br><i>Record 3122: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#ab82ba>RAVEN:</color> Are you havin’ fun?
+<br><color=#34c3e3>IOANNA:</color> No.
+<br><color=#34c3e3>IOANNA:</color> I’m not.
+<br><color=#ab82ba>RAVEN:</color> Sorry to hear that.
+<br><color=#ab82ba>RAVEN:</color> Maybe if you stopped watchin’ my shitty movie, you’d feel better.
+<br><color=#34c3e3>IOANNA:</color> I like your shitty movie.
+<br><color=#34c3e3>IOANNA:</color> I like who you were.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> I like who you are, too.
+<br><color=#ab82ba>RAVEN:</color> Nice save.
 <br>
-<b>PART THREE:</b>
-<br>Record 3124: Play.
-<br>RAVEN: I am not gonna do that.
-<br>IOANNA: Seriously? 
-<br>IOANNA: Even if I ask nicely?
-<br>RAVEN: You have never asked for anything in your life.
-<br>RAVEN: I will not indulge your first ever selfish request. 
-<br>IOANNA: I feel that is not completely right, but…
-<br>IOANNA: I really did spend a lot of time finding something close.
-<br>IOANNA: You should be grateful that Recollection’s Vulture managed to find a one of a kind plugsuit, just for you.
-<br>RAVEN: I wish you used your shady connections for something useful, like the Belladonna’s maintenance.
-<br>RAVEN: …
-<br>RAVEN: …
-<br>RAVEN: Stop lookin’ at me like that.
-<br>IOANNA: Like how?
-<br>RAVEN: Tch.
+<br><b>PART TWO:</b>
+<br><i>Record 3123: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> You’re watchin’ it again?
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Zzz…
+<br><color=#ab82ba>RAVEN:</color> Huh.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Y’know, seeing you like this…
+<br><color=#ab82ba>RAVEN:</color> It’s kinda sad.
+<br><color=#ab82ba>RAVEN:</color> What kind of person are you, Arcensis? 
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#34c3e3>IOANNA:</color> Mmm…
+<br><color=#34c3e3>IOANNA:</color> Shit.
+<br><color=#34c3e3>IOANNA:</color> Where…what…
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> You’re awfully uncomfortable, Raven.
+<br>
+<br><b>PART THREE:</b>
+<br><i>Record 3124: Play.</i><br>
+<br><color=#ab82ba>RAVEN:</color> I am not gonna do that.
+<br><color=#34c3e3>IOANNA:</color> Seriously? 
+<br><color=#34c3e3>IOANNA:</color> Even if I ask nicely?
+<br><color=#ab82ba>RAVEN:</color> You have never asked for anything in your life.
+<br><color=#ab82ba>RAVEN:</color> I will not indulge your first ever selfish request. 
+<br><color=#34c3e3>IOANNA:</color> I feel that is not completely right, but…
+<br><color=#34c3e3>IOANNA:</color> I really did spend a lot of time finding something close.
+<br><color=#34c3e3>IOANNA:</color> You should be grateful that Recollection’s Vulture managed to find a one of a kind plugsuit, just for you.
+<br><color=#ab82ba>RAVEN:</color> I wish you used your shady connections for something useful, like the Belladonna’s maintenance.
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> …
+<br><color=#ab82ba>RAVEN:</color> Stop lookin’ at me like that.
+<br><color=#34c3e3>IOANNA:</color> Like how?
+<br><color=#ab82ba>RAVEN:</color> Tch.
 
 # TheBelladonna
 The Belladonna | Item | 
@@ -655,12 +672,12 @@ The Belladonna | Item |
 <br>▮▮▮▮▮: I am going to kill you.
 <br>▮▮▮▮▮: I am going to tear you from limb to limb. 
 <br>▮▮▮▮▮: I’m going to watch your blood drain from your face and I am going to–
-<br>IOANNA: Go ahead, then.
-<br>IOANNA: Try your best.
+<br><color=#34c3e3>IOANNA:</color> Go ahead, then.
+<br><color=#34c3e3>IOANNA:</color> Try your best.
 
 # Raven
 RAVEN | Person of Interest |
-<br><b>PART ONE:</b>
+<b>PART ONE:</b>
 <br>Raven. Real name: ▮▮▮▮▮.
 <br>He received his nom de plume during his maiden race. He’s Raven. No further questions. No interviews, no post-race debrief, no nothing.
 <br>
@@ -708,7 +725,7 @@ RAVEN | Person of Interest |
 
 # SunEater
 THE SUN EATER | Person of Interest |
-<br><b>PART ONE:</b>
+<b>PART ONE:</b>
 <br>Recollection’s beloved executioner and errand dog. A “Record Keeper”.
 <br>
 <br>She is a cool-headed and cold-hearted woman. Currently out of office on a more demanding mission. She takes her title seriously.
@@ -758,489 +775,489 @@ Estehelix | Location | Estehelix, the planetary system of entertainment and vice
 <br>Estehelix has three main planets, coded by -1, -2, and -3. Este-1 has the theater, Este-2 has the circuit, and Este-3 is the commercial and residential area. Each planet is connected by a train of sorts.
 
 # Transmitter
-<br>Transmitter | Item | 
-<b>ITEM DESCRIPTION:/<b> An old transmitter used to send messages between the tunnels.
+Transmitter | Item | 
+<b>ITEM DESCRIPTION:</b> An old transmitter used to send messages between the tunnels.
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 6354: Play.
-<br>IOANNA: Do you think you can get it to work?
-<br>ZINNIA: Do I look like a mechhead?
-<br>IOANNA: You’re fiddling with it
-<br>IOANNA: I didn’t think you’d be the type of person who played with your trash.
-<br>ZINNIA: I might be number one, but I’m still a disgrace.
+<br><b>PART ONE:</b>
+<br><i>Record 6354: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you think you can get it to work?
+<br><color=#7fc56d>ZINNIA:</color> Do I look like a mechhead?
+<br><color=#34c3e3>IOANNA:</color> You’re fiddling with it
+<br><color=#34c3e3>IOANNA:</color> I didn’t think you’d be the type of person who played with your trash.
+<br><color=#7fc56d>ZINNIA:</color> I might be number one, but I’m still a disgrace.
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 6355: Play.
-<br>ZINNIA: I wonder if we can get it connected to a receiver.
-<br>IOANNA: You…you’re a lot more proactive than I expected.
-<br>ZINNIA: Do I feel like a robot to you? 
-<br>IOANNA: …   
+<br><b>PART TWO:</b>
+<br><i>Record 6355: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> I wonder if we can get it connected to a receiver.
+<br><color=#34c3e3>IOANNA:</color> You…you’re a lot more proactive than I expected.
+<br><color=#7fc56d>ZINNIA:</color> Do I feel like a robot to you? 
+<br><color=#34c3e3>IOANNA:</color> …   
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 6356: Play.
-<br>ZINNIA: Ah-ha! I think I got it?
-<br>IOANNA: The signal?
-<br>ZINNIA: Mm-hmm.
-<br>IOANNA: Do you think there’s a chance you will find someone out there?
-<br>ZINNIA: It’s a ghost zone out here, but maybe…
-<br>ZINNIA: Maybe there’s a god. 
-<br>ZINNIA: There’s always a god on the edge of civilization. 
+<br><b>PART THREE:</b>
+<br><i>Record 6356: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Ah-ha! I think I got it?
+<br><color=#34c3e3>IOANNA:</color> The signal?
+<br><color=#7fc56d>ZINNIA:</color> Mm-hmm.
+<br><color=#34c3e3>IOANNA:</color> Do you think there’s a chance you will find someone out there?
+<br><color=#7fc56d>ZINNIA:</color> It’s a ghost zone out here, but maybe…
+<br><color=#7fc56d>ZINNIA:</color> Maybe there’s a god. 
+<br><color=#7fc56d>ZINNIA:</color> There’s always a god on the edge of civilization. 
 
 # ScrapMetal
 Scrap Metal | Item | 
-<b>ITEM DESCRIPTION:/<b> Scrap metal, used as building material and plating. 
+<b>ITEM DESCRIPTION:</b> Scrap metal, used as building material and plating. 
 <br>
-<br><b>PART ONE:/<b> 
-<br>Record 4118: Play.
-<br>IOANNA: This is trash, right?
-<br>ZINNIA: Indispensable trash. 
-<br>ZINNIA: Trash of the highest quality. 
+<br><b>PART ONE:</b> 
+<br><i>Record 4118: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> This is trash, right?
+<br><color=#7fc56d>ZINNIA:</color> Indispensable trash. 
+<br><color=#7fc56d>ZINNIA:</color> Trash of the highest quality. 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 4119: Play.
-<br>IOANNA: Are you okay?
-<br>ZINNIA: Hm. Yeah. Just thinking. 
-<br>IOANNA: Thinking, huh?
-<br>ZINNIA: …
-<br>IOANNA: It’s highly reflective, actually- 
-<br>IOANNA: Makes a good mirror. 
-<br>ZINNIA: Hah. It’s more like a fun house mirror. 
-<br>ZINNIA: Do you even know what those are?
-<br>IOANNA: I know that they are all sorts of “fucked up”. 
+<br><b>PART TWO:</b>
+<br><i>Record 4119: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Are you okay?
+<br><color=#7fc56d>ZINNIA:</color> Hm. Yeah. Just thinking. 
+<br><color=#34c3e3>IOANNA:</color> Thinking, huh?
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> It’s highly reflective, actually- 
+<br><color=#34c3e3>IOANNA:</color> Makes a good mirror. 
+<br><color=#7fc56d>ZINNIA:</color> Hah. It’s more like a fun house mirror. 
+<br><color=#7fc56d>ZINNIA:</color> Do you even know what those are?
+<br><color=#34c3e3>IOANNA:</color> I know that they are all sorts of “fucked up”. 
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 4120: Play.
-<br>IOANNA: Zinnia, can you come over here?
-<br>ZINNIA: What--?
+<br><b>PART THREE:</b>
+<br><i>Record 4120: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Zinnia, can you come over here?
+<br><color=#7fc56d>ZINNIA:</color> What--?
 <br>…
-<br>IOANNA: It’s us. 
-<br>IOANNA: All fucked up.
+<br><color=#34c3e3>IOANNA:</color> It’s us. 
+<br><color=#34c3e3>IOANNA:</color> All fucked up.
 <br>…
-<br>IOANNA: How did the picture turn out?
-<br>ZINNIA: … Like shit.
+<br><color=#34c3e3>IOANNA:</color> How did the picture turn out?
+<br><color=#7fc56d>ZINNIA:</color> … Like shit.
 
 # CeremonialKnife
 Ceremonial Knife | Item | 
-<b>ITEM DESCRIPTION:/<b> An old ceremonial knife, with various runes engraved. Made of early space metals, never dulled and never rusted despite the time. 
+<b>ITEM DESCRIPTION:</b> An old ceremonial knife, with various runes engraved. Made of early space metals, never dulled and never rusted despite the time. 
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 9966: Play.
-<br>IOANNA: It really glimmers under the light, doesn’t it?
-<br>ZINNIA: Incredible. All those years and no rust.
-<br>IOANNA: What do you think these runes mean?
-<br>ZINNIA: It could be anything.
-<br>IOANNA: Mm. 
-<br>IOANNA: Boring.
-<br>IOANNA: For someone who is dripping in philosophy, that’s an awfully boring answer. 
+<br><b>PART ONE:</b>
+<br><i>Record 9966: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> It really glimmers under the light, doesn’t it?
+<br><color=#7fc56d>ZINNIA:</color> Incredible. All those years and no rust.
+<br><color=#34c3e3>IOANNA:</color> What do you think these runes mean?
+<br><color=#7fc56d>ZINNIA:</color> It could be anything.
+<br><color=#34c3e3>IOANNA:</color> Mm. 
+<br><color=#34c3e3>IOANNA:</color> Boring.
+<br><color=#34c3e3>IOANNA:</color> For someone who is dripping in philosophy, that’s an awfully boring answer. 
 <br>
-<br><b>PART TWO:/<b> 
-<br>Record 9967: Play.
-<br>ZINNIA: Should I be worried?
-<br>ZINNIA: You keep playing with that knife.
-<br>IOANNA: I’ve been thinking about it, is all.
-<br>ZINNIA: About the runes?
-<br>IOANNA: Do you think they signify a blessing or a curse?
-<br>ZINNIA: Does it matter?
-<br>IOANNA: I think it’s cursed.
-<br>IOANNA: What’s a little blood between partners?
+<br><b>PART TWO:</b> 
+<br><i>Record 9967: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Should I be worried?
+<br><color=#7fc56d>ZINNIA:</color> You keep playing with that knife.
+<br><color=#34c3e3>IOANNA:</color> I’ve been thinking about it, is all.
+<br><color=#7fc56d>ZINNIA:</color> About the runes?
+<br><color=#34c3e3>IOANNA:</color> Do you think they signify a blessing or a curse?
+<br><color=#7fc56d>ZINNIA:</color> Does it matter?
+<br><color=#34c3e3>IOANNA:</color> I think it’s cursed.
+<br><color=#34c3e3>IOANNA:</color> What’s a little blood between partners?
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 9968: Play.
-<br>IOANNA: This is an interesting proposition, coming from you.
-<br>ZINNIA: I am willing to do anything for an interesting outcome. 
-<br>IOANNA: And that includes cutting yourself open for science, o’ fearless champion?
-<br>ZINNIA: You’ve made sure it’s been disinfected, right?
-<br>IOANNA: Yes.
-<br>ZINNIA: Cut me open, then.
-<br>IOANNA: When you say it like that…
-<br>IOANNA: It’s like you want me to kill you. 
-<br>ZINNIA: I don’t think you want that.
-<br>IOANNA: Good. I don’t need a carcass on board.
-<br>IOANNA: I wouldn’t reject a caress from it, though.
-<br>ZINNIA: Stupid.  
+<br><b>PART THREE:</b>
+<br><i>Record 9968: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> This is an interesting proposition, coming from you.
+<br><color=#7fc56d>ZINNIA:</color> I am willing to do anything for an interesting outcome. 
+<br><color=#34c3e3>IOANNA:</color> And that includes cutting yourself open for science, o’ fearless champion?
+<br><color=#7fc56d>ZINNIA:</color> You’ve made sure it’s been disinfected, right?
+<br><color=#34c3e3>IOANNA:</color> Yes.
+<br><color=#7fc56d>ZINNIA:</color> Cut me open, then.
+<br><color=#34c3e3>IOANNA:</color> When you say it like that…
+<br><color=#34c3e3>IOANNA:</color> It’s like you want me to kill you. 
+<br><color=#7fc56d>ZINNIA:</color> I don’t think you want that.
+<br><color=#34c3e3>IOANNA:</color> Good. I don’t need a carcass on board.
+<br><color=#34c3e3>IOANNA:</color> I wouldn’t reject a caress from it, though.
+<br><color=#7fc56d>ZINNIA:</color> Stupid.  
 
 # OldVinyls
 Old Vinyls | Item | 
-<b>ITEM DESCRIPTION:/<b> Old vinyl records bonded to the environment. You wonder if they can grow synthetic lilies. 
+<b>ITEM DESCRIPTION:</b> Old vinyl records bonded to the environment. You wonder if they can grow synthetic lilies. 
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 3024: Play.
-<br>IOANNA: Are you a music person?
-<br>ZINNIA: Isn’t everyone?
-<br>IOANNA: Some people like the silence.
-<br>ZINNIA: Not you, with the way you move 
-<br>IOANNA: Hmm? 
-<br>IOANNA: Is this an old-world turn of phrase?
-<br>ZINNIA: It means “you always have something to say”.
+<br><b>PART ONE:</b>
+<br><i>Record 3024: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Are you a music person?
+<br><color=#7fc56d>ZINNIA:</color> Isn’t everyone?
+<br><color=#34c3e3>IOANNA:</color> Some people like the silence.
+<br><color=#7fc56d>ZINNIA:</color> Not you, with the way you move 
+<br><color=#34c3e3>IOANNA:</color> Hmm? 
+<br><color=#34c3e3>IOANNA:</color> Is this an old-world turn of phrase?
+<br><color=#7fc56d>ZINNIA:</color> It means “you always have something to say”.
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 3024: Play.
-<br>IOANNA: Do you think we can play these?
-<br>IOANNA: I want to try. 
-<br>ZINNIA: I wonder how much of it is even composed of organic elements. 
-<br>ZINNIA: Something like this can only exist as a reflection of its environment. 
-<br>IOANNA: This is an avenue worth exploring.
-<br>IOANNA: Do you remember where we found it?
+<br><b>PART TWO:</b>
+<br><i>Record 3024: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you think we can play these?
+<br><color=#34c3e3>IOANNA:</color> I want to try. 
+<br><color=#7fc56d>ZINNIA:</color> I wonder how much of it is even composed of organic elements. 
+<br><color=#7fc56d>ZINNIA:</color> Something like this can only exist as a reflection of its environment. 
+<br><color=#34c3e3>IOANNA:</color> This is an avenue worth exploring.
+<br><color=#34c3e3>IOANNA:</color> Do you remember where we found it?
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 3025: Play.
-<br>ZINNIA: I’d never expected this. 
-<br>IOANNA: It sounds…
-<br>IOANNA: Peaceful? Soft?
-<br>IOANNA: I never knew the world could be this soft.
-<br>ZINNIA: An artifact of what was.  
+<br><b>PART THREE:</b>
+<br><i>Record 3025: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> I’d never expected this. 
+<br><color=#34c3e3>IOANNA:</color> It sounds…
+<br><color=#34c3e3>IOANNA:</color> Peaceful? Soft?
+<br><color=#34c3e3>IOANNA:</color> I never knew the world could be this soft.
+<br><color=#7fc56d>ZINNIA:</color> An artifact of what was.  
 
 # PrayerBeads
 Prayer Beads | Item | 
-<b>ITEM DESCRIPTION:/<b> Various prayer beads that come together in one beautiful chain. Its weight feels right against your palm. 
+<b>ITEM DESCRIPTION:</b> Various prayer beads that come together in one beautiful chain. Its weight feels right against your palm. 
 <br>
-<br><b>PART ONE:/<b> 
-<br>Record 0253: Play.
-<br>IOANNA: You look. Really at peace. 
-<br>ZINNIA: The weight’s nice. Familiar. 
-<br>IOANNA: Are you a religious person?
-<br>ZINNIA: I think we’re all driven by something.
-<br>ZINNIA: Sometimes they call that faith. 
+<br><b>PART ONE:</b> 
+<br><i>Record 0253: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> You look. Really at peace. 
+<br><color=#7fc56d>ZINNIA:</color> The weight’s nice. Familiar. 
+<br><color=#34c3e3>IOANNA:</color> Are you a religious person?
+<br><color=#7fc56d>ZINNIA:</color> I think we’re all driven by something.
+<br><color=#7fc56d>ZINNIA:</color> Sometimes they call that faith. 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 0254: Play.
-<br>ZINNIA: What are you doing?
-<br>IOANNA: …I’m trying to find my zen. 
-<br>ZINNIA: A lame attempt at prayer?
-<br>IOANNA: It has been said that imitation is the sincerest form of flattery.
-<br>ZINNIA: This makes for a poor imitation.
-<br>ZINNIA: …and a poorer show of flattery.
+<br><b>PART TWO:</b>
+<br><i>Record 0254: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> What are you doing?
+<br><color=#34c3e3>IOANNA:</color> …I’m trying to find my zen. 
+<br><color=#7fc56d>ZINNIA:</color> A lame attempt at prayer?
+<br><color=#34c3e3>IOANNA:</color> It has been said that imitation is the sincerest form of flattery.
+<br><color=#7fc56d>ZINNIA:</color> This makes for a poor imitation.
+<br><color=#7fc56d>ZINNIA:</color> …and a poorer show of flattery.
 <br>
-<br><b>PART THREE:/<b> 
+<br><b>PART THREE:</b> 
 <br>Record 0255 Play.
-<br>ZINNIA: Over here. I’ll teach you. 
-<br>IOANNA: Oh?
-<br>ZINNIA: It’s the 33-33-34 method, usually these chains contain a hundred beads. 
-<br>IOANNA: I see. Would it total to a hundred invocations?
-<br>IOANNA: …What are yours?
-<br>ZINNIA: Peace, health, and a fuckload of credits. 
-<br>IOANNA: What a load of bull.
-<br>ZINNIA: Don’t pout.
-<br>ZINNIA: It is important to keep your desires close to your heart. 
-<br>ZINNIA: It strengthens your resolve. 
+<br><color=#7fc56d>ZINNIA:</color> Over here. I’ll teach you. 
+<br><color=#34c3e3>IOANNA:</color> Oh?
+<br><color=#7fc56d>ZINNIA:</color> It’s the 33-33-34 method, usually these chains contain a hundred beads. 
+<br><color=#34c3e3>IOANNA:</color> I see. Would it total to a hundred invocations?
+<br><color=#34c3e3>IOANNA:</color> …What are yours?
+<br><color=#7fc56d>ZINNIA:</color> Peace, health, and a fuckload of credits. 
+<br><color=#34c3e3>IOANNA:</color> What a load of bull.
+<br><color=#7fc56d>ZINNIA:</color> Don’t pout.
+<br><color=#7fc56d>ZINNIA:</color> It is important to keep your desires close to your heart. 
+<br><color=#7fc56d>ZINNIA:</color> It strengthens your resolve. 
 
 # GiantGear
 Giant Gear | Item | 
-<b>ITEM DESCRIPTION:/<b> Just another cog in the machine. You feel an odd sort of kinship to it.  
+<b>ITEM DESCRIPTION:</b> Just another cog in the machine. You feel an odd sort of kinship to it.  
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 7452: Play.
-<br>IOANNA: For all the talk about using drones to lift things, you’re carrying it?
-<br>ZINNIA: It’s fine. 
-<br>IOANNA: It’s rusty.
-<br>ZINNIA: Just making sure we’ve tagged it properly
-<br>IOANNA: Coding really is insufferable about that sort of thing.
+<br><b>PART ONE:</b>
+<br><i>Record 7452: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> For all the talk about using drones to lift things, you’re carrying it?
+<br><color=#7fc56d>ZINNIA:</color> It’s fine. 
+<br><color=#34c3e3>IOANNA:</color> It’s rusty.
+<br><color=#7fc56d>ZINNIA:</color> Just making sure we’ve tagged it properly
+<br><color=#34c3e3>IOANNA:</color> Coding really is insufferable about that sort of thing.
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 7453: Play.
-<br>IOANNA: You cannot still be contemplating this gear.
-<br>ZINNIA: I’m not. 
-<br>IOANNA: It’s not…that exciting.
-<br>ZINNIA: It really is the perfect piece of trash. 
+<br><b>PART TWO:</b>
+<br><i>Record 7453: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> You cannot still be contemplating this gear.
+<br><color=#7fc56d>ZINNIA:</color> I’m not. 
+<br><color=#34c3e3>IOANNA:</color> It’s not…that exciting.
+<br><color=#7fc56d>ZINNIA:</color> It really is the perfect piece of trash. 
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 7454: Play.
-<br>ZINNIA: Logging in data to send back to base? 
-<br>IOANNA: Yeah. Thanks for tagging it.
-<br>ZINNIA: I couldn’t get your hands dirty. 
-<br>IOANNA: You couldn’t let your calluses get soft. 
-<br>IOANNA: I like them rough. 
-<br>ZINNIA: Hrk…hack…
-<br>ZINNIA: Pardon?
+<br><b>PART THREE:</b>
+<br><i>Record 7454: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Logging in data to send back to base? 
+<br><color=#34c3e3>IOANNA:</color> Yeah. Thanks for tagging it.
+<br><color=#7fc56d>ZINNIA:</color> I couldn’t get your hands dirty. 
+<br><color=#34c3e3>IOANNA:</color> You couldn’t let your calluses get soft. 
+<br><color=#34c3e3>IOANNA:</color> I like them rough. 
+<br><color=#7fc56d>ZINNIA:</color> Hrk…hack…
+<br><color=#7fc56d>ZINNIA:</color> Pardon?
 
 # Synthesizer
 Synthesizer | Item | 
-<b>ITEM DESCRIPTION:/<b> It’s some sort of device. The Prophet-5. A synthesizer.
+<b>ITEM DESCRIPTION:</b> It’s some sort of device. The Prophet-5. A synthesizer.
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 7968: Play.
-<br>IOANNA: Phew…
-<br>IOANNA: A Prophet-5?
-<br>ZINNIA: Naming things now? I never took you for a loghead. 
-<br>IOANNA: Ignoring that.  
-<br>IOANNA: Rich, coming from the person so at home in the analog. 
+<br><b>PART ONE:</b>
+<br><i>Record 7968: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Phew…
+<br><color=#34c3e3>IOANNA:</color> A Prophet-5?
+<br><color=#7fc56d>ZINNIA:</color> Naming things now? I never took you for a loghead. 
+<br><color=#34c3e3>IOANNA:</color> Ignoring that.  
+<br><color=#34c3e3>IOANNA:</color> Rich, coming from the person so at home in the analog. 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 7969: Play.
-<br>ZINNIA: …
-<br>ZINNIA: Mmm...
-<br>ZINNIA: Mmhmm~
-<br>ZINNIA: …!!
-<br>ZINNIA: I didn’t realize you were here.
-<br>IOANNA: Is that a problem?
+<br><b>PART TWO:</b>
+<br><i>Record 7969: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Mmm...
+<br><color=#7fc56d>ZINNIA:</color> Mmhmm~
+<br><color=#7fc56d>ZINNIA:</color> …!!
+<br><color=#7fc56d>ZINNIA:</color> I didn’t realize you were here.
+<br><color=#34c3e3>IOANNA:</color> Is that a problem?
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 7970: Play.
-<br>IOANNA: We’re hooked up to the ship now?
-<br>ZINNIA: Are you going to report me for that? 
-<br>IOANNA: For some reason, I don’t think that’s ever stopped you before. 
-<br>IOANNA: It sounds nice though. Your music.
-<br>ZINNIA: …
-<br>ZINNIA: Thanks.  
+<br><b>PART THREE:</b>
+<br><i>Record 7970: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> We’re hooked up to the ship now?
+<br><color=#7fc56d>ZINNIA:</color> Are you going to report me for that? 
+<br><color=#34c3e3>IOANNA:</color> For some reason, I don’t think that’s ever stopped you before. 
+<br><color=#34c3e3>IOANNA:</color> It sounds nice though. Your music.
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Thanks.  
 
 # Phones
 Old Phones | Item | 
-<br><b>ITEM DESCRIPTION:/<b> A collection of phones. Together all the phones and comms look like they’ve taken the shape of an angel. You find yourself comforted by the catch. 
+<b>ITEM DESCRIPTION:</b> A collection of phones. Together all the phones and comms look like they’ve taken the shape of an angel. You find yourself comforted by the catch. 
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 0354: Play.
-<br>IOANNA: They all look like they all belong to a different time period.
-<br>ZINNIA: Yeah, discarded waste through the years. 
-<br>ZINNIA: Real vintage. 
-<br>ZINNIA: Shame they’re bricked. Some things are really damned never to be heard from again. 
+<br><b>PART ONE:</b>
+<br><i>Record 0354: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> They all look like they all belong to a different time period.
+<br><color=#7fc56d>ZINNIA:</color> Yeah, discarded waste through the years. 
+<br><color=#7fc56d>ZINNIA:</color> Real vintage. 
+<br><color=#7fc56d>ZINNIA:</color> Shame they’re bricked. Some things are really damned never to be heard from again. 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 0355: Play.
-<br>IOANNA: Do you like old tech?
-<br>ZINNIA: Do you?
-<br>IOANNA: Mm.
-<br>IOANNA: It was trendy, sometimes. 
-<br>IOANNA: Not that I could afford it. 
-<br>IOANNA: Resale is still the cruelest enterprise in the world.
-<br>ZINNIA: …things were simpler then. 
-<br>ZINNIA: Less cookie cutter, distinct. 
-<br>ZINNIA: You’re rarely gonna see the same models in this collection. 
-<br>ZINNIA: A school of cells like these, now that’s a sight. 
+<br><b>PART TWO:</b>
+<br><i>Record 0355: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Do you like old tech?
+<br><color=#7fc56d>ZINNIA:</color> Do you?
+<br><color=#34c3e3>IOANNA:</color> Mm.
+<br><color=#34c3e3>IOANNA:</color> It was trendy, sometimes. 
+<br><color=#34c3e3>IOANNA:</color> Not that I could afford it. 
+<br><color=#34c3e3>IOANNA:</color> Resale is still the cruelest enterprise in the world.
+<br><color=#7fc56d>ZINNIA:</color> …things were simpler then. 
+<br><color=#7fc56d>ZINNIA:</color> Less cookie cutter, distinct. 
+<br><color=#7fc56d>ZINNIA:</color> You’re rarely gonna see the same models in this collection. 
+<br><color=#7fc56d>ZINNIA:</color> A school of cells like these, now that’s a sight. 
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 0356: Play.
-<br>ZINNIA: Do you have anyone to call back home? 
-<br>IOANNA: If you wanted to know if I was single, all you had to do was ask. 
-<br>ZINNIA: Hah!
-<br>ZINNIA: As if it’s hard to figure out that you’re perpetually single. 
-<br>IOANNA: …
-<br>IOANNA: You can be awfully rude sometimes.
+<br><b>PART THREE:</b>
+<br><i>Record 0356: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Do you have anyone to call back home? 
+<br><color=#34c3e3>IOANNA:</color> If you wanted to know if I was single, all you had to do was ask. 
+<br><color=#7fc56d>ZINNIA:</color> Hah!
+<br><color=#7fc56d>ZINNIA:</color> As if it’s hard to figure out that you’re perpetually single. 
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> You can be awfully rude sometimes.
 
 # OldSatelliteDisks
 Old Satellite Disks | Item | 
-The way they resemble pothos is beautiful. It makes you yearn for the sun.  
+<b>ITEM DESCRIPTION:</b> The way they resemble pothos is beautiful. It makes you yearn for the sun.  
 <br>
-<br><b>PART ONE:/<b>
+<br><b>PART ONE:</b>
 <br>Record 4035: Play.
-<br>IOANNA: Are these…? 
-<br>ZINNIA: …
-<br>IOANNA: Orgo? Organic?
-<br>ZINNIA: The planet has a way of reclaiming us all. 
-<br>IOANNA: Is it creeping you out? 
-<br>ZINNIA: It looks like it’s creeping you out. 
-<br>IOANNA: Can we even turn this in?
-<br>IOANNA: …should we shove it out the airlock vent?
+<br><color=#34c3e3>IOANNA:</color> Are these…? 
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Orgo? Organic?
+<br><color=#7fc56d>ZINNIA:</color> The planet has a way of reclaiming us all. 
+<br><color=#34c3e3>IOANNA:</color> Is it creeping you out? 
+<br><color=#7fc56d>ZINNIA:</color> It looks like it’s creeping you out. 
+<br><color=#34c3e3>IOANNA:</color> Can we even turn this in?
+<br><color=#34c3e3>IOANNA:</color> …should we shove it out the airlock vent?
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 4036: Play.
-<br>IOANNA: Is that a…sun lamp?
-<br>ZINNIA: It’s cute, isn’t it?
-<br>IOANNA: It’s a-alive? 
-<br>ZINNIA: It can still burn, if that’s what you are worried about. 
-<br>IOANNA: …mmm.
-<br>IOANNA: It’s a bit cruel, isn’t it? 
-<br>ZINNIA: A bleeding heart that's pragmatic. Cute. 
-<br>ZINNIA: Kind, even. 
-<br>ZINNIA: Don’t you think it still deserves dignity? 
-<br>IOANNA: …now who’s a bleeding heart?
+<br><b>PART TWO:</b>
+<br><i>Record 4036: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Is that a…sun lamp?
+<br><color=#7fc56d>ZINNIA:</color> It’s cute, isn’t it?
+<br><color=#34c3e3>IOANNA:</color> It’s a-alive? 
+<br><color=#7fc56d>ZINNIA:</color> It can still burn, if that’s what you are worried about. 
+<br><color=#34c3e3>IOANNA:</color> …mmm.
+<br><color=#34c3e3>IOANNA:</color> It’s a bit cruel, isn’t it? 
+<br><color=#7fc56d>ZINNIA:</color> A bleeding heart that's pragmatic. Cute. 
+<br><color=#7fc56d>ZINNIA:</color> Kind, even. 
+<br><color=#7fc56d>ZINNIA:</color> Don’t you think it still deserves dignity? 
+<br><color=#34c3e3>IOANNA:</color> …now who’s a bleeding heart?
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 4036: Play.
-<br>IOANNA: Sun lamps…
-<br>ZINNIA: So formal.
-<br>IOANNA: I’ve been thinking.
-<br>IOANNA: It’s not really the light, is it?
-<br>IOANNA: They also react to sound and energy?
-<br>ZINNIA: Yeah. Receiver type. 
-<br>ZINNIA: They love a good conversation.  
-<br>ZINNIA: The lights help, though. 
-<br>IOANNA: Hmm.
-<br>IOANNA: Maybe…it’s the transformative power of a great catch. 
-<br>IOANNA: Do you think they can bloom into something worth more?
-<br>ZINNIA: …
+<br><b>PART THREE:</b>
+<br><i>Record 4036: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Sun lamps…
+<br><color=#7fc56d>ZINNIA:</color> So formal.
+<br><color=#34c3e3>IOANNA:</color> I’ve been thinking.
+<br><color=#34c3e3>IOANNA:</color> It’s not really the light, is it?
+<br><color=#34c3e3>IOANNA:</color> They also react to sound and energy?
+<br><color=#7fc56d>ZINNIA:</color> Yeah. Receiver type. 
+<br><color=#7fc56d>ZINNIA:</color> They love a good conversation.  
+<br><color=#7fc56d>ZINNIA:</color> The lights help, though. 
+<br><color=#34c3e3>IOANNA:</color> Hmm.
+<br><color=#34c3e3>IOANNA:</color> Maybe…it’s the transformative power of a great catch. 
+<br><color=#34c3e3>IOANNA:</color> Do you think they can bloom into something worth more?
+<br><color=#7fc56d>ZINNIA:</color> …
 
 # DevotionalOil
 Devotional Oil | Item | 
-<b>ITEM DESCRIPTION:/<b> Some sort of oil, there is grease to the touch. Easily flammable. An interesting thing to fish from the bottom of water. You can’t quite make out its label, but the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
+<b>ITEM DESCRIPTION:</b> Some sort of oil, there is grease to the touch. Easily flammable. An interesting thing to fish from the bottom of water. You can’t quite make out its label, but the words all but worn out and faded from time. The bottle still feels heavy in your hands. 
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 1543: Play.
-<br>ZINNIA: Be careful with that!
-<br>IOANNA: …!!!!
-<br>IOANNA: Don’t startle me! I almost dropped it!
-<br>ZINNIA: I should carry that for now. It’s way too flammable for your hands. 
-<br>IOANNA: Whose fault is that?
+<br><b>PART ONE:</b>
+<br><i>Record 1543: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Be careful with that!
+<br><color=#34c3e3>IOANNA:</color> …!!!!
+<br><color=#34c3e3>IOANNA:</color> Don’t startle me! I almost dropped it!
+<br><color=#7fc56d>ZINNIA:</color> I should carry that for now. It’s way too flammable for your hands. 
+<br><color=#34c3e3>IOANNA:</color> Whose fault is that?
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 1544: Play.
-<br>IOANNA: You said the whole area was full of drill sites? 
-<br>ZINNIA: A lot of planets burned to make pretty little bottles like these. 
-<br>ZINNIA: It’s a boon to find one of these things out here. 
-<br>ZINNIA: The people here loved their rites.
-<br>ZINNIA: Lighting up flares that could be seen from space.
+<br><b>PART TWO:</b>
+<br><i>Record 1544: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> You said the whole area was full of drill sites? 
+<br><color=#7fc56d>ZINNIA:</color> A lot of planets burned to make pretty little bottles like these. 
+<br><color=#7fc56d>ZINNIA:</color> It’s a boon to find one of these things out here. 
+<br><color=#7fc56d>ZINNIA:</color> The people here loved their rites.
+<br><color=#7fc56d>ZINNIA:</color> Lighting up flares that could be seen from space.
 <br> 
-<br><b>PART THREE:/<b>
-<br>Record 1545: Play.
-<br>IOANNA: Fuck it. 
-<br>IOANNA: Should we make an altar? Light a bonfire?
-<br>IOANNA: I can see your lips twitch.  
-<br>IOANNA: You wanna watch the world burn with me sooo bad.
-<br>IOANNA: Let’s throw those blessings up to the sky!
-<br>ZINNIA: Put the bottle down, Ioanna. 
-<br>ZINNIA: …You’re all talk anyways. 
+<br><b>PART THREE:</b>
+<br><i>Record 1545: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Fuck it. 
+<br><color=#34c3e3>IOANNA:</color> Should we make an altar? Light a bonfire?
+<br><color=#34c3e3>IOANNA:</color> I can see your lips twitch.  
+<br><color=#34c3e3>IOANNA:</color> You wanna watch the world burn with me sooo bad.
+<br><color=#34c3e3>IOANNA:</color> Let’s throw those blessings up to the sky!
+<br><color=#7fc56d>ZINNIA:</color> Put the bottle down, Ioanna. 
+<br><color=#7fc56d>ZINNIA:</color> …You’re all talk anyways. 
 
 # BrokenController
 Broken Controller | Item | 
-<b>ITEM DESCRIPTION:/<b> It’s a broken controller. You think it was used for music. Maybe some sick warehouse raves.
+<b>ITEM DESCRIPTION:</b> It’s a broken controller. You think it was used for music. Maybe some sick warehouse raves.
 <br> 
-<br><b>PART ONE:/<b>
-<br>Record 3949: Play.
-<br>ZINNIA: M~mm.
-<br>ZINNIA: …
-<br>ZINNIA: …
-<br>IOANNA: You’ve been fiddling with that for a while. 
-<br>ZINNIA: I didn’t realize you were here. 
-<br>ZINNIA: I just. I’m trying to see if I can save it. 
-<br>IOANNA: Save? 
+<br><b>PART ONE:</b>
+<br><i>Record 3949: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> M~mm.
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> You’ve been fiddling with that for a while. 
+<br><color=#7fc56d>ZINNIA:</color> I didn’t realize you were here. 
+<br><color=#7fc56d>ZINNIA:</color> I just. I’m trying to see if I can save it. 
+<br><color=#34c3e3>IOANNA:</color> Save? 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 3950: Play.
-<br>IOANNA: You haven’t given up?
-<br>ZINNIA: Does it matter? 
-<br>IOANNA: I’ve just. Never seen you so transfixed on something. 
-<br>ZINNIA: It’s just.
-<br>ZINNIA: Nostalgic, I guess. 
-<br>ZINNIA: …
+<br><b>PART TWO:</b>
+<br><i>Record 3950: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> You haven’t given up?
+<br><color=#7fc56d>ZINNIA:</color> Does it matter? 
+<br><color=#34c3e3>IOANNA:</color> I’ve just. Never seen you so transfixed on something. 
+<br><color=#7fc56d>ZINNIA:</color> It’s just.
+<br><color=#7fc56d>ZINNIA:</color> Nostalgic, I guess. 
+<br><color=#7fc56d>ZINNIA:</color> …
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 3951: Play.
-<br>IOANNA: You’ve been sitting there for a while. 
-<br>ZINNIA: …!
-<br>ZINNIA: Oh. I guess so yeah. 
-<br>IOANNA: Shower’s open for you, too. 
-<br>IOANNA: Still not working?
-<br>ZINNIA: No shit.  
-<br>IOANNA: Oh?
-<br>ZINNIA: …Sorry. I just. 
-<br>ZINNIA: It was silly of me.
-<br>ZINNIA: …
-<br>ZINNIA: Gonna wash up. You should get some rest.  
+<br><b>PART THREE:</b>
+<br><i>Record 3951: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> You’ve been sitting there for a while. 
+<br><color=#7fc56d>ZINNIA:</color> …!
+<br><color=#7fc56d>ZINNIA:</color> Oh. I guess so yeah. 
+<br><color=#34c3e3>IOANNA:</color> Shower’s open for you, too. 
+<br><color=#34c3e3>IOANNA:</color> Still not working?
+<br><color=#7fc56d>ZINNIA:</color> No shit.  
+<br><color=#34c3e3>IOANNA:</color> Oh?
+<br><color=#7fc56d>ZINNIA:</color> …Sorry. I just. 
+<br><color=#7fc56d>ZINNIA:</color> It was silly of me.
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Gonna wash up. You should get some rest.  
 
 # OldEarthenware
 Old Earthenware | Item |  
-<br><b>ITEM DESCRIPTION:/<b> In a world full of devices built from machines. This looks special. This looks worthless. This looks entirely made from hand.
+<br><b>ITEM DESCRIPTION:</b> In a world full of devices built from machines. This looks special. This looks worthless. This looks entirely made from hand.
 <br> 
-<br><b>PART ONE:/<b>
-<br>Record 5010: Play.
-<br>ZINNIA: I don’t think we can turn this one in. 
-<br>ZINNIA: There’s nothing synthetic about them. It’s all clay.
-<br>IOANNA: What? 
-<br>IOANNA: Who says I am turning this in? 
-<br>IOANNA: This sort of specimen is top tier.
-<br>IOANNA: It would make the ship feel more at home.
-<br>ZINNIA: Hah, since when--
-<br>IOANNA: Something like…“Honey, I’m home?”
-<br>ZINNIA: We are not, anything close to-- 
-<br>IOANNA: You don’t want to play house?
+<br><b>PART ONE:</b>
+<br><i>Record 5010: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> I don’t think we can turn this one in. 
+<br><color=#7fc56d>ZINNIA:</color> There’s nothing synthetic about them. It’s all clay.
+<br><color=#34c3e3>IOANNA:</color> What? 
+<br><color=#34c3e3>IOANNA:</color> Who says I am turning this in? 
+<br><color=#34c3e3>IOANNA:</color> This sort of specimen is top tier.
+<br><color=#34c3e3>IOANNA:</color> It would make the ship feel more at home.
+<br><color=#7fc56d>ZINNIA:</color> Hah, since when--
+<br><color=#34c3e3>IOANNA:</color> Something like…“Honey, I’m home?”
+<br><color=#7fc56d>ZINNIA:</color> We are not, anything close to-- 
+<br><color=#34c3e3>IOANNA:</color> You don’t want to play house?
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 5011: Play.
-<br>ZINNIA: Are you feeling more at home?
-<br>IOANNA: I’m lounging, aren’t I? 
-<br>ZINNIA: …They’ll take note of it in the report logs. 
-<br>IOANNA: Not if they are doctored. You should try it. 
-<br>ZINNIA: Letting loose?
-<br>ZINNIA: Last time I tried that, they demoted me
-<br>IOANNA: …
-<br>IOANNA: You can’t go any lower. 
-<br>ZINNIA: …
-<br>ZINNIA: …
-<br>ZINNIA: Move over.
+<br><b>PART TWO:</b>
+<br><i>Record 5011: Play.</i><br>
+<br><color=#7fc56d>ZINNIA:</color> Are you feeling more at home?
+<br><color=#34c3e3>IOANNA:</color> I’m lounging, aren’t I? 
+<br><color=#7fc56d>ZINNIA:</color> …They’ll take note of it in the report logs. 
+<br><color=#34c3e3>IOANNA:</color> Not if they are doctored. You should try it. 
+<br><color=#7fc56d>ZINNIA:</color> Letting loose?
+<br><color=#7fc56d>ZINNIA:</color> Last time I tried that, they demoted me
+<br><color=#34c3e3>IOANNA:</color> …
+<br><color=#34c3e3>IOANNA:</color> You can’t go any lower. 
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Move over.
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 5012: Play.
-<br>IOANNA: When you aren’t on the ship, what do you do?
-<br>ZINNIA: I think you saw what I did. 
-<br>IOANNA: Parade around like a good dog?
-<br>ZINNIA: …
-<br>IOANNA: What did you do after hours?
-<br>ZINNIA: …
-<br>ZINNIA: Like any bad dog, I acted out. 
+<br><b>PART THREE:</b>
+<br><i>Record 5012: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> When you aren’t on the ship, what do you do?
+<br><color=#7fc56d>ZINNIA:</color> I think you saw what I did. 
+<br><color=#34c3e3>IOANNA:</color> Parade around like a good dog?
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> What did you do after hours?
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Like any bad dog, I acted out. 
 
 
 # Phonograph
 Phonograph | Item | 
-<b>ITEM DESCRIPTION:/<b> A record player. Classic. 
+<b>ITEM DESCRIPTION:</b> A record player. Classic. 
 <br>
-<br><b>PART ONE:/<b>
-<br>Record 0206: Play.
-<br>IOANNA: Is it comfortable? 
-<br>ZINNIA: Yeah. I like this song. 
-<br>ZINNIA: I like your lap better. 
-<br>IOANNA: And I like you tamed--ow!
-<br>ZINNIA: …
-<br>IOANNA: Even with your bite. 
+<br><b>PART ONE:</b>
+<br><i>Record 0206: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> Is it comfortable? 
+<br><color=#7fc56d>ZINNIA:</color> Yeah. I like this song. 
+<br><color=#7fc56d>ZINNIA:</color> I like your lap better. 
+<br><color=#34c3e3>IOANNA:</color> And I like you tamed--ow!
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Even with your bite. 
 <br>
-<br><b>PART TWO:/<b>
-<br>Record 0207: Play. 
-<br>ZINNIA: Hmm..
-<br>IOANNA: Sorting through the track list again?
-<br>ZINNIA: Mmm. This doesn’t feel right either, right now.  
-<br>IOANNA: We can always collect more sounds. 
-<br>IOANNA: Make them too. 
-<br>IOANNA: We have a message to spread, don’t we?
+<br><b>PART TWO:</b>
+<br><i>Record 0207: Play.</i><br> 
+<br><color=#7fc56d>ZINNIA:</color> Hmm..
+<br><color=#34c3e3>IOANNA:</color> Sorting through the track list again?
+<br><color=#7fc56d>ZINNIA:</color> Mmm. This doesn’t feel right either, right now.  
+<br><color=#34c3e3>IOANNA:</color> We can always collect more sounds. 
+<br><color=#34c3e3>IOANNA:</color> Make them too. 
+<br><color=#34c3e3>IOANNA:</color> We have a message to spread, don’t we?
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 0208: Play.
-<br>IOANNA: What’s it like being a free man, number one?
-<br>ZINNIA: You haven’t called me that in a long time. 
-<br>IOANNA: Just feelin’ nostalgic today. 
-<br>ZINNIA: …
-<br>ZINNIA: Like I can finally breathe, and not inhale ash.  
+<br><b>PART THREE:</b>
+<br><i>Record 0208: Play.</i><br>
+<br><color=#34c3e3>IOANNA:</color> What’s it like being a free man, number one?
+<br><color=#7fc56d>ZINNIA:</color> You haven’t called me that in a long time. 
+<br><color=#34c3e3>IOANNA:</color> Just feelin’ nostalgic today. 
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#7fc56d>ZINNIA:</color> Like I can finally breathe, and not inhale ash.  
 
 # Omnichord
 Omnichord | Items |
-<b>ITEM DESCRIPTION:/<b> Ancient angels have harps, but modern ones have omnichords. Building a place of worship isn’t easy, but somehow. You’ve managed.
+<b>ITEM DESCRIPTION:</b> Ancient angels have harps, but modern ones have omnichords. Building a place of worship isn’t easy, but somehow. You’ve managed.
 <br> 
-<br><b>PART ONE:/<b>
-<br>Record 4454: Play. 
-<br>ZINNIA: You’re so off key it’s embarrassing. 
-<br>IOANNA: Can you just let me vibe? 
-<br>ZINNIA: I mean. It’s not bad. Just--
-<br>IOANNA: Embarrassing.
-<br>ZINNIA: You don’t have to pout about it.
+<br><b>PART ONE:</b>
+<br><i>Record 4454: Play.</i><br> 
+<br><color=#7fc56d>ZINNIA:</color> You’re so off key it’s embarrassing. 
+<br><color=#34c3e3>IOANNA:</color> Can you just let me vibe? 
+<br><color=#7fc56d>ZINNIA:</color> I mean. It’s not bad. Just--
+<br><color=#34c3e3>IOANNA:</color> Embarrassing.
+<br><color=#7fc56d>ZINNIA:</color> You don’t have to pout about it.
 <br>  
-<br><b>PART TWO:/<b>
-<br>Record 4455: Play. 
-<br>IOANNA: It’s time to begin the rites.
-<br>ZINNIA: It’s just the two of us for now.
-<br>IOANNA: Lonely, isn’t it?
-<br>ZINNIA: One day, we’ll miss this.
-<br>ZINNIA: Having the entire world to ourselves.
-<br>IOANNA: Let’s do our best to enjoy it, then.
+<br><b>PART TWO:</b>
+<br><i>Record 4455: Play.</i><br> 
+<br><color=#34c3e3>IOANNA:</color> It’s time to begin the rites.
+<br><color=#7fc56d>ZINNIA:</color> It’s just the two of us for now.
+<br><color=#34c3e3>IOANNA:</color> Lonely, isn’t it?
+<br><color=#7fc56d>ZINNIA:</color> One day, we’ll miss this.
+<br><color=#7fc56d>ZINNIA:</color> Having the entire world to ourselves.
+<br><color=#34c3e3>IOANNA:</color> Let’s do our best to enjoy it, then.
 <br>
-<br><b>PART THREE:/<b>
-<br>Record 4456: Play. 
-<br>IOANNA: Sometimes you look at me like you want to hurt me. 
-<br>ZINNIA: I’d pluck your heart out if I could. 
-<br>ZINNIA: Wear you like a cloak. Until your skin merged into my own.
-<br>IOANNA: I think they call this love.
-<br>ZINNIA: What else could it be? 
+<br><b>PART THREE:</b>
+<br><i>Record 4456: Play.</i><br> 
+<br><color=#34c3e3>IOANNA:</color> Sometimes you look at me like you want to hurt me. 
+<br><color=#7fc56d>ZINNIA:</color> I’d pluck your heart out if I could. 
+<br><color=#7fc56d>ZINNIA:</color> Wear you like a cloak. Until your skin merged into my own.
+<br><color=#34c3e3>IOANNA:</color> I think they call this love.
+<br><color=#7fc56d>ZINNIA:</color> What else could it be? 
 
 # Chains
 Pair Of Chains | Item |
-<b>ITEM DESCRIPTION:/<b> You know just the pair of hands for these.
+<b>ITEM DESCRIPTION:</b> You know just the pair of hands for these.
 <br>
-<br>Record 9999: Play. 
-<br>IOANNA: Don’t look at me like that. 
-<br>IOANNA: Sulking. Pathetic. 
-<br>IOANNA: We’ve transcended your karmic cycle. 
-<br>IOANNA: Rinse and repeat, rinse and repeat, rise, burn and die over and over again. 
-<br>IOANNA: You aren’t the company’s dog anymore. 
-<br>ZINNIA: …
-<br>IOANNA: Our bond can change the world. 
-<br>ZINNIA: …
-<br>IOANNA: And my love can change you.
+<br><i>Record 9999: Play.</i><br> 
+<br><color=#34c3e3>IOANNA:</color> Don’t look at me like that. 
+<br><color=#34c3e3>IOANNA:</color> Sulking. Pathetic. 
+<br><color=#34c3e3>IOANNA:</color> We’ve transcended your karmic cycle. 
+<br><color=#34c3e3>IOANNA:</color> Rinse and repeat, rinse and repeat, rise, burn and die over and over again. 
+<br><color=#34c3e3>IOANNA:</color> You aren’t the company’s dog anymore. 
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> Our bond can change the world. 
+<br><color=#7fc56d>ZINNIA:</color> …
+<br><color=#34c3e3>IOANNA:</color> And my love can change you.
 
 # Zinnia
 ZINNIA | Person of Interest |  
