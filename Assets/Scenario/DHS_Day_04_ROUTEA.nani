@@ -121,6 +121,9 @@ You can watch him suffer forever, you think.
     COLLECT THE “CIRCUITBOARD”? 
 
     @choice "YES"
+        @toast "Record unlocked!"
+        @unlock Tips/Circuitboard
+        @set HasCircuitboard=true
         YOU: I got it.
         YOU: See, it’s all contained.
         YOU: So you can stop wagging your tail.

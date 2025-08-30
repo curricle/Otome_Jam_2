@@ -212,7 +212,8 @@ COLLECT THE “ENGINE”?
 @stop
 
 # EngineChosen
-
+@toast "Record unlocked!"
+@unlock Tips/Engine
 @set HasEngine=true
 @set RouteA++
 RAVEN: ?
@@ -253,7 +254,8 @@ COLLECT THE “ACTOR’S BOX”?
 @stop
 
 # ActorsBoxChosen
-
+@toast "Record unlocked!"
+@unlock Tips/ActorsBox
 @set HasActorsBox=true
 @set RouteB++
 
@@ -308,7 +310,8 @@ COLLECT THE “SILVER BULLETS”?
 @stop
 
 # SilverBulletsChosen
-
+@toast "Record unlocked!"
+@unlock Tips/SilverBullets
 @set HasSilverBullets=true
 @set RouteC++
 

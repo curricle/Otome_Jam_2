@@ -422,6 +422,9 @@ RAVEN: Let me give you everything.
 @hidePrinter
 @hide RAVEN
 @choice "ITEM: BROKEN MIRROR"
+    @toast "Record unlocked!"
+    @unlock Tips/BrokenMirror
+    @set HasBrokenMirror=true
     ITEM DESCRIPTION: A handheld mirror. 
 @stop
 

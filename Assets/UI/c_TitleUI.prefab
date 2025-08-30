@@ -2782,7 +2782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TIPS
+  m_text: RECORDS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 584cdf8f8d85c384cabe31584289a284, type: 2}
   m_sharedMaterial: {fileID: -7895669037825194114, guid: 584cdf8f8d85c384cabe31584289a284, type: 2}
@@ -2866,8 +2866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   document: DefaultUI
-  key: TitleMenu.Tips
-  defaultValue: TIPS
+  key: TitleMenu.Records
+  defaultValue: RECORDS
   onValueChanged:
     m_PersistentCalls:
       m_Calls:

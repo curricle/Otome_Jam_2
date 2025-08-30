@@ -66,7 +66,8 @@ COLLECT THE “BROKEN RUDDER”?
 @stop
 
 # BrokenRudderChosen
-
+@toast "Record unlocked!"
+@unlock Tips/BrokenRudder
 @set HasBrokenRudder=true
 @set RouteA++
 
@@ -104,7 +105,8 @@ COLLECT THE “SOLID PROJECTOR”?
 @stop
 
 # SolidProjectorChosen
-
+@toast "Record unlocked!"
+@unlock Tips/SolidProjector
 @set HasSolidProjector=true
 @set RouteB++
 
@@ -153,7 +155,8 @@ COLLECT ““DEAD HEAT””?
 @stop
 
 # DeadHeatChosen
-
+@toast "Record unlocked!"
+@unlock Tips/DeadHeat
 @set HasDeadHeat=true
 @set RouteC++
 

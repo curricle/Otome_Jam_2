@@ -144,6 +144,9 @@ ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
 COLLECT THE “COSTUME JEWELRY”? 
 
 @choice "YES"
+    @toast "Record unlocked!"
+    @unlock Tips/CostumeJewelry
+    @set HasCostumeJewelry=true
     RAVEN.Aloof: That response is a little disappointing.
     RAVEN: If I can be honest with you.
     YOU: It’s the most honest you have been with me ever.
@@ -184,6 +187,9 @@ ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
 COLLECT THE “METEORITE”? 
 
 @choice "YES"
+    @toast "Record unlocked!"
+    @unlock Tips/Meteorite
+    @set HasMeteorite=true
     YOU: Maria. Send for the drones.
     MARIA: Affirmative.
     YOU: Are you going to stay behind, Raven?

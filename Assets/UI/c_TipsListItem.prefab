@@ -263,7 +263,7 @@ MonoBehaviour:
   template: '{N}. {T}'
   normalTemplate: '{I}'
   selectedTemplate: '{I}'
-  unseenTemplate: <color=#77b0ed>{I}
+  unseenTemplate: <color=#578A9F>{I}
   lockedTitle: ???
   button: {fileID: 7871203219781271304}
   selectedIndicator: {fileID: 7928770471720576683}

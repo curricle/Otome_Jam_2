@@ -25,6 +25,8 @@ You have spent enough time, floating in the recesses of deep-space.
 Your mission was simple. Retrieve the prisoner. Bring him back. 
 Execute justice.
 
+@toast "Record unlocked!"
+@unlock Tips/SunEater
 SUNEATER.Silhouette: Surely, that wasn’t too difficult of a project.
 
 You wanted to bite back, say something about time here, how it slips from unprepared fingers.

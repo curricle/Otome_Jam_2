@@ -13,11 +13,18 @@ YOU: I wonder.
 ????: You have the highest numbers of any Recollection Officer in this Department. 
 ????: You make waste management look glamorous.
 YOU: Maria.
+
+@toast "Record unlocked!"
+@unlock Tips/MARIA
+
 MARIA: Am I incorrect in my assessment?
 MARIA: Are the accolades not enough for you?
 
 Maria hums in-between planes of existence. She leans against your shoulder, caressing the hollow of your cheek with a digital thumb. 
-You let her. 
+You let her.
+
+@toast "Record unlocked!"
+@unlock Tips/IOANNA
 
 YOU: I understand that waste management is a vainglorious and ultimately futile ordeal, but I’d really appreciate it if you laid off.
 MARIA: You wound me.
@@ -35,6 +42,9 @@ You turn on your heel and walk away from the incinerator.
 The mission brief is almost immediate. It’s a breath of freshly circulated air in the fake atrium, where you float from one side of the room to another.
 One step forward and three steps back.
 You wave a hand and pull up the documents in your terminal.
+
+@toast "Record unlocked!"
+@unlock Tips/CASTOR
 
 @char CASTOR pos:12,30
 You see your field manager in your peripheral. She’s a little icon, right at the bottom of the screen. 

@@ -240,6 +240,8 @@ COLLECT THE “ACTOR’S BOX”?
 @stop
 
 # ActorsBoxChosen
+@toast "Record unlocked!"
+@unlock Tips/ActorsBox
 @set HasActorsBox=true
 @set Day3Item="actor's box"
 @set RouteB++
@@ -293,7 +295,8 @@ COLLECT THE “SILVER BULLETS”?
 @stop
 
 # SilverBulletsChosen
-
+@toast "Record unlocked!"
+@unlock Tips/SilverBullets
 @set HasSilverBullets=true
 @set Day3Item="silver bullets"
 @set RouteC++

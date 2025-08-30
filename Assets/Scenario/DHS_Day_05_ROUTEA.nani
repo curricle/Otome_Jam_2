@@ -317,7 +317,9 @@ COLLECT THE “BLACK BOX”?
 @stop 
 
 # Yes
-
+@toast "Record unlocked!"
+@unlock Tips/BlackBox
+@set HasBlackBox=true
 Raven complies. He bares his heart to you. All of the circuitry and all of the cruelty and all that remained of Estehelix. 
 You sink into his skin. You dig your hand into the cavity of his chest, and you find what you’re looking for.
 But all he can do is say your name again and again, as he bites down into the leather of your suit. 

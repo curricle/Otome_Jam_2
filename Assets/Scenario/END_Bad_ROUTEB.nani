@@ -68,6 +68,8 @@ She does not reply.
 @back ExecutionChamber
 @bgm ChasingTheSkyline fade:5
 @printer c_Dialogue
+@toast "Record unlocked!"
+@unlock Tips/SunEater
 @char SUNEATER
 ????: Do you have any last words?
 RAVEN.Aloof: I do not.

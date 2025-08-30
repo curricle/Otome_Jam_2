@@ -141,6 +141,9 @@ YOU: Maybe I should rewire you to do so.
 The light flickers in a way that expresses her distaste for the idea. You shelve it for now.
 YOU: It’s one ship for the two of us. 
 YOU: He really can’t do anything.
+
+@toast "Record unlocked!"
+@unlock Tips/RAVEN
 RAVEN.Aloof: ...
 He’s handcuffed to the bed. You took the pilot’s chair for the night.
 YOU: Good morning, Raven.
@@ -420,7 +423,8 @@ COLLECT THE “FUSELAGE”?
 @stop
 
 # FuselageChosen
-
+@toast "Record unlocked!"
+@unlock Tips/Fuselage
 @set HasFuselage=true
 @set RouteA=1
 
@@ -464,7 +468,8 @@ COLLECT THE “FILM REEL”?
 @stop
 
 # FilmReelChosen
-
+@toast "Record unlocked!"
+@unlock Tips/FilmReel
 @set HasFilmReel=true
 @set RouteB=1
 
@@ -511,7 +516,8 @@ COLLECT THE “RUSTED KNIFE”?
 @stop
 
 # RustedKnifeChosen
-
+@toast "Record unlocked!"
+@unlock Tips/FilmReel
 @set HasRustedKnife=true
 @set RouteC=1
 

@@ -149,6 +149,8 @@ YOU: And it’s lights out.
 @bgm AloneDownHere fade:5
 SUNEATER: Hmm?
 SUNEATER: It’s rare to see you here these days.
+@toast "Record unlocked!"
+@unlock Tips/SunEater
 SUNEATER.Silhouette: Ever since they took you out of Waste Management.
 SUNEATER: “The worst performance of the last decade?”
 SUNEATER: “Forced to abort the mission after killing her charge?” 
