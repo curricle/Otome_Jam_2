@@ -13,13 +13,17 @@
 @back Caves_01
 @bgm FrozenEchoes fade:5
 
-YOU: *Achoo!*
+YOU: <i>Achoo!</i>
 Your sneeze echoes through the tunnels. You aren't sure if it's more embarrassing that Zinnia didn't acknowledge it. 
 What does the top get someone like you anyways? Dust allergies?
+@toast "Record unlocked!"
+@unlock Tips/Proxima
 Your coworker, however, seems unperturbed. A one way mission to the planetary systems of Proxima. You've never been here before, but with the way your infamous colleague perked up earlier, it seems like she has. 
 She walks with a comfortable gait, while you push yourself harder so as to not lag behind. 
 YOU: Jeez, this place is like a maze.
 
+@toast "Record unlocked!"
+@unlock Tips/Zinnia
 @char ZINNIA
 ZINNIA: They never assigned you underworlds before? 
 YOU: It's been strictly SURFACES, I can't remember the last time I was underground.
@@ -108,6 +112,8 @@ COLLECT THE “OLD TRANSMITTER?”
 @stop
 
 # transmitterGet
+@toast "Record unlocked!"
+@unlock Tips/Transmitter
 @set AT_RouteA++
 @char ZINNIA
 ZINNIA: Decent find for your first run. 
@@ -145,6 +151,8 @@ COLLECT THE “CEREMONIAL KNIFE?”
 @stop
 
 # knifeGet
+@toast "Record unlocked!"
+@unlock Tips/CeremonialKnife
 @set AT_RouteB++
 ZINNIA: That-
 YOU: Neat, right? 
@@ -176,6 +184,8 @@ COLLECT THE “SCRAP METAL?”
 @stop
 
 # scrapGet
+@toast "Record unlocked!"
+@unlock Tips/ScrapMetal
 @set AT_RouteC++
 ZINNIA: Safe choice. 
 YOU: Odd way to put that. 

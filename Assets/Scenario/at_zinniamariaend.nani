@@ -17,7 +17,8 @@ ITEM DESCRIPTION: Ancient angels have harps, but modern ones have omnichords. Bu
 The beast in your belly is pleased, the god in your heart is overjoyed. 
 
 Your partner can sense it. The higher calling and frequency of the pitch. She’s someone who’s special, too. 
-
+@toast "Record unlocked!"
+@unlock Tips/Omnichord
 @char ZINNIA.PlayerNeutral
 ZINNIA: Come. Let’s go back to the ship. 
 @char ZINNIA.EyesClosedSmiling

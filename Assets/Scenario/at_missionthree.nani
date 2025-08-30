@@ -147,6 +147,8 @@ COLLECT THE “SYNTHESIZER?”
 @stop
 
 # synthGet
+@toast "Record unlocked!"
+@unlock Tips/Synthesizer
 @set HasSynthesizer=true
 @set AT_RouteA++
 @char ZINNIA.SlightSmile
@@ -184,6 +186,8 @@ COLLECT THE “COLLECTION OF PHONES?”
 @stop
 
 # phonesGet
+@toast "Record unlocked!"
+@unlock Tips/Phones
 @set AT_RouteB++
 @set HasPhones=true
 YOU: Help me secure this net, before we head back to the ship.
@@ -215,6 +219,8 @@ COLLECT THE “OLD SATELLITE DISKS?”
 @stop
 
 # satelliteGet
+@toast "Record unlocked!"
+@unlock Tips/OldSatellite
 @set AT_RouteC++
 @set HasOldSatelliteDisks=true
 ZINNIA: Bringing over some local flora for ship decor?

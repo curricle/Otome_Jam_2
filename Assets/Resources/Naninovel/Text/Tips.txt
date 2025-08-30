@@ -740,7 +740,7 @@ THE SUN EATER | Person of Interest |
 <br>“I…thought the Columbine died?” 
 
 # Proxima
-Proxima | Location | PROXIMA, THE PLANETARY SYSTEM THAT STARTED IT ALL. A BARREN LANDSCAPE, ONCE FILLED WITH THE ORIGINAL SPACERS. COLOGOMATE XXX BUILT THE ORIGINAL SPACE COLONIES HERES. 
+Proxima | Location | Proxima, the planetary system that started it all. A barren landscape, once filled with the original spacers. Xyetha Corporation built the original space colonies here. 
 <br>
 <br>Humble in nature, there is nothing glamorous about these colonies. No shiny skyscrapers or towers, this was blue-collared in nature, never blue-blooded in wealth. These colonies were eventually forgotten, its people left to fend for themselves until waste management found the remains. 
 <br>
@@ -1241,3 +1241,54 @@ Pair Of Chains | Item |
 <br>IOANNA: Our bond can change the world. 
 <br>ZINNIA: …
 <br>IOANNA: And my love can change you.
+
+# Zinnia
+ZINNIA | Person of Interest |  
+<br><b>PART ONE:</b>
+<br>
+<br>Zinnia. Real Name: Forgotten, so far in the past it might not even exist 
+<br>
+<br>Aspirational and unattainable. Zinnia lives on a plane far higher than yours, yet you both are on equal footing for the first time. She’s been the company’s poster child for so many years it has branded her to a level of immortality. Golden girl, golden child, even her faults don’t let her fall harshly from grace. She lands safely, back on level one. From Employee of the Year, Galaxy’s Hottest Repo Man to Resident PR Disaster, the sway and influence she holds is undeniable.
+<br>
+<br>You can’t help but get the feeling that she wants to be here. 
+<br>
+<br>In the middle of the sticks. There’s a level of familiarity from how she walks, like she’s endlessly pulled towards a higher calling. She’s in her reconditioning period, and you’re her handler. How far will you let her leash go? She moves as if there is no leash at all, and with a level of authority that makes you forget that you are in charge. 
+<br>
+<br>She’s so silent and commanding in company promotional images, you never expected her to be like this. In a universe that ensures that everything should be burned, she puts a lot of stalk in communication. 
+<br>
+<br>It’s a surprisingly noble outlook. 
+<br>
+<br>But maybe you shouldn’t be surprised that impassioned speeches would come from someone so noble. 
+<br>
+<br><b>PART TWO:</b>
+<br>
+<br>She fixates on sound in ways that's nothing short of fanatical. She tries to be subtle about it, but for such a stoic looking person, subtly isn’t her strong suit. She looks to the world bringing to life the phrase “one person’s trash is another person’s treasure” when the only treasure should be the credits left across the table. 
+<br>
+<br>But she isn’t motivated by silly things like profit. 
+<br>
+<br>She dreams bigger than that. 
+<br>
+<br><b>PART THREE:</b> 
+<br>
+<br>This isn’t her first rodeo. Reconditioning after reconditioning. Zinnia has broken company policy many times, and has always worked her way back up top. It sounds like a masochistic streak, like she’s someone who gets off on never learning her lesson. 
+<br>
+<br>Every iteration leaves her a little bit fuzzier, and it takes a moment for her to slot back into place. It’s never been so clear this early before, this quickly. Not until she met you. 
+<br>
+<br>She’s always had a higher purpose, a noble calling. In the face of watching the world burn, she’s taken a stand again, and again, and again. She’s found music, she’s found joy, she’s found something ancient and attempted to swallow it whole. 
+<br>
+<br>She’s looking to bring it back. 
+<br>
+<br><b>If you wanted a noble call to action, you just had to ask.</b> 
+<br><b>You know I enjoy monologuing. I can’t help preaching to the choir.</b> 
+<br><b>Proxima…it’s a special system. It’s a homecoming. Not that I was raised here, I was raised in a company cage, doomed to be a company pet.</b>
+<br><b>Once you hear the world chime, and the levels turn up and down everything changes. You can be a call to action.</b>
+<br><b>You can make “music.”</b> 
+<br><b>You can do something.</b>
+<br><b>I pressed records. I made samples. I served a higher calling.</b> 
+<br><b>And then the world erased every single soul who could possibly want to listen.</b> 
+<br><b>I was preaching to a graveyard, an underground rave with nothing but ghouls to listen to me mix something powerful.</b>
+<br><b>Even that got trampled on.</b>
+<br><b>Proxima. It’s my awakening. I was built for this land, and I was built for something beyond it. To collect the world's voices, the soundscapes, the remnants of memories, and combine them into something beautiful.</b> 
+<br><b>To remind people of the commandments of this world.</b> 
+<br><b>But I don’t really have to spell it out to you do I?</b>
+<br><b>You’ve always just seemed to know.</b>

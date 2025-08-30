@@ -8,6 +8,8 @@
 @stop
 
 # chains
+@toast "Record unlocked!"
+@unlock Tips/Chains
 ITEM DESCRIPTION: It’s funny. You just might know the right pair of hands for these.
 
 @char ZINNIA.PlayerNeutral

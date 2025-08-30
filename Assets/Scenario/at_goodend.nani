@@ -26,6 +26,8 @@ A record player untouched under the burning sky, among heaps of junk and plastic
 
 Your hands are outstretched towards her. You know without a doubt that she’ll take it. 
 
+@toast "Record unlocked!"
+@unlock Tips/Phonograph
 ZINNIA: Come. Let’s go back to the ship. 
 @char ZINNIA.EyesClosedSmiling
 ZINNIA: There’s something I have to show you. 

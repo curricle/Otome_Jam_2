@@ -105,6 +105,8 @@ COLLECT THE “DEVOTIONAL OIL?”
 @stop
 
 # oilGet
+@toast "Record unlocked!"
+@unlock Tips/DevotionalOil
 @set AT_RouteA++
 @set HasDevotionalOil=true
 ZINNIA: The OA team is gonna appreciate it.   
@@ -145,6 +147,8 @@ COLLECT THE “OLD EARTHENWARE?”
 @stop
 
 # earthenwareGet
+@toast "Record unlocked!"
+@unlock Tips/OldEarthenware
 @set AT_RouteB++
 @set HasOldEarthenware=true
 ZINNIA: You're really bringing this back. 
@@ -176,6 +180,8 @@ COLLECT THE “BROKEN CONTROLLER?”
 @stop
 
 # controllerGet
+@toast "Record unlocked!"
+@unlock Tips/BrokenController
 @set AT_RouteC++
 @set HasBrokenController=true
 YOU: C'mon, we can rig this up and party on the ship.  

@@ -56,6 +56,8 @@ COLLECT THE “OLD VINYL?”
 @stop
 
 # vinylGet
+@toast "Record unlocked!"
+@unlock Tips/OldVinyl
 @set AT_RouteA++
 @set HasOldVinyl=true
 ZINNIA: It's almost like you didn't even try.  
@@ -93,6 +95,8 @@ COLLECT THE “PRAYER BEADS?”
 @stop
 
 # prayerGet
+@toast "Record unlocked!"
+@unlock Tips/PrayerBeads
 @set AT_RouteB++
 @set HasPrayerBeads=true
 YOU: This one just feels right. 
@@ -130,6 +134,8 @@ COLLECT THE “GIANT GEAR?”
 @stop
 
 # gearGet
+@toast "Record unlocked!"
+@unlock Tips/GiantGear
 @set AT_RouteC++
 @set HasGiantGear=true
 YOU: I think we'll need both our droids for this collection. 
