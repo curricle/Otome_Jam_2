@@ -200,8 +200,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: happy cat games
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 584cdf8f8d85c384cabe31584289a284, type: 2}
-  m_sharedMaterial: {fileID: -7895669037825194114, guid: 584cdf8f8d85c384cabe31584289a284, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d2f28886cdaa38042a0cb74936bb13a7, type: 2}
+  m_sharedMaterial: {fileID: -1420015674723934906, guid: d2f28886cdaa38042a0cb74936bb13a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1315,7 +1315,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 471.5251, y: 54.924}
+  m_SizeDelta: {x: 491.4435, y: 54.924}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9096463652418548436
 CanvasRenderer:
@@ -1347,8 +1347,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: happycat-games.itch.io
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5a5da223be1edb84887b02e14312351e, type: 2}
-  m_sharedMaterial: {fileID: -8572479452236383033, guid: 5a5da223be1edb84887b02e14312351e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d2f28886cdaa38042a0cb74936bb13a7, type: 2}
+  m_sharedMaterial: {fileID: -1420015674723934906, guid: d2f28886cdaa38042a0cb74936bb13a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

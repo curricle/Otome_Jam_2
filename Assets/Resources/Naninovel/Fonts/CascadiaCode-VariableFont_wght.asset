@@ -99,7 +99,7 @@ MonoBehaviour:
     atlasHeight: 1024
     characterSetSelectionMode: 1
     characterSequence: 32 - 126, 160 - 255, 8192 - 8303, 8364, 8482, 9633
-    referencedFontAssetGUID: 
+    referencedFontAssetGUID: 584cdf8f8d85c384cabe31584289a284
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0
@@ -5878,18 +5878,18 @@ MonoBehaviour:
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: 5a761fca04bedfa4a96715048a5f896d, type: 2}
+    italicTypeface: {fileID: 11400000, guid: 0ca511e96657d1e4ca4559186f9b38ff, type: 2}
+  - regularTypeface: {fileID: 11400000, guid: 65a0eb93e4076ed499f7eab8dd4a2e2c, type: 2}
+    italicTypeface: {fileID: 11400000, guid: 65c0a6c43da80fc42b4b5e83af501578, type: 2}
   - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
-    italicTypeface: {fileID: 0}
+    italicTypeface: {fileID: 11400000, guid: a49eb9a4c5d672946be14427a1b37315, type: 2}
+  - regularTypeface: {fileID: 11400000, guid: caa02dfb973df0e4390c7415fa243381, type: 2}
+    italicTypeface: {fileID: 11400000, guid: 37873561a9a43f9489138f845a4ad221, type: 2}
+  - regularTypeface: {fileID: 11400000, guid: 87f382915f053194aa81d9117ee346b8, type: 2}
+    italicTypeface: {fileID: 11400000, guid: 49e0e52f530ff334abb94f27bda125f9, type: 2}
+  - regularTypeface: {fileID: 11400000, guid: 224fc5416ba27c74283a6442bc74ac1b, type: 2}
+    italicTypeface: {fileID: 11400000, guid: 15434e4db2b5d3f42a41f914f0c39302, type: 2}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
