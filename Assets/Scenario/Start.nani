@@ -46,7 +46,7 @@ You wave a hand and pull up the documents in your terminal.
 @toast "Record unlocked!"
 @unlock Tips/CASTOR
 
-@char CASTOR pos:12,30
+@char CASTOR pos:15,30
 You see your field manager in your peripheral. She’s a little icon, right at the bottom of the screen. 
 She smiles with all her teeth. 
 Connection, connecting. 
@@ -111,6 +111,7 @@ You let the fake sun sink into your synthskin. You let the world spin on its orb
 
 @back Dossiers
 
+
 The two dossiers look at you with expectant eyes.
 
 @stopBgm
@@ -120,7 +121,7 @@ The two dossiers look at you with expectant eyes.
 
 @back Dossiers_Castor
 
-@char CASTOR pos:12,30
+@char CASTOR pos:15,30
 CASTOR: Sooooo?
 MARIA: That Manager of yours should get fired.
 YOU: It’s…interesting.
