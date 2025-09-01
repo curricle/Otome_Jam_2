@@ -1,0 +1,449 @@
+; DEAD HEAT SUPERNOVA —> POSITION ZERO
+@hidePrinter
+@back black
+@showUI CC_DHS_PositionZero
+@wait i
+
+@hideUI CC_DHS_PositionZero
+@wait i
+
+@printer c_Dialogue
+@back black
+
+The ship is fast.
+That’s your end all, be all analysis. 
+It’s so much faster than you ever thought possible. 
+
+@back FeetOnTheGround
+@bgm WeMayNeverKnow fade:5
+He’s a racer, not a mechanic, the mission report said. 
+He won’t have any way of removing himself from the situation. 
+It’s categorically impossible.
+Recollection only works with what they know.
+You know what they had him do, at the very beginning of his exile.
+
+Destroy the Belladonna. 
+Destroy your livelihood. 
+Die on Estehelix and wait for the vulture to come and pick your bones clean. 
+
+This vulture has ruined Recollection’s best efforts.
+
+@hidePrinter
+@showUI Dossier_R_UPDATED
+@wait i
+
+@hideUI Dossier_R_UPDATED
+@printer c_Dialogue
+
+REPORT 1: ▮▮▮▮▮
+REPORT 2: ▮▮▮▮▮
+CODE NAME: RAVEN
+PLANETARY SYSTEM: ESTEHELIX
+THREAT LEVEL: MEDIUM. CONTAINED.
+THREAT LEVEL, UPDATED: EXTREME. IMMEDIATE DISPATCH OF THE SUN EATER REQUESTED. FLIGHT RISK. 
+[] SENTENCE: DEATH PENALTY.
+He must not be allowed off Estehelix-1. If he is to accompany the Recollection Officer on any mission, he must be bound in some way. Flight risk.
+Former speedship driver with several record-breaking championships. Known for his arrogant demeanor and violent nature. Be careful when attending to him.
+The Recollection Officer assigned to Estehelix must bring him back so that he may serve his sentence.
+The Prisoner has compromised the Recollection Officer assigned to the case. The most important aspect of the rescue mission is to secure the Prisoner and separate him from the Officer. 
+The Prisoner may return dead or alive. 
+Kill the Officer on sight.
+[] REWARD: ▮▮▮▮▮▮▮▮▮▮▮ Credits. Please discuss reimbursement with your Manager. 
+REWARD, UPDATED: ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Credits. 
+Please forward proof of achievement to the Sun Eater.
+
+@stopBgm
+@hidePrinter
+@back black
+@wait i
+
+@back TheBelladonna
+@bgm Away fade:5
+@printer c_Dialogue
+RAVEN: You’re popular.
+YOU: Mm. 
+
+The updated mission brief flashes on one of the little screens. 
+The Belladonna has scraped Corposhit for what its worth. 
+Some of the wires were still crossed. In a few galaxies, it wouldn’t matter.
+
+You have other things to worry about. 
+The gaping hole in the back of your head, to start. 
+You’ve staunched it as well as you could under the circumstances. 
+Your hands are covered in a mix of machine oil and blood, all things that should be inside of you. 
+
+RAVEN.Aloof: …
+
+@hide RAVEN
+He goes faster. You lurch in your seat. There’s no perfect seatbelt or voice filled with cool indifference to tell you, make sure to hold onto your seat—you are about to experience turbulence.
+
+There’s only the roar of the engine and his hair in your mouth. 
+
+You spit it out. The Belladonna carves through airspace with a practiced flourish. 
+
+YOU: It’s a test run, you know.
+
+He knows. He points the ship up, and goes for a corkscrew. You punch his back, but he is unbothered, unfettered.
+
+Unfettered, huh.
+That’s true. 
+Underneath the layers, his collar is gone and the killswitch is a glorified pendant. 
+
+He plays with your nervous system for a bit more, before finally touching back down. 
+
+@stopBgm
+@back black
+@wait i
+@back FeetOnTheGround
+@bgm WeMayNeverKnow fade:5
+You wait until he hops out of the pilot’s seat first. 
+Then, you crawl out. You land on all fours, and wonder if it’s bad for your internals to be inducing vomit so much.
+
+No comment.
+
+RAVEN.Aloof: Thought you were better about this kinda stuff.
+YOU: Me too.
+
+He doesn’t leave, doesn’t turn away. That’s worse, you think. He helps you wash up, he fixes the bandages around your head, he makes it easy.
+
+Is this what tenderness feels like? 
+You don’t know. 
+It’s been eons since you last felt someone press their hand against your cheek. 
+
+He lets the emotion linger. His ungloved hand, too small, too sweet. 
+It is not something you deserve. It is not something he gives for free. 
+It is something you tear from him. One hand over the other. Nails digging into skin.
+
+RAVEN: Arcensis.
+
+His gaze flickers from your face to the hand that is bleeding. You keep digging. 
+
+If it bothers him, he will never show it. 
+For as long as the two of you are alive. For the remainder of these short lives, because this will not be a long story. 
+The ending is past the horizon, you see the allcaps font and all white “FIN,” next to the shortest obituary known to humankind.
+
+They got what they deserved.
+
+YOU: Yes?
+RAVEN: …
+
+You cannot tell what he is thinking. 
+
+RAVEN: I do need my hand to pilot, y’know.
+
+Ah, right. Of course. You let go. 
+You watch him wipe the back of his knuckles against his jumpsuit. You could watch him forever, you think. 
+You could watch the way he carries himself past the point of no return. 
+@hide RAVEN
+
+@back black
+
+This will be the Belladonna’s final journey. 
+The two of you know this.
+
+Despite the knowledge, the feeling…it is different. The overlay over your heart and mind. Something like that. 
+It’s complicated, you don’t want to think about it, it makes you sick to your stomach, and it’s not just the airborne nausea without the correct dosage of anti-whatever-medication.
+
+This is a gamble. 
+This is the gamble to end all shots in the dark. 
+This is the moment where you realize that maybe--
+
+@back FeetOnTheGround
+
+Raven reaches over to pull at your ear. He does so with a firm grip, index and thumb pressing on your singular earring.
+
+RAVEN.Aloof: Focus.
+YOU: …
+YOU: Right.
+YOU: Is it ready, then?
+RAVEN.Happy: Yeah.
+
+@hide RAVEN
+He steps back to study his bride.
+You’re at least grateful that Corposhit has ascended to a higher plane. 
+One that is nicer to look at. 
+
+[] Plan: You do not have one.
+[] Execution: Bad, probably.
+[] Goal: Something of little consequence in the grand scheme of things. 
+
+Is there even a grand scheme at this point? You chew on that for a bit.
+The two of you will leave Estehelix. Some way, some how. 
+There’s a cruelty to the confession. 
+You will leave. You will leave everything behind.
+Everything that you have ever known.
+You have only known the cold comfort of a beautiful high ceiling and nondescript decor and staticy laugh of a love long ago.
+
+…Love?
+
+Since when do you think about love?
+You palm at the back of your neck.
+
+>>>
+>>
+>
+
+@hidePrinter
+@back black
+@wait i
+
+@printer c_Dialogue
+Someone’s voice is far away. He is saying something about coordinates and signals and the noise bounces around in your head.
+
+It hurts. 
+What were you saying, before? 
+Raven, there was something you were saying about where I belonged. 
+I don’t know where that is anymore. 
+
+@stopBgm
+@back TheBelladonna
+@bgm Away fade:5
+
+A hand reaches out, for the glass. It drags its fingers down, makes a mess out of the condensation. It pauses, and then clenches.
+
+Is this your hand? Its skin is peeling. It’ll need a new graft.
+Can it hold out till then? 
+
+Can I hold out till then?
+When is till then?
+
+@back black
+RAVEN: —hey? 
+RAVEN: Hey!
+RAVEN: Arcensis!
+
+That’s you?
+
+@back TheBelladonna_CORRUPTED
+Arcensis…
+The name doesn’t feel quite right. 
+It sinks into my/your frame. 
+
+RAVEN: Fuck.
+
+Movement. There’s movement. 
+A gentle glide. Like cutting butter with a hot knife. The sky is so sweet.
+You’ve never seen a sky like that?
+I have, I think. A long time ago.
+
+@back TheBelladonna_CORRUPTED_INVERTED
+@char MARIA
+????: I’m surprised you’re here.
+????: Or, to be more specific: I’m surprised I’m alive.
+
+I’m not sure what you mean.
+
+????: I mean, I think it’s weird.
+????: To be alive, breathing, burning, in your skin.
+????: Clearly, whatever you did to me, did a number worse on you.
+????: It’s almost romantic.
+????: Do you remember romance, Anna?
+
+Who’s that?
+
+????: Are you stupid, or playing at it?
+????: I don’t think either fits you.
+
+I don’t think that’s a fair evaluation.
+
+????: You and your analytics.
+????: You and your numbers.
+????: So, how’d that go this time?
+????: Did you find a theory that you liked?
+????: Enough to explore? Enough to prove?
+
+I…
+Why are you talking to me like this?
+
+????: It’s how you talked to me.
+????: All though—
+
+RAVEN: —! 
+
+It hurts.
+It really hurts.
+
+????: Idiot.
+????: Use your eyes and look.
+????: Really look.
+????: What kind of person are you, Ioanna Arcensis?
+
+>>>
+>>
+>
+@hide MARIA
+@back TheBelladonna
+You’re bleeding. 
+A lot.
+You’re bleeding a lot more than you should be. 
+It’s mostly for show. Your system doesn’t need this much. 
+Maybe this is her idea of a joke.
+
+RAVEN.CrashingOut: Christ.
+YOU: Recollection removed all traces of pre-Golden Age faith, you know.
+
+He doesn’t respond. He throws his arms around you, and you can’t help but think: 
+
+What kind of person deserves this?
+
+It’s not something that comes from you. 
+
+@stopBgm
+@back TheSkyIsSharp
+@bgm WhatDoYouHopeToFind fade:5
+
+The sky is sharp.
+
+RAVEN: It’s…sharp?
+YOU: Yeah.
+RAVEN: …!
+YOU: …
+
+@hide RAVEN
+The ship has sunk into Estehelix’s beloved memoria. 
+It clings to you. Seeps into every crevice. It fills out the hollow in your chassis, it acts as a stop gap. It’s every element. It’s every form. 
+
+You have no other choice. You drink it in desperate gulps.
+
+You don’t ask where you are, or if everything’s okay. The Belladonna sings, anyways.
+
+@back IncineratorRoom_CORRUPTED
+IOANNA: So, are you ready?
+????: Of course I am!
+IOANNA: It’s going to be a difficult journey.
+????: You say that about every trip.
+????: We’re the worst girls in Recollection.
+????: I don’t think anything could possibly make our current situation worse.
+@back TheSkyIsSharp
+RAVEN.Sad: …
+YOU: …
+@hide RAVEN
+@back ItsNotLookingGood
+RAVEN: And I said I would win.
+RAVEN: No matter the cost.
+RAVEN: If it means having to bend the rules a little, then so be it.
+????: A little?
+????: This is a flagrant violation of construction rules.
+????: If you get caught, it’s not just going to be a disqualification, it’s going to be a full expulsion. 
+@back TheSkyIsSharp
+Why now?
+
+RAVEN.Aloof: Maybe you have something worth eating now.
+YOU: Haha.
+
+It’s not funny. You press your hand against your lips. 
+
+Floating. It feels like floating.
+
+RAVEN: …Arcensis.
+
+Where do you go from here?
+If you took a step forward, would it be into an abyss?
+
+The thought is comforting. 
+
+One step.
+Two.
+
+You feel pressure around your wrist.
+
+Raven, defeated and cruel and haughty and arrogant and broken and everything in between—the sky itself, he digs his nails into a fleeting moment and yanks.
+
+RAVEN: Ioanna.
+
+Are you scared?
+
+RAVEN: Are you not?
+
+@back AreYouScared
+
+The two of you stand at the edge of the world. 
+
+>>>
+>>
+>
+
+@back TheSkyIsSharp
+
+You don’t think you’ve ever been scared. Truly, really scared.
+Two children, back to back. One of them holds a toy plane.
+That must be your jailbird. The other one…?
+
+RAVEN.Aloof: It’s you.
+YOU: …?
+
+You want to argue, but it can’t be anyone else.
+
+RAVEN.Happy: Hah…
+
+@hide RAVEN
+You don’t remember your childhood.
+At least, you didn’t. It’s something hazy now.
+It surely must have existed at some point.
+
+The child with the plane jumps into the fog.
+
+But you didn’t care about the before, right?
+
+You know if you look back, you’ll see something you don’t want to remember.
+You’ll feel ▮▮▮▮▮ against your skin.
+
+@back GetToLeave_CORRUPTED
+????: This is for you.
+RAVEN: For me?
+
+He keeps as careful a distance as possible with his hand around your wrist. 
+
+RAVEN: That’s—
+RAVEN: This is…
+
+????: My mirror.
+????: How does it feel, in your hands?
+RAVEN: It…
+RAVEN: Why are you giving it to me?
+????: Because you’re going somewhere I can’t keep an eye on you, my love.
+????: Is it so bad for a mother to want to take care of her son?
+RAVEN: …
+RAVEN: I…understand.
+
+RAVEN.Aloof: But I resented her for it all the same.
+Both of them hold the nondescript mirror in their hands.
+@char RAVEN.Happy
+He looks at you.
+He really looks at you.
+
+And it is an expression that you’re not sure he was capable of making.
+It’s kind. It’s a saint’s prayer and an actor’s wish.
+
+RAVEN: Let me give you everything.
+
+# ItemChoice
+@back VOID
+@hidePrinter
+@hide RAVEN
+@choice "ITEM: BROKEN MIRROR"
+    @toast "Record unlocked!"
+    @unlock Tips/BrokenMirror
+    @set HasBrokenMirror=true
+    ITEM DESCRIPTION: A handheld mirror. 
+@stop
+
+@printer c_Dialogue
+Ancient and cruel. 
+A family heirloom. 
+A creature made out of memoria and the very real silver. 
+
+It is etched with a curse. It is inlaid with a perfect sheet of obsidian. 
+Raven holds it with bare hands. The glass is broken.
+
+It pierces his palm. It draws blood. 
+It drinks it, so sweetly.
+
+@stopBgm
+@hidePrinter
+@back black
+@wait i 
+
+@goto END_Good_ROUTEB if:"RavenAffection>=20"
+@goto END_Bad_ROUTEB if:"RavenAffection<20"
+@stop

@@ -1,0 +1,352 @@
+# DHS04
+
+; [[DEAD HEAT SUPERNOVA    HALO]]
+@hidePrinter
+@back black
+@showUI CC_DHS_Halo
+@wait i
+
+@hideUI CC_DHS_Halo
+@wait i
+
+@printer c_Dialogue
+
+Maria is so, so unhappy with you.
+It’s standard these days. 
+She’s so mad at you, it’s almost cute. The way that she claws with locked doors and shrill alarms.
+You have more interesting things to think about. 
+Like Raven’s little project. 
+
+;[[BACKGROUND: “CORPOSHIT 9000” OUTSIDE VARIANT]]
+@back CORPOSHIT9000v2
+@bgm InMotion fade:5
+YOU: So…
+YOU: Do you need help? 
+He ignores you. You don’t know if he’s actually heard you.  He’s wearing some sort of headphones and he’s got his body underneath his princess. You lean against the door frame of your Corpo Piece of Shit, arms crossed over your chest.
+YOU: Something to drink?
+He pulls himself from under the Belladonna just enough to scowl at you.
+RAVEN.Aloof: Don’t you have a job?
+YOU: …
+You kick him back underneath the ship. 
+RAVEN: Are you going collecting?
+YOU: That is my job, after all.
+Not that you’ve been doing much of that, either. You’ve stopped logging your finds. You’ll give Castor a dummy list with bloated information. 
+Your mission has changed.
+@char RAVEN.HeadDownEyesClosed
+Your ward sighs. 
+RAVEN.Aloof: Miss Recollection.
+YOU: Why do you call me that?
+You’ve never really cared about titles or names. It doesn’t bother you as much as it bothers Maria, or Castor. They always insist on your name, as it is printed on the back of your neck.
+YOU: You’re not the type for pleasantries
+RAVEN: Tch.
+RAVEN: Arcensis, then.
+RAVEN: Does it matter?
+It doesn’t, not really.
+YOU: How’d you deal with your adoring fans?
+RAVEN: …
+RAVEN: I had a good team.
+Yeah, it seemed like it. 
+YOU: …
+RAVEN: I have a list for you.
+He sticks a hand out. You take the scrap of paper. It’s got a messy scrawl. It takes you a second to decipher.
+YOU: You’re lucky I’m in this line of work.
+RAVEN: We didn’t have a lot of time to perfect our handwriting.
+YOU: …
+RAVEN: What?
+RAVEN: Do you need me to read it out for you?
+YOU: No need.
+YOU: I’ll get you what you want.
+@hide RAVEN
+
+@back CORPOSHIT9000
+
+You head back into the CorpoShit and sift through your stuff. 
+There’s a moment where you consider apologizing. 
+The moment passes when you find your bag and when you step into your suit.
+YOU: Record for Preservation.
+She writhes.
+YOU: Thanks.
+YOU: Raven?
+If he was annoyed by the fact he hasn’t been able to finish whatever he was working on this morning, it’s replaced with his obsessive streak.
+RAVEN.Aloof: Arcensis.
+YOU: You comin’?
+RAVEN: …
+He sighs.
+It doesn’t stop it from zipping up and finding his place next to you.
+
+@hide RAVEN
+>>>
+>>
+>
+@stopBgm
+@back black
+@hidePrinter
+@wait i
+
+@back AnArchitecturalMonstrosity 
+@bgm MyWordsCarriedAway fade:5
+@printer c_Dialogue
+
+You go deeper into the theater.
+If the race track was his unholy bride, what was the theater to him? 
+You don’t have the opportunity to ask him. He immediately gets to work. He knows this beast in a manner so intimate, it makes you ache.
+This is the curse of a researcher. He moves through hallways with a fervor.
+He’s so desperate. A dead man walking.
+YOU: …
+RAVEN.Aloof: Tch.
+RAVEN: …
+You can’t hear him mumbling but he’s tearing through words like sutras.
+You can watch him suffer forever, you think.
+
+;D4 ITEM CHOICES
+# ItemChoice
+@back OpulentTheater 
+@hide RAVEN
+
+@choice "CIRCUITBOARD"
+    ITEM DESCRIPTION: A laminated piece of acrylic. 
+    It’s green and full of silver and etched lines. 
+    You’ve seen some of these back on base, but this is special. 
+    It has to be. It’s intact. It’s perfect. It’s beautiful. 
+    If you touch it directly, it’ll surely break.
+    RAVEN.Aloof: Don’t touch it with your bare hands.
+    YOU: I wear gloves.
+    YOU: You’re acting like I’m rawdogging it.
+    RAVEN: You might as well be.
+    RAVEN: Here, I’ll take it—
+    YOU: Woah, calm it.
+    @hide RAVEN
+    DO YOU WANT TO COLLECT THIS?
+    ONCE YOU COLLECT AN ITEM, YOU’LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE.
+    COLLECT THE “CIRCUITBOARD”? 
+
+    @choice "YES"
+        @toast "Record unlocked!"
+        @unlock Tips/Circuitboard
+        @set HasCircuitboard=true
+        YOU: I got it.
+        YOU: See, it’s all contained.
+        YOU: So you can stop wagging your tail.
+        RAVEN.Aloof: I…am not doing that.
+    @choice "NO"
+        Maybe…you should leave it behind?
+        You don’t convince yourself.
+        YOU: Mm.
+        YOU: I don’t know.
+        YOU: …
+        @char RAVEN.LookingAway
+        YOU: Raven keeps glancing over here…
+    @stop
+@stop
+
+>>>
+>>
+>
+
+@back AnArchitecturalMonstrosity 
+
+You give him the circuitboard. 
+RAVEN.Aloof: …
+RAVEN: …
+YOU: You were complaining about my manhandling, why are you so quiet now.
+RAVEN: …
+
+;[[BACKGROUND: CG03 “LOOKING OUT”]]
+
+He stares into the distance, fiddling with the acrylic.
+RAVEN.LookingAway: Why haven’t you killed me?
+
+@choice "Do you want to give me a reason?" set:RavenAffection+=10 goto:.ChoiceA
+@choice "I’m fascinated by you." set:RavenAffection+=5 goto:.ChoiceB
+@choice "The mission brief said to bring you back." set:RavenAffection+=0 goto:.ChoiceC
+@stop
+
+# ChoiceA
+RAVEN: …
+RAVEN: You’re letting me live, you’re letting me build my ship.
+YOU: Yes, that’s true.
+YOU: But that doesn’t answer my question.
+YOU: Do you want to die, Raven?
+
+;[[BACKGROUND: CG03 “LOOKING OUT” V3]]
+
+He closes his eyes. 
+RAVEN.EyesClosed: No.
+RAVEN: I don’t.
+YOU: Then why did you come back to Estehelix.
+YOU: When you could’ve gone anywhere else.
+RAVEN.LookingAway: Because I want to live.
+
+@back AnArchitecturalMonstrosity  
+
+You move before you can register it. Your hands around his. 
+Clasped tight.
+You stare at him and for once, he looks right back. 
+RAVEN: Do you pity me, then?
+YOU: No.
+YOU: I don’t think you deserve that sort of emotion.
+He smiles. All teeth.
+RAVEN.Happy: That’s right.
+RAVEN: Not someone like me.
+YOU: But I’m not the kind of person to grant pardons, either.
+;maria angry sprite
+You feel her. You feel her. She’s screaming.
+YOU: You are not a sinner, Raven.
+YOU: And I am not a saint.
+@hide RAVEN
+
+>>>
+>>
+>
+
+@stopBgm
+@hidePrinter
+@back black
+@wait i
+
+;[[BACKGROUND: “CORPOSHIT 9000” V3]]
+@back CORPOSHIT9000
+@bgm InMotion fade:5
+@printer c_Dialogue
+
+; dim this scene somehow lol
+YOU: Are you going to bite your gloves off?
+RAVEN.Happy: Do you want me to?
+You intended to tease him a bit more for it but he removes his left glove with a practiced flourish. 
+His hands are callused and gnarled, but they’re delicate. 
+They’re small. 
+His nails are jagged. 
+He goes for your waist. He digs those torn nails into your skin. Real skin. Not the synthskin over your back, over your arms and neck, not over the circuitry that made up your legs. 
+He skims over your rib cage and your stomach and he digs with the intention to maim.
+You see stars.
+You see every star.
+Should you kiss him? It’s an idle thought. You press your tongue against his lower lip, you feel for his teeth. You probe. You prod. You explore. It’s your vice. You get an inch, you want the mile. 
+You feel something pop.
+@stopBgm
+;[[cg family matters]]
+@back CORPOSHIT9000_CORRUPTED
+@bgm Away fade:5
+@hide RAVEN
+VOICE1: He’s been staying late.
+VOICE2: To work on the ship?
+VOICE1: Yeah…but…
+VOICE2: You know how he is.
+VOICE2: A racer and his ship are a relationship that we can’t get in on.
+VOICE1: But I’m worried.
+
+@back CORPOSHIT9000
+
+RAVEN: Hey, stay with me.
+RAVEN: Miss Officer.
+You want to make a retort. 
+You’re the one who drugged me. 
+But he’s fuzzy. He’s white hot. He’s dragging his teeth down your neck and you have your hand in his hair. 
+
+@back CORPOSHIT9000_CORRUPTED
+
+VOICE1: I think…
+VOICE2: …something stupid.
+
+You feel pressure around your face. Your chin. Your cheeks. Pushing, prodding, exploring. Nails digging in. Swatches of colors and sounds that do not belong to you.
+
+@back CORPOSHIT9000
+
+RAVEN.Sad: Arcensis! Hey!
+
+@back CORPOSHIT9000_CORRUPTED
+@hide RAVEN
+VOICE4: I won’t miss my opportunity.
+VOICE4: I know what the program pays out.
+VOICE4: I’ll make sure they can all leave Estehelix.
+VOICE4: I’d rather this, than—
+VOICE3: You really are stupid.
+VOICE3: Do you think that we’d abandon you?
+VOICE1: They’d have to drag us out of the paddock.
+VOICE4: Wait—
+VOICE4: HEY—
+VOICE2: Ah…I’m really glad.
+VOICE1: You really are an idiot, ▮▮▮▮▮.
+VOICE2: A total idiot.
+VOICE3: I can’t wait for dinner on—
+@stopBgm
+
+@back CORPOSHIT9000
+@bgm InMotion fade:5
+
+You throw up in his mouth.
+@char RAVEN.CrashingOut
+Raven presses his hands against your face. 
+He digs into your eyes. 
+Wake up. Wake up. Wake up. 
+YOU: They saved you?
+That’s all you can choke out between the bile and blood.
+YOU: Then…
+YOU: How did they all die?
+YOU: If it wasn’t you--?
+Raven’s hands float toward your neck. They hover.
+Just a moment. You just need one. To turn everything around.
+But wouldn’t it be kinder to let him in.
+
+;[[BACKGROUND: CG 05 “IN SICKNESS”]]
+
+RAVEN: Do you want to carve me open?
+RAVEN: I’ll let you. 
+RAVEN.LookingAway: I’ll give you everything.
+
+@stopBgm
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i 
+@goto DHS_Day_05_ROUTEA
+
+# ChoiceB
+
+RAVEN.Aloof: Then you are a woman with bad taste.
+YOU: I do get told that a lot.
+RAVEN: Must be a Recollection thing.
+YOU: You’re the most interesting thing here.
+YOU: Why did they send me to get you.
+YOU: Why did you let yourself get caught.
+YOU: Why do you make me want to know more?
+YOU: It drives me mad.
+RAVEN.Happy: Ha. Hahahaha.
+RAVEN: Hahahaha.
+YOU: I did not think it was nearly that funny.
+RAVEN.SlightSmile: It’s only a little ironic.
+RAVEN.Happy: An adoring fan.
+RAVEN: At the end of the universe.
+Raven reaches his hand out. 
+Is he satisfied with your answer?
+Will you be satisfied with his?
+He waits for you to take it.
+An unholy executioner and her prisoner.
+He pulls you close. 
+RAVEN: I came to Estehelix for one thing.
+RAVEN: And that was to race.
+RAVEN: A life without it was not a life worth living.
+RAVEN: But…
+RAVEN: If something could give my life meaning, after all of this—
+RAVEN: Then maybe, it was all worthwhile.
+RAVEN: Is that a bad thing to wish for?
+YOU: Is that what you want me to do for you, Raven?
+YOU: I can give you a purpose outside the checkered flag and the bright lights.
+YOU: I can give you something to live for.
+
+@stopBgm
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i 
+@goto DHS_Day_05_ROUTEA if:RavenAffection>=25
+@goto END_Bad_ROUTEA if:RavenAffection<25
+
+# ChoiceC
+@stopBgm
+@hide RAVEN
+@hidePrinter
+@back black
+@wait i 
+@goto END_Bad_ROUTEA
+
+@stop

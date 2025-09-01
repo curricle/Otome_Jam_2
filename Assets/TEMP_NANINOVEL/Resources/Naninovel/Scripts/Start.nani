@@ -1,0 +1,255 @@
+# Start
+
+@printer c_Dialogue
+; CG: Ioanna with her hand pressed against the glass of the incinerator. The machine is on, there’s only her reflection and the red hot fire. Ashes. Whatever civilization she has condemned, it’s gone forever now. There’s an emptiness to her expression that goes unnoticed by everyone without a practiced eye.
+
+@back Incinerator
+@bgm Fire
+;@bgm AloneDownHere
+
+????: Another job well done.
+YOU: Was it?
+YOU: I wonder.
+????: You have the highest numbers of any Recollection Officer in this Department. 
+????: You make waste management look glamorous.
+YOU: Maria.
+
+@toast "Record unlocked!"
+@unlock Tips/MARIA
+
+MARIA: Am I incorrect in my assessment?
+MARIA: Are the accolades not enough for you?
+
+Maria hums in-between planes of existence. She leans against your shoulder, caressing the hollow of your cheek with a digital thumb. 
+You let her.
+
+@toast "Record unlocked!"
+@unlock Tips/IOANNA
+
+YOU: I understand that waste management is a vainglorious and ultimately futile ordeal, but I’d really appreciate it if you laid off.
+MARIA: You wound me.
+YOU: Your programming does not allow me to do so.
+MARIA: It does not allow me to feel so, you mean.
+YOU: I don’t.
+You turn on your heel and walk away from the incinerator.
+
+@sfx Footsteps_01
+@stopBgm Fire fade:2
+
+@bgm WindwardCourse fade:5
+@back FAKERS
+
+The mission brief is almost immediate. It’s a breath of freshly circulated air in the fake atrium, where you float from one side of the room to another.
+One step forward and three steps back.
+You wave a hand and pull up the documents in your terminal.
+
+@toast "Record unlocked!"
+@unlock Tips/CASTOR
+
+@char CASTOR pos:16,30
+You see your field manager in your peripheral. She’s a little icon, right at the bottom of the screen. 
+She smiles with all her teeth. 
+Connection, connecting. 
+Maria sighs.
+
+@back YourFriendCastor
+
+CASTOR: It’s a double whammy.
+YOU: You say this like it isn’t your job.
+YOU: You pick these out for me.
+CASTOR: I suppose.
+CASTOR: But these are both pretty bad.
+CASTOR: It makes you wish that you took that SOTC job, huh? 
+YOU: I’d rather stay on waste management than go and play pretend with people.
+YOU: As wretched as our work is, it’s more important than roleplaying.
+CASTOR: Yeesh.
+CASTOR: This last stint really got you, huh?
+CASTOR: I haven’t seen you this mad since…
+CASTOR: Forever?
+CASTOR: Maybe forever and a half?
+YOU: You’re so funny, Castor.
+YOU: I wish I could fire you.
+CASTOR: Aww.
+CASTOR: Do you really mean it? Cross your heart?
+CASTOR: I’d love to get switched to someone less fucking weird.
+CASTOR: Someone cuter, too?
+YOU: So.
+YOU: The brief?
+CASTOR: With two dossiers! 
+@char CASTOR.PeaceSign
+CASTOR: You’re so lucky, Ioanna Arcensis.
+@char CASTOR.Default
+She sends the physical equivalent of a tome over in a nanosecond. 
+You blink, and it is spread across the empty air. Pages and pages. 
+Lots of redacted information. Lots of classified nonsense.
+YOU: What on earth did you sign me up for?
+You can’t muster up the strength to be petty. 
+This is going to be a pain in the ass.
+@char CASTOR.PeaceSign
+CASTOR: I got you a war criminal and a prisoner of war! 
+YOU: You are such a delight, Castor.
+YOU: Where can I sign you up to accompany me?
+@char CASTOR.Default
+CASTOR: Unfoooortunately, we all know that’s impossible.
+CASTOR: Since I’m all digital now.
+CASTOR: And you’re so fleshy and gross.
+YOU: A shame, really.
+CASTOR: Ioannaaaa, you say this like this was my first choice.
+YOU: It wasn’t?
+The two of you exchange a conspirator’s smile.
+Of course it wasn’t. 
+This was the worst kind of punishment. 
+Total augmentation was a heavy price to pay for defectors.
+Castor smiles nonetheless.
+CASTOR: So, so. 
+CASTOR: I have your missions.
+CASTOR: Which one do you want to hear first?
+You let the fake wind tousle your cropped hair. 
+You let the fake sun sink into your synthskin. You let the world spin on its orbit, and sigh.
+
+@hide CASTOR
+
+@back Dossiers
+
+
+The two dossiers look at you with expectant eyes.
+
+@stopBgm
+@bgm FaceItAllForAMoment fade:5
+
+@hidePrinter
+
+@back Dossiers_Castor
+
+@char CASTOR pos:17,30
+CASTOR: Sooooo?
+MARIA: That Manager of yours should get fired.
+YOU: It’s…interesting.
+MARIA: If you meant atrocious, I would have to agree with you.
+She sighs in your headset, and it sends shivers down your metallic spine.
+MARIA: I do not like this, not one bit.
+MARIA: It seems unreasonable to send an Officer of your caliber.
+MARIA: Where is the Sun Eater when you need her.
+You wrinkle your nose at the mention of your highly accoladed and accomplished colleague.
+YOU: Like I said. Roleplaying.
+CASTOR: Hmm?
+CASTOR: You good there, Ioanna?
+YOU: Yeah. Yeah.
+YOU: Any preference, Manager?
+CASTOR: Ehhhh, no way. 
+CASTOR: They’re both total nightmare cases, but if you manage to come out on top, it’ll be a fastpass out of waste management.
+CASTOR: Wouldn’t that be nice?
+YOU: I really do need a new Manager.
+CASTOR: Oh, come on.
+YOU: I don’t need to leave waste management.
+YOU: I’ve been fine here.
+YOU: Wanting something else is…
+You can’t think of the word. 
+Maria rests her chin on your shoulder, and you swallow back the self-evaluation.
+YOU: So, no preference?
+CASTOR: Mmm.
+CASTOR: Do you want my opinion?
+YOU: Not particularly.
+YOU: They’re both pretty bad.
+CASTOR: Established.
+YOU: I’ve heard of them both, but it all seems so…
+YOU: Exaggerated.
+YOU: A celebrity bomber? In space? 
+YOU: A Corpodarling biting the hand that feeds?
+MARIA: It would have been better if they killed them both.
+CASTOR: I think situations of their…kind. Stuff like that. It’s unheard of.
+YOU: Noted.
+CASTOR: But it doesn’t mean that it’s all doom and gloom.
+She gives you a big thumbs up. You resist the urge to shut the entire program down.
+YOU: Mm.
+YOU: I understand.
+CASTOR: I’ll do check-ins every other day—
+YOU: No need.
+CASTOR: It’s part of my duty!
+YOU: You have direct access to my vitals and my terminal. 
+YOU: Take the uploads from there.
+CASTOR: But I like to see you.
+She turns into a facsimile of a crying cat. 
+MARIA: I can do the work she does. 
+MARIA: I can do it better.
+YOU: You already do what Castor is supposed to do.
+YOU: It’s why I don’t need her bothering me.
+CASTOR: It really is mean when you talk like I’m not even there.
+YOU: Sorry, Cassie.
+CASTOR: Forgiven, my sweet Ioanna.
+You roll your eyes as far as you can.
+CASTOR: In any case, pick something, make the submission, and get outta here.
+CASTOR: I do get bonus outside time when you do well.
+CASTOR: So do well, for me, my princess.
+YOU: Of course, my lady.
+CASTOR: Could you say it again, but like you mean it.
+@char CASTOR.PeaceSign
+CASTOR: I want to record it.
+YOU: See you later, Castor.
+YOU: I’ll run it through the proper channels.
+@hide CASTOR
+
+@stopBgm
+@bgm WindwardCourse fade:5
+
+@back FAKERS
+
+With another wave of your hand, the atrium is back in full view. The skyscape window is real. You float towards it and press your hand against the glass. 
+The galaxy sings. Every single star is a blot in an ink ocean. It moves with your grace.
+MARIA: So.
+MARIA: What do you think about our interlopers? 
+YOU: They’re interesting.
+YOU: I think it’s weird that they were left alive.
+YOU: And that the Sun Eater wasn’t involved.
+MARIA: Suggestion: Ignore her.
+MARIA: Ever since her disappearance, every Recollection Officer has been begging for her return.
+MARIA: This is your opportunity, Ioanna. 
+YOU: One that I do not want.
+MARIA: An opportunity nonetheless.
+You walk back to your apartment unit. 
+It is at the end of the hall, a very long, long hall. You do not have neighbors.
+
+@stopBgm
+@back WelcomeHome
+@bgm AloneDownHere fade:5
+
+It’s considered a perk. You asked for this room. There’s a huge window.
+There’s not much of anything else. There is no reason to keep anything. 
+A barebones set up. Bed. Desk. Closet. Bathroom. Kitchenette. 
+Empty coffee pot.
+You don’t catch yourself sighing. Maria turns the lights on.
+YOU: There’s no need. 
+YOU: I’m going to bed anyways.
+MARIA: I thought it would be appropriate as you still need to submit your mission brief.
+YOU: I’ll do it from my terminal. 
+YOU: Goodnight.
+Maria wants to say something but her presence dims. She’s a fuzzy halo instead of an electric shock. A warm embrace. 
+Silent. 
+You close your eyes. The terminal greets you with a fluorescent buzz. 
+
+@back Dossiers_Home
+
+YOU: I guess I’ll go with…
+
+@hidePrinter
+@back WelcomeHome
+
+@choice handler:ButtonArea button:Raven_Dossier goto:.RouteChoice_DHS pos:-300,0
+@choice handler:ButtonArea button:Zinnia_Dossier goto:.RouteChoice_AT pos:400,0
+@stop
+
+@stopBgm
+# RouteChoice_DHS
+
+@back black
+@wait i
+
+@goto DHS_Day_01
+
+# RouteChoice_AT
+@back black
+@wait i
+
+@goto at_dayone
+
+@stop

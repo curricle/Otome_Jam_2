@@ -1,0 +1,39 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_02_Interim
+@wait i
+
+@hideUI CC_AT_02_Interim
+@wait i
+
+@printer c_Dialogue
+
+;[SPACE SHIP - BATHROOM MIRROR, A SOFT GLOW OF THE LIGHT]
+@back Bathroom
+@bgm LostDreams fade:5
+
+You stand in front of the bathroom mirror, after washing your face. Spacefaring lowlife or not, you still double cleanse. 
+
+MARIA: A little vanity never hurt anyone. 
+
+Your stomach grumbles. 
+
+MARIA: You didn't let yourself be greedy today? 
+MARIA: Curiosity begets hunger, does it not? 
+
+There is this dissatisfaction in the pit of your stomach that has always been there. It was almost satiated the other day, but you find yourself wanting. 
+
+Your body trembles with something unfamiliar. You've never had the luxury to take something before. You've never had the luxury to ask before. 
+
+Your stomach grumbles again. Louder. 
+
+MARIA: Eat well next time. 
+
+@stopBgm
+@hidePrinter
+@back black
+@wait i
+
+@goto at_missionthree
+@stop

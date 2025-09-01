@@ -1,0 +1,245 @@
+; Chapter title card
+@hidePrinter
+@back black
+@showUI CC_AT_03
+@wait i
+
+@hideUI CC_AT_03
+@wait i
+
+@printer c_Dialogue
+
+;[BACKGROUND SHIFT: SPACE SHIP GENERAL]
+@back Spaceship
+@bgm FrozenEchoes fade:5
+
+@char ZINNIA
+
+YOU: The other day, at Prox-1? When you were talking about the trash bag theory-
+ZINNIA: Carrier.
+YOU: Whatever. You really have a lot of free time up here. To think. 
+ZINNIA: I didn't get that often in my original post. This is lax, comparatively. 
+YOU: Manual labor?
+ZINNIA: Are you gunning for a promotion? I can put in a good word. 
+
+@choice "You still got clearance for that?" goto:.clearance
+@choice "Hah! Not as long as you're still here." goto:.quota
+@stop
+
+# clearance
+ZINNIA: A demotion has never gotten rid of my sway. 
+@goto .career
+
+# quota
+YOU: As long as we're partners, your quota is my quota. 
+ZINNIA: Spoken like a true motivated guppy. 
+@goto .career
+
+# career
+ZINNIA: I didn't think you were that into career progression. The logs have really kept you here, bottomfeeder. 
+YOU: First. I think I did want to try. I wanted a cush gig at the galactic comms. But then…
+
+Then… you can't remember? Is that when the voice came? Is that when she came? Descended down in your skull and started buzzing? 
+
+MARIA lets out a laugh. 
+
+You shiver. 
+
+In these galactic graveyards, from planet to planet it begins to murmur. The tremors gently move into something more pleasant. You could almost get lost in it. 
+
+ZINNIA: Ioanna? 
+ZINNIA: Ioanna are you alright? We've got to finish clearing Prox-2. 
+You: Yeah. Yeah, we do. 
+
+@hide ZINNIA
+The frequency in your brain whirs, as you follow Zinnia down to the coordinates.
+
+Listen. 
+
+Tune it Out. 
+
+You can feel it guiding you somewhere.  Do you listen to it or do your best to tune it out? Where's it guiding you? You don't know, but somehow, you can't help but want to chase that high. 
+
+@stopBgm
+@back black
+@hidePrinter
+@wait i
+
+;[BACKGROUND SHIFT - A BRIGHT FIELD OF GREEN]
+@back Field
+@bgm SubterraneanGlistening fade:5
+@printer c_Dialogue
+
+You pass by a beautiful field. 
+
+YOU: We're moving past our assigned coordinates.
+@char ZINNIA
+ZINNIA: Hm.
+
+She continues to march on ahead.
+
+ZINNIA: Did you know that not all flowers come back? Some just stay rotted. 
+YOU: Do they?
+
+@choice "They make way for more life." goto:.flowers
+@choice "What's wrong with being rotted?" goto:.flowers
+@stop
+
+# flowers
+ZINNIA: Maybe I was wrong to think you'd get it. 
+YOU: What's that supposed to mean? 
+ZINNIA: We have no use of elysium fields, there's something far more promising up ahead. 
+YOU: Zinnia, wait up!
+@hide ZINNIA
+
+You cross the hills to telephone poles and towers engulfed by what feels like the ocean. 
+
+;BACKGROUND SHIFT TO AN EXPANSE OF WATERS HELD UP BY TELEPHONE TOWERS
+@back Waters
+
+@char ZINNIA
+YOU: What happened here? 
+ZINNIA: The remains of a half-submerged planet.
+YOU: It's not like we do dive missions these days. Those are so outdated.
+ZINNIA: We can pilot our droids from here. 
+
+She gracefully hops onto the top of a tower. 
+
+You.
+
+You aren't doing that. MARIA hums in agreement.
+
+You are mesmerized, however, the way it feels like a practiced action.
+
+;[CG: ZINNIA STANDING ON TOP OF A TELEPHONE TOWER STARING AT THE SEA, SHE HOLDS HER CONSOLE IN HER HAND. FACE LOCKED IN CONCENTRATION. SHE LOOKS BEYOND YOU. SHE DOES HER JOB.]
+
+# itemPick
+@hide ZINNIA
+You stand at the world's shore and open your console. You collect: 
+
+@choice "ITEM: A SYNTHESIZER" goto:.synthesizer
+@choice "ITEM: A COLLECTION OF PHONES" goto:.phones
+@choice "ITEM: OLD SATELLITE DISKS " goto:.satellite
+@stop
+
+# synthesizer
+ITEM DESCRIPTION: It's some sort of device. 
+
+Synthesizer.
+
+MARIA supplies the word in your head, but it still doesn't make much sense to you. It's an odd item, almost resembling the control console of your ship, but it doesn't look like it's made for navigation. 
+
+YOU: Is this another transmitter? 
+@char ZINNIA
+ZINNIA: A synthesizer
+MARIA: A Prophet-5. 
+ZINNIA: A model like that looks rare.
+YOU: There are models?
+
+DO YOU WANT TO COLLECT THIS? 
+
+ONE YOU COLLECT AN ITEM, YOU'LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE. 
+
+COLLECT THE “SYNTHESIZER?”
+
+@choice "YES" goto:.synthGet
+@choice "NO" goto:.synthNo
+@stop
+
+# synthGet
+@toast "Record unlocked!"
+@unlock Tips/Synthesizer
+@set HasSynthesizer=true
+@set AT_RouteA++
+@char ZINNIA.SlightSmile
+ZINNIA: Good choice.   
+YOU: Something about it. 
+YOU: It just felt. 
+ZINNIA: Special. 
+YOU: Yeah. Special. 
+@goto .itemGet
+
+# synthNo
+ZINNIA: Is there something else you want? 
+YOU: I just want to double check.
+ZINNIA: Don't hesitate for too long. 
+@goto .itemPick
+
+# phones
+ITEM DESCRIPTION: Together all the phones and comms look like they've taken the shape of an angel. You find yourself comforted by the catch. 
+
+@char ZINNIA
+ZINNIA: Real quantity, not quality. 
+YOU: Should I toss them back? 
+ZINNIA: Models like these aren't worth much, but it's still worth clearing out. 
+ZINNIA: They'll be processed for data, extracted for chips and crushed for screens. 
+ZINNIA: Even bricked, these phones have value. 
+
+DO YOU WANT TO COLLECT THIS? 
+
+ONE YOU COLLECT AN ITEM, YOU'LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE. 
+
+COLLECT THE “COLLECTION OF PHONES?”
+
+@choice "YES" goto:.phonesGet
+@choice "NO" goto:.phonesNo
+@stop
+
+# phonesGet
+@toast "Record unlocked!"
+@unlock Tips/Phones
+@set AT_RouteB++
+@set HasPhones=true
+YOU: Help me secure this net, before we head back to the ship.
+Zinnia reaches over to help bind the catch.
+As the phones are lifted in the air, you can hear them chime, rattled as they take in the air. The percussion of the devices rings softly into an echo.  
+@goto .itemGet
+
+# phonesNo
+YOU: Hold on. 
+YOU: I want to check something. 
+@goto .itemPick
+
+# satellite
+ITEM DESCRIPTION: The way they resemble pothos is beautiful. It makes you yearn for the sun.  
+
+@char ZINNIA
+YOU: I've never seen them like this before. 
+ZINNIA: They mirror nature don't they? 
+ZINNIA: A lot of tech does, the more inhospitable the location. 
+
+DO YOU WANT TO COLLECT THIS? 
+
+ONE YOU COLLECT AN ITEM, YOU'LL BE UNABLE TO TAKE ANYTHING ELSE BACK TO BASE. 
+
+COLLECT THE “OLD SATELLITE DISKS?”
+
+@choice "YES" goto:.satelliteGet
+@choice "NO" goto:.satelliteNo
+@stop
+
+# satelliteGet
+@toast "Record unlocked!"
+@unlock Tips/OldSatelliteDisks
+@set AT_RouteC++
+@set HasOldSatelliteDisks=true
+ZINNIA: Bringing over some local flora for ship decor?
+YOU: Um, yeah. Is that what this is? 
+ZINNIA: You might be clueless, but you do have a good eye.
+ZINNIA: It would be a shame, if it wasn't so useful. 
+@goto .itemGet
+
+# satelliteNo
+YOU: Hmmm…
+YOU: I might come back to this. 
+@goto .itemPick
+
+# itemGet
+@stopBgm
+@hide ZINNIA
+@hidePrinter
+@back black
+@wait i 
+
+@goto at_interimthree
+@stop
