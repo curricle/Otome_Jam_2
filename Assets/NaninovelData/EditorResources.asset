@@ -42,7 +42,7 @@ MonoBehaviour:
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
-      guid: f88c5ede26fbfb5408a1a1b5cd14c0b9
+      guid: bebde26f42efba24c857f27e83f40945
   - Id: ChoiceHandlers/e7884fba-954d-4274-9544-55d4120cef1e
     Resources:
     - name: ButtonArea
@@ -95,16 +95,16 @@ MonoBehaviour:
       guid: 702c32b2de0c0784b9a66ec90601874f
     - name: TitleUI
       pathPrefix: UI
-      guid: 772027cb01e01a5479829962dd268079
+      guid: 29805605025fc034aa12973bce33ecd0
     - name: BacklogUI
       pathPrefix: UI
-      guid: 0664457c391990e41ba5c2f8217a41b3
+      guid: 67a22614015532e41a0bd3e313f3908a
     - name: CGGalleryUI
       pathPrefix: UI
-      guid: 67298c4c34c3bc441948a35a752ef4c9
+      guid: af7cf114988b3cd4480b62d92c1544b9
     - name: ConfirmationUI
       pathPrefix: UI
-      guid: 990ce397dcbd741478d5098286e11738
+      guid: 11b4c8c58987dd9459968479cf2dfdd4
     - name: ContinueInputUI
       pathPrefix: UI
       guid: 1add671f8348e8443bcc56290e82fc5e
@@ -122,25 +122,25 @@ MonoBehaviour:
       guid: a32c73a3aff4b274c85b3ff16c854b07
     - name: SaveLoadUI
       pathPrefix: UI
-      guid: 6423eaabc72cf1c4e85053c2ffa19922
+      guid: 3282d3e7854e6e54699dcb9bf3f6af14
     - name: SceneTransitionUI
       pathPrefix: UI
       guid: e3b234b4273b7f64ab3f1d9fe425ed23
     - name: SettingsUI
       pathPrefix: UI
-      guid: 536177ff2fee9c74b8d26cfd53ba4802
+      guid: 8f7f882545d7ab04ab7c7d085e6aaae2
     - name: TipsUI
       pathPrefix: UI
-      guid: 43ed336596393164381287fca52f8bc2
+      guid: 9dbbb70a29ec76c4ab08465a65a70c31
     - name: VariableInputUI
       pathPrefix: UI
       guid: 9022fdd6c00e00f469ee2e9f6554a114
     - name: PauseUI
       pathPrefix: UI
-      guid: 97352ca7f8f3ddb498051376b740eef4
+      guid: 2441ebd421af63245b7c274e8a99f9c0
     - name: ToastUI
       pathPrefix: UI
-      guid: 84e2705631c86114ca76f632068b8956
+      guid: 697917e154fc41c47863965caf9ce5f6
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
