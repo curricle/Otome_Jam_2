@@ -1551,12 +1551,12 @@ GameObject:
   - component: {fileID: 7875944229296649045}
   - component: {fileID: 3843277635223657743}
   m_Layer: 5
-  m_Name: c_ControlsLegend
+  m_Name: c_ControlsLegend 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8767023921634345067
 RectTransform:
   m_ObjectHideFlags: 0
