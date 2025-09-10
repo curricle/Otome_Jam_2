@@ -359,6 +359,9 @@ MonoBehaviour:
       guid: a538e0f16688f7744b61db30674c878b
   - Id: Characters/d8b9c781-bfeb-42f1-a563-8aadfb653f32
     Resources:
+    - name: Default
+      pathPrefix: Characters/RAVEN
+      guid: f57697cd9d5e9b146b1f847e7cf3698c
     - name: Aloof
       pathPrefix: Characters/RAVEN
       guid: f57697cd9d5e9b146b1f847e7cf3698c
@@ -388,6 +391,9 @@ MonoBehaviour:
       guid: 54ea4ddb272cbac4f9d027150e50ecf5
   - Id: Characters/ed8d4531-2c3c-4895-a91e-301a886010a7
     Resources:
+    - name: Default
+      pathPrefix: Characters/MARIA
+      guid: 4909152e67fb8da40bcb1e6b0490a940
     - name: Neutral
       pathPrefix: Characters/MARIA
       guid: 4909152e67fb8da40bcb1e6b0490a940
@@ -657,6 +663,9 @@ MonoBehaviour:
       guid: 4de6ef2e22bc7254aa60bba8899e80be
   - Id: Characters/ab2202b7-3e4d-4294-b8c3-8e4799f0cdf3
     Resources:
+    - name: Default
+      pathPrefix: Characters/ZINNIA
+      guid: 4366cef24d67f064888a9023a0228d22
     - name: Aloof
       pathPrefix: Characters/ZINNIA
       guid: 4366cef24d67f064888a9023a0228d22
@@ -686,12 +695,12 @@ MonoBehaviour:
       guid: 1ddfdbaedb5783745b1e5b9c16b97ff2
   - Id: Characters/b3c2349c-7350-47c3-8b8b-badbe1139fd7
     Resources:
+    - name: Default
+      pathPrefix: Characters/SUNEATER
+      guid: cb78b00f9124d88438c21008bd470f97
     - name: Moira
       pathPrefix: Characters/SUNEATER
       guid: cb78b00f9124d88438c21008bd470f97
-    - name: Silhouette
-      pathPrefix: Characters/SUNEATER
-      guid: 3f61d8c1139f0374e93d0126a439ca69
   - Id: Characters/663fdb51-d47a-4436-a764-417f159b8c95
     Resources: []
   - Id: Characters/27ed6be4-9745-4ffe-9ab0-0d0fbc806a61
